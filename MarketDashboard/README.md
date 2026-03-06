@@ -1,36 +1,30 @@
 # Market Dashboard
 
-Backend-hosted multi-tab market dashboard for:
+Static multi-tab market dashboard for:
 - US ETFs
 - UCITS ETFs listed on the London Stock Exchange
 - US stocks
 
-The UI is still plain HTML/CSS/JS, but it now runs behind a small Flask server so the page can persist user-added tickers and rebuild the dashboard data in place.
+The UI is built with plain HTML/CSS/JS and is designed to be hosted on GitHub Pages or any static file server. The data is pre-built using a Python script.
 
 ## Local setup
+
+To build the data and serve the site locally:
 
 ```bash
 python3.11 -m pip install --user -r requirements.txt
 python3.11 scripts/build_data.py --out-dir data
-python3.11 server.py
+python3 -m http.server 8000
 ```
 
-The app listens on `http://127.0.0.1:8123` by default.
-
-## API
-
-- `GET /api/dashboard`
-  - returns the combined dashboard payload used by the frontend
-- `POST /api/instruments`
-  - request body: `{"tab_id":"us-etfs|ucits-etfs-lse|us-stocks","ticker":"<yahoo_symbol>"}`
-  - persists the ticker into the selected tab’s `Custom` group and rebuilds the dashboard
+The app will be available at `http://localhost:8000`.
 
 ## Watchlist files
 
 - `config/watchlists.json`
   - curated theme groups and default instruments
 - `config/custom_watchlists.json`
-  - server-persisted user additions under `Custom`
+  - custom user additions under `Custom` group. Edit this file to add new instruments, then rebuild the data.
 
 Each item declares:
 - `ticker`: display ticker in the UI

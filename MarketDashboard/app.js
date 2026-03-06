@@ -17,10 +17,6 @@ const state = {
   selectedItemByTab: {},
   chartRangeByTab: {},
   filterText: "",
-  isAddingTicker: false,
-  isRefreshing: false,
-  addStatus: { kind: "idle", message: "" },
-  refreshStatus: { kind: "idle", message: "" },
 };
 
 const elements = {
@@ -42,13 +38,6 @@ const elements = {
   emptyTemplate: document.getElementById("empty-state-template"),
   returnBasisNote: document.getElementById("return-basis-note"),
   chartChangeLabel: document.getElementById("chart-change-label"),
-  refreshButton: document.getElementById("refresh-button"),
-  refreshStatus: document.getElementById("refresh-status"),
-  addTickerForm: document.getElementById("add-ticker-form"),
-  addTickerInput: document.getElementById("add-ticker-input"),
-  addTickerButton: document.getElementById("add-ticker-button"),
-  addTargetLabel: document.getElementById("add-target-label"),
-  addTickerStatus: document.getElementById("add-ticker-status"),
 };
 
 init();
@@ -68,91 +57,11 @@ function bindPersistentEvents() {
     syncSelectedRow();
     render();
   });
-
-  elements.addTickerInput.addEventListener("input", () => {
-    if (state.addStatus.kind !== "idle") {
-      setAddStatus("idle", "");
-    }
-  });
-
-  elements.refreshButton.addEventListener("click", async () => {
-    if (state.isRefreshing) {
-      return;
-    }
-
-    if (!state.snapshot) {
-      setRefreshStatus("error", "Dashboard data is not loaded yet.");
-      renderRefreshState();
-      return;
-    }
-
-    state.isRefreshing = true;
-    setRefreshStatus("loading", "Refreshing data from Yahoo Finance...");
-    renderRefreshState();
-
-    const preferredTabId = state.activeTabId;
-    const preferredItemId = preferredTabId ? state.selectedItemByTab[preferredTabId] || null : null;
-
-    try {
-      const response = await postJson("/api/refresh", {});
-      await reloadDashboard({
-        preferredTabId,
-        preferredItemId,
-      });
-      const builtAt = response.built_at ? formatDateTime(new Date(response.built_at)) : "just now";
-      setRefreshStatus("success", `Refreshed ${response.instrument_count} instruments at ${builtAt}.`);
-    } catch (error) {
-      setRefreshStatus("error", error.message || "Refresh failed.");
-    } finally {
-      state.isRefreshing = false;
-      render();
-    }
-  });
-
-  elements.addTickerForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    if (state.isAddingTicker) {
-      return;
-    }
-
-    const tab = getActiveTab();
-    const rawTicker = elements.addTickerInput.value.trim().toUpperCase();
-    if (!tab || !rawTicker) {
-      setAddStatus("error", "Enter a Yahoo ticker before submitting.");
-      renderAddFormState();
-      return;
-    }
-
-    state.isAddingTicker = true;
-    setAddStatus("loading", `Adding ${rawTicker} to ${tab.label}...`);
-    renderAddFormState();
-
-    try {
-      const response = await postJson("/api/instruments", {
-        tab_id: tab.id,
-        ticker: rawTicker,
-      });
-
-      state.filterText = "";
-      elements.searchInput.value = "";
-      elements.addTickerInput.value = "";
-      await reloadDashboard({
-        preferredTabId: response.tab_id,
-        preferredItemId: response.item?.item_id || null,
-      });
-      setAddStatus("success", `${response.item?.ticker || rawTicker} was added to the Custom group.`);
-    } catch (error) {
-      setAddStatus("error", error.message || "Ticker add failed.");
-    } finally {
-      state.isAddingTicker = false;
-      render();
-    }
-  });
 }
 
 async function reloadDashboard(options = {}) {
   const previousTabId = options.preferredTabId || state.activeTabId;
-  const dashboard = await fetchJson("/api/dashboard");
+  const dashboard = await fetchJson("data/dashboard.json");
 
   state.dashboard = dashboard;
   state.snapshot = dashboard.snapshot;
@@ -201,13 +110,10 @@ function render() {
   }
   renderHeader();
   renderTabs();
-  renderToolbarState();
   renderReturnBasisUi();
   renderRangeButtons();
   renderTable();
   renderDetail();
-  renderRefreshState();
-  renderAddFormState();
 }
 
 function renderHeader() {
@@ -246,45 +152,10 @@ function renderTabs() {
   });
 }
 
-function renderToolbarState() {
-  const tab = getActiveTab();
-  if (!tab) {
-    elements.addTargetLabel.textContent = "Current Tab";
-    return;
-  }
-
-  elements.addTargetLabel.textContent = `${tab.label} • Custom`;
-  if (tab.id === "ucits-etfs-lse") {
-    elements.addTickerInput.placeholder = "e.g. CSPX.L";
-  } else if (tab.id === "us-stocks") {
-    elements.addTickerInput.placeholder = "e.g. AMD";
-  } else {
-    elements.addTickerInput.placeholder = "e.g. VXUS";
-  }
-}
-
 function renderReturnBasisUi() {
   const returnBasisLabel = state.meta?.return_basis_label || "Local-currency";
   elements.returnBasisNote.textContent = `Returns shown as ${returnBasisLabel.toLowerCase()} performance.`;
   elements.chartChangeLabel.textContent = isInrAdjustedReturnBasis() ? "Range Change (INR)" : "Range Change";
-}
-
-function renderAddFormState() {
-  elements.addTickerButton.disabled = state.isAddingTicker;
-  elements.addTickerButton.textContent = state.isAddingTicker ? "Adding..." : "Add";
-
-  const { kind, message } = state.addStatus;
-  elements.addTickerStatus.textContent = message;
-  elements.addTickerStatus.className = `add-ticker-status ${kind === "idle" ? "subdued" : `status-${kind}`}`;
-}
-
-function renderRefreshState() {
-  elements.refreshButton.disabled = state.isRefreshing;
-  elements.refreshButton.textContent = state.isRefreshing ? "Refreshing..." : "Refresh Data";
-
-  const { kind, message } = state.refreshStatus;
-  elements.refreshStatus.textContent = message;
-  elements.refreshStatus.className = `refresh-status ${kind === "idle" ? "subdued" : `status-${kind}`}`;
 }
 
 function renderRangeButtons() {
@@ -672,14 +543,6 @@ function isInrAdjustedReturnBasis() {
   return state.meta?.return_basis === "inr_adjusted";
 }
 
-function setAddStatus(kind, message) {
-  state.addStatus = { kind, message };
-}
-
-function setRefreshStatus(kind, message) {
-  state.refreshStatus = { kind, message };
-}
-
 function formatDateTime(date) {
   return new Intl.DateTimeFormat(undefined, {
     dateStyle: "medium",
@@ -729,22 +592,6 @@ async function fetchJson(path) {
     throw new Error(`Request failed for ${path}: ${response.status}`);
   }
   return response.json();
-}
-
-async function postJson(path, payload) {
-  const response = await fetch(path, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(payload),
-  });
-
-  const body = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(body.message || `Request failed for ${path}: ${response.status}`);
-  }
-  return body;
 }
 
 function escapeHtml(value) {
