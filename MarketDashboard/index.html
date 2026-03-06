@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETF Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Server-Hosted ETF Dashboard</p>
+        <h1>ETF Dashboard</h1>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-card">
+          <span class="meta-label">Last Refresh</span>
+          <strong id="built-at">Loading...</strong>
+        </div>
+        <div class="meta-card">
+          <span class="meta-label">Tracked Instruments</span>
+          <strong id="instrument-count">0</strong>
+        </div>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <section class="board-panel">
+        <div class="panel-topbar">
+          <div class="panel-topbar-main">
+            <div class="tablist" id="tablist" role="tablist" aria-label="Market Tabs"></div>
+            <div class="panel-controls">
+              <label class="search-shell" for="search-input">
+                <span>Filter</span>
+                <input id="search-input" type="search" placeholder="Ticker or name">
+              </label>
+              <div class="refresh-shell">
+                <span class="metric-label">Yahoo Refresh</span>
+                <button id="refresh-button" type="button" class="refresh-button">Refresh Data</button>
+                <p id="refresh-status" class="refresh-status subdued" aria-live="polite"></p>
+              </div>
+              <form id="add-ticker-form" class="add-form">
+                <div class="add-form-header">
+                  <span class="metric-label">Add Yahoo Ticker</span>
+                  <strong id="add-target-label">Current Tab</strong>
+                </div>
+                <div class="add-form-row">
+                  <input id="add-ticker-input" type="text" placeholder="e.g. VXUS">
+                  <button id="add-ticker-button" type="submit">Add</button>
+                </div>
+                <p id="add-ticker-status" class="add-ticker-status subdued" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+          <p id="return-basis-note" class="return-basis-note"></p>
+        </div>
+        <div id="table-panel" class="table-panel"></div>
+      </section>
+
+      <aside class="detail-panel">
+        <div class="detail-card">
+          <div class="detail-header">
+            <div>
+              <p class="detail-kicker" id="detail-tab-label">Loading...</p>
+              <h2 id="detail-title">Market Snapshot</h2>
+              <p id="detail-subtitle" class="detail-subtitle">Select a row to inspect its chart and summary.</p>
+            </div>
+            <div class="range-toggle" id="range-toggle" aria-label="Chart range"></div>
+          </div>
+
+          <div class="chart-shell">
+            <div class="chart-metrics">
+              <div>
+                <span class="metric-label">Last</span>
+                <strong id="chart-last">--</strong>
+              </div>
+              <div>
+                <span class="metric-label" id="chart-change-label">Range Change</span>
+                <strong id="chart-change">--</strong>
+              </div>
+            </div>
+            <svg id="price-chart" class="price-chart" viewBox="0 0 800 320" preserveAspectRatio="none" aria-label="Price chart"></svg>
+            <div class="chart-footer">
+              <span id="chart-start">--</span>
+              <span id="chart-end">--</span>
+            </div>
+          </div>
+
+          <div id="detail-stats" class="stats-grid"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <template id="empty-state-template">
+    <div class="empty-state">
+      <h3>No matches</h3>
+      <p>Adjust the filter or update the configured watchlist.</p>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,640 @@
+{
+  "tabs": [
+    {
+      "id": "us-etfs",
+      "label": "US ETFs",
+      "asset_type": "etf",
+      "groups": [
+        {
+          "id": "global-europe",
+          "label": "Global & Europe",
+          "items": [
+            {
+              "ticker": "VXUS",
+              "source_ticker": "VXUS",
+              "name": "Vanguard Total International Stock ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "VGK",
+              "source_ticker": "VGK",
+              "name": "Vanguard FTSE Europe ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "IEUR",
+              "source_ticker": "IEUR",
+              "name": "iShares Core MSCI Europe ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "ai-robotics-future-tech",
+          "label": "AI, Robotics & Future Tech",
+          "items": [
+            {
+              "ticker": "VGT",
+              "source_ticker": "VGT",
+              "name": "Vanguard Information Technology ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "BOTZ",
+              "source_ticker": "BOTZ",
+              "name": "Global X Robotics & Artificial Intelligence ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "AIQ",
+              "source_ticker": "AIQ",
+              "name": "Global X Artificial Intelligence & Technology ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "IBOT",
+              "source_ticker": "IBOT",
+              "name": "VanEck Robotics ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "QTUM",
+              "source_ticker": "QTUM",
+              "name": "Defiance Quantum ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "ARKQ",
+              "source_ticker": "ARKQ",
+              "name": "ARK Autonomous Technology & Robotics ETF",
+              "exchange": "BATS",
+              "currency": "USD"
+            },
+            {
+              "ticker": "AIRR",
+              "source_ticker": "AIRR",
+              "name": "First Trust RBA American Industrial Renaissance ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "HUMN",
+              "source_ticker": "HUMN",
+              "name": "Roundhill Humanoid Robotics ETF",
+              "exchange": "BATS",
+              "currency": "USD"
+            },
+            {
+              "ticker": "ARKK",
+              "source_ticker": "ARKK",
+              "name": "ARK Innovation ETF",
+              "exchange": "BATS",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "defense-aerospace",
+          "label": "Defense & Aerospace",
+          "items": [
+            {
+              "ticker": "ITA",
+              "source_ticker": "ITA",
+              "name": "iShares U.S. Aerospace & Defense ETF",
+              "exchange": "BATS",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PPA",
+              "source_ticker": "PPA",
+              "name": "Invesco Aerospace & Defense ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SHLD",
+              "source_ticker": "SHLD",
+              "name": "Global X Defense Tech ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "semiconductors-cybersecurity",
+          "label": "Semiconductors & Cybersecurity",
+          "items": [
+            {
+              "ticker": "SOXX",
+              "source_ticker": "SOXX",
+              "name": "iShares Semiconductor ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "CIBR",
+              "source_ticker": "CIBR",
+              "name": "First Trust NASDAQ Cybersecurity ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "energy-nuclear-clean-tech",
+          "label": "Energy, Nuclear & Clean Tech",
+          "items": [
+            {
+              "ticker": "VDE",
+              "source_ticker": "VDE",
+              "name": "Vanguard Energy ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "URA",
+              "source_ticker": "URA",
+              "name": "Global X Uranium ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "NLR",
+              "source_ticker": "NLR",
+              "name": "VanEck Uranium and Nuclear ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "NUKZ",
+              "source_ticker": "NUKZ",
+              "name": "Range Nuclear Renaissance ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "LIT",
+              "source_ticker": "LIT",
+              "name": "Global X Lithium & Battery Tech ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "ICLN",
+              "source_ticker": "ICLN",
+              "name": "iShares Global Clean Energy ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "base-metals-mining-rare-earths",
+          "label": "Base Metals, Mining & Rare Earths",
+          "items": [
+            {
+              "ticker": "COPX",
+              "source_ticker": "COPX",
+              "name": "Global X Copper Miners ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "ICOP",
+              "source_ticker": "ICOP",
+              "name": "iShares Copper and Metals Mining ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PICK",
+              "source_ticker": "PICK",
+              "name": "iShares MSCI Global Metals & Mining Producers ETF",
+              "exchange": "BATS",
+              "currency": "USD"
+            },
+            {
+              "ticker": "XME",
+              "source_ticker": "XME",
+              "name": "SPDR S&P Metals & Mining ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "REMX",
+              "source_ticker": "REMX",
+              "name": "VanEck Rare Earth and Strategic Metals ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "precious-metals",
+          "label": "Precious Metals",
+          "items": [
+            {
+              "ticker": "GDX",
+              "source_ticker": "GDX",
+              "name": "VanEck Gold Miners ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "GLD",
+              "source_ticker": "GLD",
+              "name": "SPDR Gold Shares",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "IAU",
+              "source_ticker": "IAU",
+              "name": "iShares Gold Trust",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SLV",
+              "source_ticker": "SLV",
+              "name": "iShares Silver Trust",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PALL",
+              "source_ticker": "PALL",
+              "name": "abrdn Physical Palladium Shares ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PPLT",
+              "source_ticker": "PPLT",
+              "name": "abrdn Physical Platinum Shares ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "GLTR",
+              "source_ticker": "GLTR",
+              "name": "abrdn Physical Precious Metals Basket Shares ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "digital-assets",
+          "label": "Digital Assets",
+          "items": [
+            {
+              "ticker": "IBIT",
+              "source_ticker": "IBIT",
+              "name": "iShares Bitcoin Trust ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ucits-etfs-lse",
+      "label": "UCITS ETFs (LSE)",
+      "asset_type": "etf",
+      "groups": [
+        {
+          "id": "us-core-benchmarks",
+          "label": "US Core Benchmarks",
+          "items": [
+            {
+              "ticker": "CSPX",
+              "source_ticker": "CSPX.L",
+              "name": "iShares Core S&P 500 UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "VUAA",
+              "source_ticker": "VUAA.L",
+              "name": "Vanguard S&P 500 UCITS ETF USD Accumulation",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SPYL",
+              "source_ticker": "SPYL.L",
+              "name": "SPDR S&P 500 UCITS ETF USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SPXS",
+              "source_ticker": "SPXS.L",
+              "name": "Invesco S&P 500 UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "CNDX",
+              "source_ticker": "CNDX.L",
+              "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "XNAS",
+              "source_ticker": "XNAS.L",
+              "name": "Xtrackers NASDAQ 100 UCITS ETF 1C",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "XRSU",
+              "source_ticker": "XRSU.L",
+              "name": "Xtrackers Russell 2000 UCITS ETF 1C",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "broad-global-indices",
+          "label": "Broad Global Indices",
+          "items": [
+            {
+              "ticker": "IWDA",
+              "source_ticker": "IWDA.L",
+              "name": "iShares Core MSCI World UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "VWRA",
+              "source_ticker": "VWRA.L",
+              "name": "Vanguard FTSE All-World UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "FWRA",
+              "source_ticker": "FWRA.L",
+              "name": "Invesco FTSE All-World UCITS ETF USD Accumulation",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "EIMI",
+              "source_ticker": "EIMI.L",
+              "name": "iShares Core MSCI Emerging Markets IMI UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "XMME",
+              "source_ticker": "XMME.L",
+              "name": "Xtrackers MSCI Emerging Markets UCITS ETF 1C",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "VFEA",
+              "source_ticker": "VFEA.L",
+              "name": "Vanguard FTSE Emerging Markets UCITS ETF USD Accumulation",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "EXUS",
+              "source_ticker": "EXUS.L",
+              "name": "Xtrackers MSCI World ex USA UCITS ETF 1C USD",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "technology-semiconductors",
+          "label": "Technology & Semiconductors",
+          "items": [
+            {
+              "ticker": "SMH",
+              "source_ticker": "SMH.L",
+              "name": "VanEck Semiconductor UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SXLK",
+              "source_ticker": "SXLK.L",
+              "name": "SPDR S&P U.S. Technology Select Sector UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "XDWT",
+              "source_ticker": "XDWT.L",
+              "name": "Xtrackers MSCI World Information Technology UCITS ETF 1C",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "IUIT",
+              "source_ticker": "IUIT.L",
+              "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "factor-innovation",
+          "label": "Factor & Innovation",
+          "items": [
+            {
+              "ticker": "IWMO",
+              "source_ticker": "IWMO.L",
+              "name": "iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "QNTM",
+              "source_ticker": "QNTM.L",
+              "name": "VanEck Quantum Computing UCITS ETF A USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "nuclear-metals-mining",
+          "label": "Nuclear, Metals & Mining",
+          "items": [
+            {
+              "ticker": "NUCL",
+              "source_ticker": "NUCL.L",
+              "name": "VanEck Uranium and Nuclear Technologies UCITS ETF A USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "URNU",
+              "source_ticker": "URNU.L",
+              "name": "Global X Uranium UCITS ETF USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "REMX",
+              "source_ticker": "REMX.L",
+              "name": "VanEck Rare Earth and Strategic Metals UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "COPX",
+              "source_ticker": "COPX.L",
+              "name": "Global X Copper Miners UCITS ETF USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "GDX",
+              "source_ticker": "GDX.L",
+              "name": "VanEck Gold Miners UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SILV",
+              "source_ticker": "SILV.L",
+              "name": "Global X Silver Miners UCITS ETF USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "emerging-market-countries",
+          "label": "Emerging Market Countries",
+          "items": [
+            {
+              "ticker": "CMXC",
+              "source_ticker": "CMXC.L",
+              "name": "iShares MSCI Mexico UCITS ETF USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "NDIA",
+              "source_ticker": "NDIA.L",
+              "name": "iShares MSCI India UCITS ETF USD Acc",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "CSKR",
+              "source_ticker": "CSKR.L",
+              "name": "iShares MSCI Korea UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "FLXK",
+              "source_ticker": "FLXK.L",
+              "name": "Franklin FTSE Korea UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "FLXT",
+              "source_ticker": "FLXT.L",
+              "name": "Franklin FTSE Taiwan UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "FLXC",
+              "source_ticker": "FLXC.L",
+              "name": "Franklin FTSE China UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-stocks",
+      "label": "US Stocks",
+      "asset_type": "stock",
+      "groups": [
+        {
+          "id": "magnificent-7",
+          "label": "Magnificent 7",
+          "items": [
+            {
+              "ticker": "AAPL",
+              "source_ticker": "AAPL",
+              "name": "Apple Inc.",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "MSFT",
+              "source_ticker": "MSFT",
+              "name": "Microsoft Corporation",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "NVDA",
+              "source_ticker": "NVDA",
+              "name": "NVIDIA Corporation",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "AMZN",
+              "source_ticker": "AMZN",
+              "name": "Amazon.com, Inc.",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "META",
+              "source_ticker": "META",
+              "name": "Meta Platforms, Inc.",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "GOOGL",
+              "source_ticker": "GOOGL",
+              "name": "Alphabet Inc.",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "TSLA",
+              "source_ticker": "TSLA",
+              "name": "Tesla, Inc.",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

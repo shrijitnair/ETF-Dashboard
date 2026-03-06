@@ -1,0 +1,63 @@
+{
+  "tabs": [
+    {
+      "id": "us-etfs",
+      "label": "US ETFs",
+      "asset_type": "etf",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": [
+            {
+              "ticker": "SMH",
+              "source_ticker": "SMH",
+              "name": "VanEck Semiconductor ETF",
+              "exchange": "NasdaqGM",
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ucits-etfs-lse",
+      "label": "UCITS ETFs (LSE)",
+      "asset_type": "etf",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "us-stocks",
+      "label": "US Stocks",
+      "asset_type": "stock",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": [
+            {
+              "ticker": "CSCO",
+              "source_ticker": "CSCO",
+              "name": "Cisco Systems, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD"
+            },
+            {
+              "ticker": "AVGO",
+              "source_ticker": "AVGO",
+              "name": "Broadcom Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

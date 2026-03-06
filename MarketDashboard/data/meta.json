@@ -1,0 +1,114 @@
+{
+  "built_at": "2026-03-06T08:21:01.566936Z",
+  "return_basis": "inr_adjusted",
+  "return_basis_label": "INR-adjusted",
+  "period_basis": "yahoo_style_calendar",
+  "period_basis_label": "Yahoo-style calendar anchors",
+  "period_rules": {
+    "daily_pct": "1 trading session",
+    "five_day_pct": "5 trading sessions",
+    "one_month_pct": "1 calendar month, first trading day on or after the anchor date",
+    "three_month_pct": "3 calendar months, first trading day on or after the anchor date",
+    "one_year_pct": "1 calendar year, first trading day on or after the anchor date",
+    "three_year_pct": "3 calendar years, first trading day on or after the anchor date",
+    "five_year_pct": "5 calendar years, first trading day on or after the anchor date",
+    "ytd_pct": "first trading day on or after January 1 of the latest series year"
+  },
+  "chart_range_rules": {
+    "1M": "1 calendar month, first trading day on or after the anchor date",
+    "3M": "3 calendar months, first trading day on or after the anchor date",
+    "6M": "6 calendar months, first trading day on or after the anchor date",
+    "1Y": "1 calendar year, first trading day on or after the anchor date",
+    "3Y": "3 calendar years, first trading day on or after the anchor date",
+    "5Y": "5 calendar years, first trading day on or after the anchor date"
+  },
+  "supported_inr_fx_pairs": {
+    "USD": "USDINR=X",
+    "EUR": "EURINR=X",
+    "GBP": "GBPINR=X",
+    "INR": "IDENTITY"
+  },
+  "tabs": [
+    {
+      "id": "us-etfs",
+      "label": "US ETFs",
+      "asset_type": "etf"
+    },
+    {
+      "id": "ucits-etfs-lse",
+      "label": "UCITS ETFs (LSE)",
+      "asset_type": "etf"
+    },
+    {
+      "id": "us-stocks",
+      "label": "US Stocks",
+      "asset_type": "stock"
+    }
+  ],
+  "columns": [
+    {
+      "key": "ticker",
+      "label": "Ticker",
+      "type": "string"
+    },
+    {
+      "key": "name",
+      "label": "Name",
+      "type": "string"
+    },
+    {
+      "key": "last_price",
+      "label": "Last",
+      "type": "number"
+    },
+    {
+      "key": "daily_pct",
+      "label": "1D INR",
+      "type": "number"
+    },
+    {
+      "key": "five_day_pct",
+      "label": "5D INR",
+      "type": "number"
+    },
+    {
+      "key": "one_month_pct",
+      "label": "1M INR",
+      "type": "number"
+    },
+    {
+      "key": "three_month_pct",
+      "label": "3M INR",
+      "type": "number"
+    },
+    {
+      "key": "one_year_pct",
+      "label": "1Y INR",
+      "type": "number"
+    },
+    {
+      "key": "three_year_pct",
+      "label": "3Y INR",
+      "type": "number"
+    },
+    {
+      "key": "five_year_pct",
+      "label": "5Y INR",
+      "type": "number"
+    },
+    {
+      "key": "ytd_pct",
+      "label": "YTD INR",
+      "type": "number"
+    },
+    {
+      "key": "aum",
+      "label": "AUM",
+      "type": "currency_large",
+      "asset_types": [
+        "etf"
+      ]
+    }
+  ],
+  "failures": []
+}
