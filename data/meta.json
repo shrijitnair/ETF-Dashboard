@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:06:02.685620Z",
+  "built_at": "2026-09-06T10:16:32.908281Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -82,23 +82,23 @@
       "type": "number"
     },
     {
+      "key": "ytd_pct",
+      "label": "YTD INR",
+      "type": "number"
+    },
+    {
       "key": "one_year_pct",
       "label": "1Y INR",
       "type": "number"
     },
     {
       "key": "three_year_pct",
-      "label": "3Y INR",
+      "label": "3Y CAGR INR",
       "type": "number"
     },
     {
       "key": "five_year_pct",
-      "label": "5Y INR",
-      "type": "number"
-    },
-    {
-      "key": "ytd_pct",
-      "label": "YTD INR",
+      "label": "5Y CAGR INR",
       "type": "number"
     },
     {
