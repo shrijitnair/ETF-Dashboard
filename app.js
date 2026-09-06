@@ -287,6 +287,8 @@ function renderCell(row, column) {
       return `<strong>${formatPrice(getDisplayLastPrice(row), state.displayCurrency)}</strong>`;
     case "aum":
       return row.aum ? `<span class="aum-pill">${escapeHtml(row.aum_display)}</span>` : `<span class="subdued">N/A</span>`;
+    case "ter":
+      return `<span>${escapeHtml(row.ter_display || "N/A")}</span>`;
     default:
       const value = getDisplayMetric(row, column.key);
       return `<span class="${getChangeClass(value)}">${escapeHtml(formatPercent(value, true))}</span>`;
@@ -344,6 +346,7 @@ function renderDetail() {
   ];
 
   if (row.asset_type === "etf") {
+    stats.push({ label: "TER", value: row.ter_display || "N/A", className: "" });
     stats.push({ label: "AUM", value: row.aum_display || "N/A", className: "" });
   }
 
@@ -444,6 +447,7 @@ function getColumnsForTab(tab) {
     { key: "one_year_pct", label: getCurrencyLabel("one_year_pct", "1Y"), sortable: true },
     { key: "three_year_pct", label: getCurrencyLabel("three_year_pct", "3Y CAGR"), sortable: true },
     { key: "five_year_pct", label: getCurrencyLabel("five_year_pct", "5Y CAGR"), sortable: true },
+    { key: "ter", label: "TER", sortable: true },
   ];
 
   if (tab.asset_type === "etf") {

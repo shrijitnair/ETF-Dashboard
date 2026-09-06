@@ -39,6 +39,11 @@ SUPPORTED_INR_FX_TICKERS = {
     "GBP": "GBPINR=X",
     "INR": None,
 }
+SUPPORTED_USD_FX_TICKERS = {
+    "USD": None,
+    "EUR": "EURUSD=X",
+    "GBP": "GBPUSD=X",
+}
 
 CURRENCY_ALIASES = {
     "GBX": "GBP",
@@ -133,6 +138,10 @@ def supports_inr_return_currency(currency: Optional[str]) -> bool:
 
 def get_inr_fx_ticker_for_currency(currency: Optional[str]) -> Optional[str]:
     return SUPPORTED_INR_FX_TICKERS.get(normalize_currency_key(currency))
+
+
+def get_usd_fx_ticker_for_currency(currency: Optional[str]) -> Optional[str]:
+    return SUPPORTED_USD_FX_TICKERS.get(normalize_currency_key(currency))
 
 
 def display_ticker_from_source(source_ticker: str) -> str:
@@ -320,6 +329,13 @@ def sanitize_history(history: pd.DataFrame) -> pd.DataFrame:
     return cleaned
 
 
+def normalize_price_series(series: pd.Series, currency: Optional[str]) -> pd.Series:
+    normalized = series.dropna()
+    if str(currency or "") in {"GBp", "GBX", "gbp", "gbx"}:
+        return normalized / 100.0
+    return normalized
+
+
 def load_single_history(source_ticker: str, period: str = LOOKBACK_PERIOD) -> pd.DataFrame:
     history = yf.Ticker(source_ticker).history(period=period, interval="1d", auto_adjust=False)
     return sanitize_history(history)
@@ -492,10 +508,15 @@ def extract_row_meta(info: Dict[str, Any], item: WatchItem) -> Dict[str, Any]:
     currency = info.get("currency") or item.fallback_currency
     quote_type = (info.get("quoteType") or "").upper()
     aum = None
+    ter = None
     if item.asset_type == "etf":
         for field in ("totalAssets", "netAssets", "fundNetAssets"):
             aum = safe_float(info.get(field))
             if aum is not None:
+                break
+        for field in ("netExpenseRatio", "totalExpenseRatio", "annualReportExpenseRatio"):
+            ter = safe_float(info.get(field))
+            if ter is not None:
                 break
 
     return {
@@ -503,6 +524,7 @@ def extract_row_meta(info: Dict[str, Any], item: WatchItem) -> Dict[str, Any]:
         "exchange": exchange,
         "currency": currency,
         "aum": aum,
+        "ter": ter,
         "quote_type": quote_type,
     }
 
@@ -549,6 +571,24 @@ def build_inr_close_series(
     aligned_fx = fx_close.reindex(valid_close.index, method="ffill").bfill()
     inr_close = pd.to_numeric(valid_close, errors="coerce") * aligned_fx
     return inr_close.astype("float64")
+
+
+def build_usd_close_series(
+    close_series: pd.Series,
+    currency: Optional[str],
+    fx_histories: Dict[str, pd.DataFrame],
+) -> pd.Series:
+    valid_close = close_series.dropna()
+    if valid_close.empty:
+        return pd.Series(dtype="float64")
+    fx_ticker = get_usd_fx_ticker_for_currency(currency)
+    if not fx_ticker:
+        return valid_close.astype("float64")
+    fx_close = fx_histories.get(fx_ticker, pd.DataFrame()).get("Close", pd.Series(dtype="float64")).dropna()
+    if fx_close.empty:
+        return pd.Series(dtype="float64")
+    aligned_fx = fx_close.reindex(valid_close.index, method="ffill").bfill()
+    return (pd.to_numeric(valid_close, errors="coerce") * aligned_fx).astype("float64")
 
 
 def build_chart_points_with_inr(local_series: pd.Series, inr_series: Optional[pd.Series]) -> List[Dict[str, Any]]:
@@ -628,7 +668,10 @@ def build_dashboard_data(
         {
             fx_ticker
             for item in items
-            for fx_ticker in [get_inr_fx_ticker_for_currency(info_cache.get(item.source_ticker, {}).get("currency") or item.fallback_currency)]
+            for fx_ticker in [
+                get_inr_fx_ticker_for_currency(info_cache.get(item.source_ticker, {}).get("currency") or item.fallback_currency),
+                get_usd_fx_ticker_for_currency(info_cache.get(item.source_ticker, {}).get("currency") or item.fallback_currency),
+            ]
             if fx_ticker
         }
     )
@@ -656,9 +699,12 @@ def build_dashboard_data(
                 }
             )
 
-        close_series = history.get("Close", pd.Series(dtype="float64"))
-        latest_price = extract_latest_price(close_series)
         row_meta = extract_row_meta(info_cache.get(item.source_ticker, {}), item)
+        raw_currency = row_meta["currency"]
+        close_series = normalize_price_series(history.get("Close", pd.Series(dtype="float64")), raw_currency)
+        row_meta["currency"] = normalize_currency_key(raw_currency)
+        usd_close_series = build_usd_close_series(close_series, raw_currency, fx_histories)
+        latest_price = extract_latest_price(usd_close_series)
         inr_close_series = build_inr_close_series(close_series, row_meta["currency"], fx_histories)
         if not supports_inr_return_currency(row_meta["currency"]):
             failures.append(
@@ -680,14 +726,14 @@ def build_dashboard_data(
             )
 
         local_metrics = {
-            "daily_usd_pct": calc_window_return(close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
-            "five_day_usd_pct": calc_window_return(close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
-            "one_month_usd_pct": calc_calendar_return(close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
-            "three_month_usd_pct": calc_calendar_return(close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
-            "one_year_usd_pct": calc_calendar_return(close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
-            "three_year_usd_pct": calc_calendar_cagr(close_series, years=3),
-            "five_year_usd_pct": calc_calendar_cagr(close_series, years=5),
-            "ytd_usd_pct": calc_ytd_return(close_series),
+            "daily_usd_pct": calc_window_return(usd_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
+            "five_day_usd_pct": calc_window_return(usd_close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
+            "one_month_usd_pct": calc_calendar_return(usd_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
+            "three_month_usd_pct": calc_calendar_return(usd_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
+            "one_year_usd_pct": calc_calendar_return(usd_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
+            "three_year_usd_pct": calc_calendar_cagr(usd_close_series, years=3),
+            "five_year_usd_pct": calc_calendar_cagr(usd_close_series, years=5),
+            "ytd_usd_pct": calc_ytd_return(usd_close_series),
         }
         inr_metrics = {
             "daily_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
@@ -713,6 +759,8 @@ def build_dashboard_data(
             **inr_metrics,
             "aum": row_meta["aum"],
             "aum_display": format_aum(row_meta["aum"]) if item.asset_type == "etf" else "",
+            "ter": row_meta["ter"],
+            "ter_display": "{:.2f}%".format(row_meta["ter"] * 100) if row_meta["ter"] is not None else "N/A",
         }
         rows_by_tab_group[item.tab_id][item.group_id].append(row)
         history_payload[item.item_id] = {
@@ -721,7 +769,7 @@ def build_dashboard_data(
             "source_ticker": item.source_ticker,
             "name": row_meta["name"],
             "currency": row_meta["currency"],
-            "points": build_chart_points_with_inr(close_series, inr_close_series),
+            "points": build_chart_points_with_inr(usd_close_series, inr_close_series),
         }
 
     snapshot_tabs: List[Dict[str, Any]] = []
@@ -792,6 +840,7 @@ def build_dashboard_data(
             {"key": "one_year_pct", "label": "1Y INR", "type": "number"},
             {"key": "three_year_pct", "label": "3Y CAGR INR", "type": "number"},
             {"key": "five_year_pct", "label": "5Y CAGR INR", "type": "number"},
+            {"key": "ter", "label": "TER", "type": "percent", "asset_types": ["etf"]},
             {"key": "aum", "label": "AUM", "type": "currency_large", "asset_types": ["etf"]},
         ],
         "failures": failures,

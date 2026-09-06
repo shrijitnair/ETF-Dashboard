@@ -419,6 +419,13 @@
               "name": "Xtrackers MSCI World ex USA UCITS ETF 1C USD",
               "exchange": "LSE",
               "currency": "USD"
+            },
+            {
+              "ticker": "WSML",
+              "source_ticker": "WSML.L",
+              "name": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
             }
           ]
         },
@@ -521,6 +528,32 @@
               "name": "Global X Silver Miners UCITS ETF USD Acc",
               "exchange": "LSE",
               "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "clean-energy",
+          "label": "Clean Energy",
+          "items": [
+            {
+              "ticker": "INRG",
+              "source_ticker": "INRG.L",
+              "name": "iShares Global Clean Energy Transition UCITS ETF USD (Dist)",
+              "exchange": "LSE",
+              "currency": "GBP"
+            }
+          ]
+        },
+        {
+          "id": "gold-commodities",
+          "label": "Gold & Commodities",
+          "items": [
+            {
+              "ticker": "SGLN",
+              "source_ticker": "SGLN.L",
+              "name": "iShares Physical Gold ETC",
+              "exchange": "LSE",
+              "currency": "GBP"
             }
           ]
         },
