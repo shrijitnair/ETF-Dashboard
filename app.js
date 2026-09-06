@@ -7,6 +7,8 @@ const RANGE_OPTIONS = [
   { key: "5Y", years: 5 },
 ];
 const DATA_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
+const SAVED_THEME = window.localStorage.getItem("dashboard-theme") || "dark";
+document.documentElement.dataset.theme = SAVED_THEME;
 
 const state = {
   dashboard: null,
@@ -19,6 +21,7 @@ const state = {
   chartRangeByTab: {},
   filterText: "",
   displayCurrency: "INR",
+  theme: SAVED_THEME,
 };
 
 const elements = {
@@ -41,6 +44,7 @@ const elements = {
   emptyTemplate: document.getElementById("empty-state-template"),
   returnBasisNote: document.getElementById("return-basis-note"),
   chartChangeLabel: document.getElementById("chart-change-label"),
+  themeToggle: document.getElementById("theme-toggle"),
 };
 
 init();
@@ -60,6 +64,12 @@ async function init() {
 }
 
 function bindPersistentEvents() {
+  elements.themeToggle.addEventListener("click", () => {
+    state.theme = state.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = state.theme;
+    window.localStorage.setItem("dashboard-theme", state.theme);
+    updateThemeToggle();
+  });
   elements.currencySelect.addEventListener("change", (event) => {
     state.displayCurrency = event.target.value;
     render();
@@ -69,6 +79,13 @@ function bindPersistentEvents() {
     syncSelectedRow();
     render();
   });
+  updateThemeToggle();
+}
+
+function updateThemeToggle() {
+  const nextTheme = state.theme === "dark" ? "light" : "dark";
+  elements.themeToggle.textContent = `${nextTheme[0].toUpperCase()}${nextTheme.slice(1)} theme`;
+  elements.themeToggle.setAttribute("aria-label", `Switch to ${nextTheme} theme`);
 }
 
 async function reloadDashboard(options = {}) {
