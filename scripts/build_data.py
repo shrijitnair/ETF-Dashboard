@@ -65,7 +65,7 @@ PERIOD_RULES = {
     "one_year_pct": "1 calendar year, first trading day on or after the anchor date",
     "three_year_pct": "3 calendar years, first trading day on or after the anchor date",
     "five_year_pct": "5 calendar years, first trading day on or after the anchor date",
-    "ytd_pct": "first trading day on or after January 1 of the latest series year",
+    "ytd_pct": "last available trading day of the preceding calendar year",
 }
 
 
@@ -460,11 +460,11 @@ def calc_ytd_return(series: pd.Series) -> Optional[float]:
 
     latest_date = pd.Timestamp(valid_series.index[-1])
     year_start = pd.Timestamp(latest_date.year, 1, 1)
-    start_position = int(valid_series.index.searchsorted(year_start, side="left"))
-    if start_position >= len(valid_series):
+    prior_year_series = valid_series[valid_series.index < year_start]
+    if prior_year_series.empty:
         return None
 
-    start_price = safe_float(valid_series.iloc[start_position])
+    start_price = safe_float(prior_year_series.iloc[-1])
     if start_price in (None, 0):
         return None
     return ((current_price / start_price) - 1.0) * 100.0

@@ -29,7 +29,7 @@ After enabling Pages for the repository, select **GitHub Actions** as the source
 
 The dashboard is near-live rather than tick-by-tick real-time: it displays the latest successful data build. Market data is fetched from Yahoo Finance through `yfinance`, so provider delays, rate limits, and market holidays may affect freshness.
 
-The dashboard includes US ETFs, UCITS ETFs, US stocks, and a Debt ETFs tab. Use the USD/INR selector to change displayed prices, returns, and charts. The 3Y and 5Y columns show annualized CAGR. YTD appears immediately after the 3M return. CAGR is calculated as `(ending value / starting value)^(1 / years) - 1` using the same calendar-period anchors as the other return metrics.
+The dashboard includes US ETFs, UCITS ETFs, US stocks, and a Debt ETFs tab. Use the USD/INR selector to change displayed prices, returns, and charts. The 3Y and 5Y columns show annualized CAGR. YTD appears immediately after the 3M return and uses Yahoo Finance’s convention: the latest value versus the final available trading-day close of the prior calendar year. CAGR is calculated as `(ending value / starting value)^(1 / years) - 1` using the same calendar-period anchors as the other return metrics.
 
 ## Watchlist files
 
