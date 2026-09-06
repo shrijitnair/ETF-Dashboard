@@ -347,6 +347,10 @@ function renderDetail() {
     { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : "Stock", className: "" },
   ];
 
+  if (row.asset_type === "index") {
+    stats.push(makeMetricCard(row, "since_2024_09_26_pct", "Since 26 Sep 2024"));
+  }
+
   if (row.asset_type === "etf") {
     stats.push({ label: "TER", value: row.ter_display || "N/A", className: "" });
     stats.push({ label: "AUM", value: row.aum_display || "N/A", className: "" });
@@ -459,6 +463,9 @@ function getColumnsForTab(tab) {
   if (tab.asset_type === "etf") {
     columns.push({ key: "ter", label: "TER", sortable: true });
     columns.push({ key: "aum", label: getMetaColumnLabel("aum", "AUM"), sortable: true });
+  }
+  if (tab.asset_type === "index") {
+    columns.push({ key: "since_2024_09_26_pct", label: getCurrencyLabel("since_2024_09_26_pct", "Since 26 Sep 2024"), sortable: true });
   }
   return columns;
 }

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T11:22:05.982634Z",
+  "built_at": "2026-09-06T11:32:35.331978Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -12,7 +12,8 @@
     "one_year_pct": "1 calendar year, first trading day on or after the anchor date",
     "three_year_pct": "3 calendar years, first trading day on or after the anchor date",
     "five_year_pct": "5 calendar years, first trading day on or after the anchor date",
-    "ytd_pct": "last available trading day of the preceding calendar year"
+    "ytd_pct": "last available trading day of the preceding calendar year",
+    "since_2024_09_26_pct": "first available trading day on or after 2024-09-26"
   },
   "chart_range_rules": {
     "1M": "1 calendar month, first trading day on or after the anchor date",
@@ -110,6 +111,14 @@
       "key": "five_year_pct",
       "label": "5Y CAGR INR",
       "type": "number"
+    },
+    {
+      "key": "since_2024_09_26_pct",
+      "label": "Since 26 Sep 2024 INR",
+      "type": "number",
+      "asset_types": [
+        "index"
+      ]
     },
     {
       "key": "ter",

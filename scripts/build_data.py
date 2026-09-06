@@ -72,7 +72,10 @@ PERIOD_RULES = {
     "three_year_pct": "3 calendar years, first trading day on or after the anchor date",
     "five_year_pct": "5 calendar years, first trading day on or after the anchor date",
     "ytd_pct": "last available trading day of the preceding calendar year",
+    "since_2024_09_26_pct": "first available trading day on or after 2024-09-26",
 }
+
+FIXED_RETURN_START_DATE = pd.Timestamp("2024-09-26")
 
 
 @dataclass
@@ -487,6 +490,22 @@ def calc_ytd_return(series: pd.Series) -> Optional[float]:
     return ((current_price / start_price) - 1.0) * 100.0
 
 
+def calc_return_from_date(series: pd.Series, start_date: pd.Timestamp) -> Optional[float]:
+    valid_series = series.dropna()
+    if valid_series.empty:
+        return None
+    current_price = safe_float(valid_series.iloc[-1])
+    if current_price in (None, 0):
+        return None
+    start_position, has_sufficient_history = find_anchor_position(valid_series, start_date)
+    if start_position is None or not has_sufficient_history:
+        return None
+    start_price = safe_float(valid_series.iloc[start_position])
+    if start_price in (None, 0):
+        return None
+    return ((current_price / start_price) - 1.0) * 100.0
+
+
 def extract_latest_price(series: pd.Series) -> Optional[float]:
     valid_series = series.dropna()
     if valid_series.empty:
@@ -746,6 +765,7 @@ def build_dashboard_data(
             "three_year_usd_pct": calc_calendar_cagr(usd_close_series, years=3),
             "five_year_usd_pct": calc_calendar_cagr(usd_close_series, years=5),
             "ytd_usd_pct": calc_ytd_return(usd_close_series),
+            "since_2024_09_26_usd_pct": calc_return_from_date(usd_close_series, FIXED_RETURN_START_DATE),
         }
         inr_metrics = {
             "daily_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
@@ -756,6 +776,7 @@ def build_dashboard_data(
             "three_year_pct": calc_calendar_cagr(inr_close_series, years=3),
             "five_year_pct": calc_calendar_cagr(inr_close_series, years=5),
             "ytd_pct": calc_ytd_return(inr_close_series),
+            "since_2024_09_26_pct": calc_return_from_date(inr_close_series, FIXED_RETURN_START_DATE),
         }
         row = {
             "item_id": item.item_id,
@@ -859,6 +880,7 @@ def build_dashboard_data(
             {"key": "one_year_pct", "label": "1Y INR", "type": "number"},
             {"key": "three_year_pct", "label": "3Y CAGR INR", "type": "number"},
             {"key": "five_year_pct", "label": "5Y CAGR INR", "type": "number"},
+            {"key": "since_2024_09_26_pct", "label": "Since 26 Sep 2024 INR", "type": "number", "asset_types": ["index"]},
             {"key": "ter", "label": "TER", "type": "percent", "asset_types": ["etf"]},
             {"key": "aum", "label": "AUM", "type": "currency_large", "asset_types": ["etf"]},
         ],
