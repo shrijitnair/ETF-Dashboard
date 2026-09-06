@@ -329,10 +329,10 @@ function renderDetail() {
     { label: getMetaColumnLabel("five_day_pct", "5D"), value: formatPercent(row.five_day_pct, true), className: getChangeClass(row.five_day_pct) },
     { label: getMetaColumnLabel("one_month_pct", "1M"), value: formatPercent(row.one_month_pct, true), className: getChangeClass(row.one_month_pct) },
     { label: getMetaColumnLabel("three_month_pct", "3M"), value: formatPercent(row.three_month_pct, true), className: getChangeClass(row.three_month_pct) },
-    { label: getMetaColumnLabel("one_year_pct", "1Y"), value: formatPercent(row.one_year_pct, true), className: getChangeClass(row.one_year_pct) },
-    { label: getMetaColumnLabel("three_year_pct", "3Y"), value: formatPercent(row.three_year_pct, true), className: getChangeClass(row.three_year_pct) },
-    { label: getMetaColumnLabel("five_year_pct", "5Y"), value: formatPercent(row.five_year_pct, true), className: getChangeClass(row.five_year_pct) },
     { label: getMetaColumnLabel("ytd_pct", "YTD"), value: formatPercent(row.ytd_pct, true), className: getChangeClass(row.ytd_pct) },
+    { label: getMetaColumnLabel("one_year_pct", "1Y"), value: formatPercent(row.one_year_pct, true), className: getChangeClass(row.one_year_pct) },
+    { label: getMetaColumnLabel("three_year_pct", "3Y CAGR"), value: formatPercent(row.three_year_pct, true), className: getChangeClass(row.three_year_pct) },
+    { label: getMetaColumnLabel("five_year_pct", "5Y CAGR"), value: formatPercent(row.five_year_pct, true), className: getChangeClass(row.five_year_pct) },
     { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : "Stock", className: "" },
   ];
 
@@ -410,10 +410,10 @@ function getColumnsForTab(tab) {
     { key: "five_day_pct", label: getMetaColumnLabel("five_day_pct", "5D INR"), sortable: true },
     { key: "one_month_pct", label: getMetaColumnLabel("one_month_pct", "1M INR"), sortable: true },
     { key: "three_month_pct", label: getMetaColumnLabel("three_month_pct", "3M INR"), sortable: true },
-    { key: "one_year_pct", label: getMetaColumnLabel("one_year_pct", "1Y INR"), sortable: true },
-    { key: "three_year_pct", label: getMetaColumnLabel("three_year_pct", "3Y INR"), sortable: true },
-    { key: "five_year_pct", label: getMetaColumnLabel("five_year_pct", "5Y INR"), sortable: true },
     { key: "ytd_pct", label: getMetaColumnLabel("ytd_pct", "YTD INR"), sortable: true },
+    { key: "one_year_pct", label: getMetaColumnLabel("one_year_pct", "1Y INR"), sortable: true },
+    { key: "three_year_pct", label: getMetaColumnLabel("three_year_pct", "3Y CAGR INR"), sortable: true },
+    { key: "five_year_pct", label: getMetaColumnLabel("five_year_pct", "5Y CAGR INR"), sortable: true },
   ];
 
   if (tab.asset_type === "etf") {

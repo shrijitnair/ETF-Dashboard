@@ -443,6 +443,13 @@ def calc_calendar_return(series: pd.Series, months: int = 0, years: int = 0) -> 
     return ((current_price / anchor_price) - 1.0) * 100.0
 
 
+def calc_calendar_cagr(series: pd.Series, years: int) -> Optional[float]:
+    total_return = calc_calendar_return(series, years=years)
+    if total_return is None or years <= 0:
+        return None
+    return (((1.0 + (total_return / 100.0)) ** (1.0 / years)) - 1.0) * 100.0
+
+
 def calc_ytd_return(series: pd.Series) -> Optional[float]:
     valid_series = series.dropna()
     if valid_series.empty:
@@ -686,8 +693,8 @@ def build_dashboard_data(
             "one_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
             "three_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
             "one_year_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
-            "three_year_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["three_year_pct"]),
-            "five_year_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["five_year_pct"]),
+            "three_year_pct": calc_calendar_cagr(inr_close_series, years=3),
+            "five_year_pct": calc_calendar_cagr(inr_close_series, years=5),
             "ytd_pct": calc_ytd_return(inr_close_series),
             "aum": row_meta["aum"],
             "aum_display": format_aum(row_meta["aum"]) if item.asset_type == "etf" else "",
@@ -766,10 +773,10 @@ def build_dashboard_data(
             {"key": "five_day_pct", "label": "5D INR", "type": "number"},
             {"key": "one_month_pct", "label": "1M INR", "type": "number"},
             {"key": "three_month_pct", "label": "3M INR", "type": "number"},
-            {"key": "one_year_pct", "label": "1Y INR", "type": "number"},
-            {"key": "three_year_pct", "label": "3Y INR", "type": "number"},
-            {"key": "five_year_pct", "label": "5Y INR", "type": "number"},
             {"key": "ytd_pct", "label": "YTD INR", "type": "number"},
+            {"key": "one_year_pct", "label": "1Y INR", "type": "number"},
+            {"key": "three_year_pct", "label": "3Y CAGR INR", "type": "number"},
+            {"key": "five_year_pct", "label": "5Y CAGR INR", "type": "number"},
             {"key": "aum", "label": "AUM", "type": "currency_large", "asset_types": ["etf"]},
         ],
         "failures": failures,
