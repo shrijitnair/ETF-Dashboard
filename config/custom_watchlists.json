@@ -58,6 +58,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "debt-etfs",
+      "label": "Debt ETFs",
+      "asset_type": "etf",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "indices",
+      "label": "Indices",
+      "asset_type": "index",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": []
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:53:45.990344Z",
+  "built_at": "2026-09-06T11:12:42.819098Z",
   "tabs": [
     {
       "id": "us-etfs",
@@ -39,7 +39,10 @@
               "aum": 653027180544.0,
               "aum_display": "653.0B",
               "ter": 0.05,
-              "ter_display": "5.00%"
+              "ter_display": "5.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:VGK",
@@ -70,7 +73,10 @@
               "aum": 39032135680.0,
               "aum_display": "39.0B",
               "ter": 0.06,
-              "ter_display": "6.00%"
+              "ter_display": "6.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:IEUR",
@@ -101,7 +107,10 @@
               "aum": 9348355072.0,
               "aum_display": "9.3B",
               "ter": 0.1,
-              "ter_display": "10.00%"
+              "ter_display": "10.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -138,7 +147,10 @@
               "aum": 169378480128.0,
               "aum_display": "169.4B",
               "ter": 0.09,
-              "ter_display": "9.00%"
+              "ter_display": "9.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:AIQ",
@@ -169,7 +181,10 @@
               "aum": 10174134272.0,
               "aum_display": "10.2B",
               "ter": 0.68,
-              "ter_display": "68.00%"
+              "ter_display": "68.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:AIRR",
@@ -200,7 +215,10 @@
               "aum": 9450259456.0,
               "aum_display": "9.5B",
               "ter": 0.69,
-              "ter_display": "69.00%"
+              "ter_display": "69.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:ARKK",
@@ -231,7 +249,10 @@
               "aum": 6437586432.0,
               "aum_display": "6.4B",
               "ter": 0.75,
-              "ter_display": "75.00%"
+              "ter_display": "75.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:QTUM",
@@ -262,7 +283,10 @@
               "aum": 5561583104.0,
               "aum_display": "5.6B",
               "ter": 0.4,
-              "ter_display": "40.00%"
+              "ter_display": "40.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:BOTZ",
@@ -293,7 +317,10 @@
               "aum": 3438523904.0,
               "aum_display": "3.4B",
               "ter": 0.68,
-              "ter_display": "68.00%"
+              "ter_display": "68.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:ARKQ",
@@ -324,7 +351,10 @@
               "aum": 1923636480.0,
               "aum_display": "1.9B",
               "ter": 0.75,
-              "ter_display": "75.00%"
+              "ter_display": "75.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:IBOT",
@@ -355,7 +385,10 @@
               "aum": 103219704.0,
               "aum_display": "103.2M",
               "ter": 0.47,
-              "ter_display": "47.00%"
+              "ter_display": "47.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:HUMN",
@@ -386,7 +419,10 @@
               "aum": 94354648.0,
               "aum_display": "94.4M",
               "ter": 0.75,
-              "ter_display": "75.00%"
+              "ter_display": "75.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -423,7 +459,10 @@
               "aum": 13628640256.0,
               "aum_display": "13.6B",
               "ter": 0.37,
-              "ter_display": "37.00%"
+              "ter_display": "37.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:PPA",
@@ -454,7 +493,10 @@
               "aum": 8030931968.0,
               "aum_display": "8.0B",
               "ter": 0.58,
-              "ter_display": "58.00%"
+              "ter_display": "58.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:SHLD",
@@ -485,7 +527,10 @@
               "aum": 7239792128.0,
               "aum_display": "7.2B",
               "ter": 0.5,
-              "ter_display": "50.00%"
+              "ter_display": "50.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -522,7 +567,10 @@
               "aum": 41810907136.0,
               "aum_display": "41.8B",
               "ter": 0.33,
-              "ter_display": "33.00%"
+              "ter_display": "33.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:CIBR",
@@ -553,7 +601,10 @@
               "aum": 16119134208.0,
               "aum_display": "16.1B",
               "ter": 0.58,
-              "ter_display": "58.00%"
+              "ter_display": "58.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -590,7 +641,10 @@
               "aum": 13102832640.0,
               "aum_display": "13.1B",
               "ter": 0.09,
-              "ter_display": "9.00%"
+              "ter_display": "9.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:URA",
@@ -621,7 +675,10 @@
               "aum": 6418248704.0,
               "aum_display": "6.4B",
               "ter": 0.69,
-              "ter_display": "69.00%"
+              "ter_display": "69.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:NLR",
@@ -652,7 +709,10 @@
               "aum": 4171431680.0,
               "aum_display": "4.2B",
               "ter": 0.52,
-              "ter_display": "52.00%"
+              "ter_display": "52.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:ICLN",
@@ -683,7 +743,10 @@
               "aum": 2181427456.0,
               "aum_display": "2.2B",
               "ter": 0.38,
-              "ter_display": "38.00%"
+              "ter_display": "38.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:LIT",
@@ -701,7 +764,7 @@
               "three_month_usd_pct": -10.926991603634995,
               "one_year_usd_pct": 57.762653302840626,
               "three_year_usd_pct": 7.405336509886884,
-              "five_year_usd_pct": -2.695547151274136,
+              "five_year_usd_pct": -2.6955471512741247,
               "ytd_usd_pct": 14.3694104334263,
               "daily_pct": -0.368445542295881,
               "five_day_pct": -3.480943130768843,
@@ -714,7 +777,10 @@
               "aum": 1643735296.0,
               "aum_display": "1.6B",
               "ter": 0.75,
-              "ter_display": "75.00%"
+              "ter_display": "75.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:NUKZ",
@@ -745,7 +811,10 @@
               "aum": 756118336.0,
               "aum_display": "756.1M",
               "ter": 0.85,
-              "ter_display": "85.00%"
+              "ter_display": "85.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -782,7 +851,10 @@
               "aum": 8443984896.0,
               "aum_display": "8.4B",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:XME",
@@ -813,7 +885,10 @@
               "aum": 4885382656.0,
               "aum_display": "4.9B",
               "ter": 0.35,
-              "ter_display": "35.00%"
+              "ter_display": "35.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:PICK",
@@ -844,7 +919,10 @@
               "aum": 2583474688.0,
               "aum_display": "2.6B",
               "ter": 0.39,
-              "ter_display": "39.00%"
+              "ter_display": "39.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:REMX",
@@ -875,7 +953,10 @@
               "aum": 2290166272.0,
               "aum_display": "2.3B",
               "ter": 0.53,
-              "ter_display": "53.00%"
+              "ter_display": "53.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:ICOP",
@@ -906,7 +987,10 @@
               "aum": 506422016.0,
               "aum_display": "506.4M",
               "ter": 0.47,
-              "ter_display": "47.00%"
+              "ter_display": "47.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -943,7 +1027,10 @@
               "aum": 152861196288.0,
               "aum_display": "152.9B",
               "ter": 0.4,
-              "ter_display": "40.00%"
+              "ter_display": "40.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:IAU",
@@ -974,7 +1061,10 @@
               "aum": 67539091456.0,
               "aum_display": "67.5B",
               "ter": 0.25,
-              "ter_display": "25.00%"
+              "ter_display": "25.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:SLV",
@@ -1005,7 +1095,10 @@
               "aum": 34683150336.0,
               "aum_display": "34.7B",
               "ter": 0.5,
-              "ter_display": "50.00%"
+              "ter_display": "50.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:GDX",
@@ -1036,7 +1129,10 @@
               "aum": 30543091712.0,
               "aum_display": "30.5B",
               "ter": 0.51,
-              "ter_display": "51.00%"
+              "ter_display": "51.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:GLTR",
@@ -1067,7 +1163,10 @@
               "aum": 2900138240.0,
               "aum_display": "2.9B",
               "ter": 0.6,
-              "ter_display": "60.00%"
+              "ter_display": "60.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:PPLT",
@@ -1098,7 +1197,10 @@
               "aum": 2298330624.0,
               "aum_display": "2.3B",
               "ter": 0.6,
-              "ter_display": "60.00%"
+              "ter_display": "60.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-etfs:PALL",
@@ -1129,7 +1231,10 @@
               "aum": 769060096.0,
               "aum_display": "769.1M",
               "ter": 0.6,
-              "ter_display": "60.00%"
+              "ter_display": "60.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -1166,7 +1271,10 @@
               "aum": 61435101184.0,
               "aum_display": "61.4B",
               "ter": 0.25,
-              "ter_display": "25.00%"
+              "ter_display": "25.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -1203,7 +1311,10 @@
               "aum": 67787030528.0,
               "aum_display": "67.8B",
               "ter": 0.35,
-              "ter_display": "35.00%"
+              "ter_display": "35.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         }
@@ -1247,7 +1358,10 @@
               "aum": 86036217856.0,
               "aum_display": "86.0B",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:XRSU",
@@ -1278,7 +1392,10 @@
               "aum": 2702602752.0,
               "aum_display": "2.7B",
               "ter": 0.3,
-              "ter_display": "30.00%"
+              "ter_display": "30.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:XNAS",
@@ -1309,7 +1426,10 @@
               "aum": 2412918272.0,
               "aum_display": "2.4B",
               "ter": 0.2,
-              "ter_display": "20.00%"
+              "ter_display": "20.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:CNDX",
@@ -1340,7 +1460,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.3,
-              "ter_display": "30.00%"
+              "ter_display": "30.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:CSPX",
@@ -1371,7 +1494,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.07,
-              "ter_display": "7.00%"
+              "ter_display": "7.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:SPXS",
@@ -1402,7 +1528,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.05,
-              "ter_display": "5.00%"
+              "ter_display": "5.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:SPYL",
@@ -1433,7 +1562,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -1470,7 +1602,10 @@
               "aum": 79553011712.0,
               "aum_display": "79.6B",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:EIMI",
@@ -1501,7 +1636,10 @@
               "aum": 43990401024.0,
               "aum_display": "44.0B",
               "ter": 0.18,
-              "ter_display": "18.00%"
+              "ter_display": "18.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:XMME",
@@ -1532,7 +1670,10 @@
               "aum": 14132379648.0,
               "aum_display": "14.1B",
               "ter": 0.18,
-              "ter_display": "18.00%"
+              "ter_display": "18.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:WSML",
@@ -1563,7 +1704,10 @@
               "aum": 8476035072.0,
               "aum_display": "8.5B",
               "ter": 0.35,
-              "ter_display": "35.00%"
+              "ter_display": "35.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:EXUS",
@@ -1594,7 +1738,10 @@
               "aum": 7524898304.0,
               "aum_display": "7.5B",
               "ter": 0.15,
-              "ter_display": "15.00%"
+              "ter_display": "15.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:VFEA",
@@ -1625,7 +1772,10 @@
               "aum": 5893906432.0,
               "aum_display": "5.9B",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:FWRA",
@@ -1656,7 +1806,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:IWDA",
@@ -1687,7 +1840,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.2,
-              "ter_display": "20.00%"
+              "ter_display": "20.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -1724,7 +1880,10 @@
               "aum": 18380130304.0,
               "aum_display": "18.4B",
               "ter": 0.15,
-              "ter_display": "15.00%"
+              "ter_display": "15.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:SMH",
@@ -1755,7 +1914,10 @@
               "aum": 8053413376.0,
               "aum_display": "8.1B",
               "ter": 0.35,
-              "ter_display": "35.00%"
+              "ter_display": "35.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:XDWT",
@@ -1786,7 +1948,10 @@
               "aum": 5949276160.0,
               "aum_display": "5.9B",
               "ter": 0.25,
-              "ter_display": "25.00%"
+              "ter_display": "25.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:SXLK",
@@ -1817,7 +1982,10 @@
               "aum": 1975561984.0,
               "aum_display": "2.0B",
               "ter": 0.15,
-              "ter_display": "15.00%"
+              "ter_display": "15.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -1854,7 +2022,10 @@
               "aum": 5434735616.0,
               "aum_display": "5.4B",
               "ter": 0.3,
-              "ter_display": "30.00%"
+              "ter_display": "30.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:QNTM",
@@ -1885,7 +2056,10 @@
               "aum": 811772544.0,
               "aum_display": "811.8M",
               "ter": 0.55,
-              "ter_display": "55.00%"
+              "ter_display": "55.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -1922,7 +2096,10 @@
               "aum": 3027186432.0,
               "aum_display": "3.0B",
               "ter": 0.53,
-              "ter_display": "53.00%"
+              "ter_display": "53.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:NUCL",
@@ -1953,7 +2130,10 @@
               "aum": 2138110848.0,
               "aum_display": "2.1B",
               "ter": 0.55,
-              "ter_display": "55.00%"
+              "ter_display": "55.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:SILV",
@@ -1984,7 +2164,10 @@
               "aum": 1206708096.0,
               "aum_display": "1.2B",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:COPX",
@@ -2015,7 +2198,10 @@
               "aum": 1130443904.0,
               "aum_display": "1.1B",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:REMX",
@@ -2046,7 +2232,10 @@
               "aum": 1063055872.0,
               "aum_display": "1.1B",
               "ter": 0.59,
-              "ter_display": "59.00%"
+              "ter_display": "59.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:URNU",
@@ -2077,7 +2266,10 @@
               "aum": 596257152.0,
               "aum_display": "596.3M",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -2114,7 +2306,10 @@
               "aum": 3556904192.0,
               "aum_display": "3.6B",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -2151,7 +2346,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -2188,7 +2386,10 @@
               "aum": 5217655296.0,
               "aum_display": "5.2B",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:FLXK",
@@ -2219,7 +2420,10 @@
               "aum": 4128091648.0,
               "aum_display": "4.1B",
               "ter": 0.09,
-              "ter_display": "9.00%"
+              "ter_display": "9.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:FLXC",
@@ -2250,7 +2454,10 @@
               "aum": 1723838976.0,
               "aum_display": "1.7B",
               "ter": 0.19,
-              "ter_display": "19.00%"
+              "ter_display": "19.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:CSKR",
@@ -2281,7 +2488,10 @@
               "aum": 812408896.0,
               "aum_display": "812.4M",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:FLXT",
@@ -2312,7 +2522,10 @@
               "aum": 714732288.0,
               "aum_display": "714.7M",
               "ter": 0.19,
-              "ter_display": "19.00%"
+              "ter_display": "19.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "ucits-etfs-lse:CMXC",
@@ -2343,7 +2556,10 @@
               "aum": 125353256.0,
               "aum_display": "125.4M",
               "ter": 0.65,
-              "ter_display": "65.00%"
+              "ter_display": "65.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -2392,7 +2608,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:MSFT",
@@ -2423,7 +2642,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:ANET",
@@ -2454,7 +2676,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:NVDA",
@@ -2485,7 +2710,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:AAPL",
@@ -2516,7 +2744,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:MU",
@@ -2547,7 +2778,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:AMZN",
@@ -2578,7 +2812,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:META",
@@ -2609,7 +2846,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:AMD",
@@ -2640,7 +2880,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:GOOGL",
@@ -2671,7 +2914,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:AVGO",
@@ -2702,7 +2948,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:TSLA",
@@ -2733,7 +2982,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },
@@ -2770,7 +3022,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "us-stocks:CSCO",
@@ -2801,7 +3056,10 @@
               "aum": null,
               "aum_display": "",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         }
@@ -2845,7 +3103,10 @@
               "aum": 5142661632.0,
               "aum_display": "5.1B",
               "ter": 0.07,
-              "ter_display": "7.00%"
+              "ter_display": "7.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:JPSA",
@@ -2876,7 +3137,10 @@
               "aum": 999755776.0,
               "aum_display": "999.8M",
               "ter": 0.18,
-              "ter_display": "18.00%"
+              "ter_display": "18.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:AGGU",
@@ -2907,7 +3171,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.1,
-              "ter_display": "10.00%"
+              "ter_display": "10.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:CBU7",
@@ -2938,7 +3205,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.07,
-              "ter_display": "7.00%"
+              "ter_display": "7.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:CRPA",
@@ -2969,7 +3239,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.2,
-              "ter_display": "20.00%"
+              "ter_display": "20.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:DTLA",
@@ -3000,7 +3273,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.07,
-              "ter_display": "7.00%"
+              "ter_display": "7.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:ERNA",
@@ -3031,7 +3307,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.09,
-              "ter_display": "9.00%"
+              "ter_display": "9.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:IB01",
@@ -3062,7 +3341,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.07,
-              "ter_display": "7.00%"
+              "ter_display": "7.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:IHYA",
@@ -3093,7 +3375,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.5,
-              "ter_display": "50.00%"
+              "ter_display": "50.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:IUAA",
@@ -3124,7 +3409,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.25,
-              "ter_display": "25.00%"
+              "ter_display": "25.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:LQDA",
@@ -3155,7 +3443,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.2,
-              "ter_display": "20.00%"
+              "ter_display": "20.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:SDHA",
@@ -3186,7 +3477,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.45,
-              "ter_display": "45.00%"
+              "ter_display": "45.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:SDIA",
@@ -3217,7 +3511,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": 0.2,
-              "ter_display": "20.00%"
+              "ter_display": "20.00%",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:VDCA",
@@ -3248,7 +3545,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:VDPA",
@@ -3279,7 +3579,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:VDST",
@@ -3310,7 +3613,10 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             },
             {
               "item_id": "debt-etfs:VDTA",
@@ -3341,7 +3647,306 @@
               "aum": null,
               "aum_display": "N/A",
               "ter": null,
-              "ter_display": "N/A"
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
+            }
+          ]
+        },
+        {
+          "id": "custom",
+          "label": "Custom",
+          "rows": []
+        }
+      ]
+    },
+    {
+      "id": "indices",
+      "label": "Indices",
+      "asset_type": "index",
+      "groups": [
+        {
+          "id": "india-indices",
+          "label": "India Indices",
+          "rows": [
+            {
+              "item_id": "indices:NIFTYBANK",
+              "ticker": "NIFTYBANK",
+              "source_ticker": "^NSEBANK",
+              "name": "NIFTY BANK",
+              "asset_type": "index",
+              "exchange": "NSE",
+              "currency": "INR",
+              "last_price": 607.118969102596,
+              "last_price_inr": 57369.6484375,
+              "daily_usd_pct": -0.026708827578247885,
+              "five_day_usd_pct": 0.8097717508221081,
+              "one_month_usd_pct": -0.05107949503813103,
+              "three_month_usd_pct": 7.504327332274485,
+              "one_year_usd_pct": -1.1181810738368103,
+              "three_year_usd_pct": 4.043115072197412,
+              "five_year_usd_pct": 3.904587652446345,
+              "ytd_usd_pct": -8.528007947183625,
+              "daily_pct": -0.019088550314461106,
+              "five_day_pct": -0.22027911714157522,
+              "one_month_pct": -0.9282969794815132,
+              "three_month_pct": 5.637853067113774,
+              "one_year_pct": 6.091857333304929,
+              "three_year_pct": 8.772612476240592,
+              "five_year_pct": 9.410341540037926,
+              "ytd_pct": -3.7128807967296007,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
+            },
+            {
+              "item_id": "indices:NIFTYMIDCAP100",
+              "ticker": "NIFTYMIDCAP100",
+              "source_ticker": "NIFTY_MIDCAP_100.NS",
+              "name": "NIFTY MIDCAP 100",
+              "asset_type": "index",
+              "exchange": "NSE",
+              "currency": "INR",
+              "last_price": 645.9040928382652,
+              "last_price_inr": 62428.05078125,
+              "daily_usd_pct": -0.5709528198920455,
+              "five_day_usd_pct": -2.258810119967225,
+              "one_month_usd_pct": -1.3431573863577184,
+              "three_month_usd_pct": 0.3369358428990443,
+              "one_year_usd_pct": -6.796975993919341,
+              "three_year_usd_pct": 13.102634054405925,
+              "five_year_usd_pct": 11.77808674822387,
+              "ytd_usd_pct": -4.136722841428886,
+              "daily_pct": -0.4126856452918659,
+              "five_day_pct": -0.9657057345160647,
+              "one_month_pct": 0.49047453346662273,
+              "three_month_pct": 4.223585342292013,
+              "one_year_pct": 4.887421251974655,
+              "three_year_pct": 19.436343179177552,
+              "five_year_pct": 17.710238255272404,
+              "ytd_pct": 3.2133038733063835,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-07-17"
+            },
+            {
+              "item_id": "indices:NIFTYNEXT50",
+              "ticker": "NIFTYNEXT50",
+              "source_ticker": "^NSMIDCP",
+              "name": "NIFTY NEXT 50",
+              "asset_type": "index",
+              "exchange": "NSE",
+              "currency": "INR",
+              "last_price": 771.2680333896459,
+              "last_price_inr": 72880.8984375,
+              "daily_usd_pct": -0.24162003848807734,
+              "five_day_usd_pct": -0.7091267569265258,
+              "one_month_usd_pct": -0.9221519691635427,
+              "three_month_usd_pct": 5.938570269531107,
+              "one_year_usd_pct": 1.1561031122462984,
+              "three_year_usd_pct": 12.162843827131908,
+              "five_year_usd_pct": 5.782579777966768,
+              "ytd_usd_pct": -0.18486431494513234,
+              "daily_pct": -0.2340161424296494,
+              "five_day_pct": -1.7236578722007345,
+              "one_month_pct": -1.7917243484806167,
+              "three_month_pct": 4.099280447412146,
+              "one_year_pct": 8.531972574161205,
+              "three_year_pct": 17.261440484319813,
+              "five_year_pct": 11.387845753326165,
+              "ytd_pct": 5.06944970049521,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
+            },
+            {
+              "item_id": "indices:NIFTY50",
+              "ticker": "NIFTY50",
+              "source_ticker": "^NSEI",
+              "name": "NIFTY 50",
+              "asset_type": "index",
+              "exchange": "NSE",
+              "currency": "INR",
+              "last_price": 252.89934501546793,
+              "last_price_inr": 23897.69921875,
+              "daily_usd_pct": 0.09394780440790118,
+              "five_day_usd_pct": -0.12925931834960602,
+              "one_month_usd_pct": -2.05404897118574,
+              "three_month_usd_pct": 3.857902161560145,
+              "one_year_usd_pct": -9.948521623510276,
+              "three_year_usd_pct": 2.3105986078223895,
+              "five_year_usd_pct": 1.2158682085576134,
+              "ytd_usd_pct": -13.115305271060551,
+              "daily_pct": 0.10157727849795517,
+              "five_day_pct": -1.1497153846284358,
+              "one_month_pct": -2.9136870777188184,
+              "three_month_pct": 2.0547365920571936,
+              "one_year_pct": -3.3823538004930875,
+              "three_year_pct": 6.961340852381581,
+              "five_year_pct": 6.5791507398280435,
+              "ytd_pct": -8.54165553238795,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
+            },
+            {
+              "item_id": "indices:NIFTYFIN",
+              "ticker": "NIFTYFIN",
+              "source_ticker": "NIFTY_FIN_SERVICE.NS",
+              "name": "NIFTY FIN SERVICE",
+              "asset_type": "index",
+              "exchange": "NSE",
+              "currency": "INR",
+              "last_price": 278.35217352282217,
+              "last_price_inr": 26903.349609375,
+              "daily_usd_pct": 1.1443243398806757,
+              "five_day_usd_pct": -1.0397725603550456,
+              "one_month_usd_pct": 0.028402733749066655,
+              "three_month_usd_pct": -2.3421427496739256,
+              "one_year_usd_pct": -10.828708051060332,
+              "three_year_usd_pct": 4.015344873047244,
+              "five_year_usd_pct": 4.643903612281686,
+              "ytd_usd_pct": -9.509159244250576,
+              "daily_pct": 1.3053218239571507,
+              "five_day_pct": 0.26945954787400694,
+              "one_month_pct": 1.8875264121738455,
+              "three_month_pct": 1.4407300160248937,
+              "one_year_pct": 0.3502510993747876,
+              "three_year_pct": 9.840168887506383,
+              "five_year_pct": 10.197438375453016,
+              "ytd_pct": -2.57104783487917,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-07-17"
+            },
+            {
+              "item_id": "indices:NIFTYSMLCAP100",
+              "ticker": "NIFTYSMLCAP100",
+              "source_ticker": "^CNXSC",
+              "name": "NIFTY SMLCAP 100",
+              "asset_type": "index",
+              "exchange": "NSE",
+              "currency": "INR",
+              "last_price": 212.6617252436613,
+              "last_price_inr": 20095.44921875,
+              "daily_usd_pct": null,
+              "five_day_usd_pct": null,
+              "one_month_usd_pct": null,
+              "three_month_usd_pct": null,
+              "one_year_usd_pct": null,
+              "three_year_usd_pct": null,
+              "five_year_usd_pct": null,
+              "ytd_usd_pct": null,
+              "daily_pct": null,
+              "five_day_pct": null,
+              "one_month_pct": null,
+              "three_month_pct": null,
+              "one_year_pct": null,
+              "three_year_pct": null,
+              "five_year_pct": null,
+              "ytd_pct": null,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Limited history",
+              "data_date": "2026-09-04"
+            }
+          ]
+        },
+        {
+          "id": "us-indices",
+          "label": "US Indices",
+          "rows": [
+            {
+              "item_id": "indices:SP500",
+              "ticker": "SP500",
+              "source_ticker": "^GSPC",
+              "name": "S&P 500",
+              "asset_type": "index",
+              "exchange": "SNP",
+              "currency": "USD",
+              "last_price": 7718.60009765625,
+              "last_price_inr": 729368.3718806058,
+              "daily_usd_pct": -0.37572216084515997,
+              "five_day_usd_pct": 0.08870001451213305,
+              "one_month_usd_pct": -0.2316276805302664,
+              "three_month_usd_pct": 1.7706296027591328,
+              "one_year_usd_pct": 18.70970527760798,
+              "three_year_usd_pct": 19.73212428460922,
+              "five_year_usd_pct": 11.29597253027439,
+              "ytd_usd_pct": 12.754365607424578,
+              "daily_pct": -0.3681284864703649,
+              "five_day_pct": -0.9339831096807805,
+              "one_month_pct": -1.1072605553120396,
+              "three_month_pct": 0.00370295137284149,
+              "one_year_pct": 27.365508170869358,
+              "three_year_pct": 25.155834192802896,
+              "five_year_pct": 17.156332659639027,
+              "ytd_pct": 18.68980655480268,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
+            },
+            {
+              "item_id": "indices:NASDAQ100",
+              "ticker": "NASDAQ100",
+              "source_ticker": "^NDX",
+              "name": "NASDAQ-100",
+              "asset_type": "index",
+              "exchange": "Nasdaq GIDS",
+              "currency": "USD",
+              "last_price": 29544.150390625,
+              "last_price_inr": 2791771.6420558095,
+              "daily_usd_pct": 0.20971917226875192,
+              "five_day_usd_pct": 0.3761732978471821,
+              "one_month_usd_pct": -0.6356867707022706,
+              "three_month_usd_pct": -2.840257620385489,
+              "one_year_usd_pct": 25.012220972370393,
+              "three_year_usd_pct": 23.96611619069853,
+              "five_year_usd_pct": 13.51377878345632,
+              "ytd_usd_pct": 17.00723310310559,
+              "daily_pct": 0.2173574708149495,
+              "five_day_pct": -0.6494471616840913,
+              "one_month_pct": -1.5077733570713514,
+              "three_month_pct": -4.527130728299456,
+              "one_year_pct": 34.12757629614261,
+              "three_year_pct": 29.58162043971322,
+              "five_year_pct": 19.490918909844357,
+              "ytd_pct": 23.166546924422104,
+              "aum": null,
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A",
+              "data_source": "Yahoo Finance via yfinance",
+              "data_status": "Available",
+              "data_date": "2026-09-04"
             }
           ]
         },

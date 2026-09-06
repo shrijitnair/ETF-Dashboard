@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:53:45.990344Z",
+  "built_at": "2026-09-06T11:12:42.819098Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -48,6 +48,11 @@
       "id": "debt-etfs",
       "label": "Debt ETFs",
       "asset_type": "etf"
+    },
+    {
+      "id": "indices",
+      "label": "Indices",
+      "asset_type": "index"
     }
   ],
   "columns": [
@@ -123,5 +128,12 @@
       ]
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "source_ticker": "^CNXSC",
+      "item_id": "indices:NIFTYSMLCAP100",
+      "stage": "history",
+      "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
+    }
+  ]
 }

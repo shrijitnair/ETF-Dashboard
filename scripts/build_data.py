@@ -43,6 +43,7 @@ SUPPORTED_USD_FX_TICKERS = {
     "USD": None,
     "EUR": "EURUSD=X",
     "GBP": "GBPUSD=X",
+    "INR": "USDINR=X",
 }
 
 CURRENCY_ALIASES = {
@@ -588,6 +589,8 @@ def build_usd_close_series(
     if fx_close.empty:
         return pd.Series(dtype="float64")
     aligned_fx = fx_close.reindex(valid_close.index, method="ffill").bfill()
+    if normalize_currency_key(currency) == "INR":
+        return (pd.to_numeric(valid_close, errors="coerce") / aligned_fx).astype("float64")
     return (pd.to_numeric(valid_close, errors="coerce") * aligned_fx).astype("float64")
 
 
@@ -698,6 +701,15 @@ def build_dashboard_data(
                     "error": "No price history returned.",
                 }
             )
+        elif item.asset_type == "index" and len(history) < 250:
+            failures.append(
+                {
+                    "source_ticker": item.source_ticker,
+                    "item_id": item.item_id,
+                    "stage": "history",
+                    "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable.",
+                }
+            )
 
         row_meta = extract_row_meta(info_cache.get(item.source_ticker, {}), item)
         raw_currency = row_meta["currency"]
@@ -761,6 +773,13 @@ def build_dashboard_data(
             "aum_display": format_aum(row_meta["aum"]) if item.asset_type == "etf" else "",
             "ter": row_meta["ter"],
             "ter_display": "{:.2f}%".format(row_meta["ter"] * 100) if row_meta["ter"] is not None else "N/A",
+            "data_source": "Yahoo Finance via yfinance",
+            "data_status": (
+                "Unavailable" if close_series.empty
+                else "Limited history" if item.asset_type == "index" and len(close_series) < 250
+                else "Available"
+            ),
+            "data_date": close_series.index[-1].strftime("%Y-%m-%d") if not close_series.empty else None,
         }
         rows_by_tab_group[item.tab_id][item.group_id].append(row)
         history_payload[item.item_id] = {

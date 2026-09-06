@@ -166,7 +166,9 @@ function renderTabs() {
 
 function renderReturnBasisUi() {
   const returnBasisLabel = state.displayCurrency === "INR" ? "INR-adjusted" : "USD";
-  elements.returnBasisNote.textContent = `Returns shown in ${returnBasisLabel} performance.`;
+  const tab = getActiveTab();
+  const sourceNote = tab?.asset_type === "index" ? " Yahoo Finance data may be delayed." : "";
+  elements.returnBasisNote.textContent = `Returns shown in ${returnBasisLabel} performance.${sourceNote}`;
   elements.chartChangeLabel.textContent = `Range Change (${state.displayCurrency})`;
 }
 
@@ -342,12 +344,17 @@ function renderDetail() {
     makeMetricCard(row, "one_year_pct", "1Y"),
     makeMetricCard(row, "three_year_pct", "3Y CAGR"),
     makeMetricCard(row, "five_year_pct", "5Y CAGR"),
-    { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : "Stock", className: "" },
+    { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : "Stock", className: "" },
   ];
 
   if (row.asset_type === "etf") {
     stats.push({ label: "TER", value: row.ter_display || "N/A", className: "" });
     stats.push({ label: "AUM", value: row.aum_display || "N/A", className: "" });
+  }
+
+  if (row.asset_type === "index") {
+    stats.push({ label: "Data Source", value: row.data_source || "Yahoo Finance via yfinance", className: "" });
+    stats.push({ label: "Data Status", value: `${row.data_status || "Unknown"}${row.data_date ? ` • ${row.data_date}` : ""}`, className: "" });
   }
 
   elements.detailStats.innerHTML = stats.map((stat) => `
@@ -447,10 +454,10 @@ function getColumnsForTab(tab) {
     { key: "one_year_pct", label: getCurrencyLabel("one_year_pct", "1Y"), sortable: true },
     { key: "three_year_pct", label: getCurrencyLabel("three_year_pct", "3Y CAGR"), sortable: true },
     { key: "five_year_pct", label: getCurrencyLabel("five_year_pct", "5Y CAGR"), sortable: true },
-    { key: "ter", label: "TER", sortable: true },
   ];
 
   if (tab.asset_type === "etf") {
+    columns.push({ key: "ter", label: "TER", sortable: true });
     columns.push({ key: "aum", label: getMetaColumnLabel("aum", "AUM"), sortable: true });
   }
   return columns;
