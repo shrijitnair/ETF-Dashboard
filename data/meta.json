@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:47:20.772052Z",
+  "built_at": "2026-09-06T10:53:45.990344Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -105,6 +105,14 @@
       "key": "five_year_pct",
       "label": "5Y CAGR INR",
       "type": "number"
+    },
+    {
+      "key": "ter",
+      "label": "TER",
+      "type": "percent",
+      "asset_types": [
+        "etf"
+      ]
     },
     {
       "key": "aum",

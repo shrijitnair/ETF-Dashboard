@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:47:20.772052Z",
+  "built_at": "2026-09-06T10:53:45.990344Z",
   "tabs": [
     {
       "id": "us-etfs",
@@ -37,7 +37,9 @@
               "five_year_pct": 11.274991156816894,
               "ytd_pct": 23.361536775052393,
               "aum": 653027180544.0,
-              "aum_display": "653.0B"
+              "aum_display": "653.0B",
+              "ter": 0.05,
+              "ter_display": "5.00%"
             },
             {
               "item_id": "us-etfs:VGK",
@@ -66,7 +68,9 @@
               "five_year_pct": 11.091094085390797,
               "ytd_pct": 15.499619969761191,
               "aum": 39032135680.0,
-              "aum_display": "39.0B"
+              "aum_display": "39.0B",
+              "ter": 0.06,
+              "ter_display": "6.00%"
             },
             {
               "item_id": "us-etfs:IEUR",
@@ -95,7 +99,9 @@
               "five_year_pct": 10.961533875205287,
               "ytd_pct": 15.051908217882449,
               "aum": 9348355072.0,
-              "aum_display": "9.3B"
+              "aum_display": "9.3B",
+              "ter": 0.1,
+              "ter_display": "10.00%"
             }
           ]
         },
@@ -130,7 +136,9 @@
               "five_year_pct": 23.932092421749896,
               "ytd_pct": 35.48112107948096,
               "aum": 169378480128.0,
-              "aum_display": "169.4B"
+              "aum_display": "169.4B",
+              "ter": 0.09,
+              "ter_display": "9.00%"
             },
             {
               "item_id": "us-etfs:AIQ",
@@ -159,7 +167,9 @@
               "five_year_pct": 20.798420821137675,
               "ytd_pct": 33.12196783279424,
               "aum": 10174134272.0,
-              "aum_display": "10.2B"
+              "aum_display": "10.2B",
+              "ter": 0.68,
+              "ter_display": "68.00%"
             },
             {
               "item_id": "us-etfs:AIRR",
@@ -188,7 +198,9 @@
               "five_year_pct": 27.165258144810323,
               "ytd_pct": 16.398567689305054,
               "aum": 9450259456.0,
-              "aum_display": "9.5B"
+              "aum_display": "9.5B",
+              "ter": 0.69,
+              "ter_display": "69.00%"
             },
             {
               "item_id": "us-etfs:ARKK",
@@ -217,7 +229,9 @@
               "five_year_pct": -2.225034935489434,
               "ytd_pct": 17.990981997006884,
               "aum": 6437586432.0,
-              "aum_display": "6.4B"
+              "aum_display": "6.4B",
+              "ter": 0.75,
+              "ter_display": "75.00%"
             },
             {
               "item_id": "us-etfs:QTUM",
@@ -246,7 +260,9 @@
               "five_year_pct": 29.660163486366244,
               "ytd_pct": 41.96150906159577,
               "aum": 5561583104.0,
-              "aum_display": "5.6B"
+              "aum_display": "5.6B",
+              "ter": 0.4,
+              "ter_display": "40.00%"
             },
             {
               "item_id": "us-etfs:BOTZ",
@@ -275,7 +291,9 @@
               "five_year_pct": 3.6129060690315518,
               "ytd_pct": 4.450526047521475,
               "aum": 3438523904.0,
-              "aum_display": "3.4B"
+              "aum_display": "3.4B",
+              "ter": 0.68,
+              "ter_display": "68.00%"
             },
             {
               "item_id": "us-etfs:ARKQ",
@@ -304,7 +322,9 @@
               "five_year_pct": 12.979111551512457,
               "ytd_pct": 12.232069892430353,
               "aum": 1923636480.0,
-              "aum_display": "1.9B"
+              "aum_display": "1.9B",
+              "ter": 0.75,
+              "ter_display": "75.00%"
             },
             {
               "item_id": "us-etfs:IBOT",
@@ -333,7 +353,9 @@
               "five_year_pct": null,
               "ytd_pct": 30.135538997462284,
               "aum": 103219704.0,
-              "aum_display": "103.2M"
+              "aum_display": "103.2M",
+              "ter": 0.47,
+              "ter_display": "47.00%"
             },
             {
               "item_id": "us-etfs:HUMN",
@@ -362,7 +384,9 @@
               "five_year_pct": null,
               "ytd_pct": 7.520204881383719,
               "aum": 94354648.0,
-              "aum_display": "94.4M"
+              "aum_display": "94.4M",
+              "ter": 0.75,
+              "ter_display": "75.00%"
             }
           ]
         },
@@ -397,7 +421,9 @@
               "five_year_pct": 22.94479662973037,
               "ytd_pct": 10.618198645200039,
               "aum": 13628640256.0,
-              "aum_display": "13.6B"
+              "aum_display": "13.6B",
+              "ter": 0.37,
+              "ter_display": "37.00%"
             },
             {
               "item_id": "us-etfs:PPA",
@@ -426,7 +452,9 @@
               "five_year_pct": 24.028974090397348,
               "ytd_pct": 11.01011108358767,
               "aum": 8030931968.0,
-              "aum_display": "8.0B"
+              "aum_display": "8.0B",
+              "ter": 0.58,
+              "ter_display": "58.00%"
             },
             {
               "item_id": "us-etfs:SHLD",
@@ -455,7 +483,9 @@
               "five_year_pct": null,
               "ytd_pct": 2.3233436441909117,
               "aum": 7239792128.0,
-              "aum_display": "7.2B"
+              "aum_display": "7.2B",
+              "ter": 0.5,
+              "ter_display": "50.00%"
             }
           ]
         },
@@ -490,7 +520,9 @@
               "five_year_pct": 33.85219754824676,
               "ytd_pct": 81.71199132103139,
               "aum": 41810907136.0,
-              "aum_display": "41.8B"
+              "aum_display": "41.8B",
+              "ter": 0.33,
+              "ter_display": "33.00%"
             },
             {
               "item_id": "us-etfs:CIBR",
@@ -519,7 +551,9 @@
               "five_year_pct": 18.669264264664285,
               "ytd_pct": 39.35515871367492,
               "aum": 16119134208.0,
-              "aum_display": "16.1B"
+              "aum_display": "16.1B",
+              "ter": 0.58,
+              "ter_display": "58.00%"
             }
           ]
         },
@@ -554,7 +588,9 @@
               "five_year_pct": 27.897889866683023,
               "ytd_pct": 50.9576062554939,
               "aum": 13102832640.0,
-              "aum_display": "13.1B"
+              "aum_display": "13.1B",
+              "ter": 0.09,
+              "ter_display": "9.00%"
             },
             {
               "item_id": "us-etfs:URA",
@@ -583,7 +619,9 @@
               "five_year_pct": 19.016356880809493,
               "ytd_pct": 13.467402893398162,
               "aum": 6418248704.0,
-              "aum_display": "6.4B"
+              "aum_display": "6.4B",
+              "ter": 0.69,
+              "ter_display": "69.00%"
             },
             {
               "item_id": "us-etfs:NLR",
@@ -612,7 +650,9 @@
               "five_year_pct": 23.084551003852805,
               "ytd_pct": 1.6620147307483846,
               "aum": 4171431680.0,
-              "aum_display": "4.2B"
+              "aum_display": "4.2B",
+              "ter": 0.52,
+              "ter_display": "52.00%"
             },
             {
               "item_id": "us-etfs:ICLN",
@@ -641,7 +681,9 @@
               "five_year_pct": -0.38069091183648984,
               "ytd_pct": 13.849184384228197,
               "aum": 2181427456.0,
-              "aum_display": "2.2B"
+              "aum_display": "2.2B",
+              "ter": 0.38,
+              "ter_display": "38.00%"
             },
             {
               "item_id": "us-etfs:LIT",
@@ -670,7 +712,9 @@
               "five_year_pct": 2.4280806217721773,
               "ytd_pct": 20.389868072978224,
               "aum": 1643735296.0,
-              "aum_display": "1.6B"
+              "aum_display": "1.6B",
+              "ter": 0.75,
+              "ter_display": "75.00%"
             },
             {
               "item_id": "us-etfs:NUKZ",
@@ -699,7 +743,9 @@
               "five_year_pct": null,
               "ytd_pct": 8.910983601625254,
               "aum": 756118336.0,
-              "aum_display": "756.1M"
+              "aum_display": "756.1M",
+              "ter": 0.85,
+              "ter_display": "85.00%"
             }
           ]
         },
@@ -734,7 +780,9 @@
               "five_year_pct": 25.6728905680766,
               "ytd_pct": 32.93270115385039,
               "aum": 8443984896.0,
-              "aum_display": "8.4B"
+              "aum_display": "8.4B",
+              "ter": 0.65,
+              "ter_display": "65.00%"
             },
             {
               "item_id": "us-etfs:XME",
@@ -763,7 +811,9 @@
               "five_year_pct": 27.76097797256336,
               "ytd_pct": 20.513669296279534,
               "aum": 4885382656.0,
-              "aum_display": "4.9B"
+              "aum_display": "4.9B",
+              "ter": 0.35,
+              "ter_display": "35.00%"
             },
             {
               "item_id": "us-etfs:PICK",
@@ -792,7 +842,9 @@
               "five_year_pct": 13.030138717599904,
               "ytd_pct": 33.39459512209795,
               "aum": 2583474688.0,
-              "aum_display": "2.6B"
+              "aum_display": "2.6B",
+              "ter": 0.39,
+              "ter_display": "39.00%"
             },
             {
               "item_id": "us-etfs:REMX",
@@ -821,7 +873,9 @@
               "five_year_pct": -3.3575361633840672,
               "ytd_pct": 7.741859503074444,
               "aum": 2290166272.0,
-              "aum_display": "2.3B"
+              "aum_display": "2.3B",
+              "ter": 0.53,
+              "ter_display": "53.00%"
             },
             {
               "item_id": "us-etfs:ICOP",
@@ -850,7 +904,9 @@
               "five_year_pct": null,
               "ytd_pct": 36.14719920984506,
               "aum": 506422016.0,
-              "aum_display": "506.4M"
+              "aum_display": "506.4M",
+              "ter": 0.47,
+              "ter_display": "47.00%"
             }
           ]
         },
@@ -885,7 +941,9 @@
               "five_year_pct": 25.67367214159526,
               "ytd_pct": 8.04232756454959,
               "aum": 152861196288.0,
-              "aum_display": "152.9B"
+              "aum_display": "152.9B",
+              "ter": 0.4,
+              "ter_display": "40.00%"
             },
             {
               "item_id": "us-etfs:IAU",
@@ -914,7 +972,9 @@
               "five_year_pct": 25.85829772654087,
               "ytd_pct": 8.143019293748477,
               "aum": 67539091456.0,
-              "aum_display": "67.5B"
+              "aum_display": "67.5B",
+              "ter": 0.25,
+              "ter_display": "25.00%"
             },
             {
               "item_id": "us-etfs:SLV",
@@ -943,7 +1003,9 @@
               "five_year_pct": 27.991315013706462,
               "ytd_pct": -2.252478421259707,
               "aum": 34683150336.0,
-              "aum_display": "34.7B"
+              "aum_display": "34.7B",
+              "ter": 0.5,
+              "ter_display": "50.00%"
             },
             {
               "item_id": "us-etfs:GDX",
@@ -972,7 +1034,9 @@
               "five_year_pct": 31.724428452322996,
               "ytd_pct": 21.82009765569488,
               "aum": 30543091712.0,
-              "aum_display": "30.5B"
+              "aum_display": "30.5B",
+              "ter": 0.51,
+              "ter_display": "51.00%"
             },
             {
               "item_id": "us-etfs:GLTR",
@@ -1001,7 +1065,9 @@
               "five_year_pct": 23.000789705511583,
               "ytd_pct": 3.170022236973846,
               "aum": 2900138240.0,
-              "aum_display": "2.9B"
+              "aum_display": "2.9B",
+              "ter": 0.6,
+              "ter_display": "60.00%"
             },
             {
               "item_id": "us-etfs:PPLT",
@@ -1030,7 +1096,9 @@
               "five_year_pct": 18.030206910038405,
               "ytd_pct": -6.835982348132374,
               "aum": 2298330624.0,
-              "aum_display": "2.3B"
+              "aum_display": "2.3B",
+              "ter": 0.6,
+              "ter_display": "60.00%"
             },
             {
               "item_id": "us-etfs:PALL",
@@ -1059,7 +1127,9 @@
               "five_year_pct": -5.848150119247664,
               "ytd_pct": -8.370033285528622,
               "aum": 769060096.0,
-              "aum_display": "769.1M"
+              "aum_display": "769.1M",
+              "ter": 0.6,
+              "ter_display": "60.00%"
             }
           ]
         },
@@ -1094,7 +1164,9 @@
               "five_year_pct": null,
               "ytd_pct": -4.106896737522769,
               "aum": 61435101184.0,
-              "aum_display": "61.4B"
+              "aum_display": "61.4B",
+              "ter": 0.25,
+              "ter_display": "25.00%"
             }
           ]
         },
@@ -1129,7 +1201,9 @@
               "five_year_pct": 39.97931954334144,
               "ytd_pct": 65.73394767582886,
               "aum": 67787030528.0,
-              "aum_display": "67.8B"
+              "aum_display": "67.8B",
+              "ter": 0.35,
+              "ter_display": "35.00%"
             }
           ]
         }
@@ -1171,7 +1245,9 @@
               "five_year_pct": 18.382728538233863,
               "ytd_pct": 18.459815025807092,
               "aum": 86036217856.0,
-              "aum_display": "86.0B"
+              "aum_display": "86.0B",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "ucits-etfs-lse:XRSU",
@@ -1200,7 +1276,9 @@
               "five_year_pct": 11.905583235127292,
               "ytd_pct": 25.654390175730835,
               "aum": 2702602752.0,
-              "aum_display": "2.7B"
+              "aum_display": "2.7B",
+              "ter": 0.3,
+              "ter_display": "30.00%"
             },
             {
               "item_id": "ucits-etfs-lse:XNAS",
@@ -1229,7 +1307,9 @@
               "five_year_pct": 27.998075248581134,
               "ytd_pct": 22.26864723935016,
               "aum": 2412918272.0,
-              "aum_display": "2.4B"
+              "aum_display": "2.4B",
+              "ter": 0.2,
+              "ter_display": "20.00%"
             },
             {
               "item_id": "ucits-etfs-lse:CNDX",
@@ -1258,7 +1338,9 @@
               "five_year_pct": 19.84294928310586,
               "ytd_pct": 21.75692459660803,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.3,
+              "ter_display": "30.00%"
             },
             {
               "item_id": "ucits-etfs-lse:CSPX",
@@ -1287,7 +1369,9 @@
               "five_year_pct": 18.383694664334783,
               "ytd_pct": 18.44965874128677,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.07,
+              "ter_display": "7.00%"
             },
             {
               "item_id": "ucits-etfs-lse:SPXS",
@@ -1316,7 +1400,9 @@
               "five_year_pct": 18.60085805467111,
               "ytd_pct": 18.523489975058062,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.05,
+              "ter_display": "5.00%"
             },
             {
               "item_id": "ucits-etfs-lse:SPYL",
@@ -1345,7 +1431,9 @@
               "five_year_pct": null,
               "ytd_pct": 18.479485177886488,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             }
           ]
         },
@@ -1380,7 +1468,9 @@
               "five_year_pct": 16.5828648276112,
               "ytd_pct": 20.34231050239972,
               "aum": 79553011712.0,
-              "aum_display": "79.6B"
+              "aum_display": "79.6B",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "ucits-etfs-lse:EIMI",
@@ -1409,7 +1499,9 @@
               "five_year_pct": 13.938602768246078,
               "ytd_pct": 30.740189224608173,
               "aum": 43990401024.0,
-              "aum_display": "44.0B"
+              "aum_display": "44.0B",
+              "ter": 0.18,
+              "ter_display": "18.00%"
             },
             {
               "item_id": "ucits-etfs-lse:XMME",
@@ -1438,7 +1530,40 @@
               "five_year_pct": 13.842736591814852,
               "ytd_pct": 33.044476074666385,
               "aum": 14132379648.0,
-              "aum_display": "14.1B"
+              "aum_display": "14.1B",
+              "ter": 0.18,
+              "ter_display": "18.00%"
+            },
+            {
+              "item_id": "ucits-etfs-lse:WSML",
+              "ticker": "WSML",
+              "source_ticker": "WSML.L",
+              "name": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
+              "asset_type": "etf",
+              "exchange": "LSE",
+              "currency": "USD",
+              "last_price": 10.637999534606934,
+              "last_price_inr": 1005.2367401413794,
+              "daily_usd_pct": 0.018802699339537376,
+              "five_day_usd_pct": -0.6908173946920781,
+              "one_month_usd_pct": 0.7768073194776459,
+              "three_month_usd_pct": 2.4460681276509355,
+              "one_year_usd_pct": 23.84166875016931,
+              "three_year_usd_pct": 17.283525188683324,
+              "five_year_usd_pct": 6.985183637909342,
+              "ytd_usd_pct": 17.184395837660226,
+              "daily_pct": 0.02642644563441987,
+              "five_day_pct": -1.6642319617407697,
+              "one_month_pct": -0.10767624433070111,
+              "three_month_pct": 0.6674146122797708,
+              "one_year_pct": 32.871672423139685,
+              "three_year_pct": 22.614893127176884,
+              "five_year_pct": 12.654173853234507,
+              "ytd_pct": 23.353035585679095,
+              "aum": 8476035072.0,
+              "aum_display": "8.5B",
+              "ter": 0.35,
+              "ter_display": "35.00%"
             },
             {
               "item_id": "ucits-etfs-lse:EXUS",
@@ -1467,7 +1592,9 @@
               "five_year_pct": null,
               "ytd_pct": 20.498955733351565,
               "aum": 7524898304.0,
-              "aum_display": "7.5B"
+              "aum_display": "7.5B",
+              "ter": 0.15,
+              "ter_display": "15.00%"
             },
             {
               "item_id": "ucits-etfs-lse:VFEA",
@@ -1496,7 +1623,9 @@
               "five_year_pct": 11.679865704197612,
               "ytd_pct": 19.80657556564285,
               "aum": 5893906432.0,
-              "aum_display": "5.9B"
+              "aum_display": "5.9B",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "ucits-etfs-lse:FWRA",
@@ -1525,7 +1654,9 @@
               "five_year_pct": null,
               "ytd_pct": 20.208754188871957,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "ucits-etfs-lse:IWDA",
@@ -1554,7 +1685,9 @@
               "five_year_pct": 16.952131805409287,
               "ytd_pct": 18.896743336399545,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.2,
+              "ter_display": "20.00%"
             }
           ]
         },
@@ -1589,7 +1722,9 @@
               "five_year_pct": 27.12059437037164,
               "ytd_pct": 28.844796651400472,
               "aum": 18380130304.0,
-              "aum_display": "18.4B"
+              "aum_display": "18.4B",
+              "ter": 0.15,
+              "ter_display": "15.00%"
             },
             {
               "item_id": "ucits-etfs-lse:SMH",
@@ -1618,7 +1753,9 @@
               "five_year_pct": 38.78448372945422,
               "ytd_pct": 77.50738895714271,
               "aum": 8053413376.0,
-              "aum_display": "8.1B"
+              "aum_display": "8.1B",
+              "ter": 0.35,
+              "ter_display": "35.00%"
             },
             {
               "item_id": "ucits-etfs-lse:XDWT",
@@ -1647,7 +1784,9 @@
               "five_year_pct": 24.025764819152972,
               "ytd_pct": 29.79980884173048,
               "aum": 5949276160.0,
-              "aum_display": "5.9B"
+              "aum_display": "5.9B",
+              "ter": 0.25,
+              "ter_display": "25.00%"
             },
             {
               "item_id": "ucits-etfs-lse:SXLK",
@@ -1676,7 +1815,9 @@
               "five_year_pct": 24.185770576629718,
               "ytd_pct": 29.18644595875417,
               "aum": 1975561984.0,
-              "aum_display": "2.0B"
+              "aum_display": "2.0B",
+              "ter": 0.15,
+              "ter_display": "15.00%"
             }
           ]
         },
@@ -1711,7 +1852,9 @@
               "five_year_pct": 17.503681677672176,
               "ytd_pct": 25.166907410013415,
               "aum": 5434735616.0,
-              "aum_display": "5.4B"
+              "aum_display": "5.4B",
+              "ter": 0.3,
+              "ter_display": "30.00%"
             },
             {
               "item_id": "ucits-etfs-lse:QNTM",
@@ -1740,7 +1883,9 @@
               "five_year_pct": null,
               "ytd_pct": 21.94981299841192,
               "aum": 811772544.0,
-              "aum_display": "811.8M"
+              "aum_display": "811.8M",
+              "ter": 0.55,
+              "ter_display": "55.00%"
             }
           ]
         },
@@ -1775,7 +1920,9 @@
               "five_year_pct": 32.85000802413045,
               "ytd_pct": 22.44736747058951,
               "aum": 3027186432.0,
-              "aum_display": "3.0B"
+              "aum_display": "3.0B",
+              "ter": 0.53,
+              "ter_display": "53.00%"
             },
             {
               "item_id": "ucits-etfs-lse:NUCL",
@@ -1804,7 +1951,9 @@
               "five_year_pct": null,
               "ytd_pct": 6.961228643161843,
               "aum": 2138110848.0,
-              "aum_display": "2.1B"
+              "aum_display": "2.1B",
+              "ter": 0.55,
+              "ter_display": "55.00%"
             },
             {
               "item_id": "ucits-etfs-lse:SILV",
@@ -1833,7 +1982,9 @@
               "five_year_pct": null,
               "ytd_pct": 25.117506998529016,
               "aum": 1206708096.0,
-              "aum_display": "1.2B"
+              "aum_display": "1.2B",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "ucits-etfs-lse:COPX",
@@ -1862,7 +2013,9 @@
               "five_year_pct": null,
               "ytd_pct": 33.25224817877584,
               "aum": 1130443904.0,
-              "aum_display": "1.1B"
+              "aum_display": "1.1B",
+              "ter": 0.65,
+              "ter_display": "65.00%"
             },
             {
               "item_id": "ucits-etfs-lse:REMX",
@@ -1891,7 +2044,9 @@
               "five_year_pct": null,
               "ytd_pct": 8.53537838294387,
               "aum": 1063055872.0,
-              "aum_display": "1.1B"
+              "aum_display": "1.1B",
+              "ter": 0.59,
+              "ter_display": "59.00%"
             },
             {
               "item_id": "ucits-etfs-lse:URNU",
@@ -1920,7 +2075,83 @@
               "five_year_pct": null,
               "ytd_pct": 12.4108581933706,
               "aum": 596257152.0,
-              "aum_display": "596.3M"
+              "aum_display": "596.3M",
+              "ter": 0.65,
+              "ter_display": "65.00%"
+            }
+          ]
+        },
+        {
+          "id": "clean-energy",
+          "label": "Clean Energy",
+          "rows": [
+            {
+              "item_id": "ucits-etfs-lse:INRG",
+              "ticker": "INRG",
+              "source_ticker": "INRG.L",
+              "name": "iShares Global Clean Energy Transition UCITS ETF USD (Dist)",
+              "asset_type": "etf",
+              "exchange": "LSE",
+              "currency": "GBP",
+              "last_price": 10.185047433376312,
+              "last_price_inr": 963.261840133667,
+              "daily_usd_pct": 0.8833143857900128,
+              "five_day_usd_pct": -0.9822235397076273,
+              "one_month_usd_pct": -3.85934816797302,
+              "three_month_usd_pct": -22.120986230695838,
+              "one_year_usd_pct": 23.710495795430763,
+              "three_year_usd_pct": 3.586164148383819,
+              "five_year_usd_pct": -5.53612013940562,
+              "ytd_usd_pct": 7.771371080360123,
+              "daily_pct": 0.9960615914221815,
+              "five_day_pct": -1.6980470426007255,
+              "one_month_pct": -4.623885541773188,
+              "three_month_pct": -23.33633529827045,
+              "one_year_pct": 32.86906234382501,
+              "three_year_pct": 8.33475609429395,
+              "five_year_pct": -0.5177017328266476,
+              "ytd_pct": 13.553064422368033,
+              "aum": 3556904192.0,
+              "aum_display": "3.6B",
+              "ter": 0.65,
+              "ter_display": "65.00%"
+            }
+          ]
+        },
+        {
+          "id": "gold-commodities",
+          "label": "Gold & Commodities",
+          "rows": [
+            {
+              "item_id": "ucits-etfs-lse:SGLN",
+              "ticker": "SGLN",
+              "source_ticker": "SGLN.L",
+              "name": "iShares Physical Gold ETC",
+              "asset_type": "etf",
+              "exchange": "LSE",
+              "currency": "GBP",
+              "last_price": 86.0626370382309,
+              "last_price_inr": 8139.466670379639,
+              "daily_usd_pct": -1.1039810411909157,
+              "five_day_usd_pct": -3.527472368755047,
+              "one_month_usd_pct": 8.95240226650451,
+              "three_month_usd_pct": -0.7648092825910391,
+              "one_year_usd_pct": 24.88230792465238,
+              "three_year_usd_pct": 31.702036531494905,
+              "five_year_usd_pct": 19.268855906570614,
+              "ytd_usd_pct": 2.7913465278439853,
+              "daily_pct": -0.9934548371934082,
+              "five_day_pct": -4.224895651024396,
+              "one_month_pct": 8.085982267152026,
+              "three_month_pct": -2.313434395721692,
+              "one_year_pct": 34.12762636340716,
+              "three_year_pct": 37.73951494451491,
+              "five_year_pct": 25.605045174854425,
+              "ytd_pct": 8.30587267591456,
+              "aum": null,
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             }
           ]
         },
@@ -1955,7 +2186,9 @@
               "five_year_pct": 7.695784099379566,
               "ytd_pct": -4.0745882160697295,
               "aum": 5217655296.0,
-              "aum_display": "5.2B"
+              "aum_display": "5.2B",
+              "ter": 0.65,
+              "ter_display": "65.00%"
             },
             {
               "item_id": "ucits-etfs-lse:FLXK",
@@ -1984,7 +2217,9 @@
               "five_year_pct": 25.624947829257817,
               "ytd_pct": 107.09448009196603,
               "aum": 4128091648.0,
-              "aum_display": "4.1B"
+              "aum_display": "4.1B",
+              "ter": 0.09,
+              "ter_display": "9.00%"
             },
             {
               "item_id": "ucits-etfs-lse:FLXC",
@@ -2013,7 +2248,9 @@
               "five_year_pct": 2.0097229187144405,
               "ytd_pct": -3.4242103584342765,
               "aum": 1723838976.0,
-              "aum_display": "1.7B"
+              "aum_display": "1.7B",
+              "ter": 0.19,
+              "ter_display": "19.00%"
             },
             {
               "item_id": "ucits-etfs-lse:CSKR",
@@ -2042,7 +2279,9 @@
               "five_year_pct": 24.438239747787026,
               "ytd_pct": 99.43539958000291,
               "aum": 812408896.0,
-              "aum_display": "812.4M"
+              "aum_display": "812.4M",
+              "ter": 0.65,
+              "ter_display": "65.00%"
             },
             {
               "item_id": "ucits-etfs-lse:FLXT",
@@ -2071,7 +2310,9 @@
               "five_year_pct": null,
               "ytd_pct": 81.91370301843446,
               "aum": 714732288.0,
-              "aum_display": "714.7M"
+              "aum_display": "714.7M",
+              "ter": 0.19,
+              "ter_display": "19.00%"
             },
             {
               "item_id": "ucits-etfs-lse:CMXC",
@@ -2100,7 +2341,9 @@
               "five_year_pct": 18.001574578372036,
               "ytd_pct": 18.729430509185075,
               "aum": 125353256.0,
-              "aum_display": "125.4M"
+              "aum_display": "125.4M",
+              "ter": 0.65,
+              "ter_display": "65.00%"
             }
           ]
         },
@@ -2147,7 +2390,9 @@
               "five_year_pct": 53.19990356193791,
               "ytd_pct": 3.238712910267161,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:MSFT",
@@ -2176,7 +2421,9 @@
               "five_year_pct": 16.56061848794712,
               "ytd_pct": 8.763999174646365,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:ANET",
@@ -2205,7 +2452,9 @@
               "five_year_pct": 61.97276428947467,
               "ytd_pct": 55.67478265116848,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:NVDA",
@@ -2234,7 +2483,9 @@
               "five_year_pct": 67.38174237295715,
               "ytd_pct": 30.019439960573123,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:AAPL",
@@ -2263,7 +2514,9 @@
               "five_year_pct": 21.422708128515723,
               "ytd_pct": 23.892218554210665,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:MU",
@@ -2292,7 +2545,9 @@
               "five_year_pct": 77.94784520264444,
               "ytd_pct": 274.93562707388463,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:AMZN",
@@ -2321,7 +2576,9 @@
               "five_year_pct": 13.748045613023695,
               "ytd_pct": 17.891900743855118,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:META",
@@ -2350,7 +2607,9 @@
               "five_year_pct": 15.839688542855024,
               "ytd_pct": -1.6441626607328508,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:AMD",
@@ -2379,7 +2638,9 @@
               "five_year_pct": 41.412883961772586,
               "ytd_pct": 134.7354783919036,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:GOOGL",
@@ -2408,7 +2669,9 @@
               "five_year_pct": 24.837843655545775,
               "ytd_pct": 13.826414990411617,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:AVGO",
@@ -2437,7 +2700,9 @@
               "five_year_pct": 18.20762088929404,
               "ytd_pct": 173.28713955071487,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:TSLA",
@@ -2466,7 +2731,9 @@
               "five_year_pct": 12.766754658410285,
               "ytd_pct": -17.122005547188333,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             }
           ]
         },
@@ -2501,7 +2768,9 @@
               "five_year_pct": 56.256849353178005,
               "ytd_pct": 8.85293419919757,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "us-stocks:CSCO",
@@ -2530,7 +2799,9 @@
               "five_year_pct": 19.106999207532827,
               "ytd_pct": 49.22541365552557,
               "aum": null,
-              "aum_display": ""
+              "aum_display": "",
+              "ter": null,
+              "ter_display": "N/A"
             }
           ]
         }
@@ -2572,7 +2843,9 @@
               "five_year_pct": 3.6703488348319713,
               "ytd_pct": 3.1271138330556614,
               "aum": 5142661632.0,
-              "aum_display": "5.1B"
+              "aum_display": "5.1B",
+              "ter": 0.07,
+              "ter_display": "7.00%"
             },
             {
               "item_id": "debt-etfs:JPSA",
@@ -2601,7 +2874,9 @@
               "five_year_pct": 9.26124874590224,
               "ytd_pct": 7.7362032093042155,
               "aum": 999755776.0,
-              "aum_display": "999.8M"
+              "aum_display": "999.8M",
+              "ter": 0.18,
+              "ter_display": "18.00%"
             },
             {
               "item_id": "debt-etfs:AGGU",
@@ -2630,7 +2905,9 @@
               "five_year_pct": 5.5965779079700795,
               "ytd_pct": 5.3365196875586385,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.1,
+              "ter_display": "10.00%"
             },
             {
               "item_id": "debt-etfs:CBU7",
@@ -2659,7 +2936,9 @@
               "five_year_pct": 5.545285139188594,
               "ytd_pct": 4.391851545201941,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.07,
+              "ter_display": "7.00%"
             },
             {
               "item_id": "debt-etfs:CRPA",
@@ -2688,7 +2967,9 @@
               "five_year_pct": 4.966891633895121,
               "ytd_pct": 4.472386617118995,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.2,
+              "ter_display": "20.00%"
             },
             {
               "item_id": "debt-etfs:DTLA",
@@ -2717,7 +2998,9 @@
               "five_year_pct": -2.899474244796818,
               "ytd_pct": 1.333068461840825,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.07,
+              "ter_display": "7.00%"
             },
             {
               "item_id": "debt-etfs:ERNA",
@@ -2746,7 +3029,9 @@
               "five_year_pct": 9.476061471065744,
               "ytd_pct": 8.077245168499125,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.09,
+              "ter_display": "9.00%"
             },
             {
               "item_id": "debt-etfs:IB01",
@@ -2775,7 +3060,9 @@
               "five_year_pct": 9.067825029483023,
               "ytd_pct": 7.796475041586448,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.07,
+              "ter_display": "7.00%"
             },
             {
               "item_id": "debt-etfs:IHYA",
@@ -2804,7 +3091,9 @@
               "five_year_pct": 9.165789878170404,
               "ytd_pct": 7.089512751584137,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.5,
+              "ter_display": "50.00%"
             },
             {
               "item_id": "debt-etfs:IUAA",
@@ -2833,7 +3122,9 @@
               "five_year_pct": 4.774737002718399,
               "ytd_pct": 4.294291871008138,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.25,
+              "ter_display": "25.00%"
             },
             {
               "item_id": "debt-etfs:LQDA",
@@ -2862,7 +3153,9 @@
               "five_year_pct": 4.276663176783235,
               "ytd_pct": 3.119197520420869,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.2,
+              "ter_display": "20.00%"
             },
             {
               "item_id": "debt-etfs:SDHA",
@@ -2891,7 +3184,9 @@
               "five_year_pct": 10.11143198102793,
               "ytd_pct": 7.771738090776692,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.45,
+              "ter_display": "45.00%"
             },
             {
               "item_id": "debt-etfs:SDIA",
@@ -2920,7 +3215,9 @@
               "five_year_pct": 7.849790069010609,
               "ytd_pct": 6.347009767236056,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": 0.2,
+              "ter_display": "20.00%"
             },
             {
               "item_id": "debt-etfs:VDCA",
@@ -2949,7 +3246,9 @@
               "five_year_pct": 8.141073987576775,
               "ytd_pct": 6.844988754172454,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "debt-etfs:VDPA",
@@ -2978,7 +3277,9 @@
               "five_year_pct": 5.3788468807155265,
               "ytd_pct": 4.605926670404359,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "debt-etfs:VDST",
@@ -3007,7 +3308,9 @@
               "five_year_pct": 9.037805140076083,
               "ytd_pct": 7.777786442952062,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             },
             {
               "item_id": "debt-etfs:VDTA",
@@ -3036,7 +3339,9 @@
               "five_year_pct": 4.406991503122559,
               "ytd_pct": 4.4277146015049285,
               "aum": null,
-              "aum_display": "N/A"
+              "aum_display": "N/A",
+              "ter": null,
+              "ter_display": "N/A"
             }
           ]
         },
