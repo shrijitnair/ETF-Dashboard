@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:21:06.680703Z",
+  "built_at": "2026-09-06T10:32:06.363974Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -43,6 +43,11 @@
       "id": "us-stocks",
       "label": "US Stocks",
       "asset_type": "stock"
+    },
+    {
+      "id": "debt-etfs",
+      "label": "Debt ETFs",
+      "asset_type": "etf"
     }
   ],
   "columns": [
