@@ -9,9 +9,7 @@ on:
       - main
       - master
     paths:
-      - 'config/**'
-      - 'scripts/**'
-      - 'requirements.txt'
+      - '**'
 
 jobs:
   build-and-commit:

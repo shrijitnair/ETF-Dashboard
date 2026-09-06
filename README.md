@@ -21,7 +21,7 @@ The app will be available at `http://localhost:8000`.
 
 ## GitHub Pages deployment
 
-The `Deploy dashboard to GitHub Pages` workflow publishes the repository root whenever changes are pushed to `main` or `master`. The `Build Dashboard Data` workflow fetches market and FX data every 10 minutes, commits changed JSON files, and thereby triggers a Pages deployment.
+The `Build Dashboard Data` workflow fetches market and FX data every 10 minutes and commits changed JSON files. The `Deploy dashboard to GitHub Pages` workflow runs after that build completes, so the published site contains the refreshed data as well as the latest source files.
 
 After enabling Pages for the repository, select **GitHub Actions** as the source under **Settings → Pages**. The dashboard will then be available at:
 
