@@ -670,6 +670,36 @@
           ]
         }
       ]
+    },
+    {
+      "id": "debt-etfs",
+      "label": "Debt ETFs",
+      "asset_type": "etf",
+      "groups": [
+        {
+          "id": "debt-etfs",
+          "label": "Debt ETFs",
+          "items": [
+            {"ticker": "JPSA", "source_ticker": "JPSA.L", "name": "JPM USD Ultra-Short Income Active UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "ERNA", "source_ticker": "ERNA.L", "name": "iShares $ Ultrashort Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "SDIA", "source_ticker": "SDIA.L", "name": "iShares $ Short Dur Corp Bd UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "DTLA", "source_ticker": "DTLA.L", "name": "iShares $ Treasury Bond 20+yr UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "IHYA", "source_ticker": "IHYA.L", "name": "iShares $ High Yield Corp Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "SDHA", "source_ticker": "SDHA.L", "name": "iShares $ Short Duration HY Corp Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "LQDA", "source_ticker": "LQDA.L", "name": "iShares $ Corp Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "VDST", "source_ticker": "VDST.L", "name": "Vanguard US Treasury 0-1Y Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "VDPA", "source_ticker": "VDPA.L", "name": "Vanguard USD Corporate Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "CRPA", "source_ticker": "CRPA.L", "name": "iShares Global Corp Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "IB01", "source_ticker": "IB01.L", "name": "iShares $ Treasury Bond 0-1yr UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "CBU7", "source_ticker": "CBU7.L", "name": "iShares $ Treasury Bond 3-7yr UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "VDTA", "source_ticker": "VDTA.L", "name": "Vanguard USD Treasury Bond UCITS ETF Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "CBU0", "source_ticker": "CBU0.L", "name": "iShares $ Treasury Bond 7-10yr UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "VDCA", "source_ticker": "VDCA.L", "name": "Vanguard USD Corporate 1-3 Year Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "IUAA", "source_ticker": "IUAA.L", "name": "iShares US Aggregate Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "AGGU", "source_ticker": "AGGU.L", "name": "iShares Core Global Aggregate Bond UCITS ETF USD Hedged Acc", "exchange": "LON", "currency": "USD"}
+          ]
+        }
+      ]
     }
   ]
 }

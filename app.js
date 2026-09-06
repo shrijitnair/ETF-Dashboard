@@ -18,6 +18,7 @@ const state = {
   selectedItemByTab: {},
   chartRangeByTab: {},
   filterText: "",
+  displayCurrency: "INR",
 };
 
 const elements = {
@@ -36,6 +37,7 @@ const elements = {
   detailStats: document.getElementById("detail-stats"),
   rangeToggle: document.getElementById("range-toggle"),
   searchInput: document.getElementById("search-input"),
+  currencySelect: document.getElementById("currency-select"),
   emptyTemplate: document.getElementById("empty-state-template"),
   returnBasisNote: document.getElementById("return-basis-note"),
   chartChangeLabel: document.getElementById("chart-change-label"),
@@ -58,6 +60,10 @@ async function init() {
 }
 
 function bindPersistentEvents() {
+  elements.currencySelect.addEventListener("change", (event) => {
+    state.displayCurrency = event.target.value;
+    render();
+  });
   elements.searchInput.addEventListener("input", (event) => {
     state.filterText = event.target.value.trim().toLowerCase();
     syncSelectedRow();
@@ -159,9 +165,9 @@ function renderTabs() {
 }
 
 function renderReturnBasisUi() {
-  const returnBasisLabel = state.meta?.return_basis_label || "Local-currency";
-  elements.returnBasisNote.textContent = `Returns shown as ${returnBasisLabel.toLowerCase()} performance.`;
-  elements.chartChangeLabel.textContent = isInrAdjustedReturnBasis() ? "Range Change (INR)" : "Range Change";
+  const returnBasisLabel = state.displayCurrency === "INR" ? "INR-adjusted" : "USD";
+  elements.returnBasisNote.textContent = `Returns shown in ${returnBasisLabel} performance.`;
+  elements.chartChangeLabel.textContent = `Range Change (${state.displayCurrency})`;
 }
 
 function renderRangeButtons() {
@@ -278,11 +284,12 @@ function renderCell(row, column) {
         </div>
       `;
     case "last_price":
-      return `<strong>${formatPrice(row.last_price, row.currency)}</strong>`;
+      return `<strong>${formatPrice(getDisplayLastPrice(row), state.displayCurrency)}</strong>`;
     case "aum":
       return row.aum ? `<span class="aum-pill">${escapeHtml(row.aum_display)}</span>` : `<span class="subdued">N/A</span>`;
     default:
-      return `<span class="${getChangeClass(row[column.key])}">${escapeHtml(formatPercent(row[column.key], true))}</span>`;
+      const value = getDisplayMetric(row, column.key);
+      return `<span class="${getChangeClass(value)}">${escapeHtml(formatPercent(value, true))}</span>`;
   }
 }
 
@@ -318,21 +325,21 @@ function renderDetail() {
     ? ((endValue / startValue) - 1) * 100
     : null;
 
-  elements.chartLast.textContent = formatPrice(row.last_price, row.currency);
+  elements.chartLast.textContent = formatPrice(getDisplayLastPrice(row), state.displayCurrency);
   elements.chartChange.textContent = formatPercent(rangeChange, true);
   elements.chartChange.className = getChangeClass(rangeChange);
   elements.chartStart.textContent = rangedSeries[0]?.date || "--";
   elements.chartEnd.textContent = rangedSeries[rangedSeries.length - 1]?.date || "--";
 
   const stats = [
-    { label: getMetaColumnLabel("daily_pct", "1D"), value: formatPercent(row.daily_pct, true), className: getChangeClass(row.daily_pct) },
-    { label: getMetaColumnLabel("five_day_pct", "5D"), value: formatPercent(row.five_day_pct, true), className: getChangeClass(row.five_day_pct) },
-    { label: getMetaColumnLabel("one_month_pct", "1M"), value: formatPercent(row.one_month_pct, true), className: getChangeClass(row.one_month_pct) },
-    { label: getMetaColumnLabel("three_month_pct", "3M"), value: formatPercent(row.three_month_pct, true), className: getChangeClass(row.three_month_pct) },
-    { label: getMetaColumnLabel("ytd_pct", "YTD"), value: formatPercent(row.ytd_pct, true), className: getChangeClass(row.ytd_pct) },
-    { label: getMetaColumnLabel("one_year_pct", "1Y"), value: formatPercent(row.one_year_pct, true), className: getChangeClass(row.one_year_pct) },
-    { label: getMetaColumnLabel("three_year_pct", "3Y CAGR"), value: formatPercent(row.three_year_pct, true), className: getChangeClass(row.three_year_pct) },
-    { label: getMetaColumnLabel("five_year_pct", "5Y CAGR"), value: formatPercent(row.five_year_pct, true), className: getChangeClass(row.five_year_pct) },
+    makeMetricCard(row, "daily_pct", "1D"),
+    makeMetricCard(row, "five_day_pct", "5D"),
+    makeMetricCard(row, "one_month_pct", "1M"),
+    makeMetricCard(row, "three_month_pct", "3M"),
+    makeMetricCard(row, "ytd_pct", "YTD"),
+    makeMetricCard(row, "one_year_pct", "1Y"),
+    makeMetricCard(row, "three_year_pct", "3Y CAGR"),
+    makeMetricCard(row, "five_year_pct", "5Y CAGR"),
     { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : "Stock", className: "" },
   ];
 
@@ -346,6 +353,29 @@ function renderDetail() {
       <strong class="${stat.className || ""}">${escapeHtml(stat.value)}</strong>
     </div>
   `).join("");
+}
+
+function makeMetricCard(row, key, fallbackLabel) {
+  const value = getDisplayMetric(row, key);
+  return {
+    label: getCurrencyLabel(key, fallbackLabel),
+    value: formatPercent(value, true),
+    className: getChangeClass(value),
+  };
+}
+
+function getDisplayMetric(row, key) {
+  if (state.displayCurrency === "USD") {
+    const usdKey = key.replace("_pct", "_usd_pct");
+    return row[usdKey] ?? row[key];
+  }
+  return row[key];
+}
+
+function getDisplayLastPrice(row) {
+  return state.displayCurrency === "INR"
+    ? (row.last_price_inr ?? row.last_price)
+    : row.last_price;
 }
 
 function renderChart(points) {
@@ -405,15 +435,15 @@ function handleSort(tabId, key) {
 function getColumnsForTab(tab) {
   const columns = [
     { key: "ticker", label: getMetaColumnLabel("ticker", "Ticker"), sortable: true, className: "ticker-cell" },
-    { key: "last_price", label: getMetaColumnLabel("last_price", "Last"), sortable: true },
-    { key: "daily_pct", label: getMetaColumnLabel("daily_pct", "1D INR"), sortable: true },
-    { key: "five_day_pct", label: getMetaColumnLabel("five_day_pct", "5D INR"), sortable: true },
-    { key: "one_month_pct", label: getMetaColumnLabel("one_month_pct", "1M INR"), sortable: true },
-    { key: "three_month_pct", label: getMetaColumnLabel("three_month_pct", "3M INR"), sortable: true },
-    { key: "ytd_pct", label: getMetaColumnLabel("ytd_pct", "YTD INR"), sortable: true },
-    { key: "one_year_pct", label: getMetaColumnLabel("one_year_pct", "1Y INR"), sortable: true },
-    { key: "three_year_pct", label: getMetaColumnLabel("three_year_pct", "3Y CAGR INR"), sortable: true },
-    { key: "five_year_pct", label: getMetaColumnLabel("five_year_pct", "5Y CAGR INR"), sortable: true },
+    { key: "last_price", label: `Last ${state.displayCurrency}`, sortable: true },
+    { key: "daily_pct", label: getCurrencyLabel("daily_pct", "1D"), sortable: true },
+    { key: "five_day_pct", label: getCurrencyLabel("five_day_pct", "5D"), sortable: true },
+    { key: "one_month_pct", label: getCurrencyLabel("one_month_pct", "1M"), sortable: true },
+    { key: "three_month_pct", label: getCurrencyLabel("three_month_pct", "3M"), sortable: true },
+    { key: "ytd_pct", label: getCurrencyLabel("ytd_pct", "YTD"), sortable: true },
+    { key: "one_year_pct", label: getCurrencyLabel("one_year_pct", "1Y"), sortable: true },
+    { key: "three_year_pct", label: getCurrencyLabel("three_year_pct", "3Y CAGR"), sortable: true },
+    { key: "five_year_pct", label: getCurrencyLabel("five_year_pct", "5Y CAGR"), sortable: true },
   ];
 
   if (tab.asset_type === "etf") {
@@ -472,6 +502,11 @@ function getActiveTab() {
 function getMetaColumnLabel(key, fallback) {
   const column = state.meta?.columns?.find((entry) => entry.key === key);
   return column?.label || fallback;
+}
+
+function getCurrencyLabel(key, fallback) {
+  const baseLabel = getMetaColumnLabel(key, fallback).replace(/\s+(INR|USD)$/, "");
+  return `${baseLabel} ${state.displayCurrency}`;
 }
 
 function getSelectedRow(tab) {
@@ -539,14 +574,10 @@ function getRangeChangeValue(point) {
   if (!point) {
     return null;
   }
-  if (isInrAdjustedReturnBasis()) {
+  if (state.displayCurrency === "INR") {
     return point.inr_close ?? null;
   }
   return point.close ?? null;
-}
-
-function isInrAdjustedReturnBasis() {
-  return state.meta?.return_basis === "inr_adjusted";
 }
 
 function formatDateTime(date) {

@@ -39,9 +39,9 @@ input {
 }
 
 .page-shell {
-  max-width: 1920px;
+  max-width: 2200px;
   margin: 0 auto;
-  padding: 28px;
+  padding: 24px;
 }
 
 .hero {
@@ -98,7 +98,7 @@ input {
 
 .dashboard {
   display: grid;
-  grid-template-columns: minmax(0, 1.85fr) minmax(360px, 0.78fr);
+  grid-template-columns: minmax(0, 2.25fr) minmax(360px, 0.75fr);
   gap: 20px;
   align-items: start;
 }
@@ -163,7 +163,7 @@ input {
 
 .panel-controls {
   display: grid;
-  grid-template-columns: minmax(220px, 250px) minmax(170px, 210px) minmax(340px, 430px);
+  grid-template-columns: minmax(150px, 180px) minmax(220px, 280px);
   gap: 12px;
   align-items: flex-start;
 }
@@ -183,6 +183,7 @@ input {
 }
 
 .search-shell input,
+.currency-shell select,
 .add-form input {
   width: 100%;
   padding: 12px 14px;
@@ -190,6 +191,17 @@ input {
   border-radius: 14px;
   background: rgba(6, 15, 20, 0.88);
   color: var(--text);
+}
+
+.currency-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.currency-shell select {
+  appearance: none;
+  cursor: pointer;
 }
 
 .search-shell input:focus,
@@ -548,7 +560,7 @@ tbody tr.active {
 
   .panel-controls {
     width: 100%;
-    grid-template-columns: minmax(220px, 280px) minmax(180px, 220px) minmax(320px, 1fr);
+    grid-template-columns: minmax(150px, 180px) minmax(220px, 1fr);
   }
 }
 

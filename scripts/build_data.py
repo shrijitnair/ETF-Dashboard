@@ -679,6 +679,26 @@ def build_dashboard_data(
                 }
             )
 
+        local_metrics = {
+            "daily_usd_pct": calc_window_return(close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
+            "five_day_usd_pct": calc_window_return(close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
+            "one_month_usd_pct": calc_calendar_return(close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
+            "three_month_usd_pct": calc_calendar_return(close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
+            "one_year_usd_pct": calc_calendar_return(close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
+            "three_year_usd_pct": calc_calendar_cagr(close_series, years=3),
+            "five_year_usd_pct": calc_calendar_cagr(close_series, years=5),
+            "ytd_usd_pct": calc_ytd_return(close_series),
+        }
+        inr_metrics = {
+            "daily_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
+            "five_day_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
+            "one_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
+            "three_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
+            "one_year_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
+            "three_year_pct": calc_calendar_cagr(inr_close_series, years=3),
+            "five_year_pct": calc_calendar_cagr(inr_close_series, years=5),
+            "ytd_pct": calc_ytd_return(inr_close_series),
+        }
         row = {
             "item_id": item.item_id,
             "ticker": item.ticker,
@@ -688,14 +708,9 @@ def build_dashboard_data(
             "exchange": row_meta["exchange"],
             "currency": row_meta["currency"],
             "last_price": latest_price,
-            "daily_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
-            "five_day_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
-            "one_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
-            "three_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
-            "one_year_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
-            "three_year_pct": calc_calendar_cagr(inr_close_series, years=3),
-            "five_year_pct": calc_calendar_cagr(inr_close_series, years=5),
-            "ytd_pct": calc_ytd_return(inr_close_series),
+            "last_price_inr": extract_latest_price(inr_close_series),
+            **local_metrics,
+            **inr_metrics,
             "aum": row_meta["aum"],
             "aum_display": format_aum(row_meta["aum"]) if item.asset_type == "etf" else "",
         }
