@@ -2,7 +2,7 @@
   "tabs": [
     {
       "id": "us-etfs",
-      "label": "US ETFs",
+      "label": "NASDAQ ETFs",
       "asset_type": "etf",
       "groups": [
         {
@@ -144,6 +144,13 @@
               "source_ticker": "CIBR",
               "name": "First Trust NASDAQ Cybersecurity ETF",
               "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "DRAM",
+              "source_ticker": "DRAM",
+              "name": "DRAM",
+              "exchange": "BATS",
               "currency": "USD"
             }
           ]

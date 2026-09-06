@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T11:16:52.475540Z",
+  "built_at": "2026-09-06T11:18:15.038466Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -31,7 +31,7 @@
   "tabs": [
     {
       "id": "us-etfs",
-      "label": "US ETFs",
+      "label": "NASDAQ ETFs",
       "asset_type": "etf"
     },
     {

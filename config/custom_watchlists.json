@@ -2,7 +2,7 @@
   "tabs": [
     {
       "id": "us-etfs",
-      "label": "US ETFs",
+      "label": "NASDAQ ETFs",
       "asset_type": "etf",
       "groups": [
         {
