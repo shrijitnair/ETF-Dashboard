@@ -6,6 +6,7 @@ const RANGE_OPTIONS = [
   { key: "3Y", years: 3 },
   { key: "5Y", years: 5 },
 ];
+const DATA_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 
 const state = {
   dashboard: null,
@@ -46,6 +47,11 @@ async function init() {
   try {
     bindPersistentEvents();
     await reloadDashboard();
+    window.setInterval(() => {
+      reloadDashboard().catch(() => {
+        // Keep the last successful snapshot visible if a refresh fails.
+      });
+    }, DATA_REFRESH_INTERVAL_MS);
   } catch (error) {
     renderAppError(error.message || "Failed to load dashboard data.");
   }
@@ -587,7 +593,9 @@ function getChangeClass(value) {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(path);
+  const url = new URL(path, document.baseURI);
+  url.searchParams.set("refresh", Date.now().toString());
+  const response = await fetch(url, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Request failed for ${path}: ${response.status}`);
   }

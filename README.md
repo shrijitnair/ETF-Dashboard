@@ -5,7 +5,7 @@ Static multi-tab market dashboard for:
 - UCITS ETFs listed on the London Stock Exchange
 - US stocks
 
-The UI is built with plain HTML/CSS/JS and is designed to be hosted on GitHub Pages or any static file server. The data is pre-built using a Python script.
+The UI is built with plain HTML/CSS/JS and is hosted on GitHub Pages. The data is pre-built using a Python script and refreshed by GitHub Actions every 10 minutes.
 
 ## Local setup
 
@@ -18,6 +18,16 @@ python3 -m http.server 8000
 ```
 
 The app will be available at `http://localhost:8000`.
+
+## GitHub Pages deployment
+
+The `Deploy dashboard to GitHub Pages` workflow publishes the repository root whenever changes are pushed to `main` or `master`. The `Build Dashboard Data` workflow fetches market and FX data every 10 minutes, commits changed JSON files, and thereby triggers a Pages deployment.
+
+After enabling Pages for the repository, select **GitHub Actions** as the source under **Settings → Pages**. The dashboard will then be available at:
+
+`https://shrijitnair.github.io/ETF-Dashboard/`
+
+The dashboard is near-live rather than tick-by-tick real-time: it displays the latest successful data build. Market data is fetched from Yahoo Finance through `yfinance`, so provider delays, rate limits, and market holidays may affect freshness.
 
 ## Watchlist files
 
