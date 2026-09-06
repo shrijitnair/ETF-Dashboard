@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-06T10:32:06.363974Z",
+  "built_at": "2026-09-06T10:47:20.772052Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -12,7 +12,7 @@
     "one_year_pct": "1 calendar year, first trading day on or after the anchor date",
     "three_year_pct": "3 calendar years, first trading day on or after the anchor date",
     "five_year_pct": "5 calendar years, first trading day on or after the anchor date",
-    "ytd_pct": "first trading day on or after January 1 of the latest series year"
+    "ytd_pct": "last available trading day of the preceding calendar year"
   },
   "chart_range_rules": {
     "1M": "1 calendar month, first trading day on or after the anchor date",
