@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-09-07T00:13:46.783688Z",
+  "built_at": "2026-09-07T04:51:06.887103Z",
   "snapshot": {
-    "built_at": "2026-09-07T00:13:46.783688Z",
+    "built_at": "2026-09-07T04:51:06.887103Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -3922,69 +3922,33 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 607.118969102596,
-                "last_price_inr": 57369.6484375,
-                "daily_usd_pct": -0.026708827578247885,
-                "five_day_usd_pct": 0.8097717508221081,
-                "one_month_usd_pct": -0.05107949503813103,
-                "three_month_usd_pct": 7.504327332274485,
-                "one_year_usd_pct": -1.1181810738368103,
-                "three_year_usd_pct": 4.043115072197412,
-                "five_year_usd_pct": 3.904587652446345,
-                "ytd_usd_pct": -8.528007947183625,
-                "since_2024_09_26_usd_pct": -6.63089844535153,
-                "daily_pct": -0.019088550314461106,
-                "five_day_pct": -0.22027911714157522,
-                "one_month_pct": -0.9282969794815132,
-                "three_month_pct": 5.637853067113774,
-                "one_year_pct": 6.091857333304929,
-                "three_year_pct": 8.772612476240592,
-                "five_year_pct": 9.410341540037926,
-                "ytd_pct": -3.7128807967296007,
-                "since_2024_09_26_pct": 5.506717269787775,
+                "last_price": 604.6626099397245,
+                "last_price_inr": 57086.19921875,
+                "daily_usd_pct": -0.4045927220001633,
+                "five_day_usd_pct": -0.6067159382474707,
+                "one_month_usd_pct": -0.19898825639282913,
+                "three_month_usd_pct": 6.194811674878964,
+                "one_year_usd_pct": -1.5943684216318976,
+                "three_year_usd_pct": 3.9041805674036256,
+                "five_year_usd_pct": 3.923480646884947,
+                "ytd_usd_pct": -8.898096969697889,
+                "since_2024_09_26_usd_pct": -7.00866303483858,
+                "daily_pct": -0.49407522351961886,
+                "five_day_pct": -1.6178385550342789,
+                "one_month_pct": -1.1433603432462136,
+                "three_month_pct": 5.590528253682003,
+                "one_year_pct": 5.350556804047568,
+                "three_year_pct": 8.350622504106365,
+                "five_year_pct": 9.375972941160216,
+                "ytd_pct": -4.188611596153768,
+                "since_2024_09_26_pct": 4.985434720608839,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-09-04"
-              },
-              {
-                "item_id": "indices:NIFTYMIDCAP100",
-                "ticker": "NIFTYMIDCAP100",
-                "source_ticker": "NIFTY_MIDCAP_100.NS",
-                "name": "NIFTY MIDCAP 100",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 645.9040928382652,
-                "last_price_inr": 62428.05078125,
-                "daily_usd_pct": -0.5709528198920455,
-                "five_day_usd_pct": -2.258810119967225,
-                "one_month_usd_pct": -1.3431573863577184,
-                "three_month_usd_pct": 0.3369358428990443,
-                "one_year_usd_pct": -6.796975993919341,
-                "three_year_usd_pct": 13.102634054405925,
-                "five_year_usd_pct": 11.77808674822387,
-                "ytd_usd_pct": -4.136722841428886,
-                "since_2024_09_26_usd_pct": -10.676519064456514,
-                "daily_pct": -0.4126856452918659,
-                "five_day_pct": -0.9657057345160647,
-                "one_month_pct": 0.49047453346662273,
-                "three_month_pct": 4.223585342292013,
-                "one_year_pct": 4.887421251974655,
-                "three_year_pct": 19.436343179177552,
-                "five_year_pct": 17.710238255272404,
-                "ytd_pct": 3.2133038733063835,
-                "since_2024_09_26_pct": 3.2395070781833457,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Available",
-                "data_date": "2026-07-17"
+                "data_date": "2026-09-07"
               },
               {
                 "item_id": "indices:NIFTYNEXT50",
@@ -3994,69 +3958,69 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 771.2680333896459,
-                "last_price_inr": 72880.8984375,
-                "daily_usd_pct": -0.24162003848807734,
-                "five_day_usd_pct": -0.7091267569265258,
-                "one_month_usd_pct": -0.9221519691635427,
-                "three_month_usd_pct": 5.938570269531107,
-                "one_year_usd_pct": 1.1561031122462984,
-                "three_year_usd_pct": 12.162843827131908,
-                "five_year_usd_pct": 5.782579777966768,
-                "ytd_usd_pct": -0.18486431494513234,
-                "since_2024_09_26_usd_pct": -16.332670667022896,
-                "daily_pct": -0.2340161424296494,
-                "five_day_pct": -1.7236578722007345,
-                "one_month_pct": -1.7917243484806167,
-                "three_month_pct": 4.099280447412146,
-                "one_year_pct": 8.531972574161205,
-                "three_year_pct": 17.261440484319813,
-                "five_year_pct": 11.387845753326165,
-                "ytd_pct": 5.06944970049521,
-                "since_2024_09_26_pct": -5.4562471559612575,
+                "last_price": 770.0486606821055,
+                "last_price_inr": 72700.296875,
+                "daily_usd_pct": -0.158099733782735,
+                "five_day_usd_pct": -0.4233056407668023,
+                "one_month_usd_pct": -1.7440305386669075,
+                "three_month_usd_pct": 6.003523920514553,
+                "one_year_usd_pct": 0.8041098420350279,
+                "three_year_usd_pct": 11.913807432960134,
+                "five_year_usd_pct": 5.855278488793858,
+                "ytd_usd_pct": -0.3426717787380906,
+                "since_2024_09_26_usd_pct": -16.46494849196146,
+                "daily_pct": -0.24780369942184466,
+                "five_day_pct": -1.4362940807999602,
+                "one_month_pct": -2.6737825853133113,
+                "three_month_pct": 5.400328989582004,
+                "one_year_pct": 7.918306398322406,
+                "three_year_pct": 16.703010754218028,
+                "five_year_pct": 11.409125287186384,
+                "ytd_pct": 4.809083717175211,
+                "since_2024_09_26_pct": -5.690530073081024,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-09-04"
+                "data_date": "2026-09-07"
               },
               {
-                "item_id": "indices:NIFTY50",
-                "ticker": "NIFTY50",
-                "source_ticker": "^NSEI",
-                "name": "NIFTY 50",
+                "item_id": "indices:NIFTYMIDCAP100",
+                "ticker": "NIFTYMIDCAP100",
+                "source_ticker": "NIFTY_MIDCAP_100.NS",
+                "name": "NIFTY MIDCAP 100",
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 252.89934501546793,
-                "last_price_inr": 23897.69921875,
-                "daily_usd_pct": 0.09394780440790118,
-                "five_day_usd_pct": -0.12925931834960602,
-                "one_month_usd_pct": -2.05404897118574,
-                "three_month_usd_pct": 3.857902161560145,
-                "one_year_usd_pct": -9.948521623510276,
-                "three_year_usd_pct": 2.3105986078223895,
-                "five_year_usd_pct": 1.2158682085576134,
-                "ytd_usd_pct": -13.115305271060551,
-                "since_2024_09_26_usd_pct": -19.33003095677437,
-                "daily_pct": 0.10157727849795517,
-                "five_day_pct": -1.1497153846284358,
-                "one_month_pct": -2.9136870777188184,
-                "three_month_pct": 2.0547365920571936,
-                "one_year_pct": -3.3823538004930875,
-                "three_year_pct": 6.961340852381581,
-                "five_year_pct": 6.5791507398280435,
-                "ytd_pct": -8.54165553238795,
-                "since_2024_09_26_pct": -8.843252486213938,
+                "last_price": 667.0664925021665,
+                "last_price_inr": 62977.75,
+                "daily_usd_pct": 3.2763996851155275,
+                "five_day_usd_pct": 0.8679471836551933,
+                "one_month_usd_pct": 0.0,
+                "three_month_usd_pct": 5.729871309171286,
+                "one_year_usd_pct": 2.553956619992359,
+                "three_year_usd_pct": 11.013826071398402,
+                "five_year_usd_pct": 10.875518044586862,
+                "ytd_usd_pct": -0.9958587304640276,
+                "since_2024_09_26_usd_pct": -7.749924816350129,
+                "daily_pct": 0.8805324079013133,
+                "five_day_pct": -0.10025105829339909,
+                "one_month_pct": 0.0,
+                "three_month_pct": 5.128233551641048,
+                "one_year_pct": 9.79164768400651,
+                "three_year_pct": 15.764515881010798,
+                "five_year_pct": 16.692758806720718,
+                "ytd_pct": 4.12213046317651,
+                "since_2024_09_26_pct": 4.14856439576432,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-09-04"
+                "data_date": "2026-09-07"
               },
               {
                 "item_id": "indices:NIFTYFIN",
@@ -4066,33 +4030,69 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 278.35217352282217,
-                "last_price_inr": 26903.349609375,
-                "daily_usd_pct": 1.1443243398806757,
-                "five_day_usd_pct": -1.0397725603550456,
-                "one_month_usd_pct": 0.028402733749066655,
-                "three_month_usd_pct": -2.3421427496739256,
-                "one_year_usd_pct": -10.828708051060332,
-                "three_year_usd_pct": 4.015344873047244,
-                "five_year_usd_pct": 4.643903612281686,
-                "ytd_usd_pct": -9.509159244250576,
-                "since_2024_09_26_usd_pct": -7.467564118126657,
-                "daily_pct": 1.3053218239571507,
-                "five_day_pct": 0.26945954787400694,
-                "one_month_pct": 1.8875264121738455,
-                "three_month_pct": 1.4407300160248937,
-                "one_year_pct": 0.3502510993747876,
-                "three_year_pct": 9.840168887506383,
-                "five_year_pct": 10.197438375453016,
-                "ytd_pct": -2.57104783487917,
-                "since_2024_09_26_pct": 6.948396649272226,
+                "last_price": 274.8569960114778,
+                "last_price_inr": 25949.25,
+                "daily_usd_pct": -1.2556674040333227,
+                "five_day_usd_pct": -2.367731866824818,
+                "one_month_usd_pct": 0.0,
+                "three_month_usd_pct": 5.2116702769253065,
+                "one_year_usd_pct": -6.568619157303257,
+                "three_year_usd_pct": 4.660939946824483,
+                "five_year_usd_pct": 2.1085366175468634,
+                "ytd_usd_pct": -10.645423235256235,
+                "since_2024_09_26_usd_pct": -8.629463753653388,
+                "daily_pct": -3.5463970963768965,
+                "five_day_pct": -3.304871890026495,
+                "one_month_pct": 0.0,
+                "three_month_pct": 4.612981253779469,
+                "one_year_pct": 0.025250962495326768,
+                "three_year_pct": 9.139766399937187,
+                "five_year_pct": 7.465805308138851,
+                "ytd_pct": -6.026265365493444,
+                "since_2024_09_26_pct": 3.1555818158807813,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-07-17"
+                "data_date": "2026-09-07"
+              },
+              {
+                "item_id": "indices:NIFTY50",
+                "ticker": "NIFTY50",
+                "source_ticker": "^NSEI",
+                "name": "NIFTY 50",
+                "asset_type": "index",
+                "exchange": "NSE",
+                "currency": "INR",
+                "last_price": 252.09298470694753,
+                "last_price_inr": 23800.099609375,
+                "daily_usd_pct": -0.3188463412078346,
+                "five_day_usd_pct": -0.14823370217194043,
+                "one_month_usd_pct": -2.210725882867104,
+                "three_month_usd_pct": 3.5172990583898667,
+                "one_year_usd_pct": -10.261118277014736,
+                "three_year_usd_pct": 2.087792968134461,
+                "five_year_usd_pct": 1.201525916651347,
+                "ytd_usd_pct": -13.392333941273371,
+                "since_2024_09_26_usd_pct": -19.587244201522182,
+                "daily_pct": -0.408405882430829,
+                "five_day_pct": -1.164020434473867,
+                "one_month_pct": -3.1360618013758668,
+                "three_month_pct": 2.928251565000206,
+                "one_year_pct": -3.927844323014462,
+                "three_year_pct": 6.456505000702495,
+                "five_year_pct": 6.511207008880815,
+                "ytd_pct": -8.915176791167523,
+                "since_2024_09_26_pct": -9.215542005292853,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "Yahoo Finance via yfinance",
+                "data_status": "Available",
+                "data_date": "2026-09-07"
               },
               {
                 "item_id": "indices:NIFTYSMLCAP100",
@@ -4102,8 +4102,8 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 212.6617252436613,
-                "last_price_inr": 20095.44921875,
+                "last_price": 213.29202001404823,
+                "last_price_inr": 20136.900390625,
                 "daily_usd_pct": null,
                 "five_day_usd_pct": null,
                 "one_month_usd_pct": null,
@@ -4128,7 +4128,7 @@
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Limited history",
-                "data_date": "2026-09-04"
+                "data_date": "2026-09-07"
               }
             ]
           },
@@ -4220,7 +4220,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-09-07T00:13:46.783688Z",
+    "built_at": "2026-09-07T04:51:06.887103Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -720087,11 +720087,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-04",
-            "close": 154.6432,
-            "inr_close": 11333.8496
-          },
-          {
             "date": "2020-09-07",
             "close": 154.9325,
             "inr_close": 11355.0498
@@ -727505,6 +727500,11 @@
             "date": "2026-09-04",
             "close": 252.8993,
             "inr_close": 23897.6992
+          },
+          {
+            "date": "2026-09-07",
+            "close": 252.093,
+            "inr_close": 23800.0996
           }
         ]
       },
@@ -727515,11 +727515,6 @@
         "name": "NIFTY NEXT 50",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-04",
-            "close": 369.8375,
-            "inr_close": 27105.5
-          },
           {
             "date": "2020-09-07",
             "close": 368.6163,
@@ -734929,6 +734924,11 @@
             "date": "2026-09-04",
             "close": 771.268,
             "inr_close": 72880.8984
+          },
+          {
+            "date": "2026-09-07",
+            "close": 770.0487,
+            "inr_close": 72700.2969
           }
         ]
       },
@@ -734939,11 +734939,6 @@
         "name": "NIFTY MIDCAP 100",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-04",
-            "close": 230.9473,
-            "inr_close": 16926.1992
-          },
           {
             "date": "2020-09-07",
             "close": 228.956,
@@ -742148,6 +742143,11 @@
             "date": "2026-07-17",
             "close": 645.9041,
             "inr_close": 62428.0508
+          },
+          {
+            "date": "2026-09-07",
+            "close": 667.0665,
+            "inr_close": 62977.75
           }
         ]
       },
@@ -742159,9 +742159,9 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2026-09-04",
-            "close": 212.6617,
-            "inr_close": 20095.4492
+            "date": "2026-09-07",
+            "close": 213.292,
+            "inr_close": 20136.9004
           }
         ]
       },
@@ -742172,11 +742172,6 @@
         "name": "NIFTY BANK",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-04",
-            "close": 313.9774,
-            "inr_close": 23011.5
-          },
           {
             "date": "2020-09-07",
             "close": 313.0708,
@@ -749586,6 +749581,11 @@
             "date": "2026-09-04",
             "close": 607.119,
             "inr_close": 57369.6484
+          },
+          {
+            "date": "2026-09-07",
+            "close": 604.6626,
+            "inr_close": 57086.1992
           }
         ]
       },
@@ -749596,11 +749596,6 @@
         "name": "NIFTY FIN SERVICE",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-04",
-            "close": 152.2405,
-            "inr_close": 11157.75
-          },
           {
             "date": "2020-09-07",
             "close": 152.046,
@@ -756760,6 +756755,11 @@
             "date": "2026-07-17",
             "close": 278.3522,
             "inr_close": 26903.3496
+          },
+          {
+            "date": "2026-09-07",
+            "close": 274.857,
+            "inr_close": 25949.25
           }
         ]
       },
@@ -771844,7 +771844,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-09-07T00:13:46.783688Z",
+    "built_at": "2026-09-07T04:51:06.887103Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
