@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09T05:22:16.172029Z",
+  "built_at": "2026-09-09T09:59:00.831036Z",
   "series": {
     "us-etfs:VXUS": {
       "item_id": "us-etfs:VXUS",
@@ -254501,11 +254501,6 @@
       "currency": "USD",
       "points": [
         {
-          "date": "2020-09-08",
-          "close": 337.36,
-          "inr_close": 24892.7126
-        },
-        {
           "date": "2020-09-09",
           "close": 341.77,
           "inr_close": 25218.1127
@@ -262059,6 +262054,11 @@
           "date": "2026-09-07",
           "close": 830.26,
           "inr_close": 78401.7
+        },
+        {
+          "date": "2026-09-09",
+          "close": 826.65,
+          "inr_close": 78620.6157
         }
       ]
     },
@@ -262069,11 +262069,6 @@
       "name": "Vanguard S&P 500 UCITS ETF USD Accumulation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 60.615,
-          "inr_close": 4472.5868
-        },
         {
           "date": "2020-09-09",
           "close": 61.31,
@@ -269633,6 +269628,11 @@
           "date": "2026-09-07",
           "close": 148.88,
           "inr_close": 14058.7832
+        },
+        {
+          "date": "2026-09-09",
+          "close": 148.24,
+          "inr_close": 14098.7361
         }
       ]
     },
@@ -273242,6 +273242,11 @@
           "date": "2026-09-07",
           "close": 19.058,
           "inr_close": 1799.6527
+        },
+        {
+          "date": "2026-09-09",
+          "close": 18.976,
+          "inr_close": 1804.7599
         }
       ]
     },
@@ -273252,11 +273257,6 @@
       "name": "Invesco S&P 500 UCITS ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 6.2152,
-          "inr_close": 458.5997
-        },
         {
           "date": "2020-09-09",
           "close": 6.2925,
@@ -280821,6 +280821,11 @@
           "date": "2026-09-07",
           "close": 15.466,
           "inr_close": 1460.4589
+        },
+        {
+          "date": "2026-09-09",
+          "close": 15.4,
+          "inr_close": 1464.6554
         }
       ]
     },
@@ -280831,11 +280836,6 @@
       "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 632.6,
-          "inr_close": 46677.5257
-        },
         {
           "date": "2020-09-09",
           "close": 640.185,
@@ -288365,6 +288365,11 @@
           "date": "2026-09-07",
           "close": 1697.8,
           "inr_close": 160323.7643
+        },
+        {
+          "date": "2026-09-09",
+          "close": 1692.0,
+          "inr_close": 160921.8869
         }
       ]
     },
@@ -295474,6 +295479,11 @@
           "date": "2026-09-07",
           "close": 68.58,
           "inr_close": 6476.03
+        },
+        {
+          "date": "2026-09-09",
+          "close": 68.35,
+          "inr_close": 6500.5974
         }
       ]
     },
@@ -295484,11 +295494,6 @@
       "name": "Xtrackers Russell 2000 UCITS ETF 1C",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 213.28,
-          "inr_close": 15737.2479
-        },
         {
           "date": "2020-09-09",
           "close": 214.52,
@@ -303053,6 +303058,11 @@
           "date": "2026-09-07",
           "close": 439.62,
           "inr_close": 41513.4471
+        },
+        {
+          "date": "2026-09-09",
+          "close": 439.15,
+          "inr_close": 41766.4572
         }
       ]
     },
@@ -303063,11 +303073,6 @@
       "name": "iShares Core MSCI World UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 64.17,
-          "inr_close": 4734.8986
-        },
         {
           "date": "2020-09-09",
           "close": 65.01,
@@ -310632,6 +310637,11 @@
           "date": "2026-09-07",
           "close": 148.05,
           "inr_close": 13980.4059
+        },
+        {
+          "date": "2026-09-09",
+          "close": 147.21,
+          "inr_close": 14000.7754
         }
       ]
     },
@@ -310642,11 +310652,6 @@
       "name": "Vanguard FTSE All-World UCITS ETF USD Accumulation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 87.12,
-          "inr_close": 6428.3059
-        },
         {
           "date": "2020-09-09",
           "close": 88.16,
@@ -318206,6 +318211,11 @@
           "date": "2026-09-07",
           "close": 195.1,
           "inr_close": 18423.3517
+        },
+        {
+          "date": "2026-09-09",
+          "close": 194.1,
+          "inr_close": 18460.366
         }
       ]
     },
@@ -322265,6 +322275,11 @@
           "date": "2026-09-07",
           "close": 9.603,
           "inr_close": 906.8141
+        },
+        {
+          "date": "2026-09-09",
+          "close": 9.552,
+          "inr_close": 908.4668
         }
       ]
     },
@@ -322275,11 +322290,6 @@
       "name": "iShares Core MSCI EM IMI UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 29.76,
-          "inr_close": 2195.8951
-        },
         {
           "date": "2020-09-09",
           "close": 29.97,
@@ -329844,6 +329854,11 @@
           "date": "2026-09-07",
           "close": 56.3,
           "inr_close": 5316.4257
+        },
+        {
+          "date": "2026-09-09",
+          "close": 56.25,
+          "inr_close": 5349.7968
         }
       ]
     },
@@ -329854,11 +329869,6 @@
       "name": "Xtrackers MSCI Emerging Markets UCITS ETF 1C",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 51.745,
-          "inr_close": 3818.0977
-        },
         {
           "date": "2020-09-09",
           "close": 52.155,
@@ -337423,6 +337433,11 @@
           "date": "2026-09-07",
           "close": 95.78,
           "inr_close": 9044.5338
+        },
+        {
+          "date": "2026-09-09",
+          "close": 95.72,
+          "inr_close": 9103.6898
         }
       ]
     },
@@ -337433,11 +337448,6 @@
       "name": "Vanguard FTSE Emerging Markets UCITS ETF USD Accumulation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 54.235,
-          "inr_close": 4001.827
-        },
         {
           "date": "2020-09-09",
           "close": 54.585,
@@ -344997,6 +345007,11 @@
           "date": "2026-09-07",
           "close": 90.05,
           "inr_close": 8503.4486
+        },
+        {
+          "date": "2026-09-09",
+          "close": 90.02,
+          "inr_close": 8561.5767
         }
       ]
     },
@@ -348171,6 +348186,11 @@
           "date": "2026-09-07",
           "close": 47.225,
           "inr_close": 4459.4707
+        },
+        {
+          "date": "2026-09-09",
+          "close": 46.75,
+          "inr_close": 4446.2755
         }
       ]
     },
@@ -348181,11 +348201,6 @@
       "name": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.156,
-          "inr_close": 380.4447
-        },
         {
           "date": "2020-09-09",
           "close": 5.175,
@@ -355750,6 +355765,11 @@
           "date": "2026-09-07",
           "close": 10.624,
           "inr_close": 1003.2274
+        },
+        {
+          "date": "2026-09-09",
+          "close": 10.564,
+          "inr_close": 1004.7156
         }
       ]
     },
@@ -363024,6 +363044,11 @@
           "date": "2026-09-07",
           "close": 107.04,
           "inr_close": 10107.8192
+        },
+        {
+          "date": "2026-09-09",
+          "close": 107.44,
+          "inr_close": 10218.3498
         }
       ]
     },
@@ -363034,11 +363059,6 @@
       "name": "State Street SPDR S&P U.S. Technology Select Sector UCITS ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 58.9725,
-          "inr_close": 4351.3918
-        },
         {
           "date": "2020-09-09",
           "close": 59.5588,
@@ -370598,6 +370618,11 @@
           "date": "2026-09-07",
           "close": 189.51,
           "inr_close": 17895.4852
+        },
+        {
+          "date": "2026-09-09",
+          "close": 189.04,
+          "inr_close": 17979.1208
         }
       ]
     },
@@ -370608,11 +370633,6 @@
       "name": "Xtrackers MSCI World Information Technology UCITS ETF 1C",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 45.11,
-          "inr_close": 3328.5224
-        },
         {
           "date": "2020-09-09",
           "close": 45.695,
@@ -378177,6 +378197,11 @@
           "date": "2026-09-07",
           "close": 146.24,
           "inr_close": 13809.4873
+        },
+        {
+          "date": "2026-09-09",
+          "close": 145.47,
+          "inr_close": 13835.2879
         }
       ]
     },
@@ -378187,11 +378212,6 @@
       "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 14.33,
-          "inr_close": 1057.3648
-        },
         {
           "date": "2020-09-09",
           "close": 14.52,
@@ -385756,6 +385776,11 @@
           "date": "2026-09-07",
           "close": 51.78,
           "inr_close": 4889.6007
+        },
+        {
+          "date": "2026-09-09",
+          "close": 51.57,
+          "inr_close": 4904.6937
         }
       ]
     },
@@ -385766,11 +385791,6 @@
       "name": "iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 51.55,
-          "inr_close": 3803.7093
-        },
         {
           "date": "2020-09-09",
           "close": 52.43,
@@ -393335,6 +393355,11 @@
           "date": "2026-09-07",
           "close": 117.24,
           "inr_close": 11071.0079
+        },
+        {
+          "date": "2026-09-09",
+          "close": 117.32,
+          "inr_close": 11158.0117
         }
       ]
     },
@@ -394984,6 +395009,11 @@
           "date": "2026-09-07",
           "close": 29.19,
           "inr_close": 2756.4204
+        },
+        {
+          "date": "2026-09-09",
+          "close": 29.27,
+          "inr_close": 2783.7965
         }
       ]
     },
@@ -399523,6 +399553,11 @@
           "date": "2026-09-07",
           "close": 55.33,
           "inr_close": 5224.8286
+        },
+        {
+          "date": "2026-09-09",
+          "close": 56.31,
+          "inr_close": 5355.5034
         }
       ]
     },
@@ -405047,6 +405082,11 @@
           "date": "2026-09-07",
           "close": 28.135,
           "inr_close": 2656.7965
+        },
+        {
+          "date": "2026-09-09",
+          "close": 28.99,
+          "inr_close": 2757.1664
         }
       ]
     },
@@ -411296,6 +411336,11 @@
           "date": "2026-09-07",
           "close": 14.998,
           "inr_close": 1416.2656
+        },
+        {
+          "date": "2026-09-09",
+          "close": 15.126,
+          "inr_close": 1438.5961
         }
       ]
     },
@@ -417340,6 +417385,11 @@
           "date": "2026-09-07",
           "close": 71.08,
           "inr_close": 6712.1057
+        },
+        {
+          "date": "2026-09-09",
+          "close": 74.67,
+          "inr_close": 7101.6767
         }
       ]
     },
@@ -417350,11 +417400,6 @@
       "name": "VanEck Gold Miners UCITS ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 43.13,
-          "inr_close": 3182.4246
-        },
         {
           "date": "2020-09-09",
           "close": 44.23,
@@ -424914,6 +424959,11 @@
           "date": "2026-09-07",
           "close": 111.86,
           "inr_close": 10562.9732
+        },
+        {
+          "date": "2026-09-09",
+          "close": 112.4,
+          "inr_close": 10690.0829
         }
       ]
     },
@@ -430393,6 +430443,11 @@
           "date": "2026-09-07",
           "close": 46.9225,
           "inr_close": 4430.9057
+        },
+        {
+          "date": "2026-09-09",
+          "close": 47.184,
+          "inr_close": 4487.552
         }
       ]
     },
@@ -430403,11 +430458,6 @@
       "name": "iShares Global Clean Energy Transition UCITS ETF USD (Dist)",
       "currency": "GBP",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 9.172,
-          "inr_close": 676.7811
-        },
         {
           "date": "2020-09-09",
           "close": 9.4086,
@@ -437957,6 +438007,11 @@
           "date": "2026-09-07",
           "close": 10.2899,
           "inr_close": 971.7668
+        },
+        {
+          "date": "2026-09-09",
+          "close": 10.5187,
+          "inr_close": 1000.1545
         }
       ]
     },
@@ -437967,11 +438022,6 @@
       "name": "iShares Physical Gold ETC",
       "currency": "GBP",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 37.4984,
-          "inr_close": 2766.9318
-        },
         {
           "date": "2020-09-09",
           "close": 37.9199,
@@ -445536,6 +445586,11 @@
           "date": "2026-09-07",
           "close": 85.442,
           "inr_close": 8069.0151
+        },
+        {
+          "date": "2026-09-09",
+          "close": 85.198,
+          "inr_close": 8100.9012
         }
       ]
     },
@@ -445546,11 +445601,6 @@
       "name": "iShares VII PLC - iShares MSCI Mexico Capped ETF USD Acc",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 79.255,
-          "inr_close": 5847.9724
-        },
         {
           "date": "2020-09-09",
           "close": 80.51,
@@ -453105,6 +453155,11 @@
           "date": "2026-09-07",
           "close": 222.65,
           "inr_close": 21024.9052
+        },
+        {
+          "date": "2026-09-09",
+          "close": 225.1,
+          "inr_close": 21408.6984
         }
       ]
     },
@@ -453115,11 +453170,6 @@
       "name": "iShares MSCI India UCITS ETF USD Acc",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.128,
-          "inr_close": 378.3787
-        },
         {
           "date": "2020-09-09",
           "close": 5.189,
@@ -460684,6 +460734,11 @@
           "date": "2026-09-07",
           "close": 8.792,
           "inr_close": 830.2312
+        },
+        {
+          "date": "2026-09-09",
+          "close": 8.71,
+          "inr_close": 828.3863
         }
       ]
     },
@@ -460694,11 +460749,6 @@
       "name": "iShares VII PLC - iShares MSCI Korea ETF USD Acc",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 161.805,
-          "inr_close": 11939.0721
-        },
         {
           "date": "2020-09-09",
           "close": 162.935,
@@ -468253,6 +468303,11 @@
           "date": "2026-09-07",
           "close": 530.3,
           "inr_close": 50076.3858
+        },
+        {
+          "date": "2026-09-09",
+          "close": 531.3,
+          "inr_close": 50530.6126
         }
       ]
     },
@@ -468263,11 +468318,6 @@
       "name": "Franklin FTSE Korea UCITS ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 30.76,
-          "inr_close": 2269.6819
-        },
         {
           "date": "2020-09-09",
           "close": 30.9475,
@@ -475827,6 +475877,11 @@
           "date": "2026-09-07",
           "close": 106.72,
           "inr_close": 10077.6015
+        },
+        {
+          "date": "2026-09-09",
+          "close": 106.62,
+          "inr_close": 10140.3617
         }
       ]
     },
@@ -481461,6 +481516,11 @@
           "date": "2026-09-07",
           "close": 74.32,
           "inr_close": 7018.0597
+        },
+        {
+          "date": "2026-09-09",
+          "close": 74.55,
+          "inr_close": 7090.2643
         }
       ]
     },
@@ -481471,11 +481531,6 @@
       "name": "Franklin FTSE China UCITS ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 34.2475,
-          "inr_close": 2527.0134
-        },
         {
           "date": "2020-09-09",
           "close": 34.26,
@@ -489035,6 +489090,11 @@
           "date": "2026-09-07",
           "close": 29.355,
           "inr_close": 2772.0014
+        },
+        {
+          "date": "2026-09-09",
+          "close": 29.35,
+          "inr_close": 2791.4051
         }
       ]
     },
@@ -586978,11 +587038,6 @@
       "currency": "USD",
       "points": [
         {
-          "date": "2020-09-08",
-          "close": 104.4325,
-          "inr_close": 7705.7398
-        },
-        {
           "date": "2020-09-09",
           "close": 104.3575,
           "inr_close": 7700.2055
@@ -594541,6 +594596,11 @@
           "date": "2026-09-07",
           "close": 126.28,
           "inr_close": 11924.6579
+        },
+        {
+          "date": "2026-09-09",
+          "close": 126.25,
+          "inr_close": 12007.3216
         }
       ]
     },
@@ -594551,11 +594611,6 @@
       "name": "iShares $ Ultrashort Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.2775,
-          "inr_close": 389.4098
-        },
         {
           "date": "2020-09-09",
           "close": 5.276,
@@ -602120,6 +602175,11 @@
           "date": "2026-09-07",
           "close": 6.428,
           "inr_close": 606.998
+        },
+        {
+          "date": "2026-09-09",
+          "close": 6.434,
+          "inr_close": 611.9216
         }
       ]
     },
@@ -602130,11 +602190,6 @@
       "name": "iShares $ Short Duration Corp Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.6055,
-          "inr_close": 413.6119
-        },
         {
           "date": "2020-09-09",
           "close": 5.6075,
@@ -609699,6 +609754,11 @@
           "date": "2026-09-07",
           "close": 6.386,
           "inr_close": 603.0319
+        },
+        {
+          "date": "2026-09-09",
+          "close": 6.3847,
+          "inr_close": 607.2328
         }
       ]
     },
@@ -609709,11 +609769,6 @@
       "name": "iShares $ Treasury Bond 20+yr UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 7.345,
-          "inr_close": 541.964
-        },
         {
           "date": "2020-09-09",
           "close": 7.293,
@@ -617278,6 +617333,11 @@
           "date": "2026-09-07",
           "close": 4.464,
           "inr_close": 421.5369
+        },
+        {
+          "date": "2026-09-09",
+          "close": 4.4655,
+          "inr_close": 424.7025
         }
       ]
     },
@@ -617288,11 +617348,6 @@
       "name": "iShares $ High Yield Corp Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.738,
-          "inr_close": 423.3886
-        },
         {
           "date": "2020-09-09",
           "close": 5.754,
@@ -624857,6 +624912,11 @@
           "date": "2026-09-07",
           "close": 7.508,
           "inr_close": 708.9827
+        },
+        {
+          "date": "2026-09-09",
+          "close": 7.52,
+          "inr_close": 715.2084
         }
       ]
     },
@@ -624867,11 +624927,6 @@
       "name": "iShares $ Short Duration High Yield Corp Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.4115,
-          "inr_close": 399.2972
-        },
         {
           "date": "2020-09-09",
           "close": 5.4215,
@@ -632436,6 +632491,11 @@
           "date": "2026-09-07",
           "close": 7.313,
           "inr_close": 690.5688
+        },
+        {
+          "date": "2026-09-09",
+          "close": 7.31,
+          "inr_close": 695.2358
         }
       ]
     },
@@ -632446,11 +632506,6 @@
       "name": "iShares $ Corp Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 6.381,
-          "inr_close": 470.8336
-        },
         {
           "date": "2020-09-09",
           "close": 6.368,
@@ -640015,6 +640070,11 @@
           "date": "2026-09-07",
           "close": 6.192,
           "inr_close": 584.7124
+        },
+        {
+          "date": "2026-09-09",
+          "close": 6.207,
+          "inr_close": 590.3322
         }
       ]
     },
@@ -640025,11 +640085,6 @@
       "name": "Vanguard U.S. Treasury 0-1 Year Bond UCITS ETF USD Accumulating",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 49.9979,
-          "inr_close": 3689.1847
-        },
         {
           "date": "2020-09-09",
           "close": 49.9981,
@@ -647579,6 +647634,11 @@
           "date": "2026-09-07",
           "close": 59.566,
           "inr_close": 5624.8353
+        },
+        {
+          "date": "2026-09-09",
+          "close": 59.565,
+          "inr_close": 5665.078
         }
       ]
     },
@@ -647589,11 +647649,6 @@
       "name": "Vanguard USD Corporate Bond UCITS ETF USD Accumulation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 59.31,
-          "inr_close": 4376.295
-        },
         {
           "date": "2020-09-09",
           "close": 59.2,
@@ -655153,6 +655208,11 @@
           "date": "2026-09-07",
           "close": 60.742,
           "inr_close": 5735.8852
+        },
+        {
+          "date": "2026-09-09",
+          "close": 60.893,
+          "inr_close": 5791.381
         }
       ]
     },
@@ -655163,11 +655223,6 @@
       "name": "iShares Global Corp Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.859,
-          "inr_close": 432.3169
-        },
         {
           "date": "2020-09-09",
           "close": 5.8625,
@@ -662732,6 +662787,11 @@
           "date": "2026-09-07",
           "close": 5.943,
           "inr_close": 561.1992
+        },
+        {
+          "date": "2026-09-09",
+          "close": 5.932,
+          "inr_close": 564.1777
         }
       ]
     },
@@ -662742,11 +662802,6 @@
       "name": "iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 102.0672,
-          "inr_close": 7531.2145
-        },
         {
           "date": "2020-09-09",
           "close": 102.0772,
@@ -670311,6 +670366,11 @@
           "date": "2026-09-07",
           "close": 121.78,
           "inr_close": 11499.7216
+        },
+        {
+          "date": "2026-09-09",
+          "close": 121.76,
+          "inr_close": 11580.2892
         }
       ]
     },
@@ -670321,11 +670381,6 @@
       "name": "iShares $ Treasury Bond 3-7yr UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 142.04,
-          "inr_close": 10480.6761
-        },
         {
           "date": "2020-09-09",
           "close": 142.1,
@@ -677880,6 +677935,11 @@
           "date": "2026-09-07",
           "close": 142.25,
           "inr_close": 13432.7099
+        },
+        {
+          "date": "2026-09-09",
+          "close": 142.17,
+          "inr_close": 13521.4328
         }
       ]
     },
@@ -677890,11 +677950,6 @@
       "name": "Vanguard USD Treasury Bond UCITS ETF USD Accumulation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 28.915,
-          "inr_close": 2133.5453
-        },
         {
           "date": "2020-09-09",
           "close": 28.875,
@@ -685454,6 +685509,11 @@
           "date": "2026-09-07",
           "close": 26.998,
           "inr_close": 2549.4291
+        },
+        {
+          "date": "2026-09-09",
+          "close": 26.99,
+          "inr_close": 2566.9514
         }
       ]
     },
@@ -685464,11 +685524,6 @@
       "name": "iShares VII PLC - iShares $ Treasury Bd 7-10y ETF USD Acc",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 170.36,
-          "inr_close": 12570.3187
-        },
         {
           "date": "2020-09-09",
           "close": 170.15,
@@ -693023,6 +693078,11 @@
           "date": "2026-09-07",
           "close": 152.16,
           "inr_close": 14368.5145
+        },
+        {
+          "date": "2026-09-09",
+          "close": 152.1,
+          "inr_close": 14465.8511
         }
       ]
     },
@@ -693033,11 +693093,6 @@
       "name": "Vanguard USD Corporate 1-3 Year Bond UCITS ETF USD Accuimulation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 53.75,
-          "inr_close": 3966.0403
-        },
         {
           "date": "2020-09-09",
           "close": 53.74,
@@ -700597,6 +700652,11 @@
           "date": "2026-09-07",
           "close": 62.194,
           "inr_close": 5872.998
+        },
+        {
+          "date": "2026-09-09",
+          "close": 62.1263,
+          "inr_close": 5908.677
         }
       ]
     },
@@ -700607,11 +700667,6 @@
       "name": "iShares US Aggregate Bond UCITS ETF USD (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.884,
-          "inr_close": 434.1615
-        },
         {
           "date": "2020-09-09",
           "close": 5.877,
@@ -708176,6 +708231,11 @@
           "date": "2026-09-07",
           "close": 5.694,
           "inr_close": 537.6861
+        },
+        {
+          "date": "2026-09-09",
+          "close": 5.692,
+          "inr_close": 541.3519
         }
       ]
     },
@@ -708186,11 +708246,6 @@
       "name": "iShares Core Global Aggregate Bond UCITS ETF USD Hedged (Acc)",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-08",
-          "close": 5.7325,
-          "inr_close": 422.9828
-        },
         {
           "date": "2020-09-09",
           "close": 5.7315,
@@ -715755,6 +715810,11 @@
           "date": "2026-09-07",
           "close": 5.804,
           "inr_close": 548.0734
+        },
+        {
+          "date": "2026-09-09",
+          "close": 5.797,
+          "inr_close": 551.3382
         }
       ]
     },
@@ -723182,8 +723242,8 @@
         },
         {
           "date": "2026-09-09",
-          "close": 247.1355,
-          "inr_close": 23516.8008
+          "close": 246.3686,
+          "inr_close": 23431.5
         }
       ]
     },
@@ -730606,8 +730666,8 @@
         },
         {
           "date": "2026-09-09",
-          "close": 766.154,
-          "inr_close": 72905.2969
+          "close": 766.0012,
+          "inr_close": 72852.4531
         }
       ]
     },
@@ -737815,8 +737875,8 @@
         },
         {
           "date": "2026-09-09",
-          "close": 658.379,
-          "inr_close": 62649.6992
+          "close": 658.1332,
+          "inr_close": 62593.3984
         }
       ]
     },
@@ -737829,8 +737889,8 @@
       "points": [
         {
           "date": "2026-09-09",
-          "close": 210.8814,
-          "inr_close": 20066.9492
+          "close": 210.6059,
+          "inr_close": 20030.1992
         }
       ]
     },
@@ -745253,8 +745313,8 @@
         },
         {
           "date": "2026-09-09",
-          "close": 594.0294,
-          "inr_close": 56526.3516
+          "close": 591.915,
+          "inr_close": 56295.5508
         }
       ]
     },
@@ -752417,8 +752477,8 @@
         },
         {
           "date": "2026-09-09",
-          "close": 268.0025,
-          "inr_close": 25502.4492
+          "close": 266.8223,
+          "inr_close": 25376.8008
         }
       ]
     },
