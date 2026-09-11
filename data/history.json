@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-11T17:30:36.992662Z",
+  "built_at": "2026-09-11T20:00:13.522421Z",
   "series": {
     "us-etfs:VXUS": {
       "item_id": "us-etfs:VXUS",
@@ -8,11 +8,6 @@
       "name": "Vanguard Total International Stock Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 53.14,
-          "inr_close": 3907.2406
-        },
         {
           "date": "2020-09-14",
           "close": 53.6,
@@ -7540,8 +7535,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 87.2777,
-          "inr_close": 8338.5118
+          "close": 87.14,
+          "inr_close": 8325.3556
         }
       ]
     },
@@ -7552,11 +7547,6 @@
       "name": "Vanguard FTSE Europe ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 54.19,
-          "inr_close": 3984.4442
-        },
         {
           "date": "2020-09-14",
           "close": 54.37,
@@ -15084,8 +15074,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 90.14,
-          "inr_close": 8611.9756
+          "close": 90.025,
+          "inr_close": 8600.9887
         }
       ]
     },
@@ -15096,11 +15086,6 @@
       "name": "iShares Core MSCI Europe ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 45.91,
-          "inr_close": 3375.6382
-        },
         {
           "date": "2020-09-14",
           "close": 46.12,
@@ -22628,8 +22613,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 76.2,
-          "inr_close": 7280.1478
+          "close": 76.07,
+          "inr_close": 7267.7278
         }
       ]
     },
@@ -22640,11 +22625,6 @@
       "name": "Vanguard Information Technology Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 37.4313,
-          "inr_close": 2752.2188
-        },
         {
           "date": "2020-09-14",
           "close": 38.2275,
@@ -30172,8 +30152,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 121.46,
-          "inr_close": 11604.2884
+          "close": 121.0999,
+          "inr_close": 11569.8845
         }
       ]
     },
@@ -30184,11 +30164,6 @@
       "name": "Global X Robotics & Artificial Intelligence ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 26.88,
-          "inr_close": 1976.4137
-        },
         {
           "date": "2020-09-14",
           "close": 27.46,
@@ -37716,8 +37691,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 35.335,
-          "inr_close": 3375.9058
+          "close": 35.27,
+          "inr_close": 3369.6959
         }
       ]
     },
@@ -37728,11 +37703,6 @@
       "name": "Global X Artificial Intelligence & Technology ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 22.724,
-          "inr_close": 1670.8344
-        },
         {
           "date": "2020-09-14",
           "close": 23.09,
@@ -45260,8 +45230,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 64.09,
-          "inr_close": 6123.1583
+          "close": 63.98,
+          "inr_close": 6112.6492
         }
       ]
     },
@@ -49569,8 +49539,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 63.83,
-          "inr_close": 6098.3184
+          "close": 63.8,
+          "inr_close": 6095.452
         }
       ]
     },
@@ -49581,11 +49551,6 @@
       "name": "Defiance Quantum ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 32.37,
-          "inr_close": 2380.0786
-        },
         {
           "date": "2020-09-14",
           "close": 32.95,
@@ -57113,8 +57078,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 147.82,
-          "inr_close": 14122.7236
+          "close": 147.41,
+          "inr_close": 14083.5519
         }
       ]
     },
@@ -57125,11 +57090,6 @@
       "name": "ARK Autonomous Technology & Robotics ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 57.1,
-          "inr_close": 4198.4086
-        },
         {
           "date": "2020-09-14",
           "close": 58.53,
@@ -64657,8 +64617,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 121.895,
-          "inr_close": 11645.8481
+          "close": 121.335,
+          "inr_close": 11592.3459
         }
       ]
     },
@@ -64669,11 +64629,6 @@
       "name": "First Trust RBA American Industrial RenaissanceTM ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 25.94,
-          "inr_close": 1907.2981
-        },
         {
           "date": "2020-09-14",
           "close": 26.319,
@@ -72201,8 +72156,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 107.375,
-          "inr_close": 10258.6076
+          "close": 107.29,
+          "inr_close": 10250.4868
         }
       ]
     },
@@ -73735,8 +73690,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 29.705,
-          "inr_close": 2838.0157
+          "close": 29.63,
+          "inr_close": 2830.8501
         }
       ]
     },
@@ -73747,11 +73702,6 @@
       "name": "ARK Innovation ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 85.35,
-          "inr_close": 6275.5548
-        },
         {
           "date": "2020-09-14",
           "close": 89.09,
@@ -81279,8 +81229,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 84.05,
-          "inr_close": 8030.1374
+          "close": 83.595,
+          "inr_close": 7986.6665
         }
       ]
     },
@@ -81291,11 +81241,6 @@
       "name": "iShares U.S. Aerospace & Defense ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 81.5,
-          "inr_close": 5992.4748
-        },
         {
           "date": "2020-09-14",
           "close": 82.925,
@@ -88823,8 +88768,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 220.47,
-          "inr_close": 21063.7041
+          "close": 219.07,
+          "inr_close": 20929.9487
         }
       ]
     },
@@ -88835,11 +88780,6 @@
       "name": "Invesco Aerospace & Defense ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 57.1,
-          "inr_close": 4198.4086
-        },
         {
           "date": "2020-09-14",
           "close": 57.92,
@@ -96367,8 +96307,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 162.54,
-          "inr_close": 15529.0711
+          "close": 161.91,
+          "inr_close": 15468.8819
         }
       ]
     },
@@ -100131,8 +100071,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 61.8773,
-          "inr_close": 5911.7573
+          "close": 61.73,
+          "inr_close": 5897.6842
         }
       ]
     },
@@ -100143,11 +100083,6 @@
       "name": "iShares Semiconductor ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 96.9733,
-          "inr_close": 7130.1873
-        },
         {
           "date": "2020-09-14",
           "close": 98.9133,
@@ -107675,8 +107610,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 530.06,
-          "inr_close": 50641.9327
+          "close": 527.07,
+          "inr_close": 50356.269
         }
       ]
     },
@@ -107687,11 +107622,6 @@
       "name": "First Trust NASDAQ Cybersecurity ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 33.93,
-          "inr_close": 2494.7812
-        },
         {
           "date": "2020-09-14",
           "close": 34.4,
@@ -115219,8 +115149,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 94.23,
-          "inr_close": 9002.7346
+          "close": 94.35,
+          "inr_close": 9014.1989
         }
       ]
     },
@@ -115788,8 +115718,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 59.295,
-          "inr_close": 5665.0442
+          "close": 59.025,
+          "inr_close": 5639.2487
         }
       ]
     },
@@ -115800,11 +115730,6 @@
       "name": "Vanguard Energy Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 43.09,
-          "inr_close": 3168.2913
-        },
         {
           "date": "2020-09-14",
           "close": 43.42,
@@ -123332,8 +123257,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 183.38,
-          "inr_close": 17520.1258
+          "close": 183.465,
+          "inr_close": 17528.2459
         }
       ]
     },
@@ -123344,11 +123269,6 @@
       "name": "Global X Uranium ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 11.81,
-          "inr_close": 868.3574
-        },
         {
           "date": "2020-09-14",
           "close": 12.01,
@@ -130876,8 +130796,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 44.075,
-          "inr_close": 4210.9256
+          "close": 43.535,
+          "inr_close": 4159.3339
         }
       ]
     },
@@ -130888,11 +130808,6 @@
       "name": "VanEck Uranium and Nuclear ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 43.99,
-          "inr_close": 3234.466
-        },
         {
           "date": "2020-09-14",
           "close": 44.73,
@@ -138420,8 +138335,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 114.6206,
-          "inr_close": 10950.852
+          "close": 113.385,
+          "inr_close": 10832.8032
         }
       ]
     },
@@ -141734,8 +141649,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 64.71,
-          "inr_close": 6182.3934
+          "close": 64.4659,
+          "inr_close": 6159.0718
         }
       ]
     },
@@ -141746,11 +141661,6 @@
       "name": "Global X Lithium & Battery Tech ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 37.39,
-          "inr_close": 2749.1856
-        },
         {
           "date": "2020-09-14",
           "close": 38.87,
@@ -149278,8 +149188,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 71.6,
-          "inr_close": 6840.6639
+          "close": 71.4,
+          "inr_close": 6821.5562
         }
       ]
     },
@@ -149290,11 +149200,6 @@
       "name": "iShares Global Clean Energy ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 16.19,
-          "inr_close": 1190.407
-        },
         {
           "date": "2020-09-14",
           "close": 16.64,
@@ -156822,8 +156727,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 18.0002,
-          "inr_close": 1719.7392
+          "close": 17.92,
+          "inr_close": 1712.0768
         }
       ]
     },
@@ -156834,11 +156739,6 @@
       "name": "Global X Copper Miners ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 22.09,
-          "inr_close": 1624.218
-        },
         {
           "date": "2020-09-14",
           "close": 22.29,
@@ -164366,8 +164266,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 88.73,
-          "inr_close": 8477.2646
+          "close": 88.55,
+          "inr_close": 8460.0674
         }
       ]
     },
@@ -168410,8 +168310,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 55.96,
-          "inr_close": 5346.4184
+          "close": 55.37,
+          "inr_close": 5290.0497
         }
       ]
     },
@@ -168422,11 +168322,6 @@
       "name": "iShares MSCI Global Metals & Mining Producers ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 28.18,
-          "inr_close": 2071.9993
-        },
         {
           "date": "2020-09-14",
           "close": 28.55,
@@ -175954,8 +175849,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 63.46,
-          "inr_close": 6062.9684
+          "close": 63.335,
+          "inr_close": 6051.0259
         }
       ]
     },
@@ -175966,11 +175861,6 @@
       "name": "State Street SPDR S&P Metals & Mining ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 23.96,
-          "inr_close": 1761.714
-        },
         {
           "date": "2020-09-14",
           "close": 24.75,
@@ -183498,8 +183388,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 114.29,
-          "inr_close": 10919.2668
+          "close": 113.635,
+          "inr_close": 10856.6882
         }
       ]
     },
@@ -183510,11 +183400,6 @@
       "name": "VanEck Rare Earth and Strategic Metals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 39.59,
-          "inr_close": 2910.9457
-        },
         {
           "date": "2020-09-14",
           "close": 40.44,
@@ -191042,8 +190927,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 70.76,
-          "inr_close": 6760.4107
+          "close": 70.44,
+          "inr_close": 6729.8379
         }
       ]
     },
@@ -191054,11 +190939,6 @@
       "name": "VanEck Gold Miners ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 41.16,
-          "inr_close": 3026.3836
-        },
         {
           "date": "2020-09-14",
           "close": 42.79,
@@ -198586,8 +198466,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 97.07,
-          "inr_close": 9274.0679
+          "close": 97.066,
+          "inr_close": 9273.6859
         }
       ]
     },
@@ -198598,11 +198478,6 @@
       "name": "SPDR Gold Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 182.45,
-          "inr_close": 13415.0553
-        },
         {
           "date": "2020-09-14",
           "close": 183.89,
@@ -206130,8 +206005,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 400.4,
-          "inr_close": 38254.2158
+          "close": 398.61,
+          "inr_close": 38083.1984
         }
       ]
     },
@@ -206142,11 +206017,6 @@
       "name": "iShares Gold Trust",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 37.1,
-          "inr_close": 2727.8626
-        },
         {
           "date": "2020-09-14",
           "close": 37.38,
@@ -213674,8 +213544,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 82.07,
-          "inr_close": 7840.9678
+          "close": 81.75,
+          "inr_close": 7810.3951
         }
       ]
     },
@@ -213686,11 +213556,6 @@
       "name": "iShares Silver Trust",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 24.9,
-          "inr_close": 1830.8297
-        },
         {
           "date": "2020-09-14",
           "close": 25.29,
@@ -221218,8 +221083,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 58.335,
-          "inr_close": 5573.3259
+          "close": 58.125,
+          "inr_close": 5553.2626
         }
       ]
     },
@@ -221230,11 +221095,6 @@
       "name": "abrdn Physical Palladium Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 43.15,
-          "inr_close": 3172.703
-        },
         {
           "date": "2020-09-14",
           "close": 43.592,
@@ -228762,8 +228622,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 23.73,
-          "inr_close": 2267.1642
+          "close": 23.635,
+          "inr_close": 2258.0879
         }
       ]
     },
@@ -228774,11 +228634,6 @@
       "name": "abrdn Physical Platinum Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 8.71,
-          "inr_close": 640.4228
-        },
         {
           "date": "2020-09-14",
           "close": 8.975,
@@ -236306,8 +236161,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 16.25,
-          "inr_close": 1552.525
+          "close": 16.255,
+          "inr_close": 1553.0026
         }
       ]
     },
@@ -236318,11 +236173,6 @@
       "name": "abrdn Physical Precious Metals Basket Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 99.11,
-          "inr_close": 7287.2905
-        },
         {
           "date": "2020-09-14",
           "close": 100.38,
@@ -243850,8 +243700,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 197.23,
-          "inr_close": 18843.354
+          "close": 196.7643,
+          "inr_close": 18798.8612
         }
       ]
     },
@@ -247204,8 +247054,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 44.06,
-          "inr_close": 4209.4926
+          "close": 43.76,
+          "inr_close": 4180.8303
         }
       ]
     },
@@ -247216,11 +247066,6 @@
       "name": "VanEck Semiconductor ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 83.03,
-          "inr_close": 6104.9715
-        },
         {
           "date": "2020-09-14",
           "close": 84.9,
@@ -254748,8 +254593,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 571.7,
-          "inr_close": 54620.2197
+          "close": 568.53,
+          "inr_close": 54317.3595
         }
       ]
     },
@@ -438380,8 +438225,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 10.3733,
-          "inr_close": 990.6288
+          "close": 10.3759,
+          "inr_close": 990.9141
         }
       ]
     },
@@ -445959,8 +445804,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 84.812,
-          "inr_close": 8099.3913
+          "close": 84.8338,
+          "inr_close": 8101.7242
         }
       ]
     },
@@ -489486,11 +489331,6 @@
       "currency": "USD",
       "points": [
         {
-          "date": "2020-09-11",
-          "close": 112.0,
-          "inr_close": 8235.0574
-        },
-        {
           "date": "2020-09-14",
           "close": 115.36,
           "inr_close": 8476.4913
@@ -497017,8 +496857,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 333.885,
-          "inr_close": 31899.3741
+          "close": 332.24,
+          "inr_close": 31742.209
         }
       ]
     },
@@ -497029,11 +496869,6 @@
       "name": "Microsoft Corporation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 204.03,
-          "inr_close": 15001.7745
-        },
         {
           "date": "2020-09-14",
           "close": 205.41,
@@ -504561,8 +504396,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 495.42,
-          "inr_close": 47332.4285
+          "close": 495.59,
+          "inr_close": 47348.6687
         }
       ]
     },
@@ -504573,11 +504408,6 @@
       "name": "NVIDIA Corporation",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 12.1645,
-          "inr_close": 894.4228
-        },
         {
           "date": "2020-09-14",
           "close": 12.8722,
@@ -512105,8 +511935,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 219.3245,
-          "inr_close": 20954.2623
+          "close": 218.29,
+          "inr_close": 20855.4262
         }
       ]
     },
@@ -512117,11 +511947,6 @@
       "name": "Amazon.com, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 155.811,
-          "inr_close": 11456.3622
-        },
         {
           "date": "2020-09-14",
           "close": 155.1485,
@@ -519649,8 +519474,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 256.94,
-          "inr_close": 24548.0481
+          "close": 256.78,
+          "inr_close": 24532.7613
         }
       ]
     },
@@ -519661,11 +519486,6 @@
       "name": "Meta Platforms, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 266.61,
-          "inr_close": 19603.1118
-        },
         {
           "date": "2020-09-14",
           "close": 266.15,
@@ -527193,8 +527013,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 650.71,
-          "inr_close": 62168.8361
+          "close": 647.88,
+          "inr_close": 61898.4563
         }
       ]
     },
@@ -527205,11 +527025,6 @@
       "name": "Alphabet Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 75.788,
-          "inr_close": 5572.487
-        },
         {
           "date": "2020-09-14",
           "close": 75.4415,
@@ -534737,8 +534552,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 340.76,
-          "inr_close": 32556.2116
+          "close": 338.5,
+          "inr_close": 32340.2903
         }
       ]
     },
@@ -534749,11 +534564,6 @@
       "name": "Tesla, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 124.24,
-          "inr_close": 9135.0313
-        },
         {
           "date": "2020-09-14",
           "close": 139.8733,
@@ -542281,8 +542091,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 366.02,
-          "inr_close": 34969.5501
+          "close": 365.44,
+          "inr_close": 34914.1382
         }
       ]
     },
@@ -542293,11 +542103,6 @@
       "name": "Advanced Micro Devices, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 76.34,
-          "inr_close": 5613.0737
-        },
         {
           "date": "2020-09-14",
           "close": 77.9,
@@ -549825,8 +549630,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 516.01,
-          "inr_close": 49299.5968
+          "close": 516.13,
+          "inr_close": 49311.0611
         }
       ]
     },
@@ -549837,11 +549642,6 @@
       "name": "Broadcom Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 35.97,
-          "inr_close": 2644.777
-        },
         {
           "date": "2020-09-14",
           "close": 36.22,
@@ -557369,8 +557169,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 365.16,
-          "inr_close": 34887.3871
+          "close": 361.857,
+          "inr_close": 34571.8176
         }
       ]
     },
@@ -557381,11 +557181,6 @@
       "name": "Micron Technology, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 46.09,
-          "inr_close": 3388.8732
-        },
         {
           "date": "2020-09-14",
           "close": 49.03,
@@ -564913,8 +564708,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 978.04,
-          "inr_close": 93441.9404
+          "close": 974.95,
+          "inr_close": 93146.7251
         }
       ]
     },
@@ -564925,11 +564720,6 @@
       "name": "Arista Networks, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 12.7381,
-          "inr_close": 936.5999
-        },
         {
           "date": "2020-09-14",
           "close": 12.8456,
@@ -572457,8 +572247,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 198.11,
-          "inr_close": 18927.4296
+          "close": 199.73,
+          "inr_close": 19082.204
         }
       ]
     },
@@ -579936,8 +579726,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 167.015,
-          "inr_close": 15956.6132
+          "close": 167.23,
+          "inr_close": 15977.1539
         }
       ]
     },
@@ -579948,11 +579738,6 @@
       "name": "Cisco Systems, Inc.",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 39.88,
-          "inr_close": 2932.2687
-        },
         {
           "date": "2020-09-14",
           "close": 40.37,
@@ -587480,8 +587265,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 111.565,
-          "inr_close": 10658.9204
+          "close": 112.115,
+          "inr_close": 10711.467
         }
       ]
     },
@@ -723694,11 +723479,6 @@
           "date": "2026-09-10",
           "close": 246.8442,
           "inr_close": 23477.8008
-        },
-        {
-          "date": "2026-09-11",
-          "close": 244.9037,
-          "inr_close": 23398.0996
         }
       ]
     },
@@ -731118,11 +730898,6 @@
           "date": "2026-09-10",
           "close": 762.5857,
           "inr_close": 72530.8984
-        },
-        {
-          "date": "2026-09-11",
-          "close": 754.4872,
-          "inr_close": 72083.7031
         }
       ]
     },
@@ -738317,11 +738092,6 @@
           "date": "2026-07-17",
           "close": 645.9041,
           "inr_close": 62428.0508
-        },
-        {
-          "date": "2026-09-11",
-          "close": 651.0069,
-          "inr_close": 62197.1992
         }
       ]
     },
@@ -745755,11 +745525,6 @@
           "date": "2026-09-10",
           "close": 593.7428,
           "inr_close": 56471.9492
-        },
-        {
-          "date": "2026-09-11",
-          "close": 592.4906,
-          "inr_close": 56606.5508
         }
       ]
     },
@@ -752909,11 +752674,6 @@
           "date": "2026-07-17",
           "close": 278.3522,
           "inr_close": 26903.3496
-        },
-        {
-          "date": "2026-09-11",
-          "close": 267.3791,
-          "inr_close": 25545.4004
         }
       ]
     },
@@ -752924,11 +752684,6 @@
       "name": "S&P 500",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 3340.97,
-          "inr_close": 245652.4946
-        },
         {
           "date": "2020-09-14",
           "close": 3383.54,
@@ -760456,8 +760211,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 7673.8501,
-          "inr_close": 733159.6454
+          "close": 7656.8501,
+          "inr_close": 731535.4653
         }
       ]
     },
@@ -760468,11 +760223,6 @@
       "name": "NASDAQ-100",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-09-11",
-          "close": 11087.4004,
-          "inr_close": 815226.5923
-        },
         {
           "date": "2020-09-14",
           "close": 11277.7598,
@@ -768000,8 +767750,8 @@
         },
         {
           "date": "2026-09-11",
-          "close": 29446.4629,
-          "inr_close": 2813315.0915
+          "close": 29368.4395,
+          "inr_close": 2805860.7322
         }
       ]
     }
