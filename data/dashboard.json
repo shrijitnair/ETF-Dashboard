@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-09-13T19:40:24.463197Z",
+  "built_at": "2026-09-13T21:46:05.192800Z",
   "snapshot": {
-    "built_at": "2026-09-13T19:40:24.463197Z",
+    "built_at": "2026-09-13T21:46:05.192800Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -2451,17 +2451,17 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "GBP",
-                "last_price": 10.377766357660294,
+                "last_price": 10.361643884181976,
                 "last_price_inr": 991.6666542053223,
-                "daily_usd_pct": 0.9924660538962238,
-                "five_day_usd_pct": 1.7806180803641602,
-                "one_month_usd_pct": -1.2116746576282256,
-                "three_month_usd_pct": -10.9843343578506,
-                "one_year_usd_pct": 22.36199610742893,
-                "three_year_usd_pct": 5.288108746649978,
-                "five_year_usd_pct": -4.527342450328931,
-                "ytd_usd_pct": 9.810594052965538,
-                "since_2024_09_26_usd_pct": 24.200445425484098,
+                "daily_usd_pct": 0.8355682881008075,
+                "five_day_usd_pct": 1.6224958738070283,
+                "one_month_usd_pct": -1.3651481605389981,
+                "three_month_usd_pct": -11.12262545624394,
+                "one_year_usd_pct": 22.17189951351788,
+                "three_year_usd_pct": 5.233556720077215,
+                "five_year_usd_pct": -4.5570253851425875,
+                "ytd_usd_pct": 9.639996804073881,
+                "since_2024_09_26_usd_pct": 24.0074926918846,
                 "daily_pct": 1.4856568677849014,
                 "five_day_pct": 2.9488154609876194,
                 "one_month_pct": -1.0226508851711946,
@@ -2493,17 +2493,17 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "GBP",
-                "last_price": 84.84872598290444,
+                "last_price": 84.71690847158432,
                 "last_price_inr": 8107.876908111572,
-                "daily_usd_pct": -0.01616985221274403,
-                "five_day_usd_pct": -1.518438173525205,
-                "one_month_usd_pct": -0.09825338926728877,
-                "three_month_usd_pct": 7.064475109692414,
-                "one_year_usd_pct": 20.487469023521832,
-                "three_year_usd_pct": 31.507133036195434,
-                "five_year_usd_pct": 19.420467249637042,
-                "ytd_usd_pct": 1.3414774994686018,
-                "since_2024_09_26_usd_pct": 64.67340641380206,
+                "daily_usd_pct": -0.17150064250641694,
+                "five_day_usd_pct": -1.671435101180907,
+                "one_month_usd_pct": -0.25345665793409244,
+                "three_month_usd_pct": 6.898144118905369,
+                "one_year_usd_pct": 20.30028461824105,
+                "three_year_usd_pct": 31.438996370988924,
+                "five_year_usd_pct": 19.383338818987216,
+                "ytd_usd_pct": 1.184037523762016,
+                "since_2024_09_26_usd_pct": 64.41757654290396,
                 "daily_pct": 0.4720953470940481,
                 "five_day_pct": -0.38810604610035604,
                 "one_month_pct": 0.09290082813604439,
@@ -4220,7 +4220,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-09-13T19:40:24.463197Z",
+    "built_at": "2026-09-13T21:46:05.192800Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -442586,7 +442586,7 @@
           },
           {
             "date": "2026-09-11",
-            "close": 10.3778,
+            "close": 10.3616,
             "inr_close": 991.6667
           }
         ]
@@ -450170,7 +450170,7 @@
           },
           {
             "date": "2026-09-11",
-            "close": 84.8487,
+            "close": 84.7169,
             "inr_close": 8107.8769
           }
         ]
@@ -772254,7 +772254,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-09-13T19:40:24.463197Z",
+    "built_at": "2026-09-13T21:46:05.192800Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
