@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-15T15:13:50.623766Z",
+  "built_at": "2026-09-15T19:03:50.328575Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -139,8 +139,20 @@
   ],
   "failures": [
     {
+      "source_ticker": "NIFTY_MIDCAP_100.NS",
+      "item_id": "indices:NIFTYMIDCAP100",
+      "stage": "history",
+      "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
+    },
+    {
       "source_ticker": "^CNXSC",
       "item_id": "indices:NIFTYSMLCAP100",
+      "stage": "history",
+      "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
+    },
+    {
+      "source_ticker": "NIFTY_FIN_SERVICE.NS",
+      "item_id": "indices:NIFTYFIN",
       "stage": "history",
       "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
     }
