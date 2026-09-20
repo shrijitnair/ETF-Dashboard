@@ -61,7 +61,8 @@ body {
 }
 
 button,
-input {
+input,
+select {
   font: inherit;
 }
 
@@ -217,16 +218,14 @@ input {
 }
 
 .search-shell,
-.refresh-shell,
-.add-form {
+.refresh-shell {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
 .search-shell input,
-.currency-shell select,
-.add-form input {
+.currency-shell select {
   width: 100%;
   padding: 12px 14px;
   border: 1px solid var(--line);
@@ -247,31 +246,12 @@ input {
 }
 
 .search-shell input:focus,
-.add-form input:focus {
+.currency-shell select:focus {
   outline: 1px solid rgba(243, 185, 63, 0.42);
   border-color: rgba(243, 185, 63, 0.42);
 }
 
-.add-form-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  align-items: center;
-}
-
-.add-form-header strong {
-  color: var(--text);
-  font-size: 0.96rem;
-}
-
-.add-form-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 10px;
-}
-
-.refresh-button,
-.add-form button {
+.refresh-button {
   padding: 12px 18px;
   border-radius: 14px;
   font-weight: 700;
@@ -294,21 +274,7 @@ input {
   opacity: 0.7;
 }
 
-.add-form button {
-  border: none;
-  border-radius: 14px;
-  background: var(--accent);
-  color: var(--accent-contrast);
-  cursor: pointer;
-}
-
-.add-form button:disabled {
-  cursor: progress;
-  opacity: 0.6;
-}
-
-.refresh-status,
-.add-ticker-status {
+.refresh-status {
   min-height: 1.2rem;
   margin: 0;
   font-size: 0.88rem;
@@ -630,8 +596,7 @@ tbody tr.active {
     grid-template-columns: 1fr;
   }
 
-  .panel-controls,
-  .add-form-row {
+  .panel-controls {
     grid-template-columns: 1fr;
   }
 

@@ -31,12 +31,21 @@ The dashboard is near-live rather than tick-by-tick real-time: it displays the l
 
 The dashboard includes US ETFs, UCITS ETFs, US stocks, and a Debt ETFs tab. Use the USD/INR selector to change displayed prices, returns, and charts. The 3Y and 5Y columns show annualized CAGR. YTD appears immediately after the 3M return and uses Yahoo Finance’s convention: the latest value versus the final available trading-day close of the prior calendar year. CAGR is calculated as `(ending value / starting value)^(1 / years) - 1` using the same calendar-period anchors as the other return metrics. ETF rows also show TER and AUM when yfinance returns those fields; unavailable provider values display as `N/A`.
 
+To add an instrument, use the owner-only **Add instrument** workflow in GitHub:
+
+1. Open the repository on GitHub and select **Actions**.
+2. Select **Add instrument** in the workflow list.
+3. Click **Run workflow**, enter a symbol such as `CSCO`, and choose the destination list.
+4. Click **Run workflow** again.
+
+The workflow validates the symbol with Yahoo Finance, adds it to the matching `Custom` group, rebuilds the metrics and chart history, and publishes the updated dashboard. Run it from the `main` branch. UCITS symbols are normalized to the LSE Yahoo symbol format, such as `VUSA` → `VUSA.L`.
+
 ## Watchlist files
 
 - `config/watchlists.json`
   - curated theme groups and default instruments
 - `config/custom_watchlists.json`
-  - custom user additions under `Custom` group. Edit this file to add new instruments, then rebuild the data.
+  - custom additions under the `Custom` group. The **Add instrument** GitHub workflow updates this file.
 
 Each item declares:
 - `ticker`: display ticker in the UI
