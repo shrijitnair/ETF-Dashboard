@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-09-20T16:36:04.006219Z",
+  "built_at": "2026-09-20T16:38:57.303568Z",
   "snapshot": {
-    "built_at": "2026-09-20T16:36:04.006219Z",
+    "built_at": "2026-09-20T16:38:57.303568Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -4057,114 +4057,6 @@
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
                 "data_date": "2026-09-18"
-              },
-              {
-                "item_id": "indices:NIFTYFIN",
-                "ticker": "NIFTYFIN",
-                "source_ticker": "NIFTY_FIN_SERVICE.NS",
-                "name": "NIFTY FIN SERVICE",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 266.28614306444433,
-                "last_price_inr": 25510.0,
-                "daily_usd_pct": null,
-                "five_day_usd_pct": null,
-                "one_month_usd_pct": null,
-                "three_month_usd_pct": null,
-                "one_year_usd_pct": null,
-                "three_year_usd_pct": null,
-                "five_year_usd_pct": null,
-                "ytd_usd_pct": null,
-                "since_2024_09_26_usd_pct": null,
-                "daily_pct": null,
-                "five_day_pct": null,
-                "one_month_pct": null,
-                "three_month_pct": null,
-                "one_year_pct": null,
-                "three_year_pct": null,
-                "five_year_pct": null,
-                "ytd_pct": null,
-                "since_2024_09_26_pct": null,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Limited history",
-                "data_date": "2026-09-18"
-              },
-              {
-                "item_id": "indices:NIFTYMIDCAP100",
-                "ticker": "NIFTYMIDCAP100",
-                "source_ticker": "NIFTY_MIDCAP_100.NS",
-                "name": "NIFTY MIDCAP 100",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 649.1833827854418,
-                "last_price_inr": 62191.25,
-                "daily_usd_pct": null,
-                "five_day_usd_pct": null,
-                "one_month_usd_pct": null,
-                "three_month_usd_pct": null,
-                "one_year_usd_pct": null,
-                "three_year_usd_pct": null,
-                "five_year_usd_pct": null,
-                "ytd_usd_pct": null,
-                "since_2024_09_26_usd_pct": null,
-                "daily_pct": null,
-                "five_day_pct": null,
-                "one_month_pct": null,
-                "three_month_pct": null,
-                "one_year_pct": null,
-                "three_year_pct": null,
-                "five_year_pct": null,
-                "ytd_pct": null,
-                "since_2024_09_26_pct": null,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Limited history",
-                "data_date": "2026-09-18"
-              },
-              {
-                "item_id": "indices:NIFTYSMLCAP100",
-                "ticker": "NIFTYSMLCAP100",
-                "source_ticker": "^CNXSC",
-                "name": "NIFTY SMLCAP 100",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 207.47249257820175,
-                "last_price_inr": 19875.69921875,
-                "daily_usd_pct": null,
-                "five_day_usd_pct": null,
-                "one_month_usd_pct": null,
-                "three_month_usd_pct": null,
-                "one_year_usd_pct": null,
-                "three_year_usd_pct": null,
-                "five_year_usd_pct": null,
-                "ytd_usd_pct": null,
-                "since_2024_09_26_usd_pct": null,
-                "daily_pct": null,
-                "five_day_pct": null,
-                "one_month_pct": null,
-                "three_month_pct": null,
-                "one_year_pct": null,
-                "three_year_pct": null,
-                "five_year_pct": null,
-                "ytd_pct": null,
-                "since_2024_09_26_pct": null,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Limited history",
-                "data_date": "2026-09-18"
               }
             ]
           },
@@ -4256,7 +4148,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-09-20T16:36:04.006219Z",
+    "built_at": "2026-09-20T16:38:57.303568Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -743457,34 +743349,6 @@
           }
         ]
       },
-      "indices:NIFTYMIDCAP100": {
-        "item_id": "indices:NIFTYMIDCAP100",
-        "ticker": "NIFTYMIDCAP100",
-        "source_ticker": "NIFTY_MIDCAP_100.NS",
-        "name": "NIFTY MIDCAP 100",
-        "currency": "INR",
-        "points": [
-          {
-            "date": "2026-09-18",
-            "close": 649.1834,
-            "inr_close": 62191.25
-          }
-        ]
-      },
-      "indices:NIFTYSMLCAP100": {
-        "item_id": "indices:NIFTYSMLCAP100",
-        "ticker": "NIFTYSMLCAP100",
-        "source_ticker": "^CNXSC",
-        "name": "NIFTY SMLCAP 100",
-        "currency": "INR",
-        "points": [
-          {
-            "date": "2026-09-18",
-            "close": 207.4725,
-            "inr_close": 19875.6992
-          }
-        ]
-      },
       "indices:NIFTYBANK": {
         "item_id": "indices:NIFTYBANK",
         "ticker": "NIFTYBANK",
@@ -750901,20 +750765,6 @@
             "date": "2026-09-18",
             "close": 588.3003,
             "inr_close": 56358.6992
-          }
-        ]
-      },
-      "indices:NIFTYFIN": {
-        "item_id": "indices:NIFTYFIN",
-        "ticker": "NIFTYFIN",
-        "source_ticker": "NIFTY_FIN_SERVICE.NS",
-        "name": "NIFTY FIN SERVICE",
-        "currency": "INR",
-        "points": [
-          {
-            "date": "2026-09-18",
-            "close": 266.2861,
-            "inr_close": 25510.0
           }
         ]
       },
@@ -765999,7 +765849,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-09-20T16:36:04.006219Z",
+    "built_at": "2026-09-20T16:38:57.303568Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
@@ -766137,25 +765987,6 @@
         ]
       }
     ],
-    "failures": [
-      {
-        "source_ticker": "NIFTY_MIDCAP_100.NS",
-        "item_id": "indices:NIFTYMIDCAP100",
-        "stage": "history",
-        "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
-      },
-      {
-        "source_ticker": "^CNXSC",
-        "item_id": "indices:NIFTYSMLCAP100",
-        "stage": "history",
-        "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
-      },
-      {
-        "source_ticker": "NIFTY_FIN_SERVICE.NS",
-        "item_id": "indices:NIFTYFIN",
-        "stage": "history",
-        "error": "Index returned fewer than 250 daily observations; long-term returns may be unavailable."
-      }
-    ]
+    "failures": []
   }
 }

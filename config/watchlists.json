@@ -752,10 +752,7 @@
           "items": [
             {"ticker": "NIFTY50", "source_ticker": "^NSEI", "name": "Nifty 50", "exchange": "NSE", "currency": "INR"},
             {"ticker": "NIFTYNEXT50", "source_ticker": "^NSMIDCP", "name": "Nifty Next 50", "exchange": "NSE", "currency": "INR"},
-            {"ticker": "NIFTYMIDCAP100", "source_ticker": "NIFTY_MIDCAP_100.NS", "name": "Nifty Midcap 100", "exchange": "NSE", "currency": "INR"},
-            {"ticker": "NIFTYSMLCAP100", "source_ticker": "^CNXSC", "name": "Nifty Smallcap 100", "exchange": "NSE", "currency": "INR"},
-            {"ticker": "NIFTYBANK", "source_ticker": "^NSEBANK", "name": "Nifty Bank", "exchange": "NSE", "currency": "INR"},
-            {"ticker": "NIFTYFIN", "source_ticker": "NIFTY_FIN_SERVICE.NS", "name": "Nifty Financial Services", "exchange": "NSE", "currency": "INR"}
+            {"ticker": "NIFTYBANK", "source_ticker": "^NSEBANK", "name": "Nifty Bank", "exchange": "NSE", "currency": "INR"}
           ]
         },
         {

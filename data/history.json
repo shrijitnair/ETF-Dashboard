@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-20T16:36:04.006219Z",
+  "built_at": "2026-09-20T16:38:57.303568Z",
   "series": {
     "us-etfs:VXUS": {
       "item_id": "us-etfs:VXUS",
@@ -739200,34 +739200,6 @@
         }
       ]
     },
-    "indices:NIFTYMIDCAP100": {
-      "item_id": "indices:NIFTYMIDCAP100",
-      "ticker": "NIFTYMIDCAP100",
-      "source_ticker": "NIFTY_MIDCAP_100.NS",
-      "name": "NIFTY MIDCAP 100",
-      "currency": "INR",
-      "points": [
-        {
-          "date": "2026-09-18",
-          "close": 649.1834,
-          "inr_close": 62191.25
-        }
-      ]
-    },
-    "indices:NIFTYSMLCAP100": {
-      "item_id": "indices:NIFTYSMLCAP100",
-      "ticker": "NIFTYSMLCAP100",
-      "source_ticker": "^CNXSC",
-      "name": "NIFTY SMLCAP 100",
-      "currency": "INR",
-      "points": [
-        {
-          "date": "2026-09-18",
-          "close": 207.4725,
-          "inr_close": 19875.6992
-        }
-      ]
-    },
     "indices:NIFTYBANK": {
       "item_id": "indices:NIFTYBANK",
       "ticker": "NIFTYBANK",
@@ -746644,20 +746616,6 @@
           "date": "2026-09-18",
           "close": 588.3003,
           "inr_close": 56358.6992
-        }
-      ]
-    },
-    "indices:NIFTYFIN": {
-      "item_id": "indices:NIFTYFIN",
-      "ticker": "NIFTYFIN",
-      "source_ticker": "NIFTY_FIN_SERVICE.NS",
-      "name": "NIFTY FIN SERVICE",
-      "currency": "INR",
-      "points": [
-        {
-          "date": "2026-09-18",
-          "close": 266.2861,
-          "inr_close": 25510.0
         }
       ]
     },
