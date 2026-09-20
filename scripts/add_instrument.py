@@ -185,14 +185,15 @@ def add_instrument(
     config_path: str = "config/watchlists.json",
     custom_config_path: str = "config/custom_watchlists.json",
 ) -> Dict[str, str]:
-    display_ticker, source_ticker, tab = instrument_definition(symbol, tab_id)
+    internal_tab_id = TAB_ALIASES.get(tab_id, tab_id)
+    display_ticker, source_ticker, tab = instrument_definition(symbol, internal_tab_id)
     metadata = validate_market_data(display_ticker, source_ticker, tab)
     curated_config = load_json(config_path)
     custom_config = load_json(custom_config_path)
     updated_config = add_to_custom_config(
         curated_config,
         custom_config,
-        tab_id,
+        internal_tab_id,
         display_ticker,
         source_ticker,
         metadata,
