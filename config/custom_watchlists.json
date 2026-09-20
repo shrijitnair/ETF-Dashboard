@@ -54,6 +54,13 @@
               "name": "Broadcom Inc.",
               "exchange": "NasdaqGS",
               "currency": "USD"
+            },
+            {
+              "ticker": "CRWD",
+              "source_ticker": "CRWD",
+              "name": "CrowdStrike Holdings, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD"
             }
           ]
         }
