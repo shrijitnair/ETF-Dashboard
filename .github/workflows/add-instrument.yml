@@ -12,9 +12,9 @@ on:
         required: true
         type: choice
         options:
-          - us-stocks
-          - us-etfs
-          - ucits-etfs-lse
+          - US Stocks
+          - NASDAQ ETFs
+          - UCITS ETFs (LSE)
 
 permissions:
   contents: write

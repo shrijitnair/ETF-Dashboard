@@ -44,11 +44,17 @@ TARGET_TABS: Dict[str, Dict[str, Any]] = {
     },
 }
 
+TAB_ALIASES = {
+    "US Stocks": "us-stocks",
+    "NASDAQ ETFs": "us-etfs",
+    "UCITS ETFs (LSE)": "ucits-etfs-lse",
+}
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--symbol", required=True, help="Ticker, optionally prefixed with an exchange.")
-    parser.add_argument("--tab-id", required=True, choices=sorted(TARGET_TABS))
+    parser.add_argument("--tab-id", required=True, choices=sorted(TAB_ALIASES))
     parser.add_argument("--config", default="config/watchlists.json")
     parser.add_argument("--custom-config", default="config/custom_watchlists.json")
     return parser.parse_args()
@@ -66,6 +72,7 @@ def normalize_symbol(value: str) -> str:
 
 
 def instrument_definition(symbol: str, tab_id: str) -> Tuple[str, str, Dict[str, Any]]:
+    tab_id = TAB_ALIASES.get(tab_id, tab_id)
     tab = TARGET_TABS[tab_id]
     display_ticker = normalize_symbol(symbol)
     source_ticker = f"{display_ticker}.L" if tab_id == "ucits-etfs-lse" else display_ticker
