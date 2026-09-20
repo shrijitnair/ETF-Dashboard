@@ -9,15 +9,26 @@ from typing import Any, Dict, Optional, Sequence, Tuple
 
 import yfinance as yf
 
-from scripts.build_data import (
-    CUSTOM_GROUP_ID,
-    CUSTOM_GROUP_LABEL,
-    fetch_ticker_info,
-    load_json,
-    normalize_currency_key,
-    normalize_custom_config,
-    write_json_atomic,
-)
+try:
+    from scripts.build_data import (
+        CUSTOM_GROUP_ID,
+        CUSTOM_GROUP_LABEL,
+        fetch_ticker_info,
+        load_json,
+        normalize_currency_key,
+        normalize_custom_config,
+        write_json_atomic,
+    )
+except ModuleNotFoundError:
+    from build_data import (
+        CUSTOM_GROUP_ID,
+        CUSTOM_GROUP_LABEL,
+        fetch_ticker_info,
+        load_json,
+        normalize_currency_key,
+        normalize_custom_config,
+        write_json_atomic,
+    )
 
 
 TARGET_TABS: Dict[str, Dict[str, Any]] = {
