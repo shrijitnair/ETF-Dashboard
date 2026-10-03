@@ -404,6 +404,10 @@ tbody tr.active {
   font-size: 0.9rem; /* Smaller instrument names */
 }
 
+.name-cell.stock-name-cell strong {
+  font-size: 1rem;
+}
+
 .subdued {
   color: var(--text-muted);
 }
@@ -781,6 +785,10 @@ tbody tr.active {
     overflow-wrap: anywhere;
     font-size: 0.95rem;
     line-height: 1.3;
+  }
+
+  .instrument-card-identity > .stock-card-name {
+    font-size: 1rem;
   }
 
   .instrument-card-meta {

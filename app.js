@@ -340,11 +340,9 @@ function renderMobileCard(row, columns, tabId) {
   const detailColumns = columns.filter((column) => ![
     "ticker", "name", "last_price", ...summaryKeys,
   ].includes(column.key));
-  const instrumentMeta = row.asset_type === "mutual_fund"
+  const instrumentMeta = row.asset_type === "mutual_fund" || row.asset_type === "stock"
     ? ""
-    : row.asset_type === "stock"
-      ? `${row.ticker} • ${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`
-      : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
+    : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
 
   return `
     <article class="instrument-card ${selected ? "selected" : ""}">
@@ -357,7 +355,7 @@ function renderMobileCard(row, columns, tabId) {
         <span class="instrument-card-heading">
           <span class="instrument-card-identity">
             ${row.asset_type === "mutual_fund" || row.asset_type === "stock" ? "" : `<span class="ticker-pill">${escapeHtml(row.ticker)}</span>`}
-            <strong>${escapeHtml(getDisplayName(row))}</strong>
+            <strong class="${row.asset_type === "stock" ? "stock-card-name" : ""}">${escapeHtml(getDisplayName(row))}</strong>
             ${instrumentMeta ? `<span class="subdued instrument-card-meta">${escapeHtml(instrumentMeta)}</span>` : ""}
           </span>
           <span class="instrument-card-price">
@@ -418,9 +416,9 @@ function renderCell(row, column) {
       return `<span class="ticker-pill">${escapeHtml(row.ticker)}</span>`;
     case "name":
       return `
-        <div class="name-cell">
+        <div class="name-cell ${row.asset_type === "stock" ? "stock-name-cell" : ""}">
           <strong>${escapeHtml(getDisplayName(row))}</strong>
-          ${row.asset_type === "mutual_fund" ? "" : `<div class="subdued">${row.asset_type === "stock" ? escapeHtml(row.ticker) + " • " : ""}${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>`}
+          ${row.asset_type === "mutual_fund" || row.asset_type === "stock" ? "" : `<div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>`}
         </div>
       `;
     case "last_price":
