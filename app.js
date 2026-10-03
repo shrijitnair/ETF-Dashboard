@@ -209,7 +209,9 @@ function renderReturnBasisUi() {
       ? " Mutual fund NAVs update once per business day."
       : "";
   elements.returnBasisNote.textContent = `Returns shown in ${returnBasisLabel} performance.${sourceNote}`;
-  elements.chartChangeLabel.textContent = `Range Change (${state.displayCurrency})`;
+  elements.chartChangeLabel.textContent = tab?.asset_type === "mutual_fund"
+    ? "Range Change"
+    : `Range Change (${state.displayCurrency})`;
 }
 
 function renderRangeButtons() {
@@ -338,9 +340,8 @@ function renderMobileCard(row, columns, tabId) {
   const detailColumns = columns.filter((column) => ![
     "ticker", "name", "last_price", ...summaryKeys,
   ].includes(column.key));
-  const name = row.asset_type === "mutual_fund" ? row.name : row.name || row.ticker;
   const instrumentMeta = row.asset_type === "mutual_fund"
-    ? `${row.exchange} • Scheme ${row.scheme_code || "N/A"}`
+    ? ""
     : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
 
   return `
@@ -354,11 +355,11 @@ function renderMobileCard(row, columns, tabId) {
         <span class="instrument-card-heading">
           <span class="instrument-card-identity">
             ${row.asset_type === "mutual_fund" ? "" : `<span class="ticker-pill">${escapeHtml(row.ticker)}</span>`}
-            <strong>${escapeHtml(name)}</strong>
-            <span class="subdued instrument-card-meta">${escapeHtml(instrumentMeta)}</span>
+            <strong>${escapeHtml(getDisplayName(row))}</strong>
+            ${instrumentMeta ? `<span class="subdued instrument-card-meta">${escapeHtml(instrumentMeta)}</span>` : ""}
           </span>
           <span class="instrument-card-price">
-            <span class="metric-label">Last ${escapeHtml(state.displayCurrency)}</span>
+            <span class="metric-label">Last${row.asset_type === "mutual_fund" ? "" : ` ${escapeHtml(state.displayCurrency)}`}</span>
             <span>${renderCell(row, { key: "last_price" })}</span>
           </span>
         </span>
@@ -416,8 +417,8 @@ function renderCell(row, column) {
     case "name":
       return `
         <div class="name-cell">
-          <strong>${escapeHtml(row.name)}</strong>
-          <div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>
+          <strong>${escapeHtml(getDisplayName(row))}</strong>
+          ${row.asset_type === "mutual_fund" ? "" : `<div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>`}
         </div>
       `;
     case "last_price":
@@ -449,7 +450,7 @@ function renderDetail() {
   }
 
   elements.detailTabLabel.textContent = tab.label;
-  elements.detailTitle.textContent = row.asset_type === "mutual_fund" ? row.name : row.ticker;
+  elements.detailTitle.textContent = row.asset_type === "mutual_fund" ? getDisplayName(row) : row.ticker;
   elements.detailSubtitle.textContent = row.asset_type === "mutual_fund"
     ? `ISIN ${row.isin} • Scheme ${row.scheme_code} • ${row.exchange}`
     : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
@@ -517,7 +518,7 @@ function renderDetail() {
 function makeMetricCard(row, key, fallbackLabel) {
   const value = getDisplayMetric(row, key);
   return {
-    label: getCurrencyLabel(key, fallbackLabel),
+    label: getMetricLabel(row, key, fallbackLabel),
     value: formatPercent(value, true),
     className: getChangeClass(value),
   };
@@ -592,21 +593,24 @@ function handleSort(tabId, key) {
 }
 
 function getColumnsForTab(tab) {
+  const metricLabel = (key, fallback) => tab.asset_type === "mutual_fund"
+    ? getMetaColumnLabel(key, fallback).replace(/\s+(INR|USD)$/, "")
+    : getCurrencyLabel(key, fallback);
   const columns = tab.asset_type === "mutual_fund"
     ? [
         { key: "name", label: "Scheme", sortable: true },
       ]
     : [{ key: "ticker", label: getMetaColumnLabel("ticker", "Ticker"), sortable: true, className: "ticker-cell" }];
   columns.push(
-    { key: "last_price", label: `Last ${state.displayCurrency}`, sortable: true },
-    { key: "daily_pct", label: getCurrencyLabel("daily_pct", "1D"), sortable: true },
-    { key: "five_day_pct", label: getCurrencyLabel("five_day_pct", "5D"), sortable: true },
-    { key: "one_month_pct", label: getCurrencyLabel("one_month_pct", "1M"), sortable: true },
-    { key: "three_month_pct", label: getCurrencyLabel("three_month_pct", "3M"), sortable: true },
-    { key: "ytd_pct", label: getCurrencyLabel("ytd_pct", "YTD"), sortable: true },
-    { key: "one_year_pct", label: getCurrencyLabel("one_year_pct", "1Y"), sortable: true },
-    { key: "three_year_pct", label: getCurrencyLabel("three_year_pct", "3Y CAGR"), sortable: true },
-    { key: "five_year_pct", label: getCurrencyLabel("five_year_pct", "5Y CAGR"), sortable: true },
+    { key: "last_price", label: tab.asset_type === "mutual_fund" ? "Last" : `Last ${state.displayCurrency}`, sortable: true },
+    { key: "daily_pct", label: metricLabel("daily_pct", "1D"), sortable: true },
+    { key: "five_day_pct", label: metricLabel("five_day_pct", "5D"), sortable: true },
+    { key: "one_month_pct", label: metricLabel("one_month_pct", "1M"), sortable: true },
+    { key: "three_month_pct", label: metricLabel("three_month_pct", "3M"), sortable: true },
+    { key: "ytd_pct", label: metricLabel("ytd_pct", "YTD"), sortable: true },
+    { key: "one_year_pct", label: metricLabel("one_year_pct", "1Y"), sortable: true },
+    { key: "three_year_pct", label: metricLabel("three_year_pct", "3Y CAGR"), sortable: true },
+    { key: "five_year_pct", label: metricLabel("five_year_pct", "5Y CAGR"), sortable: true },
   );
 
   if (tab.asset_type === "etf") {
@@ -617,6 +621,22 @@ function getColumnsForTab(tab) {
     columns.push({ key: "since_2024_09_26_pct", label: getCurrencyLabel("since_2024_09_26_pct", "Since 26 Sep 2024"), sortable: true });
   }
   return columns;
+}
+
+function getDisplayName(row) {
+  if (row.asset_type !== "mutual_fund") {
+    return row.name || row.ticker;
+  }
+  return (row.name || "")
+    .replace(/\s*-\s*Direct Plan\b.*$/i, "")
+    .replace(/\s+Fund$/i, "")
+    .trim();
+}
+
+function getMetricLabel(row, key, fallbackLabel) {
+  return row.asset_type === "mutual_fund"
+    ? getMetaColumnLabel(key, fallbackLabel).replace(/\s+(INR|USD)$/, "")
+    : getCurrencyLabel(key, fallbackLabel);
 }
 
 function getSortedFilteredRows(tab, rows) {
