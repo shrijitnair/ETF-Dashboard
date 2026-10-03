@@ -819,6 +819,608 @@
           ]
         }
       ]
-    }
+    },
+      {
+        "id": "mid-cap",
+        "label": "Mid Cap",
+        "asset_type": "mutual_fund",
+        "groups": [
+          {
+            "id": "mid-cap-funds",
+            "label": "Mid Cap Funds — Direct Growth",
+            "items": [
+              {
+                "ticker": "INF843K01AO4",
+                "isin": "INF843K01AO4",
+                "scheme_code": "140228",
+                "source_ticker": "140228",
+                "name": "Edelweiss Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Edelweiss Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF0R8701327",
+                "isin": "INF0R8701327",
+                "scheme_code": "153326",
+                "source_ticker": "153326",
+                "name": "Helios Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Helios Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF966L01887",
+                "isin": "INF966L01887",
+                "scheme_code": "120841",
+                "source_ticker": "120841",
+                "name": "Quant Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Quant Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF789F01UA6",
+                "isin": "INF789F01UA6",
+                "scheme_code": "120726",
+                "source_ticker": "120726",
+                "name": "UTI - Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "UTI - Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF582M01GI3",
+                "isin": "INF582M01GI3",
+                "scheme_code": "148073",
+                "source_ticker": "148073",
+                "name": "Union Midcap Fund - Direct Plan - Growth Option",
+                "exchange": "Union Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF205K01MV6",
+                "isin": "INF205K01MV6",
+                "scheme_code": "120403",
+                "source_ticker": "120403",
+                "name": "Invesco India Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Invesco India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF397L01JK8",
+                "isin": "INF397L01JK8",
+                "scheme_code": "152002",
+                "source_ticker": "152002",
+                "name": "LIC MF Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "LIC MF Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF200K01TP4",
+                "isin": "INF200K01TP4",
+                "scheme_code": "119716",
+                "source_ticker": "119716",
+                "name": "SBI MIDCAP FUND - Direct Plan - Growth",
+                "exchange": "SBI Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF917K01FZ1",
+                "isin": "INF917K01FZ1",
+                "scheme_code": "151036",
+                "source_ticker": "151036",
+                "name": "HSBC Midcap Fund - Direct Plan - Growth",
+                "exchange": "HSBC Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF109K011N7",
+                "isin": "INF109K011N7",
+                "scheme_code": "120381",
+                "source_ticker": "120381",
+                "name": "ICICI Prudential Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "ICICI Prudential Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF03VN01597",
+                "isin": "INF03VN01597",
+                "scheme_code": "150584",
+                "source_ticker": "150584",
+                "name": "WhiteOak Capital Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "WhiteOak Capital Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF174V01507",
+                "isin": "INF174V01507",
+                "scheme_code": "142110",
+                "source_ticker": "142110",
+                "name": "Mahindra Manulife Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Mahindra Manulife Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF251K01HQ0",
+                "isin": "INF251K01HQ0",
+                "scheme_code": "150212",
+                "source_ticker": "150212",
+                "name": "Baroda BNP Paribas Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Baroda BNP Paribas Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF192K01MV6",
+                "isin": "INF192K01MV6",
+                "scheme_code": "150815",
+                "source_ticker": "150815",
+                "name": "JM Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "JM Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF204K01E54",
+                "isin": "INF204K01E54",
+                "scheme_code": "118668",
+                "source_ticker": "118668",
+                "name": "Nippon India Growth Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Nippon India Growth Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF769K01FA9",
+                "isin": "INF769K01FA9",
+                "scheme_code": "147445",
+                "source_ticker": "147445",
+                "name": "Mirae Asset Midcap Fund - Direct Plan - Growth",
+                "exchange": "Mirae Asset Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF174K01LT0",
+                "isin": "INF174K01LT0",
+                "scheme_code": "119775",
+                "source_ticker": "119775",
+                "name": "Kotak Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Kotak Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF194KB1DJ2",
+                "isin": "INF194KB1DJ2",
+                "scheme_code": "150404",
+                "source_ticker": "150404",
+                "name": "BANDHAN MID CAP FUND - Direct Plan - Growth",
+                "exchange": "BANDHAN Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF00XX01929",
+                "isin": "INF00XX01929",
+                "scheme_code": "148733",
+                "source_ticker": "148733",
+                "name": "ITI Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "ITI Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF903J01MJ3",
+                "isin": "INF903J01MJ3",
+                "scheme_code": "119581",
+                "source_ticker": "119581",
+                "name": "Sundaram Mid Cap Fund - Direct Plan - GROWTH",
+                "exchange": "Sundaram Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF277K01PY2",
+                "isin": "INF277K01PY2",
+                "scheme_code": "119178",
+                "source_ticker": "119178",
+                "name": "Tata Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Tata Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF179K01XQ0",
+                "isin": "INF179K01XQ0",
+                "scheme_code": "118989",
+                "source_ticker": "118989",
+                "name": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "HDFC Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF846K01EH3",
+                "isin": "INF846K01EH3",
+                "scheme_code": "120505",
+                "source_ticker": "120505",
+                "name": "Axis Midcap Fund - Direct Plan - Growth Option",
+                "exchange": "Axis Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF740K01PX1",
+                "isin": "INF740K01PX1",
+                "scheme_code": "119071",
+                "source_ticker": "119071",
+                "name": "DSP Midcap Fund - Direct Plan - Growth",
+                "exchange": "DSP Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF760K01KI1",
+                "isin": "INF760K01KI1",
+                "scheme_code": "150817",
+                "source_ticker": "150817",
+                "name": "Canara Robeco Mid Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Canara Robeco Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF209K01Q30",
+                "isin": "INF209K01Q30",
+                "scheme_code": "119620",
+                "source_ticker": "119620",
+                "name": "Aditya Birla Sun Life Midcap Fund - Direct Plan - GROWTH",
+                "exchange": "Aditya Birla Sun Life Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF663L01DV3",
+                "isin": "INF663L01DV3",
+                "scheme_code": "125307",
+                "source_ticker": "125307",
+                "name": "PGIM India Midcap Fund - Direct Plan - Direct Growth",
+                "exchange": "PGIM India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF090I01FH9",
+                "isin": "INF090I01FH9",
+                "scheme_code": "118533",
+                "source_ticker": "118533",
+                "name": "Franklin India Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Franklin India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF044D01CA9",
+                "isin": "INF044D01CA9",
+                "scheme_code": "118872",
+                "source_ticker": "118872",
+                "name": "Taurus Mid Cap Fund - Direct Plan - Growth",
+                "exchange": "Taurus Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF247L01445",
+                "isin": "INF247L01445",
+                "scheme_code": "127042",
+                "source_ticker": "127042",
+                "name": "Motilal Oswal Midcap Fund",
+                "exchange": "Motilal Oswal Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF761K01GY4",
+                "isin": "INF761K01GY4",
+                "scheme_code": "153728",
+                "source_ticker": "153728",
+                "name": "BANK OF INDIA MID CAP FUND - Direct Plan - Growth",
+                "exchange": "BANK OF INDIA Mutual Fund",
+                "currency": "INR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "small-cap",
+        "label": "Small Cap",
+        "asset_type": "mutual_fund",
+        "groups": [
+          {
+            "id": "small-cap-funds",
+            "label": "Small Cap Funds — Direct Growth",
+            "items": [
+              {
+                "ticker": "INF0GCD01800",
+                "isin": "INF0GCD01800",
+                "scheme_code": "152939",
+                "source_ticker": "152939",
+                "name": "TRUSTMF SMALL CAP FUND - Direct Plan - Growth",
+                "exchange": "TRUSTMF Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF582M01BU9",
+                "isin": "INF582M01BU9",
+                "scheme_code": "129649",
+                "source_ticker": "129649",
+                "name": "Union Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Union Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF761K01EP7",
+                "isin": "INF761K01EP7",
+                "scheme_code": "145678",
+                "source_ticker": "145678",
+                "name": "BANK OF INDIA SMALL CAP FUND - Direct Plan - Growth",
+                "exchange": "BANK OF INDIA Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF247L01BY3",
+                "isin": "INF247L01BY3",
+                "scheme_code": "152237",
+                "source_ticker": "152237",
+                "name": "Motilal Oswal Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Motilal Oswal Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF903J01NK9",
+                "isin": "INF903J01NK9",
+                "scheme_code": "119589",
+                "source_ticker": "119589",
+                "name": "Sundaram Small Cap Fund - Direct Plan - GROWTH",
+                "exchange": "Sundaram Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF00XX01747",
+                "isin": "INF00XX01747",
+                "scheme_code": "147919",
+                "source_ticker": "147919",
+                "name": "ITI Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "ITI Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF397L01JS1",
+                "isin": "INF397L01JS1",
+                "scheme_code": "152004",
+                "source_ticker": "152004",
+                "name": "LIC MF Small Cap Fund - Direct Plan - Growth",
+                "exchange": "LIC MF Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF174V01BK7",
+                "isin": "INF174V01BK7",
+                "scheme_code": "150915",
+                "source_ticker": "150915",
+                "name": "Mahindra Manulife Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Mahindra Manulife Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF209K01WN4",
+                "isin": "INF209K01WN4",
+                "scheme_code": "119556",
+                "source_ticker": "119556",
+                "name": "Aditya Birla Sun Life Small Cap Fund - Direct Plan - GROWTH",
+                "exchange": "Aditya Birla Sun Life Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF205K013T3",
+                "isin": "INF205K013T3",
+                "scheme_code": "145137",
+                "source_ticker": "145137",
+                "name": "Invesco India Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Invesco India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF663L01W06",
+                "isin": "INF663L01W06",
+                "scheme_code": "149019",
+                "source_ticker": "149019",
+                "name": "PGIM India Small Cap Fund - Direct Plan - Direct Growth",
+                "exchange": "PGIM India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF966L01689",
+                "isin": "INF966L01689",
+                "scheme_code": "120828",
+                "source_ticker": "120828",
+                "name": "Quant Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Quant Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF192K01NH3",
+                "isin": "INF192K01NH3",
+                "scheme_code": "152614",
+                "source_ticker": "152614",
+                "name": "JM Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "JM Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF740K01QD1",
+                "isin": "INF740K01QD1",
+                "scheme_code": "119212",
+                "source_ticker": "119212",
+                "name": "DSP Small Cap Fund - Direct Plan - Growth",
+                "exchange": "DSP Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF769K01NJ4",
+                "isin": "INF769K01NJ4",
+                "scheme_code": "153196",
+                "source_ticker": "153196",
+                "name": "Mirae Asset Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Mirae Asset Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF082J01432",
+                "isin": "INF082J01432",
+                "scheme_code": "152107",
+                "source_ticker": "152107",
+                "name": "QUANTUM SMALL CAP FUND - Direct Plan - Growth Option",
+                "exchange": "QUANTUM Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF194KB1AL4",
+                "isin": "INF194KB1AL4",
+                "scheme_code": "147946",
+                "source_ticker": "147946",
+                "name": "BANDHAN Small Cap Fund - Direct Plan - Growth",
+                "exchange": "BANDHAN Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF204K01K15",
+                "isin": "INF204K01K15",
+                "scheme_code": "118778",
+                "source_ticker": "118778",
+                "name": "Nippon India Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Nippon India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF754K01JN6",
+                "isin": "INF754K01JN6",
+                "scheme_code": "146196",
+                "source_ticker": "146196",
+                "name": "Edelweiss Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Edelweiss Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF251K01SR5",
+                "isin": "INF251K01SR5",
+                "scheme_code": "152128",
+                "source_ticker": "152128",
+                "name": "Baroda BNP Paribas Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Baroda BNP Paribas Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF846K01K35",
+                "isin": "INF846K01K35",
+                "scheme_code": "125354",
+                "source_ticker": "125354",
+                "name": "Axis Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Axis Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF917K01QA1",
+                "isin": "INF917K01QA1",
+                "scheme_code": "151130",
+                "source_ticker": "151130",
+                "name": "HSBC Small Cap Fund",
+                "exchange": "HSBC Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF200K01T51",
+                "isin": "INF200K01T51",
+                "scheme_code": "125497",
+                "source_ticker": "125497",
+                "name": "SBI SMALL CAP FUND - Direct Plan - Growth",
+                "exchange": "SBI Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF109K015M0",
+                "isin": "INF109K015M0",
+                "scheme_code": "120591",
+                "source_ticker": "120591",
+                "name": "ICICI Prudential Small Cap Fund - Direct Plan - Growth",
+                "exchange": "ICICI Prudential Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF789F1AUQ1",
+                "isin": "INF789F1AUQ1",
+                "scheme_code": "148618",
+                "source_ticker": "148618",
+                "name": "UTI Small Cap Fund - Direct Plan - Growth",
+                "exchange": "UTI Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF760K01JC6",
+                "isin": "INF760K01JC6",
+                "scheme_code": "146130",
+                "source_ticker": "146130",
+                "name": "Canara Robeco Small Cap Fund - Direct Plan - GROWTH OPTION",
+                "exchange": "Canara Robeco Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF090I01IQ4",
+                "isin": "INF090I01IQ4",
+                "scheme_code": "118525",
+                "source_ticker": "118525",
+                "name": "Franklin India Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Franklin India Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF174K01KT2",
+                "isin": "INF174K01KT2",
+                "scheme_code": "120164",
+                "source_ticker": "120164",
+                "name": "Kotak Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Kotak Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF179KA1RW5",
+                "isin": "INF179KA1RW5",
+                "scheme_code": "130503",
+                "source_ticker": "130503",
+                "name": "HDFC Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "HDFC Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF277K011O1",
+                "isin": "INF277K011O1",
+                "scheme_code": "145206",
+                "source_ticker": "145206",
+                "name": "Tata Small Cap Fund - Direct Plan - Growth Option",
+                "exchange": "Tata Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF0QA701BN2",
+                "isin": "INF0QA701BN2",
+                "scheme_code": "153612",
+                "source_ticker": "153612",
+                "name": "Bajaj Finserv Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Bajaj Finserv Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF0R8701384",
+                "isin": "INF0R8701384",
+                "scheme_code": "153912",
+                "source_ticker": "153912",
+                "name": "Helios Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Helios Mutual Fund",
+                "currency": "INR"
+              },
+              {
+                "ticker": "INF0K1H01297",
+                "isin": "INF0K1H01297",
+                "scheme_code": "153868",
+                "source_ticker": "153868",
+                "name": "Samco Small Cap Fund - Direct Plan - Growth",
+                "exchange": "Samco Mutual Fund",
+                "currency": "INR"
+              }
+            ]
+          }
+        ]
+      }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-03T13:20:59.541518Z",
+  "built_at": "2026-10-03T13:29:47.008081Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -58,6 +58,16 @@
     {
       "id": "flexicap",
       "label": "Flexicap",
+      "asset_type": "mutual_fund"
+    },
+    {
+      "id": "mid-cap",
+      "label": "Mid Cap",
+      "asset_type": "mutual_fund"
+    },
+    {
+      "id": "small-cap",
+      "label": "Small Cap",
       "asset_type": "mutual_fund"
     }
   ],

@@ -101,6 +101,30 @@
           "items": []
         }
       ]
+    },
+    {
+      "id": "mid-cap",
+      "label": "Mid Cap",
+      "asset_type": "mutual_fund",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "small-cap",
+      "label": "Small Cap",
+      "asset_type": "mutual_fund",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": []
+        }
+      ]
     }
   ]
 }
