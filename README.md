@@ -29,7 +29,9 @@ After enabling Pages for the repository, select **GitHub Actions** as the source
 
 The dashboard is near-live rather than tick-by-tick real-time: it displays the latest successful data build. Market data is fetched from Yahoo Finance through `yfinance`, so provider delays, rate limits, and market holidays may affect freshness.
 
-The dashboard includes US ETFs, UCITS ETFs, US stocks, and a Debt ETFs tab. Use the USD/INR selector to change displayed prices, returns, and charts. The 3Y and 5Y columns show annualized CAGR. YTD appears immediately after the 3M return and uses Yahoo Finance’s convention: the latest value versus the final available trading-day close of the prior calendar year. CAGR is calculated as `(ending value / starting value)^(1 / years) - 1` using the same calendar-period anchors as the other return metrics. ETF rows also show TER and AUM when yfinance returns those fields; unavailable provider values display as `N/A`.
+The dashboard includes US ETFs, UCITS ETFs, US stocks, a Debt ETFs tab, and a Flexicap tab with the Direct Growth mutual fund schemes from the curated list. Use the USD/INR selector to change displayed prices, returns, and charts. The 3Y and 5Y columns show annualized CAGR. YTD appears immediately after the 3M return and uses the latest value versus the final available NAV or trading-day close of the prior calendar year. For mutual funds, calendar-period returns use the last available NAV on or before each target date. ETF rows also show TER and AUM when yfinance returns those fields; unavailable provider values display as `N/A`.
+
+The Flexicap tab uses AMFI ISINs to identify the exact scheme variants and their AMFI scheme codes, then fetches NAV history from MFAPI. NAV history is cached in `data/mf_nav_cache.json` and refreshed once per day after 11:30 p.m. India time to avoid repeated requests during the dashboard's 10-minute data refreshes. Mutual fund NAVs are published once per business day, so their displayed NAV date can differ from the dashboard refresh time.
 
 To add an instrument, use the owner-only **Add instrument** workflow in GitHub:
 

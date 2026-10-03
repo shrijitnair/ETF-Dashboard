@@ -764,6 +764,61 @@
           ]
         }
       ]
+    },
+    {
+      "id": "flexicap",
+      "label": "Flexicap",
+      "asset_type": "mutual_fund",
+      "groups": [
+        {
+          "id": "flexicap-funds",
+          "label": "Flexicap Funds — Direct Growth",
+          "items": [
+            {"ticker": "INF204KC1121", "isin": "INF204KC1121", "scheme_code": "149094", "source_ticker": "149094", "name": "Nippon India Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Nippon India Mutual Fund", "currency": "INR"},
+            {"ticker": "INF03VN01530", "isin": "INF03VN01530", "scheme_code": "150346", "source_ticker": "150346", "name": "WhiteOak Capital Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "WhiteOak Capital Mutual Fund", "currency": "INR"},
+            {"ticker": "INF194K01W62", "isin": "INF194K01W62", "scheme_code": "118424", "source_ticker": "118424", "name": "BANDHAN Flexi Cap Fund - Direct Plan - Growth", "exchange": "Bandhan Mutual Fund", "currency": "INR"},
+            {"ticker": "INF0R8701046", "isin": "INF0R8701046", "scheme_code": "152135", "source_ticker": "152135", "name": "Helios Flexi Cap Fund - Direct Plan - Growth", "exchange": "Helios Mutual Fund", "currency": "INR"},
+            {"ticker": "INF966L01911", "isin": "INF966L01911", "scheme_code": "120843", "source_ticker": "120843", "name": "Quant Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Quant Mutual Fund", "currency": "INR"},
+            {"ticker": "INF174K01LS2", "isin": "INF174K01LS2", "scheme_code": "120166", "source_ticker": "120166", "name": "Kotak Flexi Cap Fund - Direct Plan - Growth", "exchange": "Kotak Mahindra Mutual Fund", "currency": "INR"},
+            {"ticker": "INF663L01FF1", "isin": "INF663L01FF1", "scheme_code": "133839", "source_ticker": "133839", "name": "PGIM India Flexi Cap Fund - Direct Plan - Direct Growth", "exchange": "PGIM India Mutual Fund", "currency": "INR"},
+            {"ticker": "INF336L01DH5", "isin": "INF336L01DH5", "scheme_code": "120046", "source_ticker": "120046", "name": "HSBC Flexi Cap Fund - Direct Plan - Growth", "exchange": "HSBC Mutual Fund", "currency": "INR"},
+            {"ticker": "INF192K01CC7", "isin": "INF192K01CC7", "scheme_code": "120492", "source_ticker": "120492", "name": "JM Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "JM Financial Mutual Fund", "currency": "INR"},
+            {"ticker": "INF226401018", "isin": "INF226401018", "scheme_code": "153738", "source_ticker": "153738", "name": "Capitalmind Flexi Cap Fund - Direct Plan - Growth", "exchange": "Capitalmind Mutual Fund", "currency": "INR"},
+            {"ticker": "INF205KA1494", "isin": "INF205KA1494", "scheme_code": "149763", "source_ticker": "149763", "name": "Invesco India Flexi Cap Fund - Direct Plan - Growth", "exchange": "Invesco Mutual Fund", "currency": "INR"},
+            {"ticker": "INF2JJD01136", "isin": "INF2JJD01136", "scheme_code": "154043", "source_ticker": "154043", "name": "Abakkus Flexi Cap Fund - Direct Plan - Growth", "exchange": "Abakkus Mutual Fund", "currency": "INR"},
+            {"ticker": "INF769K01JJ2", "isin": "INF769K01JJ2", "scheme_code": "151412", "source_ticker": "151412", "name": "Mirae Asset Flexi Cap Fund - Direct Plan - Growth", "exchange": "Mirae Asset Mutual Fund", "currency": "INR"},
+            {"ticker": "INF277K015K0", "isin": "INF277K015K0", "scheme_code": "144546", "source_ticker": "144546", "name": "Tata Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Tata Mutual Fund", "currency": "INR"},
+            {"ticker": "INF843K01KK1", "isin": "INF843K01KK1", "scheme_code": "140353", "source_ticker": "140353", "name": "Edelweiss Flexi Cap Fund - Direct Plan - Growth", "exchange": "Edelweiss Mutual Fund", "currency": "INR"},
+            {"ticker": "INF22M001093", "isin": "INF22M001093", "scheme_code": "153859", "source_ticker": "153859", "name": "JioBlackRock Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "JioBlackRock Mutual Fund", "currency": "INR"},
+            {"ticker": "INF959L01DT9", "isin": "INF959L01DT9", "scheme_code": "143793", "source_ticker": "143793", "name": "Navi Flexi Cap Fund - Direct Plan - Growth", "exchange": "Navi Mutual Fund", "currency": "INR"},
+            {"ticker": "INF209K01XX1", "isin": "INF209K01XX1", "scheme_code": "120564", "source_ticker": "120564", "name": "Aditya Birla Sun Life Flexi Cap Fund - Direct Plan - Growth", "exchange": "Aditya Birla Sun Life Mutual Fund", "currency": "INR"},
+            {"ticker": "INF200K01UG1", "isin": "INF200K01UG1", "scheme_code": "119718", "source_ticker": "119718", "name": "SBI Flexicap Fund - Direct Plan - Growth", "exchange": "SBI Mutual Fund", "currency": "INR"},
+            {"ticker": "INF789F01TC4", "isin": "INF789F01TC4", "scheme_code": "120662", "source_ticker": "120662", "name": "UTI Flexi Cap Fund - Direct Plan - Growth", "exchange": "UTI Mutual Fund", "currency": "INR"},
+            {"ticker": "INF109KC1R14", "isin": "INF109KC1R14", "scheme_code": "148990", "source_ticker": "148990", "name": "ICICI Prudential Flexi Cap Fund - Direct Plan - Growth", "exchange": "ICICI Prudential Mutual Fund", "currency": "INR"},
+            {"ticker": "INF761K01FF5", "isin": "INF761K01FF5", "scheme_code": "148404", "source_ticker": "148404", "name": "Bank of India Flexi Cap Fund - Direct Plan - Growth", "exchange": "Bank of India Mutual Fund", "currency": "INR"},
+            {"ticker": "INF090I01FK3", "isin": "INF090I01FK3", "scheme_code": "118535", "source_ticker": "118535", "name": "Franklin India Flexi Cap Fund - Direct Plan - Growth", "exchange": "Franklin Templeton Mutual Fund", "currency": "INR"},
+            {"ticker": "INF879O01027", "isin": "INF879O01027", "scheme_code": "122639", "source_ticker": "122639", "name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth", "exchange": "PPFAS Mutual Fund", "currency": "INR"},
+            {"ticker": "INF760K01EF0", "isin": "INF760K01EF0", "scheme_code": "118275", "source_ticker": "118275", "name": "Canara Robeco Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Canara Robeco Mutual Fund", "currency": "INR"},
+            {"ticker": "INF247L01502", "isin": "INF247L01502", "scheme_code": "129046", "source_ticker": "129046", "name": "Motilal Oswal Flexi Cap Fund - Direct Plan - Growth", "exchange": "Motilal Oswal Mutual Fund", "currency": "INR"},
+            {"ticker": "INF846K01B28", "isin": "INF846K01B28", "scheme_code": "141925", "source_ticker": "141925", "name": "Axis Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Axis Mutual Fund", "currency": "INR"},
+            {"ticker": "INF740K01PI2", "isin": "INF740K01PI2", "scheme_code": "119076", "source_ticker": "119076", "name": "DSP Flexi Cap Fund - Direct Plan - Growth", "exchange": "DSP Mutual Fund", "currency": "INR"},
+            {"ticker": "INF179K01UT0", "isin": "INF179K01UT0", "scheme_code": "118955", "source_ticker": "118955", "name": "HDFC Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "HDFC Mutual Fund", "currency": "INR"},
+            {"ticker": "INF174V01AS2", "isin": "INF174V01AS2", "scheme_code": "149104", "source_ticker": "149104", "name": "Mahindra Manulife Flexi Cap Fund - Direct Plan - Growth", "exchange": "Mahindra Manulife Mutual Fund", "currency": "INR"},
+            {"ticker": "INF00XX01CO7", "isin": "INF00XX01CO7", "scheme_code": "151379", "source_ticker": "151379", "name": "ITI Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "ITI Mutual Fund", "currency": "INR"},
+            {"ticker": "INF251K01QZ2", "isin": "INF251K01QZ2", "scheme_code": "150387", "source_ticker": "150387", "name": "Baroda BNP Paribas Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Baroda BNP Paribas Mutual Fund", "currency": "INR"},
+            {"ticker": "INF582M01633", "isin": "INF582M01633", "scheme_code": "119292", "source_ticker": "119292", "name": "Union Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "Union Mutual Fund", "currency": "INR"},
+            {"ticker": "INF767K01EG3", "isin": "INF767K01EG3", "scheme_code": "120264", "source_ticker": "120264", "name": "LIC MF Flexi Cap Fund - Direct Plan - Growth", "exchange": "LIC Mutual Fund", "currency": "INR"},
+            {"ticker": "INF0K1H01024", "isin": "INF0K1H01024", "scheme_code": "149450", "source_ticker": "149450", "name": "Samco Flexi Cap Fund - Direct Plan - Growth", "exchange": "Samco Mutual Fund", "currency": "INR"},
+            {"ticker": "INF903JA1LE2", "isin": "INF903JA1LE2", "scheme_code": "150571", "source_ticker": "150571", "name": "Sundaram Flexicap Fund - Direct Plan - Growth", "exchange": "Sundaram Mutual Fund", "currency": "INR"},
+            {"ticker": "INF0GCD01743", "isin": "INF0GCD01743", "scheme_code": "152584", "source_ticker": "152584", "name": "TRUSTMF Flexi Cap Fund - Direct Plan - Growth", "exchange": "Trust Mutual Fund", "currency": "INR"},
+            {"ticker": "INF0QA701342", "isin": "INF0QA701342", "scheme_code": "151895", "source_ticker": "151895", "name": "Bajaj Finserv Flexi Cap Fund - Direct Plan - Growth", "exchange": "Bajaj Finserv Mutual Fund", "currency": "INR"},
+            {"ticker": "INF0S5R01133", "isin": "INF0S5R01133", "scheme_code": "154225", "source_ticker": "154225", "name": "Old Bridge Flexi Cap Fund - Direct Plan - Direct Growth", "exchange": "Old Bridge Mutual Fund", "currency": "INR"},
+            {"ticker": "INF0J8L01156", "isin": "INF0J8L01156", "scheme_code": "151917", "source_ticker": "151917", "name": "NJ Flexi Cap Fund - Direct Plan - Growth Option", "exchange": "NJ Mutual Fund", "currency": "INR"},
+            {"ticker": "INF680P01109", "isin": "INF680P01109", "scheme_code": "144905", "source_ticker": "144905", "name": "Shriram Flexi Cap Fund - Direct Plan - Growth", "exchange": "Shriram Mutual Fund", "currency": "INR"},
+            {"ticker": "INF044D01BU9", "isin": "INF044D01BU9", "scheme_code": "118883", "source_ticker": "118883", "name": "Taurus Flexi Cap Fund - Direct Plan - Growth", "exchange": "Taurus Mutual Fund", "currency": "INR"}
+          ]
+        }
+      ]
     }
   ]
 }

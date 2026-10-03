@@ -184,7 +184,11 @@ function renderTabs() {
 function renderReturnBasisUi() {
   const returnBasisLabel = state.displayCurrency === "INR" ? "INR-adjusted" : "USD";
   const tab = getActiveTab();
-  const sourceNote = tab?.asset_type === "index" ? " Yahoo Finance data may be delayed." : "";
+  const sourceNote = tab?.asset_type === "index"
+    ? " Yahoo Finance data may be delayed."
+    : tab?.asset_type === "mutual_fund"
+      ? " Mutual fund NAVs update once per business day."
+      : "";
   elements.returnBasisNote.textContent = `Returns shown in ${returnBasisLabel} performance.${sourceNote}`;
   elements.chartChangeLabel.textContent = `Range Change (${state.displayCurrency})`;
 }
@@ -299,7 +303,7 @@ function renderCell(row, column) {
       return `
         <div class="name-cell">
           <strong>${escapeHtml(row.name)}</strong>
-          <div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>
+          <div class="subdued">${escapeHtml(row.exchange)}${row.asset_type === "mutual_fund" ? " • " + escapeHtml(row.isin || "") : row.currency ? " • " + escapeHtml(row.currency) : ""}</div>
         </div>
       `;
     case "last_price":
@@ -331,8 +335,10 @@ function renderDetail() {
   }
 
   elements.detailTabLabel.textContent = tab.label;
-  elements.detailTitle.textContent = row.ticker;
-  elements.detailSubtitle.textContent = `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
+  elements.detailTitle.textContent = row.asset_type === "mutual_fund" ? row.name : row.ticker;
+  elements.detailSubtitle.textContent = row.asset_type === "mutual_fund"
+    ? `ISIN ${row.isin} • Scheme ${row.scheme_code} • ${row.exchange}`
+    : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
 
   const series = state.history.series[row.item_id]?.points || [];
   const rangeKey = state.chartRangeByTab[tab.id];
@@ -361,7 +367,7 @@ function renderDetail() {
     makeMetricCard(row, "one_year_pct", "1Y"),
     makeMetricCard(row, "three_year_pct", "3Y CAGR"),
     makeMetricCard(row, "five_year_pct", "5Y CAGR"),
-    { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : "Stock", className: "" },
+    { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : row.asset_type === "mutual_fund" ? "Mutual Fund" : "Stock", className: "" },
   ];
 
   if (row.asset_type === "index") {
@@ -376,6 +382,14 @@ function renderDetail() {
   if (row.asset_type === "index") {
     stats.push({ label: "Data Source", value: row.data_source || "Yahoo Finance via yfinance", className: "" });
     stats.push({ label: "Data Status", value: `${row.data_status || "Unknown"}${row.data_date ? ` • ${row.data_date}` : ""}`, className: "" });
+  }
+
+  if (row.asset_type === "mutual_fund") {
+    stats.push({ label: "ISIN", value: row.isin || "N/A", className: "" });
+    stats.push({ label: "Scheme Code", value: row.scheme_code || "N/A", className: "" });
+    stats.push({ label: "NAV Date", value: row.data_date || "N/A", className: "" });
+    stats.push({ label: "Data Source", value: row.data_source || "MFAPI / AMFI NAV", className: "" });
+    stats.push({ label: "Data Status", value: row.data_status || "Unknown", className: "" });
   }
 
   elements.detailStats.innerHTML = stats.map((stat) => `
@@ -464,8 +478,13 @@ function handleSort(tabId, key) {
 }
 
 function getColumnsForTab(tab) {
-  const columns = [
-    { key: "ticker", label: getMetaColumnLabel("ticker", "Ticker"), sortable: true, className: "ticker-cell" },
+  const columns = tab.asset_type === "mutual_fund"
+    ? [
+        { key: "ticker", label: "ISIN", sortable: true, className: "ticker-cell" },
+        { key: "name", label: "Scheme", sortable: true },
+      ]
+    : [{ key: "ticker", label: getMetaColumnLabel("ticker", "Ticker"), sortable: true, className: "ticker-cell" }];
+  columns.push(
     { key: "last_price", label: `Last ${state.displayCurrency}`, sortable: true },
     { key: "daily_pct", label: getCurrencyLabel("daily_pct", "1D"), sortable: true },
     { key: "five_day_pct", label: getCurrencyLabel("five_day_pct", "5D"), sortable: true },
@@ -475,7 +494,7 @@ function getColumnsForTab(tab) {
     { key: "one_year_pct", label: getCurrencyLabel("one_year_pct", "1Y"), sortable: true },
     { key: "three_year_pct", label: getCurrencyLabel("three_year_pct", "3Y CAGR"), sortable: true },
     { key: "five_year_pct", label: getCurrencyLabel("five_year_pct", "5Y CAGR"), sortable: true },
-  ];
+  );
 
   if (tab.asset_type === "etf") {
     columns.push({ key: "ter", label: "TER", sortable: true });

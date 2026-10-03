@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-03T12:13:45.112146Z",
+  "built_at": "2026-10-03T13:16:03.788969Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -54,6 +54,11 @@
       "id": "indices",
       "label": "Indices",
       "asset_type": "index"
+    },
+    {
+      "id": "flexicap",
+      "label": "Flexicap",
+      "asset_type": "mutual_fund"
     }
   ],
   "columns": [

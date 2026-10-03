@@ -10,9 +10,13 @@ import math
 import os
 import tempfile
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import yfinance as yf
@@ -32,6 +36,7 @@ SNAPSHOT_FILENAME = "snapshot.json"
 HISTORY_FILENAME = "history.json"
 META_FILENAME = "meta.json"
 DASHBOARD_FILENAME = "dashboard.json"
+MF_NAV_CACHE_FILENAME = "mf_nav_cache.json"
 
 SUPPORTED_INR_FX_TICKERS = {
     "USD": "USDINR=X",
@@ -91,6 +96,8 @@ class WatchItem:
     fallback_name: str
     fallback_exchange: str
     fallback_currency: str
+    isin: Optional[str] = None
+    scheme_code: Optional[str] = None
 
 
 def parse_args() -> argparse.Namespace:
@@ -298,6 +305,8 @@ def build_watch_items(merged_tabs: Sequence[Dict[str, Any]]) -> List[WatchItem]:
                         fallback_name=raw_item.get("name", display_ticker),
                         fallback_exchange=raw_item.get("exchange", ""),
                         fallback_currency=raw_item.get("currency", ""),
+                        isin=raw_item.get("isin"),
+                        scheme_code=str(raw_item.get("scheme_code") or "") or None,
                     )
                 )
     return items
@@ -397,6 +406,129 @@ def download_histories(source_tickers: Sequence[str]) -> Dict[str, pd.DataFrame]
     return history_map
 
 
+def mf_nav_refresh_key(now: Optional[datetime] = None) -> str:
+    local_now = now.astimezone(ZoneInfo("Asia/Kolkata")) if now else datetime.now(ZoneInfo("Asia/Kolkata"))
+    local_day = local_now.date()
+    if (local_now.hour, local_now.minute) < (23, 30):
+        local_day -= timedelta(days=1)
+    return local_day.isoformat()
+
+
+def parse_mf_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
+    parsed: List[Tuple[pd.Timestamp, float]] = []
+    for record in records:
+        try:
+            nav_date = pd.to_datetime(record.get("date"), format="%d-%m-%Y")
+            nav_value = safe_float(record.get("nav"))
+        except (TypeError, ValueError):
+            continue
+        if nav_value is not None:
+            parsed.append((nav_date, nav_value))
+    if not parsed:
+        return pd.DataFrame()
+    frame = pd.DataFrame(parsed, columns=["Date", "Close"]).set_index("Date")
+    return sanitize_history(frame)
+
+
+def download_mutual_fund_histories(
+    items: Sequence[WatchItem],
+    cache_path: str,
+) -> Tuple[Dict[str, pd.DataFrame], Dict[str, Dict[str, Any]], Dict[str, str]]:
+    if not items:
+        return {}, {}, {}
+
+    try:
+        cache_document = load_json(cache_path)
+    except (OSError, ValueError):
+        cache_document = {}
+    schemes = cache_document.get("schemes", {})
+    if not isinstance(schemes, dict):
+        schemes = {}
+
+    refresh_key = mf_nav_refresh_key()
+    previous_attempted = set(cache_document.get("attempted_codes", []))
+    if cache_document.get("refresh_key") != refresh_key:
+        attempted_codes = set()
+    else:
+        attempted_codes = previous_attempted
+
+    unique_items = {item.scheme_code: item for item in items if item.scheme_code}
+    codes_to_fetch = [code for code in unique_items if code not in attempted_codes]
+    start_date = (pd.Timestamp.now(tz="Asia/Kolkata").normalize() - pd.DateOffset(years=6, days=30)).date()
+    end_date = datetime.now(ZoneInfo("Asia/Kolkata")).date()
+    failures: Dict[str, str] = {}
+
+    for scheme_code in codes_to_fetch:
+        item = unique_items[scheme_code]
+        query = urllib.parse.urlencode({"startDate": start_date.isoformat(), "endDate": end_date.isoformat()})
+        url = "https://api.mfapi.in/mf/{}?{}".format(urllib.parse.quote(scheme_code), query)
+        request = urllib.request.Request(url, headers={"User-Agent": "ETF-Dashboard/1.0"})
+        attempted_codes.add(scheme_code)
+        try:
+            with urllib.request.urlopen(request, timeout=25) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            if payload.get("status") != "SUCCESS":
+                raise ValueError("MFAPI did not return SUCCESS.")
+            metadata = payload.get("meta") or {}
+            returned_code = str(metadata.get("scheme_code") or "")
+            if returned_code and returned_code != scheme_code:
+                raise ValueError("MFAPI returned a different scheme code.")
+            isin_candidates = {
+                str(metadata.get(key) or "").strip().upper()
+                for key in ("isin_growth", "isin_div_reinvestment")
+            }
+            if item.isin and item.isin.upper() not in isin_candidates:
+                raise ValueError("MFAPI scheme ISIN does not match configured ISIN {}.".format(item.isin))
+
+            frame = parse_mf_nav_history(payload.get("data") or [])
+            if frame.empty:
+                raise ValueError("MFAPI returned no usable NAV history.")
+
+            schemes[scheme_code] = {
+                "isin": item.isin,
+                "scheme_code": scheme_code,
+                "scheme_name": metadata.get("scheme_name") or item.fallback_name,
+                "fund_house": metadata.get("fund_house") or item.fallback_exchange,
+                "scheme_category": metadata.get("scheme_category") or "",
+                "history": [
+                    {"date": index.strftime("%Y-%m-%d"), "close": round(float(value), 8)}
+                    for index, value in frame["Close"].items()
+                ],
+            }
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, ValueError, OSError) as exc:
+            failures[scheme_code] = str(exc)
+
+    cache_document = {
+        "refresh_key": refresh_key,
+        "attempted_codes": sorted(attempted_codes),
+        "schemes": schemes,
+    }
+    write_json_atomic(cache_path, cache_document)
+
+    history_map: Dict[str, pd.DataFrame] = {}
+    info_map: Dict[str, Dict[str, Any]] = {}
+    for scheme_code, item in unique_items.items():
+        scheme = schemes.get(scheme_code, {})
+        records = scheme.get("history", [])
+        if records:
+            frame = pd.DataFrame(records)
+            frame["Date"] = pd.to_datetime(frame["date"], format="%Y-%m-%d", errors="coerce")
+            frame["Close"] = pd.to_numeric(frame["close"], errors="coerce")
+            frame = frame.dropna(subset=["Date", "Close"]).set_index("Date")[["Close"]]
+            history_map[scheme_code] = sanitize_history(frame)
+        else:
+            history_map[scheme_code] = pd.DataFrame()
+        info_map[scheme_code] = {
+            "longName": scheme.get("scheme_name") or item.fallback_name,
+            "fullExchangeName": scheme.get("fund_house") or item.fallback_exchange,
+            "currency": "INR",
+            "quoteType": "MUTUALFUND",
+            "schemeCategory": scheme.get("scheme_category") or "",
+        }
+
+    return history_map, info_map, failures
+
+
 def fetch_ticker_info(source_ticker: str, retries: int = 2) -> Tuple[Dict[str, Any], Optional[str]]:
     last_error: Optional[str] = None
     for attempt in range(retries + 1):
@@ -463,8 +595,36 @@ def calc_calendar_return(series: pd.Series, months: int = 0, years: int = 0) -> 
     return ((current_price / anchor_price) - 1.0) * 100.0
 
 
+def calc_nav_calendar_return(series: pd.Series, months: int = 0, years: int = 0) -> Optional[float]:
+    valid_series = series.dropna()
+    if valid_series.empty:
+        return None
+
+    current_price = safe_float(valid_series.iloc[-1])
+    if current_price in (None, 0):
+        return None
+
+    latest_date = pd.Timestamp(valid_series.index[-1])
+    anchor_date = shift_calendar_anchor(latest_date, months=months, years=years)
+    anchor_position = int(valid_series.index.searchsorted(anchor_date, side="right")) - 1
+    if anchor_position < 0:
+        return None
+
+    anchor_price = safe_float(valid_series.iloc[anchor_position])
+    if anchor_price in (None, 0):
+        return None
+    return ((current_price / anchor_price) - 1.0) * 100.0
+
+
 def calc_calendar_cagr(series: pd.Series, years: int) -> Optional[float]:
     total_return = calc_calendar_return(series, years=years)
+    if total_return is None or years <= 0:
+        return None
+    return (((1.0 + (total_return / 100.0)) ** (1.0 / years)) - 1.0) * 100.0
+
+
+def calc_nav_calendar_cagr(series: pd.Series, years: int) -> Optional[float]:
+    total_return = calc_nav_calendar_return(series, years=years)
     if total_return is None or years <= 0:
         return None
     return (((1.0 + (total_return / 100.0)) ** (1.0 / years)) - 1.0) * 100.0
@@ -677,14 +837,25 @@ def build_dashboard_data(
     history_payload: Dict[str, Dict[str, Any]] = {}
     failures: List[Dict[str, str]] = []
 
-    histories = download_histories([item.source_ticker for item in items])
-    info_cache: Dict[str, Dict[str, Any]] = {}
+    mutual_fund_items = [item for item in items if item.asset_type == "mutual_fund"]
+    market_items = [item for item in items if item.asset_type != "mutual_fund"]
+    histories = download_histories([item.source_ticker for item in market_items])
+    mutual_fund_histories, info_cache, mutual_fund_failures = download_mutual_fund_histories(
+        mutual_fund_items,
+        os.path.join(out_dir, MF_NAV_CACHE_FILENAME),
+    )
+    histories.update(mutual_fund_histories)
 
     for source_ticker in sorted(set(item.source_ticker for item in items)):
+        if source_ticker in info_cache:
+            continue
         info, error = fetch_ticker_info(source_ticker)
         info_cache[source_ticker] = info
         if error:
             failures.append({"source_ticker": source_ticker, "stage": "info", "error": error})
+
+    for scheme_code, error in mutual_fund_failures.items():
+        failures.append({"source_ticker": scheme_code, "stage": "mfapi", "error": error})
 
     required_fx_tickers = sorted(
         {
@@ -756,31 +927,35 @@ def build_dashboard_data(
                 }
             )
 
+        return_calc = calc_nav_calendar_return if item.asset_type == "mutual_fund" else calc_calendar_return
+        cagr_calc = calc_nav_calendar_cagr if item.asset_type == "mutual_fund" else calc_calendar_cagr
         local_metrics = {
             "daily_usd_pct": calc_window_return(usd_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
             "five_day_usd_pct": calc_window_return(usd_close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
-            "one_month_usd_pct": calc_calendar_return(usd_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
-            "three_month_usd_pct": calc_calendar_return(usd_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
-            "one_year_usd_pct": calc_calendar_return(usd_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
-            "three_year_usd_pct": calc_calendar_cagr(usd_close_series, years=3),
-            "five_year_usd_pct": calc_calendar_cagr(usd_close_series, years=5),
+            "one_month_usd_pct": return_calc(usd_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
+            "three_month_usd_pct": return_calc(usd_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
+            "one_year_usd_pct": return_calc(usd_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
+            "three_year_usd_pct": cagr_calc(usd_close_series, years=3),
+            "five_year_usd_pct": cagr_calc(usd_close_series, years=5),
             "ytd_usd_pct": calc_ytd_return(usd_close_series),
             "since_2024_09_26_usd_pct": calc_return_from_date(usd_close_series, FIXED_RETURN_START_DATE),
         }
         inr_metrics = {
             "daily_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["daily_pct"]),
             "five_day_pct": calc_window_return(inr_close_series, TRADING_DAY_RETURN_WINDOWS["five_day_pct"]),
-            "one_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
-            "three_month_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
-            "one_year_pct": calc_calendar_return(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
-            "three_year_pct": calc_calendar_cagr(inr_close_series, years=3),
-            "five_year_pct": calc_calendar_cagr(inr_close_series, years=5),
+            "one_month_pct": return_calc(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_month_pct"]),
+            "three_month_pct": return_calc(inr_close_series, **CALENDAR_RETURN_WINDOWS["three_month_pct"]),
+            "one_year_pct": return_calc(inr_close_series, **CALENDAR_RETURN_WINDOWS["one_year_pct"]),
+            "three_year_pct": cagr_calc(inr_close_series, years=3),
+            "five_year_pct": cagr_calc(inr_close_series, years=5),
             "ytd_pct": calc_ytd_return(inr_close_series),
             "since_2024_09_26_pct": calc_return_from_date(inr_close_series, FIXED_RETURN_START_DATE),
         }
         row = {
             "item_id": item.item_id,
             "ticker": item.ticker,
+            "isin": item.isin,
+            "scheme_code": item.scheme_code,
             "source_ticker": item.source_ticker,
             "name": row_meta["name"],
             "asset_type": item.asset_type,
@@ -794,9 +969,10 @@ def build_dashboard_data(
             "aum_display": format_aum(row_meta["aum"]) if item.asset_type == "etf" else "",
             "ter": row_meta["ter"],
             "ter_display": "{:.2f}%".format(row_meta["ter"] * 100) if row_meta["ter"] is not None else "N/A",
-            "data_source": "Yahoo Finance via yfinance",
+            "data_source": "MFAPI / AMFI NAV" if item.asset_type == "mutual_fund" else "Yahoo Finance via yfinance",
             "data_status": (
                 "Unavailable" if close_series.empty
+                else "Stale" if item.scheme_code in mutual_fund_failures
                 else "Limited history" if item.asset_type == "index" and len(close_series) < 250
                 else "Available"
             ),
@@ -806,6 +982,8 @@ def build_dashboard_data(
         history_payload[item.item_id] = {
             "item_id": item.item_id,
             "ticker": item.ticker,
+            "isin": item.isin,
+            "scheme_code": item.scheme_code,
             "source_ticker": item.source_ticker,
             "name": row_meta["name"],
             "currency": row_meta["currency"],

@@ -89,6 +89,18 @@
           "items": []
         }
       ]
+    },
+    {
+      "id": "flexicap",
+      "label": "Flexicap",
+      "asset_type": "mutual_fund",
+      "groups": [
+        {
+          "id": "custom",
+          "label": "Custom",
+          "items": []
+        }
+      ]
     }
   ]
 }
