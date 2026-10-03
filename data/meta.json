@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-03T15:34:13.344226Z",
+  "built_at": "2026-10-03T15:37:51.848442Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -138,7 +138,7 @@
     {
       "key": "ter",
       "label": "TER",
-      "type": "percent",
+      "type": "number",
       "asset_types": [
         "etf"
       ]
