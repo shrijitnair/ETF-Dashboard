@@ -342,7 +342,9 @@ function renderMobileCard(row, columns, tabId) {
   ].includes(column.key));
   const instrumentMeta = row.asset_type === "mutual_fund"
     ? ""
-    : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
+    : row.asset_type === "stock"
+      ? `${row.ticker} • ${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`
+      : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
 
   return `
     <article class="instrument-card ${selected ? "selected" : ""}">
@@ -354,7 +356,7 @@ function renderMobileCard(row, columns, tabId) {
       >
         <span class="instrument-card-heading">
           <span class="instrument-card-identity">
-            ${row.asset_type === "mutual_fund" ? "" : `<span class="ticker-pill">${escapeHtml(row.ticker)}</span>`}
+            ${row.asset_type === "mutual_fund" || row.asset_type === "stock" ? "" : `<span class="ticker-pill">${escapeHtml(row.ticker)}</span>`}
             <strong>${escapeHtml(getDisplayName(row))}</strong>
             ${instrumentMeta ? `<span class="subdued instrument-card-meta">${escapeHtml(instrumentMeta)}</span>` : ""}
           </span>
@@ -418,7 +420,7 @@ function renderCell(row, column) {
       return `
         <div class="name-cell">
           <strong>${escapeHtml(getDisplayName(row))}</strong>
-          ${row.asset_type === "mutual_fund" ? "" : `<div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>`}
+          ${row.asset_type === "mutual_fund" ? "" : `<div class="subdued">${row.asset_type === "stock" ? escapeHtml(row.ticker) + " • " : ""}${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>`}
         </div>
       `;
     case "last_price":
@@ -450,7 +452,9 @@ function renderDetail() {
   }
 
   elements.detailTabLabel.textContent = tab.label;
-  elements.detailTitle.textContent = row.asset_type === "mutual_fund" ? getDisplayName(row) : row.ticker;
+  elements.detailTitle.textContent = row.asset_type === "stock" || row.asset_type === "mutual_fund"
+    ? getDisplayName(row)
+    : row.ticker;
   elements.detailSubtitle.textContent = row.asset_type === "mutual_fund"
     ? `ISIN ${row.isin} • Scheme ${row.scheme_code} • ${row.exchange}`
     : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
@@ -600,6 +604,8 @@ function getColumnsForTab(tab) {
     ? [
         { key: "name", label: "Scheme", sortable: true },
       ]
+    : tab.asset_type === "stock"
+      ? [{ key: "name", label: "Company", sortable: true }]
     : [{ key: "ticker", label: getMetaColumnLabel("ticker", "Ticker"), sortable: true, className: "ticker-cell" }];
   columns.push(
     { key: "last_price", label: tab.asset_type === "mutual_fund" ? "Last" : `Last ${state.displayCurrency}`, sortable: true },

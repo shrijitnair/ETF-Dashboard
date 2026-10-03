@@ -620,91 +620,219 @@
       "asset_type": "stock",
       "groups": [
         {
-          "id": "magnificent-7",
-          "label": "Magnificent 7",
+          "id": "big-tech-platforms",
+          "label": "Big Tech & Platforms",
           "items": [
             {
               "ticker": "AAPL",
               "source_ticker": "AAPL",
-              "name": "Apple Inc.",
+              "name": "Apple",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "GOOG",
+              "source_ticker": "GOOG",
+              "name": "Alphabet",
               "exchange": "NASDAQ",
               "currency": "USD"
             },
             {
               "ticker": "MSFT",
               "source_ticker": "MSFT",
-              "name": "Microsoft Corporation",
-              "exchange": "NASDAQ",
-              "currency": "USD"
-            },
-            {
-              "ticker": "NVDA",
-              "source_ticker": "NVDA",
-              "name": "NVIDIA Corporation",
+              "name": "Microsoft",
               "exchange": "NASDAQ",
               "currency": "USD"
             },
             {
               "ticker": "AMZN",
               "source_ticker": "AMZN",
-              "name": "Amazon.com, Inc.",
+              "name": "Amazon",
               "exchange": "NASDAQ",
               "currency": "USD"
             },
             {
               "ticker": "META",
               "source_ticker": "META",
-              "name": "Meta Platforms, Inc.",
-              "exchange": "NASDAQ",
-              "currency": "USD"
-            },
-            {
-              "ticker": "GOOGL",
-              "source_ticker": "GOOGL",
-              "name": "Alphabet Inc.",
+              "name": "Meta",
               "exchange": "NASDAQ",
               "currency": "USD"
             },
             {
               "ticker": "TSLA",
               "source_ticker": "TSLA",
-              "name": "Tesla, Inc.",
+              "name": "Tesla",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PLTR",
+              "source_ticker": "PLTR",
+              "name": "Palantir",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "ORCL",
+              "source_ticker": "ORCL",
+              "name": "Oracle",
+              "exchange": "NYSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "semiconductors",
+          "label": "Semiconductors & Memory",
+          "items": [
+            {
+              "ticker": "AVGO",
+              "source_ticker": "AVGO",
+              "name": "Broadcom",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "INTC",
+              "source_ticker": "INTC",
+              "name": "Intel",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "MRVL",
+              "source_ticker": "MRVL",
+              "name": "Marvell",
               "exchange": "NASDAQ",
               "currency": "USD"
             },
             {
               "ticker": "AMD",
               "source_ticker": "AMD",
-              "name": "Advanced Micro Devices, Inc.",
+              "name": "AMD",
               "exchange": "NASDAQ",
               "currency": "USD"
             },
             {
-              "ticker": "AVGO",
-              "source_ticker": "INTC",
-              "name": "Intel Corporation",
+              "ticker": "NVDA",
+              "source_ticker": "NVDA",
+              "name": "NVIDIA",
               "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "QCOM",
+              "source_ticker": "QCOM",
+              "name": "Qualcomm",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "TSM",
+              "source_ticker": "TSM",
+              "name": "TSMC",
+              "exchange": "NYSE",
               "currency": "USD"
             },
             {
               "ticker": "MU",
               "source_ticker": "MU",
-              "name": "Micron Technology, Inc.",
+              "name": "Micron",
               "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "SNDK",
+              "source_ticker": "SNDK",
+              "name": "SanDisk",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "semiconductor-equipment",
+          "label": "Semiconductor Equipment",
+          "items": [
+            {
+              "ticker": "ASML",
+              "source_ticker": "ASML",
+              "name": "ASML",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "AMAT",
+              "source_ticker": "AMAT",
+              "name": "Applied Materials",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "cybersecurity",
+          "label": "Cybersecurity",
+          "items": [
+            {
+              "ticker": "CRWD",
+              "source_ticker": "CRWD",
+              "name": "CrowdStrike",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "consumer-retail",
+          "label": "Consumer & Retail",
+          "items": [
+            {
+              "ticker": "WMT",
+              "source_ticker": "WMT",
+              "name": "Walmart",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "hardware-networking",
+          "label": "Hardware & Networking",
+          "items": [
+            {
+              "ticker": "HPQ",
+              "source_ticker": "HPQ",
+              "name": "HP",
+              "exchange": "NYSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "DELL",
+              "source_ticker": "DELL",
+              "name": "Dell",
+              "exchange": "NYSE",
               "currency": "USD"
             },
             {
               "ticker": "ANET",
               "source_ticker": "ANET",
-              "name": "Arista Networks, Inc.",
+              "name": "Arista",
               "exchange": "NYSE",
               "currency": "USD"
             },
             {
-              "ticker": "PLTR",
-              "source_ticker": "PLTR",
-              "name": "Palantir Technologies Inc.",
-              "exchange": "NYSE",
+              "ticker": "SMCI",
+              "source_ticker": "SMCI",
+              "name": "Super Micro",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "CSCO",
+              "source_ticker": "CSCO",
+              "name": "Cisco",
+              "exchange": "NASDAQ",
               "currency": "USD"
             }
           ]
