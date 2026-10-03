@@ -426,7 +426,7 @@ function renderCell(row, column) {
     case "aum":
       return row.aum ? `<span class="aum-pill">${escapeHtml(row.aum_display)}</span>` : `<span class="subdued">N/A</span>`;
     case "ter":
-      return `<span>${escapeHtml(row.ter_display || "N/A")}</span>`;
+      return `<span>${escapeHtml(formatTer(row.ter))}</span>`;
     default:
       const value = getDisplayMetric(row, column.key);
       return `<span class="${getChangeClass(value)}">${escapeHtml(formatPercent(value, true))}</span>`;
@@ -490,7 +490,7 @@ function renderDetail() {
   }
 
   if (row.asset_type === "etf") {
-    stats.push({ label: "TER", value: row.ter_display || "N/A", className: "" });
+    stats.push({ label: "TER", value: formatTer(row.ter), className: "" });
     stats.push({ label: "AUM", value: row.aum_display || "N/A", className: "" });
   }
 
@@ -787,6 +787,16 @@ function formatPrice(value, currency) {
   } catch (error) {
     return `${(value || 0).toFixed(2)} ${currency || ""}`.trim();
   }
+}
+
+function formatTer(value) {
+  if (value === null || value === undefined || value === "" || !Number.isFinite(Number(value))) {
+    return "N/A";
+  }
+  return Number(value).toLocaleString("en-US", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 4,
+  });
 }
 
 function formatPercent(value, includeSign = false) {

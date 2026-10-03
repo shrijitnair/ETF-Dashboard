@@ -968,7 +968,7 @@ def build_dashboard_data(
             "aum": row_meta["aum"],
             "aum_display": format_aum(row_meta["aum"]) if item.asset_type == "etf" else "",
             "ter": row_meta["ter"],
-            "ter_display": "{:.2f}%".format(row_meta["ter"] * 100) if row_meta["ter"] is not None else "N/A",
+            "ter_display": "{:.2f}".format(row_meta["ter"]) if row_meta["ter"] is not None else "N/A",
             "data_source": "MFAPI / AMFI NAV" if item.asset_type == "mutual_fund" else "Yahoo Finance via yfinance",
             "data_status": (
                 "Unavailable" if close_series.empty
@@ -1059,7 +1059,7 @@ def build_dashboard_data(
             {"key": "three_year_pct", "label": "3Y CAGR INR", "type": "number"},
             {"key": "five_year_pct", "label": "5Y CAGR INR", "type": "number"},
             {"key": "since_2024_09_26_pct", "label": "Since 26 Sep 2024 INR", "type": "number", "asset_types": ["index"]},
-            {"key": "ter", "label": "TER", "type": "percent", "asset_types": ["etf"]},
+            {"key": "ter", "label": "TER", "type": "number", "asset_types": ["etf"]},
             {"key": "aum", "label": "AUM", "type": "currency_large", "asset_types": ["etf"]},
         ],
         "failures": failures,
