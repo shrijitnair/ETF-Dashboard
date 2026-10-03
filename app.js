@@ -41,6 +41,8 @@ const elements = {
   rangeToggle: document.getElementById("range-toggle"),
   searchInput: document.getElementById("search-input"),
   currencySelect: document.getElementById("currency-select"),
+  mobileSortSelect: document.getElementById("mobile-sort-select"),
+  mobileSortDirection: document.getElementById("mobile-sort-direction"),
   emptyTemplate: document.getElementById("empty-state-template"),
   returnBasisNote: document.getElementById("return-basis-note"),
   chartChangeLabel: document.getElementById("chart-change-label"),
@@ -78,6 +80,23 @@ function bindPersistentEvents() {
     state.filterText = event.target.value.trim().toLowerCase();
     syncSelectedRow();
     render();
+  });
+  elements.mobileSortSelect.addEventListener("change", (event) => {
+    const tab = getActiveTab();
+    if (!tab) return;
+    const key = event.target.value;
+    state.sortStateByTab[tab.id] = {
+      key,
+      direction: key === "ticker" || key === "name" ? "asc" : "desc",
+    };
+    renderTable();
+  });
+  elements.mobileSortDirection.addEventListener("click", () => {
+    const tab = getActiveTab();
+    if (!tab) return;
+    const sortState = state.sortStateByTab[tab.id];
+    sortState.direction = sortState.direction === "asc" ? "desc" : "asc";
+    renderTable();
   });
   updateThemeToggle();
 }
@@ -223,6 +242,7 @@ function renderTable() {
   }
 
   const columns = getColumnsForTab(tab);
+  renderMobileSort(tab, columns);
   const visibleGroups = tab.groups.map((group) => ({
     ...group,
     rows: getSortedFilteredRows(tab, group.rows),
@@ -267,6 +287,9 @@ function renderTable() {
           </tbody>
         </table>
       </div>
+      <div class="mobile-cards">
+        ${group.rows.map((row) => renderMobileCard(row, columns, tab.id)).join("")}
+      </div>
     </section>
   `).join("");
 
@@ -284,6 +307,97 @@ function renderTable() {
       renderDetail();
     });
   });
+
+  elements.tablePanel.querySelectorAll("[data-mobile-item-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.selectedItemByTab[tab.id] = button.dataset.mobileItemId;
+      renderTable();
+      renderDetail();
+    });
+  });
+}
+
+function renderMobileSort(tab, columns) {
+  const sortState = state.sortStateByTab[tab.id];
+  elements.mobileSortSelect.innerHTML = columns
+    .filter((column) => column.sortable)
+    .map((column) => `<option value="${escapeHtml(column.key)}">${escapeHtml(column.label)}</option>`)
+    .join("");
+  elements.mobileSortSelect.value = sortState.key;
+  elements.mobileSortDirection.textContent = sortState.direction === "asc" ? "↑" : "↓";
+  elements.mobileSortDirection.setAttribute(
+    "aria-label",
+    `Sort ${sortState.direction === "asc" ? "descending" : "ascending"}`,
+  );
+}
+
+function renderMobileCard(row, columns, tabId) {
+  const selected = state.selectedItemByTab[tabId] === row.item_id;
+  const summaryKeys = new Set(["daily_pct", "five_day_pct", "one_month_pct", "ytd_pct", "one_year_pct"]);
+  const summaryColumns = columns.filter((column) => summaryKeys.has(column.key));
+  const detailColumns = columns.filter((column) => ![
+    "ticker", "name", "last_price", ...summaryKeys,
+  ].includes(column.key));
+  const name = row.asset_type === "mutual_fund" ? row.name : row.name || row.ticker;
+  const instrumentMeta = row.asset_type === "mutual_fund"
+    ? `${row.exchange} • Scheme ${row.scheme_code || "N/A"}`
+    : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
+
+  return `
+    <article class="instrument-card ${selected ? "selected" : ""}">
+      <button
+        class="instrument-card-main"
+        type="button"
+        data-mobile-item-id="${escapeHtml(row.item_id)}"
+        aria-pressed="${selected}"
+      >
+        <span class="instrument-card-heading">
+          <span class="instrument-card-identity">
+            <span class="ticker-pill">${escapeHtml(row.ticker)}</span>
+            <strong>${escapeHtml(name)}</strong>
+            <span class="subdued instrument-card-meta">${escapeHtml(instrumentMeta)}</span>
+          </span>
+          <span class="instrument-card-price">
+            <span class="metric-label">Last ${escapeHtml(state.displayCurrency)}</span>
+            <span>${renderCell(row, { key: "last_price" })}</span>
+          </span>
+        </span>
+        <span class="mobile-metrics">
+          ${summaryColumns.map((column) => {
+            const value = getDisplayMetric(row, column.key);
+            return `
+              <span class="mobile-metric">
+                <span>${escapeHtml(column.label)}</span>
+                <strong class="${getChangeClass(value)}">${escapeHtml(formatPercent(value, true))}</strong>
+              </span>
+            `;
+          }).join("")}
+        </span>
+      </button>
+      <details class="instrument-card-more">
+        <summary>More metrics and details</summary>
+        <div class="mobile-detail-metrics">
+          ${detailColumns.map((column) => `
+            <span class="mobile-detail-metric">
+              <span>${escapeHtml(column.label)}</span>
+              <strong>${renderCell(row, column)}</strong>
+            </span>
+          `).join("")}
+          ${row.asset_type === "mutual_fund" ? `
+            <span class="mobile-detail-metric"><span>Exchange</span><strong>${escapeHtml(row.exchange || "N/A")}</strong></span>
+            <span class="mobile-detail-metric"><span>Scheme code</span><strong>${escapeHtml(row.scheme_code || "N/A")}</strong></span>
+            <span class="mobile-detail-metric"><span>NAV date</span><strong>${escapeHtml(row.data_date || "N/A")}</strong></span>
+            <span class="mobile-detail-metric"><span>Data source</span><strong>${escapeHtml(row.data_source || "MFAPI / AMFI NAV")}</strong></span>
+            <span class="mobile-detail-metric"><span>Status</span><strong>${escapeHtml(row.data_status || "Unknown")}</strong></span>
+          ` : ""}
+          ${row.asset_type === "index" ? `
+            <span class="mobile-detail-metric"><span>Data source</span><strong>${escapeHtml(row.data_source || "Yahoo Finance via yfinance")}</strong></span>
+            <span class="mobile-detail-metric"><span>Status</span><strong>${escapeHtml(row.data_status || "Unknown")}${row.data_date ? ` • ${escapeHtml(row.data_date)}` : ""}</strong></span>
+          ` : ""}
+        </div>
+      </details>
+    </article>
+  `;
 }
 
 function renderRow(row, columns, tabId) {
