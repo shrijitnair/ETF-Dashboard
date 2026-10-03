@@ -353,7 +353,7 @@ function renderMobileCard(row, columns, tabId) {
       >
         <span class="instrument-card-heading">
           <span class="instrument-card-identity">
-            <span class="ticker-pill">${escapeHtml(row.ticker)}</span>
+            ${row.asset_type === "mutual_fund" ? "" : `<span class="ticker-pill">${escapeHtml(row.ticker)}</span>`}
             <strong>${escapeHtml(name)}</strong>
             <span class="subdued instrument-card-meta">${escapeHtml(instrumentMeta)}</span>
           </span>
@@ -417,7 +417,7 @@ function renderCell(row, column) {
       return `
         <div class="name-cell">
           <strong>${escapeHtml(row.name)}</strong>
-          <div class="subdued">${escapeHtml(row.exchange)}${row.asset_type === "mutual_fund" ? " • " + escapeHtml(row.isin || "") : row.currency ? " • " + escapeHtml(row.currency) : ""}</div>
+          <div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>
         </div>
       `;
     case "last_price":
@@ -594,7 +594,6 @@ function handleSort(tabId, key) {
 function getColumnsForTab(tab) {
   const columns = tab.asset_type === "mutual_fund"
     ? [
-        { key: "ticker", label: "ISIN", sortable: true, className: "ticker-cell" },
         { key: "name", label: "Scheme", sortable: true },
       ]
     : [{ key: "ticker", label: getMetaColumnLabel("ticker", "Ticker"), sortable: true, className: "ticker-cell" }];
