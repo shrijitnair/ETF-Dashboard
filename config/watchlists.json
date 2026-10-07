@@ -880,7 +880,13 @@
           "items": [
             {"ticker": "NIFTY50", "source_ticker": "^NSEI", "name": "Nifty 50", "exchange": "NSE", "currency": "INR"},
             {"ticker": "NIFTYNEXT50", "source_ticker": "^NSMIDCP", "name": "Nifty Next 50", "exchange": "NSE", "currency": "INR"},
-            {"ticker": "NIFTYBANK", "source_ticker": "^NSEBANK", "name": "Nifty Bank", "exchange": "NSE", "currency": "INR"}
+            {"ticker": "NIFTYBANK", "source_ticker": "^NSEBANK", "name": "Nifty Bank", "exchange": "NSE", "currency": "INR"},
+            {"ticker": "NIFTY100", "source_ticker": "^CNX100", "name": "Nifty 100", "exchange": "NSE", "currency": "INR"},
+            {"ticker": "NIFTY500", "source_ticker": "^CRSLDX", "name": "Nifty 500", "exchange": "NSE", "currency": "INR"},
+            {"ticker": "NIFTYMIDCAP150", "source_ticker": "NIFTYMIDCAP150.NS", "name": "Nifty Midcap 150", "exchange": "NSE", "currency": "INR"},
+            {"ticker": "NIFTYMIDCAP50", "source_ticker": "^NSEMDCP50", "name": "Nifty Midcap 50", "exchange": "NSE", "currency": "INR"},
+            {"ticker": "NIFTYIT", "source_ticker": "^CNXIT", "name": "Nifty IT", "exchange": "NSE", "currency": "INR"},
+            {"ticker": "NIFTYPHARMA", "source_ticker": "^CNXPHARMA", "name": "Nifty Pharma", "exchange": "NSE", "currency": "INR"}
           ]
         },
         {
@@ -888,7 +894,17 @@
           "label": "US Indices",
           "items": [
             {"ticker": "SP500", "source_ticker": "^GSPC", "name": "S&P 500", "exchange": "SNP", "currency": "USD"},
-            {"ticker": "NASDAQ100", "source_ticker": "^NDX", "name": "NASDAQ-100", "exchange": "Nasdaq", "currency": "USD"}
+            {"ticker": "NASDAQ100", "source_ticker": "^NDX", "name": "NASDAQ-100", "exchange": "Nasdaq", "currency": "USD"},
+            {"ticker": "RUSSELL2000", "source_ticker": "^RUT", "name": "Russell 2000", "exchange": "NYSE", "currency": "USD"}
+          ]
+        },
+        {
+          "id": "europe-indices",
+          "label": "European Indices",
+          "items": [
+            {"ticker": "FTSE100", "source_ticker": "^FTSE", "name": "FTSE 100", "exchange": "LSE", "currency": "GBP"},
+            {"ticker": "DAX", "source_ticker": "^GDAXI", "name": "DAX", "exchange": "XETRA", "currency": "EUR"},
+            {"ticker": "STOXX600", "source_ticker": "^STOXX", "name": "STOXX Europe 600", "exchange": "STOXX", "currency": "EUR"}
           ]
         }
       ]

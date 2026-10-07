@@ -680,7 +680,7 @@ def extract_row_meta(info: Dict[str, Any], item: WatchItem) -> Dict[str, Any]:
         or info.get("displayName")
         or item.fallback_name
     )
-    name = item.fallback_name if item.asset_type == "stock" else provider_name
+    name = item.fallback_name if item.asset_type in {"stock", "index"} else provider_name
     exchange = (
         info.get("fullExchangeName")
         or info.get("exchange")
