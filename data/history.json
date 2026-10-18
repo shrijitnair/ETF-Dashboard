@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-18T16:36:00.680868Z",
+  "built_at": "2026-10-18T18:54:12.250278Z",
   "series": {
     "us-etfs:VXUS": {
       "item_id": "us-etfs:VXUS",
@@ -935244,16 +935244,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 1.2884,
-          "inr_close": 94.53
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.2861,
-          "inr_close": 94.36
-        },
-        {
           "date": "2020-09-21",
           "close": 1.2501,
           "inr_close": 91.72
@@ -946411,16 +946401,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.4487,
-          "inr_close": 32.919
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.4502,
-          "inr_close": 33.0297
-        },
-        {
           "date": "2020-09-21",
           "close": 0.4319,
           "inr_close": 31.6912
@@ -953916,16 +953896,6 @@
       "name": "Kotak Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.5224,
-          "inr_close": 38.329
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.5211,
-          "inr_close": 38.23
-        },
         {
           "date": "2020-09-21",
           "close": 0.5078,
@@ -961423,16 +961393,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.2344,
-          "inr_close": 17.2
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.2333,
-          "inr_close": 17.12
-        },
-        {
           "date": "2020-09-21",
           "close": 0.2265,
           "inr_close": 16.62
@@ -968929,16 +968889,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 1.232,
-          "inr_close": 90.3928
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.2326,
-          "inr_close": 90.4386
-        },
-        {
           "date": "2020-09-21",
           "close": 1.1968,
           "inr_close": 87.8103
@@ -976434,16 +976384,6 @@
       "name": "JM Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.4635,
-          "inr_close": 34.0078
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.4611,
-          "inr_close": 33.8304
-        },
         {
           "date": "2020-09-21",
           "close": 0.4482,
@@ -996665,16 +996605,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1592,
-          "inr_close": 11.6834
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1597,
-          "inr_close": 11.7156
-        },
-        {
           "date": "2020-09-21",
           "close": 0.1557,
           "inr_close": 11.4227
@@ -1004170,16 +1004100,6 @@
       "name": "Edelweiss Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.2117,
-          "inr_close": 15.534
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.2118,
-          "inr_close": 15.543
-        },
         {
           "date": "2020-09-21",
           "close": 0.2062,
@@ -1012923,16 +1012843,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1492,
-          "inr_close": 10.9463
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1499,
-          "inr_close": 10.9955
-        },
-        {
           "date": "2020-09-21",
           "close": 0.1451,
           "inr_close": 10.6458
@@ -1020434,16 +1020344,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 10.6646,
-          "inr_close": 782.47
-        },
-        {
-          "date": "2020-09-18",
-          "close": 10.6951,
-          "inr_close": 784.71
-        },
-        {
           "date": "2020-09-21",
           "close": 10.3537,
           "inr_close": 759.66
@@ -1027939,16 +1027839,6 @@
       "name": "SBI FLEXICAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.6965,
-          "inr_close": 51.1059
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.6963,
-          "inr_close": 51.0911
-        },
         {
           "date": "2020-09-21",
           "close": 0.6769,
@@ -1035480,16 +1035370,6 @@
       "name": "UTI - Flexi Cap Fund. - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 2.2414,
-          "inr_close": 164.4543
-        },
-        {
-          "date": "2020-09-18",
-          "close": 2.2337,
-          "inr_close": 163.8921
-        },
         {
           "date": "2020-09-21",
           "close": 2.1734,
@@ -1049463,16 +1049343,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1597,
-          "inr_close": 11.72
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1599,
-          "inr_close": 11.73
-        },
-        {
           "date": "2020-09-21",
           "close": 0.155,
           "inr_close": 11.37
@@ -1056968,16 +1056838,6 @@
       "name": "Franklin India Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 8.1661,
-          "inr_close": 599.1575
-        },
-        {
-          "date": "2020-09-18",
-          "close": 8.1832,
-          "inr_close": 600.4065
-        },
         {
           "date": "2020-09-21",
           "close": 7.9304,
@@ -1064475,16 +1064335,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.4446,
-          "inr_close": 32.6192
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.4462,
-          "inr_close": 32.7371
-        },
-        {
           "date": "2020-09-21",
           "close": 0.4348,
           "inr_close": 31.8982
@@ -1071975,16 +1071825,6 @@
       "name": "Canara Robeco Flexi Cap Fund - Direct Plan - GROWTH OPTION",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 2.1179,
-          "inr_close": 155.39
-        },
-        {
-          "date": "2020-09-18",
-          "close": 2.116,
-          "inr_close": 155.25
-        },
         {
           "date": "2020-09-21",
           "close": 2.0613,
@@ -1079482,16 +1079322,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.3723,
-          "inr_close": 27.3148
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.3717,
-          "inr_close": 27.2712
-        },
-        {
           "date": "2020-09-21",
           "close": 0.363,
           "inr_close": 26.6331
@@ -1086987,16 +1086817,6 @@
       "name": "Axis Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.1764,
-          "inr_close": 12.94
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1768,
-          "inr_close": 12.97
-        },
         {
           "date": "2020-09-21",
           "close": 0.1724,
@@ -1094534,16 +1094354,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.5991,
-          "inr_close": 43.958
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.5989,
-          "inr_close": 43.941
-        },
-        {
           "date": "2020-09-21",
           "close": 0.5809,
           "inr_close": 42.62
@@ -1102039,16 +1101849,6 @@
       "name": "HDFC Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 8.4158,
-          "inr_close": 617.479
-        },
-        {
-          "date": "2020-09-18",
-          "close": 8.4345,
-          "inr_close": 618.851
-        },
         {
           "date": "2020-09-21",
           "close": 8.1805,
@@ -1125514,16 +1125314,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.3064,
-          "inr_close": 22.48
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.3063,
-          "inr_close": 22.47
-        },
-        {
           "date": "2020-09-21",
           "close": 0.2977,
           "inr_close": 21.84
@@ -1133014,16 +1132804,6 @@
       "name": "LIC MF Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.6786,
-          "inr_close": 49.789
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.6761,
-          "inr_close": 49.604
-        },
         {
           "date": "2020-09-21",
           "close": 0.661,
@@ -1162962,16 +1162742,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1476,
-          "inr_close": 10.8311
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1474,
-          "inr_close": 10.817
-        },
-        {
           "date": "2020-09-21",
           "close": 0.144,
           "inr_close": 10.5674
@@ -1170468,16 +1170238,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 1.4626,
-          "inr_close": 107.31
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.4661,
-          "inr_close": 107.57
-        },
-        {
           "date": "2020-09-21",
           "close": 1.4326,
           "inr_close": 105.11
@@ -1177958,16 +1177718,6 @@
       "name": "Edelweiss Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.4326,
-          "inr_close": 31.742
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.4311,
-          "inr_close": 31.631
-        },
         {
           "date": "2020-09-21",
           "close": 0.4159,
@@ -1187441,16 +1187191,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.8974,
-          "inr_close": 65.84
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.9039,
-          "inr_close": 66.3189
-        },
-        {
           "date": "2020-09-21",
           "close": 0.8773,
           "inr_close": 64.3706
@@ -1194946,16 +1194686,6 @@
       "name": "UTI - Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 1.6239,
-          "inr_close": 119.1487
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.6205,
-          "inr_close": 118.8997
-        },
         {
           "date": "2020-09-21",
           "close": 1.5707,
@@ -1202453,16 +1202183,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.2213,
-          "inr_close": 16.24
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.2207,
-          "inr_close": 16.19
-        },
-        {
           "date": "2020-09-21",
           "close": 0.2126,
           "inr_close": 15.6
@@ -1209953,16 +1209673,6 @@
       "name": "Invesco India Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.8348,
-          "inr_close": 61.25
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.8378,
-          "inr_close": 61.47
-        },
         {
           "date": "2020-09-21",
           "close": 0.8123,
@@ -1221425,16 +1221135,6 @@
       "name": "SBI MIDCAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 1.1212,
-          "inr_close": 82.2653
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.1189,
-          "inr_close": 82.0944
-        },
         {
           "date": "2020-09-21",
           "close": 1.0794,
@@ -1233777,16 +1233477,6 @@
       "name": "ICICI Prudential Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 1.391,
-          "inr_close": 102.06
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.391,
-          "inr_close": 102.06
-        },
         {
           "date": "2020-09-21",
           "close": 1.3478,
@@ -1246349,16 +1246039,6 @@
       "name": "Mahindra Manulife Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.146,
-          "inr_close": 10.7097
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1455,
-          "inr_close": 10.6771
-        },
         {
           "date": "2020-09-21",
           "close": 0.1409,
@@ -1264333,16 +1264013,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 17.1595,
-          "inr_close": 1259.0105
-        },
-        {
-          "date": "2020-09-18",
-          "close": 17.1067,
-          "inr_close": 1255.1367
-        },
-        {
           "date": "2020-09-21",
           "close": 16.4863,
           "inr_close": 1209.6199
@@ -1271839,16 +1271509,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1612,
-          "inr_close": 11.829
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1619,
-          "inr_close": 11.881
-        },
-        {
           "date": "2020-09-21",
           "close": 0.1565,
           "inr_close": 11.486
@@ -1279344,16 +1279004,6 @@
       "name": "Kotak Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.6263,
-          "inr_close": 45.953
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.6251,
-          "inr_close": 45.863
-        },
         {
           "date": "2020-09-21",
           "close": 0.6061,
@@ -1298933,16 +1298583,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 6.377,
-          "inr_close": 467.8846
-        },
-        {
-          "date": "2020-09-18",
-          "close": 6.3246,
-          "inr_close": 464.0456
-        },
-        {
           "date": "2020-09-21",
           "close": 6.1394,
           "inr_close": 450.4541
@@ -1306433,16 +1306073,6 @@
       "name": "Tata Mid Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 2.1853,
-          "inr_close": 160.3402
-        },
-        {
-          "date": "2020-09-18",
-          "close": 2.1859,
-          "inr_close": 160.3817
-        },
         {
           "date": "2020-09-21",
           "close": 2.1205,
@@ -1313940,16 +1313570,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.8142,
-          "inr_close": 59.736
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.8105,
-          "inr_close": 59.466
-        },
-        {
           "date": "2020-09-21",
           "close": 0.7829,
           "inr_close": 57.439
@@ -1321445,16 +1321065,6 @@
       "name": "Axis Midcap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.6402,
-          "inr_close": 46.97
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.6396,
-          "inr_close": 46.93
-        },
         {
           "date": "2020-09-21",
           "close": 0.6222,
@@ -1328991,16 +1328601,6 @@
       "name": "DSP Midcap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.9082,
-          "inr_close": 66.632
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.9099,
-          "inr_close": 66.759
-        },
         {
           "date": "2020-09-21",
           "close": 0.885,
@@ -1341269,16 +1340869,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 3.973,
-          "inr_close": 291.5
-        },
-        {
-          "date": "2020-09-18",
-          "close": 3.9651,
-          "inr_close": 290.92
-        },
-        {
           "date": "2020-09-21",
           "close": 3.848,
           "inr_close": 282.33
@@ -1348774,16 +1348364,6 @@
       "name": "PGIM India Midcap Fund - Direct Plan - Direct Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.3334,
-          "inr_close": 24.46
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.3336,
-          "inr_close": 24.48
-        },
         {
           "date": "2020-09-21",
           "close": 0.323,
@@ -1356281,16 +1355861,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 13.905,
-          "inr_close": 1020.2249
-        },
-        {
-          "date": "2020-09-18",
-          "close": 13.8131,
-          "inr_close": 1013.4831
-        },
-        {
           "date": "2020-09-21",
           "close": 13.4028,
           "inr_close": 983.3756
@@ -1363787,16 +1363357,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.6907,
-          "inr_close": 50.68
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.6907,
-          "inr_close": 50.68
-        },
-        {
           "date": "2020-09-21",
           "close": 0.6693,
           "inr_close": 49.11
@@ -1371277,16 +1370837,6 @@
       "name": "Motilal Oswal Midcap Fund",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.3761,
-          "inr_close": 27.5961
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.3741,
-          "inr_close": 27.4504
-        },
         {
           "date": "2020-09-21",
           "close": 0.362,
@@ -1382626,16 +1382176,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.2374,
-          "inr_close": 17.42
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.237,
-          "inr_close": 17.39
-        },
-        {
           "date": "2020-09-21",
           "close": 0.2273,
           "inr_close": 16.68
@@ -1390126,16 +1389666,6 @@
       "name": "BANK OF INDIA SMALL CAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.1974,
-          "inr_close": 14.48
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1971,
-          "inr_close": 14.46
-        },
         {
           "date": "2020-09-21",
           "close": 0.1896,
@@ -1401094,16 +1400624,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 1.1464,
-          "inr_close": 84.1109
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.1399,
-          "inr_close": 83.638
-        },
-        {
           "date": "2020-09-21",
           "close": 1.1004,
           "inr_close": 80.7391
@@ -1408594,16 +1408114,6 @@
       "name": "ITI Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.1374,
-          "inr_close": 10.0834
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1374,
-          "inr_close": 10.0839
-        },
         {
           "date": "2020-09-21",
           "close": 0.1325,
@@ -1424803,16 +1424313,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.4546,
-          "inr_close": 33.3523
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.4541,
-          "inr_close": 33.3182
-        },
-        {
           "date": "2020-09-21",
           "close": 0.4382,
           "inr_close": 32.1484
@@ -1432308,16 +1431808,6 @@
       "name": "Invesco India Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.1655,
-          "inr_close": 12.14
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1651,
-          "inr_close": 12.11
-        },
         {
           "date": "2020-09-21",
           "close": 0.1593,
@@ -1446246,16 +1445736,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.8424,
-          "inr_close": 61.8109
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.8468,
-          "inr_close": 62.1321
-        },
-        {
           "date": "2020-09-21",
           "close": 0.8104,
           "inr_close": 59.4622
@@ -1456627,16 +1456107,6 @@
       "name": "DSP Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.8854,
-          "inr_close": 64.965
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.8841,
-          "inr_close": 64.864
-        },
         {
           "date": "2020-09-21",
           "close": 0.8547,
@@ -1469876,16 +1469346,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1764,
-          "inr_close": 12.94
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1758,
-          "inr_close": 12.9
-        },
-        {
           "date": "2020-09-21",
           "close": 0.1695,
           "inr_close": 12.44
@@ -1477422,16 +1476882,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.6395,
-          "inr_close": 46.9242
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.6371,
-          "inr_close": 46.7456
-        },
-        {
           "date": "2020-09-21",
           "close": 0.6119,
           "inr_close": 44.8936
@@ -1484927,16 +1484377,6 @@
       "name": "Edelweiss Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.182,
-          "inr_close": 13.353
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1809,
-          "inr_close": 13.27
-        },
         {
           "date": "2020-09-21",
           "close": 0.1743,
@@ -1496094,16 +1495534,6 @@
       "name": "Axis Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.5071,
-          "inr_close": 37.21
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.5048,
-          "inr_close": 37.04
-        },
         {
           "date": "2020-09-21",
           "close": 0.4904,
@@ -1508442,16 +1507872,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.9033,
-          "inr_close": 66.2742
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.8956,
-          "inr_close": 65.7147
-        },
-        {
           "date": "2020-09-21",
           "close": 0.8717,
           "inr_close": 63.9585
@@ -1515992,16 +1515412,6 @@
       "name": "ICICI Prudential Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.3856,
-          "inr_close": 28.29
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.3865,
-          "inr_close": 28.36
-        },
         {
           "date": "2020-09-21",
           "close": 0.3734,
@@ -1530675,16 +1530085,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.1681,
-          "inr_close": 12.33
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.1676,
-          "inr_close": 12.3
-        },
-        {
           "date": "2020-09-21",
           "close": 0.161,
           "inr_close": 11.81
@@ -1538180,16 +1537580,6 @@
       "name": "Franklin India Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.7297,
-          "inr_close": 53.5416
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.7308,
-          "inr_close": 53.6222
-        },
         {
           "date": "2020-09-21",
           "close": 0.7072,
@@ -1545687,16 +1545077,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 1.2335,
-          "inr_close": 90.504
-        },
-        {
-          "date": "2020-09-18",
-          "close": 1.2317,
-          "inr_close": 90.368
-        },
-        {
           "date": "2020-09-21",
           "close": 1.1909,
           "inr_close": 87.377
@@ -1553193,16 +1552573,6 @@
       "currency": "INR",
       "points": [
         {
-          "date": "2020-09-17",
-          "close": 0.5826,
-          "inr_close": 42.745
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.5818,
-          "inr_close": 42.689
-        },
-        {
           "date": "2020-09-21",
           "close": 0.5606,
           "inr_close": 41.135
@@ -1560698,16 +1560068,6 @@
       "name": "Tata Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-09-17",
-          "close": 0.1607,
-          "inr_close": 11.7879
-        },
-        {
-          "date": "2020-09-18",
-          "close": 0.16,
-          "inr_close": 11.7407
-        },
         {
           "date": "2020-09-21",
           "close": 0.1555,
