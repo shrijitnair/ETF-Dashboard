@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-20T06:42:15.635638Z",
+  "built_at": "2026-10-20T12:18:33.867788Z",
   "snapshot": {
-    "built_at": "2026-10-20T06:42:15.635638Z",
+    "built_at": "2026-10-20T12:18:33.867788Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -1527,33 +1527,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 149.3800048828125,
-                "last_price_inr": 14120.11555782985,
-                "daily_usd_pct": -0.08026429243310762,
-                "five_day_usd_pct": -1.007282355965211,
-                "one_month_usd_pct": 1.4258596692837688,
-                "three_month_usd_pct": 2.2170559098781295,
-                "one_year_usd_pct": 16.484714975137237,
-                "three_year_usd_pct": 22.07404285285508,
-                "five_year_usd_pct": 12.7913985456098,
-                "ytd_usd_pct": 12.807738218081766,
-                "since_2024_09_26_usd_pct": 37.323043352747916,
-                "daily_pct": -0.7381560069726123,
-                "five_day_pct": -3.3572824073330954,
-                "one_month_pct": -0.12511833058749255,
-                "three_month_pct": 0.12629686836944654,
-                "one_year_pct": 25.392976246546528,
-                "three_year_pct": 27.33692161479211,
-                "five_year_pct": 18.131591674203595,
-                "ytd_pct": 18.783561726184427,
-                "since_2024_09_26_pct": 55.22359803165931,
+                "last_price": 148.47999572753906,
+                "last_price_inr": 14095.206039727782,
+                "daily_usd_pct": -0.6822771053250465,
+                "five_day_usd_pct": -1.4862032079497989,
+                "one_month_usd_pct": -0.70883884324211,
+                "three_month_usd_pct": 2.7400991821259657,
+                "one_year_usd_pct": 15.065098770037944,
+                "three_year_usd_pct": 23.191107017337288,
+                "five_year_usd_pct": 12.379106570483312,
+                "ytd_usd_pct": 12.12807565372711,
+                "since_2024_09_26_usd_pct": 36.495676956927795,
+                "daily_pct": -0.7321556934413831,
+                "five_day_pct": -2.3562860352323467,
+                "one_month_pct": -1.8289171866289422,
+                "three_month_pct": 1.294471016042209,
+                "one_year_pct": 24.123236577578844,
+                "three_year_pct": 28.768015552759874,
+                "five_year_pct": 17.764674983712037,
+                "ytd_pct": 18.574013775324637,
+                "since_2024_09_26_pct": 54.94976563919751,
                 "aum": 88972738560.0,
                 "aum_display": "89.0B",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:XNAS",
@@ -1565,33 +1565,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 68.51000213623047,
-                "last_price_inr": 6475.894466529426,
-                "daily_usd_pct": -0.8107681498016772,
-                "five_day_usd_pct": -4.2220001322584855,
-                "one_month_usd_pct": 1.1217743708198835,
-                "three_month_usd_pct": 0.9727393912339011,
-                "one_year_usd_pct": 19.085700660374314,
-                "three_year_usd_pct": 25.345936735228914,
-                "five_year_usd_pct": 22.182404996729453,
-                "ytd_usd_pct": 16.37506943986804,
-                "since_2024_09_26_usd_pct": 48.410515896659035,
-                "daily_pct": -1.463850079449347,
-                "five_day_pct": -6.495685611007119,
-                "one_month_pct": -0.42455363535608415,
-                "three_month_pct": -1.0925682616714116,
-                "one_year_pct": 28.19287438181819,
-                "three_year_pct": 30.749873992669464,
-                "five_year_pct": 27.967222349931742,
-                "ytd_pct": 22.539867056600784,
-                "since_2024_09_26_pct": 67.75636266695952,
+                "last_price": 68.08000183105469,
+                "last_price_inr": 6462.834594598389,
+                "daily_usd_pct": -1.4618534670293948,
+                "five_day_usd_pct": -3.624005635210825,
+                "one_month_usd_pct": -3.1303315117447994,
+                "three_month_usd_pct": 1.7790438813943377,
+                "one_year_usd_pct": 16.985999120315533,
+                "three_year_usd_pct": 26.788596588545467,
+                "five_year_usd_pct": 21.893293077982467,
+                "ytd_usd_pct": 15.644645942369229,
+                "since_2024_09_26_usd_pct": 47.479023192864325,
+                "daily_pct": -1.5113405422604531,
+                "five_day_pct": -4.475207196714848,
+                "one_month_pct": -4.223093612023366,
+                "three_month_pct": 0.34693846468458744,
+                "one_year_pct": 26.195353763137994,
+                "three_year_pct": 32.52836485290078,
+                "five_year_pct": 27.734811924490522,
+                "ytd_pct": 22.29274212606387,
+                "since_2024_09_26_pct": 67.4180500796605,
                 "aum": 2840899840.0,
                 "aum_display": "2.8B",
                 "ter": 0.2,
                 "ter_display": "0.20",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:XRSU",
@@ -1603,33 +1603,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 407.79998779296875,
-                "last_price_inr": 38547.213575441856,
-                "daily_usd_pct": -0.27145725445686386,
-                "five_day_usd_pct": -2.018266258455581,
-                "one_month_usd_pct": -4.719629020334404,
-                "three_month_usd_pct": -7.976984450048996,
-                "one_year_usd_pct": 10.248985277573075,
-                "three_year_usd_pct": 17.300729026388773,
-                "five_year_usd_pct": 4.924708586341309,
-                "ytd_usd_pct": 10.526885634595828,
-                "since_2024_09_26_usd_pct": 25.87195936917781,
-                "daily_pct": -0.928090115930924,
-                "five_day_pct": -4.344266441153044,
-                "one_month_pct": -6.176631797445564,
-                "three_month_pct": -9.859233455122919,
-                "one_year_pct": 18.680364158227114,
-                "three_year_pct": 22.357819797903854,
-                "five_year_pct": 9.892447394774528,
-                "ytd_pct": 16.38188434200474,
-                "since_2024_09_26_pct": 42.27982389226328,
+                "last_price": 404.2200012207031,
+                "last_price_inr": 38372.6048392395,
+                "daily_usd_pct": -0.5315231153492084,
+                "five_day_usd_pct": -1.935956028628183,
+                "one_month_usd_pct": -5.349303054594712,
+                "three_month_usd_pct": -7.784963876619722,
+                "one_year_usd_pct": 10.176210654921181,
+                "three_year_usd_pct": 18.328898153676576,
+                "five_year_usd_pct": 4.468249049713613,
+                "ytd_usd_pct": 9.556594368557159,
+                "since_2024_09_26_usd_pct": 24.766957069385718,
+                "daily_pct": -0.5814774139828005,
+                "five_day_pct": -2.8020665980287185,
+                "one_month_pct": -6.417033501090796,
+                "three_month_pct": -9.082496725211541,
+                "one_year_pct": 18.84948613021933,
+                "three_year_pct": 23.685692634040457,
+                "five_year_pct": 9.4747037140829,
+                "ytd_pct": 15.854705024567583,
+                "since_2024_09_26_pct": 41.635333722090536,
                 "aum": 2528312320.0,
                 "aum_display": "2.5B",
                 "ter": 0.3,
                 "ter_display": "0.30",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:CNDX",
@@ -1641,33 +1641,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 1696.199951171875,
-                "last_price_inr": 160332.9665072728,
-                "daily_usd_pct": -0.7954203572266394,
-                "five_day_usd_pct": -4.212790580484715,
-                "one_month_usd_pct": 1.1448986983825238,
-                "three_month_usd_pct": 0.9642828078497034,
-                "one_year_usd_pct": 18.93142681558413,
-                "three_year_usd_pct": 25.21855301832354,
-                "five_year_usd_pct": 14.590299822111085,
-                "ytd_usd_pct": 15.576449944724846,
-                "since_2024_09_26_usd_pct": 48.14232389263766,
-                "daily_pct": -1.4486033398394715,
-                "five_day_pct": -6.486694685892525,
-                "one_month_pct": -0.40178291902659424,
-                "three_month_pct": -1.1008518731575823,
-                "one_year_pct": 28.02680232198298,
-                "three_year_pct": 30.616998485350244,
-                "five_year_pct": 20.015663277162933,
-                "ytd_pct": 22.05449594607316,
-                "since_2024_09_26_pct": 67.45321086656881,
+                "last_price": 1685.800048828125,
+                "last_price_inr": 160032.99914971925,
+                "daily_usd_pct": -1.4152018229166674,
+                "five_day_usd_pct": -3.5914404457639826,
+                "one_month_usd_pct": -3.1038049479520824,
+                "three_month_usd_pct": 1.7872297143413096,
+                "one_year_usd_pct": 16.907076895154294,
+                "three_year_usd_pct": 26.702065158704748,
+                "five_year_usd_pct": 14.142500182182904,
+                "ytd_usd_pct": 14.8678166306913,
+                "since_2024_09_26_usd_pct": 47.23401959726541,
+                "daily_pct": -1.4647123271800622,
+                "five_day_pct": -4.4429296259876905,
+                "one_month_pct": -4.19686628765219,
+                "three_month_pct": 0.35500911698869153,
+                "one_year_pct": 26.11021863415772,
+                "three_year_pct": 32.43791611213278,
+                "five_year_pct": 19.61257609173437,
+                "ytd_pct": 21.8261438771004,
+                "since_2024_09_26_pct": 67.13992222561285,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.3,
                 "ter_display": "0.30",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:CSPX",
@@ -1679,26 +1679,26 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 833.6099853515625,
-                "last_price_inr": 79126.25828318484,
-                "daily_usd_pct": 0.07443008012772978,
-                "five_day_usd_pct": -1.0528434292589761,
-                "one_month_usd_pct": -0.0275882059504573,
-                "three_month_usd_pct": 3.4332559280264796,
-                "one_year_usd_pct": 15.806505085980271,
-                "three_year_usd_pct": 23.47672516086181,
-                "five_year_usd_pct": 12.53623747204291,
-                "ytd_usd_pct": 12.87421665781272,
-                "since_2024_09_26_usd_pct": 37.44146252514786,
-                "daily_pct": 0.4928273029271457,
-                "five_day_pct": -2.949781498441162,
-                "one_month_pct": -1.16576616096149,
-                "three_month_pct": 1.9671298173446816,
-                "one_year_pct": 24.909845474762736,
-                "three_year_pct": 29.062030620835323,
-                "five_year_pct": 17.926850914627977,
-                "ytd_pct": 19.350471914177025,
-                "since_2024_09_26_pct": 56.006981397953545,
+                "last_price": 828.0499877929688,
+                "last_price_inr": 78606.78559388733,
+                "daily_usd_pct": -0.6669782819658687,
+                "five_day_usd_pct": -1.4742295241118475,
+                "one_month_usd_pct": -0.6943824805742516,
+                "three_month_usd_pct": 2.7433785746563633,
+                "one_year_usd_pct": 15.03410084795307,
+                "three_year_usd_pct": 23.20159157740442,
+                "five_year_usd_pct": 12.385716906114364,
+                "ytd_usd_pct": 12.121370146766019,
+                "since_2024_09_26_usd_pct": 36.52475781968887,
+                "daily_pct": -0.7168645533404017,
+                "five_day_pct": -2.344418104060786,
+                "one_month_pct": -1.814623902512691,
+                "three_month_pct": 1.2977042651266757,
+                "one_year_pct": 24.0897984416238,
+                "three_year_pct": 28.778974752871612,
+                "five_year_pct": 17.771602107898033,
+                "ytd_pct": 18.566922787004913,
+                "since_2024_09_26_pct": 54.982778207579706,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.07,
@@ -1717,33 +1717,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 15.517999649047852,
-                "last_price_inr": 1466.8358622883534,
-                "daily_usd_pct": -0.09013610182972975,
-                "five_day_usd_pct": -0.982646011755528,
-                "one_month_usd_pct": 1.4380919631776345,
-                "three_month_usd_pct": 2.226609598662699,
-                "one_year_usd_pct": 16.61005458638114,
-                "three_year_usd_pct": 22.287195627270464,
-                "five_year_usd_pct": 12.996640916230163,
-                "ytd_usd_pct": 12.85817926580255,
-                "since_2024_09_26_usd_pct": 37.664895100730014,
-                "daily_pct": -0.7479628183829523,
-                "five_day_pct": -3.3332309082669376,
-                "one_month_pct": -0.11307308976648,
-                "three_month_pct": 0.13565514494000563,
-                "one_year_pct": 25.527901304300336,
-                "three_year_pct": 27.559263871126017,
-                "five_year_pct": 18.346551398375865,
-                "ytd_pct": 18.836674813993092,
-                "since_2024_09_26_pct": 55.61001138967736,
+                "last_price": 15.430000305175781,
+                "last_price_inr": 1464.7699336791993,
+                "daily_usd_pct": -0.6567041304561649,
+                "five_day_usd_pct": -1.4687071805708607,
+                "one_month_usd_pct": -0.6567041304561649,
+                "three_month_usd_pct": 2.8118331611386216,
+                "one_year_usd_pct": 15.189659112672004,
+                "three_year_usd_pct": 23.388285402322452,
+                "five_year_usd_pct": 12.587322709020722,
+                "ytd_usd_pct": 12.218184037642054,
+                "since_2024_09_26_usd_pct": 36.88422615389029,
+                "daily_pct": -0.7065955616365915,
+                "five_day_pct": -2.3389445343610094,
+                "one_month_pct": -1.7773705922822458,
+                "three_month_pct": 1.3651956456250502,
+                "one_year_pct": 24.257602541213497,
+                "three_year_pct": 28.97412027865429,
+                "five_year_pct": 17.982869509629907,
+                "ytd_pct": 18.669302245168694,
+                "since_2024_09_26_pct": 55.39084632651945,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.05,
                 "ter_display": "0.05",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:SPYL",
@@ -1755,33 +1755,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 19.125999450683594,
-                "last_price_inr": 1807.8813333451399,
-                "daily_usd_pct": -0.05225872203852289,
-                "five_day_usd_pct": -0.9631359845136522,
-                "one_month_usd_pct": 1.4426612804182781,
-                "three_month_usd_pct": 2.223412007305625,
-                "one_year_usd_pct": 16.550881343852076,
+                "last_price": 19.010000228881836,
+                "last_price_inr": 1804.6193275291444,
+                "daily_usd_pct": -0.6584419564876098,
+                "five_day_usd_pct": -1.4413100186136618,
+                "one_month_usd_pct": -0.6688277569947387,
+                "three_month_usd_pct": 2.7900982056648704,
+                "one_year_usd_pct": 15.058715447631265,
                 "three_year_usd_pct": null,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": 12.8377497923297,
-                "since_2024_09_26_usd_pct": 37.3698124652895,
-                "daily_pct": -0.7103348309080548,
-                "five_day_pct": -3.314184031912437,
-                "one_month_pct": -0.10857364534265779,
-                "three_month_pct": 0.13252295747254728,
-                "one_year_pct": 25.464202740961262,
+                "ytd_usd_pct": 12.153388632562745,
+                "since_2024_09_26_usd_pct": 36.536664300347056,
+                "daily_pct": -0.7083325149103259,
+                "five_day_pct": -2.31178934663393,
+                "one_month_pct": -1.7893574552723779,
+                "three_month_pct": 1.3437665168350543,
+                "one_year_pct": 24.116350748203065,
                 "three_year_pct": null,
                 "five_year_pct": null,
-                "ytd_pct": 18.81516311930238,
-                "since_2024_09_26_pct": 55.2764636669395,
+                "ytd_pct": 18.60078192847141,
+                "since_2024_09_26_pct": 54.99629443335845,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.03,
                 "ter_display": "0.03",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -1799,33 +1799,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 191.67999267578125,
-                "last_price_inr": 18118.513577699196,
-                "daily_usd_pct": 0.10444795942379237,
-                "five_day_usd_pct": -0.9405722605781652,
-                "one_month_usd_pct": -0.08340474622797744,
-                "three_month_usd_pct": 1.1931129388039752,
-                "one_year_usd_pct": 15.88875438275059,
-                "three_year_usd_pct": 21.16384989098572,
-                "five_year_usd_pct": 10.816052483089145,
-                "ytd_usd_pct": 12.343217771240145,
-                "since_2024_09_26_usd_pct": 37.01215227901314,
-                "daily_pct": -0.5546599378769002,
-                "five_day_pct": -3.2921559509380582,
-                "one_month_pct": -1.6113034652128766,
-                "three_month_pct": -0.8767022591777418,
-                "one_year_pct": 24.75143909361648,
-                "three_year_pct": 26.38748824524604,
-                "five_year_pct": 16.06272137485558,
-                "ytd_pct": 18.294433993973193,
-                "since_2024_09_26_pct": 54.872181183599245,
+                "last_price": 190.0399932861328,
+                "last_price_inr": 18040.49662064819,
+                "daily_usd_pct": -0.8038461896873406,
+                "five_day_usd_pct": -1.5948642858994,
+                "one_month_usd_pct": -2.2528571772778228,
+                "three_month_usd_pct": 1.4520530939368559,
+                "one_year_usd_pct": 14.206730923532728,
+                "three_year_usd_pct": 22.170019771691486,
+                "five_year_usd_pct": 10.365285188778728,
+                "ytd_usd_pct": 11.382017773243414,
+                "since_2024_09_26_usd_pct": 35.83988675992962,
+                "daily_pct": -0.8536637243067857,
+                "five_day_pct": -2.4639874086431313,
+                "one_month_pct": -3.3555178424182097,
+                "three_month_pct": 0.024548676215441212,
+                "one_year_pct": 23.197296423516267,
+                "three_year_pct": 27.70070329693659,
+                "five_year_pct": 15.654344801090891,
+                "ytd_pct": 17.78506705629903,
+                "since_2024_09_26_pct": 54.205313216975995,
                 "aum": 87294672896.0,
                 "aum_display": "87.3B",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:EIMI",
@@ -1837,33 +1837,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 52.150001525878906,
-                "last_price_inr": 4929.468629111943,
-                "daily_usd_pct": -0.5719718449890387,
-                "five_day_usd_pct": -4.748855660495144,
-                "one_month_usd_pct": -4.18886416776314,
-                "three_month_usd_pct": -1.4736421212916628,
-                "one_year_usd_pct": 17.826487807404835,
-                "three_year_usd_pct": 20.96893731538312,
-                "five_year_usd_pct": 7.233016497378886,
-                "ytd_usd_pct": 15.580679876803538,
-                "since_2024_09_26_usd_pct": 39.81233939024773,
-                "daily_pct": -1.2266260577225907,
-                "five_day_pct": -7.010034052380365,
-                "one_month_pct": -5.6539832636526395,
-                "three_month_pct": -3.4889112143816514,
-                "one_year_pct": 26.83736222388875,
-                "three_year_pct": 26.184172562556963,
-                "five_year_pct": 12.310043870402577,
-                "ytd_pct": 21.70339587838701,
-                "since_2024_09_26_pct": 58.03738279838719,
+                "last_price": 51.47999954223633,
+                "last_price_inr": 4886.996372254944,
+                "daily_usd_pct": -1.8119411737742674,
+                "five_day_usd_pct": -4.401112347335956,
+                "one_month_usd_pct": -8.333333899379348,
+                "three_month_usd_pct": -1.4548279322581625,
+                "one_year_usd_pct": 15.374273362990841,
+                "three_year_usd_pct": 21.814649178261746,
+                "five_year_usd_pct": 6.707703900382844,
+                "ytd_usd_pct": 14.095746367265916,
+                "since_2024_09_26_usd_pct": 38.016087386636755,
+                "daily_pct": -1.8612524306315104,
+                "five_day_pct": -5.245450431568733,
+                "one_month_pct": -9.36740225263064,
+                "three_month_pct": -2.8414304127576506,
+                "one_year_pct": 24.456749967434476,
+                "three_year_pct": 27.329244940812593,
+                "five_year_pct": 11.821480447570721,
+                "ytd_pct": 20.65480052683344,
+                "since_2024_09_26_pct": 56.675734146120526,
                 "aum": 46803992576.0,
                 "aum_display": "46.8B",
                 "ter": 0.18,
                 "ter_display": "0.18",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:XMME",
@@ -1875,33 +1875,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 88.38999938964844,
-                "last_price_inr": 8355.047293762327,
-                "daily_usd_pct": -0.472917667482442,
-                "five_day_usd_pct": -4.9467669424620215,
-                "one_month_usd_pct": -4.541283844288668,
-                "three_month_usd_pct": -1.6468268740426617,
-                "one_year_usd_pct": 18.96365512673728,
-                "three_year_usd_pct": 21.897398903005882,
-                "five_year_usd_pct": 7.150329744131989,
-                "ytd_usd_pct": 17.251438462409617,
-                "since_2024_09_26_usd_pct": 42.817903152916045,
-                "daily_pct": -1.1282240729205695,
-                "five_day_pct": -7.203247094579135,
-                "one_month_pct": -6.001013829681156,
-                "three_month_pct": -3.6585536269190477,
-                "one_year_pct": 28.061495318877515,
-                "three_year_pct": 27.152662158235998,
-                "five_year_pct": 12.223442250976092,
-                "ytd_pct": 23.462660435214033,
-                "since_2024_09_26_pct": 61.43473265289441,
+                "last_price": 87.19000244140625,
+                "last_price_inr": 8276.946958370972,
+                "daily_usd_pct": -1.8683129557940714,
+                "five_day_usd_pct": -4.501643453419835,
+                "one_month_usd_pct": -8.825677145682508,
+                "three_month_usd_pct": -1.879358718742541,
+                "one_year_usd_pct": 16.237834899744307,
+                "three_year_usd_pct": 22.768553620422182,
+                "five_year_usd_pct": 6.57994316148347,
+                "ytd_usd_pct": 15.659613942628292,
+                "since_2024_09_26_usd_pct": 40.87898416749609,
+                "daily_pct": -1.9175959020455768,
+                "five_day_pct": -5.345093637765896,
+                "one_month_pct": -9.854191499954712,
+                "three_month_pct": -3.259987741291359,
+                "one_year_pct": 25.38829266866629,
+                "three_year_pct": 28.32633300193923,
+                "five_year_pct": 11.68759700294013,
+                "ytd_pct": 22.308570595950282,
+                "since_2024_09_26_pct": 59.92569191132762,
                 "aum": 15076982784.0,
                 "aum_display": "15.1B",
                 "ter": 0.18,
                 "ter_display": "0.18",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:WSML",
@@ -1913,33 +1913,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 10.14799976348877,
-                "last_price_inr": 959.2376801279534,
-                "daily_usd_pct": 0.3560057005427053,
-                "five_day_usd_pct": -0.3730621175670912,
-                "one_month_usd_pct": -2.2162313563475977,
-                "three_month_usd_pct": -2.51681160195667,
-                "one_year_usd_pct": 14.459728881562484,
-                "three_year_usd_pct": 18.522895074758328,
-                "five_year_usd_pct": 6.386287286799575,
-                "ytd_usd_pct": 11.78673371591663,
-                "since_2024_09_26_usd_pct": 30.950384260183085,
-                "daily_pct": -0.30475850371716184,
-                "five_day_pct": -2.7381179995888294,
-                "one_month_pct": -3.711515442726754,
-                "three_month_pct": -4.510743590352028,
-                "one_year_pct": 23.213127730066052,
-                "three_year_pct": 23.63267609547961,
-                "five_year_pct": 11.423225632021317,
-                "ytd_pct": 17.70847101679365,
-                "since_2024_09_26_pct": 48.020239809863185,
+                "last_price": 10.039999961853027,
+                "last_price_inr": 953.0971994426727,
+                "daily_usd_pct": -0.5940635381240233,
+                "five_day_usd_pct": -0.888451644335031,
+                "one_month_usd_pct": -3.1448987854958754,
+                "three_month_usd_pct": -2.258570326004905,
+                "one_year_usd_pct": 13.267143489462342,
+                "three_year_usd_pct": 19.367742079247297,
+                "five_year_usd_pct": 5.9561761103210875,
+                "ytd_usd_pct": 10.597046551135293,
+                "since_2024_09_26_usd_pct": 29.556748484282956,
+                "daily_pct": -0.6439864281842289,
+                "five_day_pct": -1.763813867879005,
+                "one_month_pct": -4.237496556063114,
+                "three_month_pct": -3.63386356452462,
+                "one_year_pct": 22.183742925443696,
+                "three_year_pct": 24.771565421480844,
+                "five_year_pct": 11.033937027456941,
+                "ytd_pct": 16.95496997346919,
+                "since_2024_09_26_pct": 47.072700485238414,
                 "aum": 8816044032.0,
                 "aum_display": "8.8B",
                 "ter": 0.35,
                 "ter_display": "0.35",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:EXUS",
@@ -1951,33 +1951,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 45.505001068115234,
-                "last_price_inr": 4301.35126883295,
-                "daily_usd_pct": 1.0099929828198073,
-                "five_day_usd_pct": 1.4717355991673342,
-                "one_month_usd_pct": -1.2478314672113244,
-                "three_month_usd_pct": 0.3639190890428967,
-                "one_year_usd_pct": 14.79566541062658,
+                "last_price": 44.89500045776367,
+                "last_price_inr": 4261.882407156372,
+                "daily_usd_pct": -0.6308097509673094,
+                "five_day_usd_pct": -0.23333231608072547,
+                "one_month_usd_pct": -2.6350035491327417,
+                "three_month_usd_pct": 0.0,
+                "one_year_usd_pct": 12.744853846895188,
                 "three_year_usd_pct": null,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": 10.502672974472649,
-                "since_2024_09_26_usd_pct": 34.35194125523704,
-                "daily_pct": 0.34492279424787053,
-                "five_day_pct": -0.9371141581238862,
-                "one_month_pct": -2.757924074100193,
-                "three_month_pct": -1.6889356856208293,
-                "one_year_pct": 23.5747552725146,
+                "ytd_usd_pct": 9.02136990057516,
+                "since_2024_09_26_usd_pct": 32.550935558194304,
+                "daily_pct": -0.6807141866252087,
+                "five_day_pct": -1.1144806132092788,
+                "one_month_pct": -3.7333533182161927,
+                "three_month_pct": -1.4070729711104568,
+                "one_year_pct": 21.620337674334955,
                 "three_year_pct": null,
                 "five_year_pct": null,
-                "ytd_pct": 16.356389051932197,
-                "since_2024_09_26_pct": 51.86520204483007,
+                "ytd_pct": 15.288711957537892,
+                "since_2024_09_26_pct": 50.47169886911309,
                 "aum": 8171119104.0,
                 "aum_display": "8.2B",
                 "ter": 0.15,
                 "ter_display": "0.15",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:VFEA",
@@ -1989,33 +1989,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 86.05000305175781,
-                "last_price_inr": 8133.859600524302,
-                "daily_usd_pct": -0.5087233470681296,
-                "five_day_usd_pct": -2.238120502659413,
-                "one_month_usd_pct": -1.8814070169901442,
-                "three_month_usd_pct": -0.6465737843752151,
-                "one_year_usd_pct": 8.827625374824045,
-                "three_year_usd_pct": 17.755198674141237,
-                "five_year_usd_pct": 5.52078287462634,
-                "ytd_usd_pct": 8.56674329109508,
-                "since_2024_09_26_usd_pct": 29.039523434260772,
-                "daily_pct": -1.1637940006823944,
-                "five_day_pct": -4.5589015389644105,
-                "one_month_pct": -3.3818111505235393,
-                "three_month_pct": -2.6787598253068534,
-                "one_year_pct": 17.150304625856315,
-                "three_year_pct": 22.831882625346324,
-                "five_year_pct": 10.516743266083427,
-                "ytd_pct": 14.317906349633214,
-                "since_2024_09_26_pct": 45.86029137371115,
+                "last_price": 85.20999908447266,
+                "last_price_inr": 8088.985239093017,
+                "daily_usd_pct": -0.7917106880987346,
+                "five_day_usd_pct": -3.0602985150282147,
+                "one_month_usd_pct": -5.121922502135656,
+                "three_month_usd_pct": -0.4556067717294887,
+                "one_year_usd_pct": 7.1150167386320184,
+                "three_year_usd_pct": 18.773339804925083,
+                "five_year_usd_pct": 5.077000830307865,
+                "ytd_usd_pct": 7.50693513484324,
+                "since_2024_09_26_usd_pct": 27.77986384359037,
+                "daily_pct": -0.8415343173170831,
+                "five_day_pct": -3.916478789168021,
+                "one_month_pct": -6.1922179708305825,
+                "three_month_pct": -1.8562690231003987,
+                "one_year_pct": 15.547309356002327,
+                "three_year_pct": 24.15025432884046,
+                "five_year_pct": 10.112628838914484,
+                "ytd_pct": 13.687216455837836,
+                "since_2024_09_26_pct": 45.0555826923424,
                 "aum": 5988283392.0,
                 "aum_display": "6.0B",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:FWRA",
@@ -2027,33 +2027,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 9.447999954223633,
-                "last_price_inr": 893.070335943994,
-                "daily_usd_pct": 0.11655906798018201,
-                "five_day_usd_pct": -0.8083954581671882,
-                "one_month_usd_pct": 0.08474972665206693,
-                "three_month_usd_pct": 1.2973120432291374,
-                "one_year_usd_pct": 16.02603906937872,
-                "three_year_usd_pct": 21.255560177011844,
+                "last_price": 9.371000289916992,
+                "last_price_inr": 889.5890603816224,
+                "daily_usd_pct": -0.7519603500980465,
+                "five_day_usd_pct": -1.5134004015755487,
+                "one_month_usd_pct": -1.987235466590731,
+                "three_month_usd_pct": 1.6708287095597685,
+                "one_year_usd_pct": 14.461951576131105,
+                "three_year_usd_pct": 22.096087011970987,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": 12.389223916811321,
-                "since_2024_09_26_usd_pct": 37.74602231339219,
-                "daily_pct": -0.5426285713045709,
-                "five_day_pct": -3.1631169095649447,
-                "one_month_pct": -1.4457203670184104,
-                "three_month_pct": -0.774634454835077,
-                "one_year_pct": 24.89922273589995,
-                "three_year_pct": 26.483152362121885,
+                "ytd_usd_pct": 11.473270005379565,
+                "since_2024_09_26_usd_pct": 36.62341461556249,
+                "daily_pct": -0.8018039424275036,
+                "five_day_pct": -2.383243020766501,
+                "one_month_pct": -3.0928925427127885,
+                "three_month_pct": 0.24024595928353598,
+                "one_year_pct": 23.47260851884816,
+                "three_year_pct": 27.623423572904148,
                 "five_year_pct": null,
-                "ytd_pct": 18.34287724723367,
-                "since_2024_09_26_pct": 55.70171382752207,
+                "ytd_pct": 17.881565131087672,
+                "since_2024_09_26_pct": 55.09477331057593,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:IWDA",
@@ -2065,33 +2065,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 146.80999755859375,
-                "last_price_inr": 13877.186121384148,
-                "daily_usd_pct": 0.22528798517205129,
-                "five_day_usd_pct": -0.40703214748637473,
-                "one_month_usd_pct": 0.6306108525562015,
-                "three_month_usd_pct": 1.6056418971756914,
-                "one_year_usd_pct": 15.680398173706589,
-                "three_year_usd_pct": 21.19061438379919,
-                "five_year_usd_pct": 11.338034018338238,
-                "ytd_usd_pct": 11.974675368129484,
-                "since_2024_09_26_usd_pct": 36.33915039238455,
-                "daily_pct": -0.4346155472567892,
-                "five_day_pct": -2.771281610874954,
-                "one_month_pct": -0.9082064081979313,
-                "three_month_pct": -0.47261121404783557,
-                "one_year_pct": 24.527148677684664,
-                "three_year_pct": 26.415406613834524,
-                "five_year_pct": 16.609416516316955,
-                "ytd_pct": 17.906368600764267,
-                "since_2024_09_26_pct": 54.11145107032731,
+                "last_price": 145.61000061035156,
+                "last_price_inr": 13822.75740237732,
+                "daily_usd_pct": -0.661755497739136,
+                "five_day_usd_pct": -1.2210860912016175,
+                "one_month_usd_pct": -1.2545815945237182,
+                "three_month_usd_pct": 1.8821735767351466,
+                "one_year_usd_pct": 14.042920004950021,
+                "three_year_usd_pct": 22.21294512085712,
+                "five_year_usd_pct": 10.890484616751017,
+                "ytd_usd_pct": 11.059415706276177,
+                "since_2024_09_26_usd_pct": 35.22474015386181,
+                "daily_pct": -0.7116443920604731,
+                "five_day_pct": -2.0935104570098617,
+                "one_month_pct": -2.368503552693091,
+                "three_month_pct": 0.4486170499570674,
+                "one_year_pct": 23.02059000585728,
+                "three_year_pct": 27.745571893077937,
+                "five_year_pct": 16.20471347569852,
+                "ytd_pct": 17.443919473862568,
+                "since_2024_09_26_pct": 53.50699936140948,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.2,
                 "ter_display": "0.20",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -2109,33 +2109,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 51.61000061035156,
-                "last_price_inr": 4878.425148864626,
-                "daily_usd_pct": -0.7118101868856752,
-                "five_day_usd_pct": -5.058866757032976,
-                "one_month_usd_pct": 0.9585322549002795,
-                "three_month_usd_pct": 5.649953372450178,
-                "one_year_usd_pct": 24.511458770577853,
-                "three_year_usd_pct": 32.852971418163015,
-                "five_year_usd_pct": 21.27908186966505,
-                "ytd_usd_pct": 22.472713236510877,
-                "since_2024_09_26_usd_pct": 60.72874378493043,
-                "daily_pct": -1.3655436757416317,
-                "five_day_pct": -7.3126857581455535,
-                "one_month_pct": -0.5852994950815593,
-                "three_month_pct": 3.4889774640541216,
-                "one_year_pct": 34.03357166109193,
-                "three_year_pct": 38.580553346285605,
-                "five_year_pct": 27.02113071375891,
-                "ytd_pct": 28.960524537584774,
-                "since_2024_09_26_pct": 81.68031605095038,
+                "last_price": 51.13999938964844,
+                "last_price_inr": 4854.720157666015,
+                "daily_usd_pct": -1.8049201389346736,
+                "five_day_usd_pct": -4.660701022458358,
+                "one_month_usd_pct": -3.6003767669760656,
+                "three_month_usd_pct": 5.226339496450527,
+                "one_year_usd_pct": 21.90702850910995,
+                "three_year_usd_pct": 34.4853282424177,
+                "five_year_usd_pct": 20.727751058406273,
+                "ytd_usd_pct": 21.357380470705035,
+                "since_2024_09_26_usd_pct": 59.265021543356866,
+                "daily_pct": -1.8542349218424015,
+                "five_day_pct": -5.502746395865488,
+                "one_month_pct": -4.687836406243385,
+                "three_month_pct": 3.7457281149070543,
+                "one_year_pct": 31.503775704801495,
+                "three_year_pct": 40.57353049275299,
+                "five_year_pct": 26.513413380721506,
+                "ytd_pct": 28.333886225865857,
+                "since_2024_09_26_pct": 80.79750445468127,
                 "aum": 20611657728.0,
                 "aum_display": "20.6B",
                 "ter": 0.15,
                 "ter_display": "0.15",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:SMH",
@@ -2147,33 +2147,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 101.18000030517578,
-                "last_price_inr": 9564.019612739503,
-                "daily_usd_pct": -0.7455386678721254,
-                "five_day_usd_pct": -10.11016124755515,
-                "one_month_usd_pct": -2.052277525606483,
-                "three_month_usd_pct": -6.436100539814593,
-                "one_year_usd_pct": 70.88329989809006,
-                "three_year_usd_pct": 53.683272634208514,
-                "five_year_usd_pct": 31.92211899379094,
-                "ytd_usd_pct": 62.43377559487904,
-                "since_2024_09_26_usd_pct": 133.321794970476,
-                "daily_pct": -1.3990500815991957,
-                "five_day_pct": -12.244066960147993,
-                "one_month_pct": -3.5500687515386375,
-                "three_month_pct": -8.349866955936601,
-                "one_year_pct": 83.95173623961082,
-                "three_year_pct": 60.30889436926057,
-                "five_year_pct": 38.1680703911867,
-                "ytd_pct": 71.0384652202771,
-                "since_2024_09_26_pct": 163.73613364721336,
+                "last_price": 99.36000061035156,
+                "last_price_inr": 9432.24488826294,
+                "daily_usd_pct": -3.5714288358679847,
+                "five_day_usd_pct": -6.8790970457582095,
+                "one_month_usd_pct": -11.031518321238087,
+                "three_month_usd_pct": -6.634089156237122,
+                "one_year_usd_pct": 65.95958306829989,
+                "three_year_usd_pct": 55.217259756250535,
+                "five_year_usd_pct": 31.073487486851125,
+                "ytd_usd_pct": 59.51195882160212,
+                "since_2024_09_26_usd_pct": 129.1248628261658,
+                "daily_pct": -3.619856456272086,
+                "five_day_pct": -7.701549343405,
+                "one_month_pct": -12.035149142062739,
+                "three_month_pct": -7.947815651950796,
+                "one_year_pct": 79.02422899468165,
+                "three_year_pct": 62.24400447620597,
+                "five_year_pct": 37.35495079051405,
+                "ytd_pct": 68.68186751952851,
+                "since_2024_09_26_pct": 160.10233135977526,
                 "aum": 9589744640.0,
                 "aum_display": "9.6B",
                 "ter": 0.35,
                 "ter_display": "0.35",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:XDWT",
@@ -2185,33 +2185,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 145.22000122070312,
-                "last_price_inr": 13726.892030517338,
-                "daily_usd_pct": -0.7110579277946116,
-                "five_day_usd_pct": -5.387975748576834,
-                "one_month_usd_pct": 0.9945114412271305,
-                "three_month_usd_pct": 5.102412350861818,
-                "one_year_usd_pct": 24.353487530989916,
-                "three_year_usd_pct": 31.89564156399849,
-                "five_year_usd_pct": 18.3779961972655,
-                "ytd_usd_pct": 22.953179637843093,
-                "since_2024_09_26_usd_pct": 59.44224670754106,
-                "daily_pct": -1.3647963696763132,
-                "five_day_pct": -7.6339819916861895,
-                "one_month_pct": -0.5498704931616083,
-                "three_month_pct": 2.9526359074796282,
-                "one_year_pct": 33.863519445249594,
-                "three_year_pct": 37.58195091000693,
-                "five_year_pct": 23.982690970277922,
-                "ytd_pct": 29.46644293770082,
-                "since_2024_09_26_pct": 80.22611943300456,
+                "last_price": 143.77000427246094,
+                "last_price_inr": 13648.08654945984,
+                "daily_usd_pct": -1.8768768221479437,
+                "five_day_usd_pct": -4.926594953116714,
+                "one_month_usd_pct": -3.7297389862172237,
+                "three_month_usd_pct": 4.849773477303665,
+                "one_year_usd_pct": 21.488937570997724,
+                "three_year_usd_pct": 33.43091196910726,
+                "five_year_usd_pct": 17.85340964303892,
+                "ytd_usd_pct": 21.72551310600912,
+                "since_2024_09_26_usd_pct": 57.85024306339115,
+                "daily_pct": -1.9261554675199077,
+                "five_day_pct": -5.766291927106925,
+                "one_month_pct": -4.815739323180734,
+                "three_month_pct": 3.374460654433986,
+                "one_year_pct": 31.052771873257768,
+                "three_year_pct": 39.47138039143427,
+                "five_year_pct": 23.50132427534446,
+                "ytd_pct": 28.723181805186183,
+                "since_2024_09_26_pct": 79.19144923894544,
                 "aum": 6780900352.0,
                 "aum_display": "6.8B",
                 "ter": 0.25,
                 "ter_display": "0.25",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:SXLK",
@@ -2223,33 +2223,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 188.82000732421875,
-                "last_price_inr": 17848.17402529763,
-                "daily_usd_pct": -0.6837722629686849,
-                "five_day_usd_pct": -5.048774643124576,
-                "one_month_usd_pct": 1.0381005943481014,
-                "three_month_usd_pct": 5.66312845484136,
-                "one_year_usd_pct": 24.66657794419007,
-                "three_year_usd_pct": 28.50696702219846,
-                "five_year_usd_pct": 18.443140699337945,
-                "ytd_usd_pct": 22.674122641923745,
-                "since_2024_09_26_usd_pct": 60.16966363033313,
-                "daily_pct": -1.337690359176813,
-                "five_day_pct": -7.3028332221451775,
-                "one_month_pct": -0.5069478940905037,
-                "three_month_pct": 3.5018830618432917,
-                "one_year_pct": 34.20055369694352,
-                "three_year_pct": 34.04718320326887,
-                "five_year_pct": 24.050919787527025,
-                "ytd_pct": 29.172603309112333,
-                "since_2024_09_26_pct": 81.04835777893796,
+                "last_price": 187.33999633789062,
+                "last_price_inr": 17784.185909527587,
+                "daily_usd_pct": -1.6484667472062897,
+                "five_day_usd_pct": -4.535267481728367,
+                "one_month_usd_pct": -3.4727975214217,
+                "three_month_usd_pct": 5.377431445739811,
+                "one_year_usd_pct": 22.029697188782894,
+                "three_year_usd_pct": 29.961054986163415,
+                "five_year_usd_pct": 17.936853716880165,
+                "ytd_usd_pct": 21.712577031259393,
+                "since_2024_09_26_usd_pct": 58.91422007216012,
+                "daily_pct": -1.6978601029412843,
+                "five_day_pct": -5.378420695593467,
+                "one_month_pct": -4.5616963497200125,
+                "three_month_pct": 3.894694090216344,
+                "one_year_pct": 31.636101090261203,
+                "three_year_pct": 35.84444165564806,
+                "five_year_pct": 23.58876725772008,
+                "ytd_pct": 28.70950207068055,
+                "since_2024_09_26_pct": 80.39927495057049,
                 "aum": 2273123840.0,
                 "aum_display": "2.3B",
                 "ter": 0.15,
                 "ter_display": "0.15",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -2267,33 +2267,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 112.62999725341797,
-                "last_price_inr": 10646.328320473258,
-                "daily_usd_pct": -0.09757017246397881,
-                "five_day_usd_pct": -4.760700812711782,
-                "one_month_usd_pct": -2.0949266715314274,
-                "three_month_usd_pct": -1.3488665500795527,
-                "one_year_usd_pct": 17.2740485003561,
-                "three_year_usd_pct": 26.29935822100593,
-                "five_year_usd_pct": 11.105059444450504,
-                "ytd_usd_pct": 15.42323748714427,
-                "since_2024_09_26_usd_pct": 39.75679658948346,
-                "daily_pct": -0.7553479415951525,
-                "five_day_pct": -7.02159801110136,
-                "one_month_pct": -3.5920657177605175,
-                "three_month_pct": -3.3666878165945047,
-                "one_year_pct": 26.242674681225232,
-                "three_year_pct": 31.744399562258295,
-                "five_year_pct": 16.3654115869708,
-                "ytd_pct": 21.537613210408544,
-                "since_2024_09_26_pct": 57.97459979293602,
+                "last_price": 111.0199966430664,
+                "last_price_inr": 10539.128315206908,
+                "daily_usd_pct": -1.734826213161822,
+                "five_day_usd_pct": -4.003462880868569,
+                "one_month_usd_pct": -6.517350415913137,
+                "three_month_usd_pct": -2.1246616024203635,
+                "one_year_usd_pct": 16.020476340824796,
+                "three_year_usd_pct": 27.010816241742642,
+                "five_year_usd_pct": 10.542394208842754,
+                "ytd_usd_pct": 13.773308628627689,
+                "since_2024_09_26_usd_pct": 37.75902926908144,
+                "daily_pct": -1.7841761981055138,
+                "five_day_pct": -4.851313041412675,
+                "one_month_pct": -7.571904417112163,
+                "three_month_pct": -3.501839034395604,
+                "one_year_pct": 25.15382324119162,
+                "three_year_pct": 32.76064447479747,
+                "five_year_pct": 15.839941455318085,
+                "ytd_pct": 20.313826719514736,
+                "since_2024_09_26_pct": 56.38392200994995,
                 "aum": 6381493248.0,
                 "aum_display": "6.4B",
                 "ter": 0.3,
                 "ter_display": "0.30",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:QNTM",
@@ -2305,25 +2305,25 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 26.270000457763672,
-                "last_price_inr": 2483.166622325807,
-                "daily_usd_pct": -0.6805304347211605,
-                "five_day_usd_pct": -8.098648594907566,
-                "one_month_usd_pct": -8.816379921080387,
-                "three_month_usd_pct": -3.843335464090325,
-                "one_year_usd_pct": -6.744762560825091,
+                "last_price": 25.8799991607666,
+                "last_price_inr": 2456.7883282295224,
+                "daily_usd_pct": -2.2104703889982202,
+                "five_day_usd_pct": -5.3920687485017655,
+                "one_month_usd_pct": -12.876622699086138,
+                "three_month_usd_pct": -3.486859424460853,
+                "one_year_usd_pct": -6.738741763003242,
                 "three_year_usd_pct": null,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": 4.6926362016394885,
+                "ytd_usd_pct": 3.1383817976349038,
                 "since_2024_09_26_usd_pct": null,
-                "daily_pct": -1.3344698757810192,
-                "five_day_pct": -10.280305848720307,
-                "one_month_pct": -10.210736243542529,
-                "three_month_pct": -5.810134585726356,
-                "one_year_pct": 0.3870059309705409,
+                "daily_pct": -2.259581499557317,
+                "five_day_pct": -6.227654615529277,
+                "one_month_pct": -13.859439366557769,
+                "three_month_pct": -4.844869739069102,
+                "one_year_pct": 0.6029573120889031,
                 "three_year_pct": null,
                 "five_year_pct": null,
-                "ytd_pct": 10.23857415254077,
+                "ytd_pct": 9.067526868155484,
                 "since_2024_09_26_pct": null,
                 "aum": 898362560.0,
                 "aum_display": "898.4M",
@@ -2331,7 +2331,7 @@
                 "ter_display": "0.55",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -2349,33 +2349,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 99.5999984741211,
-                "last_price_inr": 9414.670250664058,
-                "daily_usd_pct": 2.2167446414153247,
-                "five_day_usd_pct": -1.3568413687422232,
-                "one_month_usd_pct": -6.889784670915411,
-                "three_month_usd_pct": 22.223587047611492,
-                "one_year_usd_pct": 5.218671689095977,
-                "three_year_usd_pct": 46.11993782267905,
-                "five_year_usd_pct": 23.652075641469295,
-                "ytd_usd_pct": 2.384868137270124,
-                "since_2024_09_26_usd_pct": 114.72459217031816,
-                "daily_pct": 1.5437289562698187,
-                "five_day_pct": -3.6985431965888993,
-                "one_month_pct": -8.313601989393804,
-                "three_month_pct": 19.723612190864316,
-                "one_year_pct": 13.265353335157148,
-                "three_year_pct": 52.41948766546982,
-                "five_year_pct": 29.50647565061464,
-                "ytd_pct": 7.808555479585966,
-                "since_2024_09_26_pct": 142.71471829342096,
+                "last_price": 96.69999694824219,
+                "last_price_inr": 9179.730739807128,
+                "daily_usd_pct": -1.5575754417231358,
+                "five_day_usd_pct": -1.5876299145866524,
+                "one_month_usd_pct": -9.482359551797536,
+                "three_month_usd_pct": 20.139147117270785,
+                "one_year_usd_pct": 6.815418371966575,
+                "three_year_usd_pct": 43.09929917952129,
+                "five_year_usd_pct": 22.454399597237853,
+                "ytd_usd_pct": -0.5962189949966556,
+                "since_2024_09_26_usd_pct": 108.47256752696994,
+                "daily_pct": -1.607014444195265,
+                "five_day_pct": -2.456816931956829,
+                "one_month_pct": -10.503466038813459,
+                "three_month_pct": 18.44870165046104,
+                "one_year_pct": 15.224126050713638,
+                "three_year_pct": 49.577459189033576,
+                "five_year_pct": 28.32280847374149,
+                "ytd_pct": 5.118234032716429,
+                "since_2024_09_26_pct": 136.6578649278332,
                 "aum": 4226031616.0,
                 "aum_display": "4.2B",
                 "ter": 0.53,
                 "ter_display": "0.53",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:NUCL",
@@ -2387,33 +2387,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 44.92499923706055,
-                "last_price_inr": 4246.526709919126,
-                "daily_usd_pct": 0.6271671551706381,
-                "five_day_usd_pct": -6.765595192111984,
-                "one_month_usd_pct": -11.669290802334476,
-                "three_month_usd_pct": -8.185164608902706,
-                "one_year_usd_pct": -34.18547050818852,
-                "three_year_usd_pct": 26.429826382060995,
+                "last_price": 43.63999938964844,
+                "last_price_inr": 4142.745155377197,
+                "daily_usd_pct": -2.0756182330636697,
+                "five_day_usd_pct": -6.321776865303885,
+                "one_month_usd_pct": -16.414479687997062,
+                "three_month_usd_pct": -8.367455349819553,
+                "one_year_usd_pct": -32.66471064098688,
+                "three_year_usd_pct": 25.31143908164264,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": -16.74388436009442,
-                "since_2024_09_26_usd_pct": 41.95434248105339,
-                "daily_pct": -0.035382430856290004,
-                "five_day_pct": -8.978897961267684,
-                "one_month_pct": -13.020021149854466,
-                "three_month_pct": -10.06315547383052,
-                "one_year_pct": -29.152251992840238,
-                "three_year_pct": 31.880492490855072,
+                "ytd_usd_pct": -19.1252777426267,
+                "since_2024_09_26_usd_pct": 37.893990527231615,
+                "daily_pct": -2.1247970680424055,
+                "five_day_pct": -7.149151465552972,
+                "one_month_pct": -17.35738669030704,
+                "three_month_pct": -9.65679211833297,
+                "one_year_pct": -27.3639518805607,
+                "three_year_pct": 30.984335860645906,
                 "five_year_pct": null,
-                "ytd_pct": -12.333514460890882,
-                "since_2024_09_26_pct": 60.45860372848053,
+                "ytd_pct": -14.476009909989218,
+                "since_2024_09_26_pct": 56.53712990478563,
                 "aum": 2094942080.0,
                 "aum_display": "2.1B",
                 "ter": 0.55,
                 "ter_display": "0.55",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:SILV",
@@ -2425,33 +2425,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 39.154998779296875,
-                "last_price_inr": 3701.1185524065513,
-                "daily_usd_pct": 1.952870782030347,
-                "five_day_usd_pct": -4.928985131248831,
-                "one_month_usd_pct": -10.589714703237584,
-                "three_month_usd_pct": 12.968837136969524,
-                "one_year_usd_pct": 2.6881659650378475,
-                "three_year_usd_pct": 51.03768687083148,
+                "last_price": 38.2400016784668,
+                "last_price_inr": 3630.1233710067754,
+                "daily_usd_pct": -1.633436196869975,
+                "five_day_usd_pct": -3.604730417149238,
+                "one_month_usd_pct": -13.767052371589783,
+                "three_month_usd_pct": 12.042193031723002,
+                "one_year_usd_pct": 6.060189584792086,
+                "three_year_usd_pct": 48.142240343696606,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": -2.3809569098042327,
-                "since_2024_09_26_usd_pct": 130.12048300817418,
-                "daily_pct": 1.281592495653383,
-                "five_day_pct": -7.185887407924785,
-                "one_month_pct": -11.956953649100699,
-                "three_month_pct": 10.65815996523527,
-                "one_year_pct": 10.541325172180581,
-                "three_year_pct": 57.54925162209261,
+                "ytd_usd_pct": -4.662176273819741,
+                "since_2024_09_26_usd_pct": 124.74289186123157,
+                "daily_pct": -1.68283710113315,
+                "five_day_pct": -4.456102219135028,
+                "one_month_pct": -14.739824328325223,
+                "three_month_pct": 10.465677617334235,
+                "one_year_pct": 14.40944425386399,
+                "three_year_pct": 54.84869622864221,
                 "five_year_pct": null,
-                "ytd_pct": 2.7902678816114745,
-                "since_2024_09_26_pct": 160.1175191082549,
+                "ytd_pct": 0.8185359278642723,
+                "since_2024_09_26_pct": 155.1279219924471,
                 "aum": 1454230912.0,
                 "aum_display": "1.5B",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:COPX",
@@ -2463,33 +2463,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 64.12000274658203,
-                "last_price_inr": 6060.93063834327,
-                "daily_usd_pct": 1.745481245363667,
-                "five_day_usd_pct": -4.42687994250377,
-                "one_month_usd_pct": -4.469606491714229,
-                "three_month_usd_pct": 8.402368710892905,
-                "one_year_usd_pct": 33.86221441337525,
-                "three_year_usd_pct": 34.95008120175409,
+                "last_price": 61.06999969482422,
+                "last_price_inr": 5797.375089666748,
+                "daily_usd_pct": -2.475246348609117,
+                "five_day_usd_pct": -7.004718444314484,
+                "one_month_usd_pct": -10.664132314860508,
+                "three_month_usd_pct": 5.712306060086014,
+                "one_year_usd_pct": 28.473755950057033,
+                "three_year_usd_pct": 35.25279621074782,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": 13.809021251194963,
-                "since_2024_09_26_usd_pct": 77.22499227676694,
-                "daily_pct": 1.0755684535698196,
-                "five_day_pct": -6.695701754751882,
-                "one_month_pct": -5.93043254863418,
-                "three_month_pct": 6.185094592735152,
-                "one_year_pct": 44.099433782614206,
-                "three_year_pct": 40.76807411556685,
+                "ytd_usd_pct": 8.395455323794598,
+                "since_2024_09_26_usd_pct": 68.794912050036,
+                "daily_pct": -2.524224485408366,
+                "five_day_pct": -7.826061242325865,
+                "one_month_pct": -11.671907523812097,
+                "three_month_pct": 4.224856774376984,
+                "one_year_pct": 38.58744809900099,
+                "three_year_pct": 41.375742029566844,
                 "five_year_pct": null,
-                "ytd_pct": 19.83788625079508,
-                "since_2024_09_26_pct": 100.3269101141889,
+                "ytd_pct": 14.62681525399907,
+                "since_2024_09_26_pct": 91.61582730195441,
                 "aum": 1264691328.0,
                 "aum_display": "1.3B",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:REMX",
@@ -2501,33 +2501,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 10.821999549865723,
-                "last_price_inr": 1022.9473772662095,
-                "daily_usd_pct": -0.29482717354974985,
-                "five_day_usd_pct": -9.439332865301363,
-                "one_month_usd_pct": -18.98488014245573,
-                "three_month_usd_pct": -26.10952056865713,
-                "one_year_usd_pct": -24.93063765986746,
-                "three_year_usd_pct": -2.82628640665622,
-                "five_year_usd_pct": -12.045739299111634,
-                "ytd_usd_pct": -25.26243168517155,
-                "since_2024_09_26_usd_pct": 29.503978636051098,
-                "daily_pct": -0.9513061627579145,
-                "five_day_pct": -11.589163453685813,
-                "one_month_pct": -20.223742390857623,
-                "three_month_pct": -27.62088466124748,
-                "one_year_pct": -19.189648437833217,
-                "three_year_pct": 1.3630847449603856,
-                "five_year_pct": -7.88147903918145,
-                "ytd_pct": -21.30331926319594,
-                "since_2024_09_26_pct": 46.385289988555556,
+                "last_price": 10.489999771118164,
+                "last_price_inr": 995.8156814735412,
+                "daily_usd_pct": -0.728689459123999,
+                "five_day_usd_pct": -6.854913044328748,
+                "one_month_usd_pct": -23.985509955565,
+                "three_month_usd_pct": -23.886227799323446,
+                "one_year_usd_pct": -25.348706682710542,
+                "three_year_usd_pct": -8.505727261177354,
+                "five_year_usd_pct": -12.832474250118441,
+                "ytd_usd_pct": -27.555247909227067,
+                "since_2024_09_26_usd_pct": 25.5310259431607,
+                "daily_pct": -0.7785447383825472,
+                "five_day_pct": -7.677578937279184,
+                "one_month_pct": -24.8430100904254,
+                "three_month_pct": -24.957204115251752,
+                "one_year_pct": -19.47201853306946,
+                "three_year_pct": -4.363746537620649,
+                "five_year_pct": -8.655125918527718,
+                "ytd_pct": -23.39059613500326,
+                "since_2024_09_26_pct": 42.50270399756821,
                 "aum": 1108390272.0,
                 "aum_display": "1.1B",
                 "ter": 0.59,
                 "ter_display": "0.59",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:URNU",
@@ -2539,33 +2539,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 21.13249969482422,
-                "last_price_inr": 1997.545373966277,
-                "daily_usd_pct": -0.6347724432402946,
-                "five_day_usd_pct": -9.16612830762874,
-                "one_month_usd_pct": -15.806775403774676,
-                "three_month_usd_pct": -11.48691227298757,
-                "one_year_usd_pct": -39.2482397943825,
-                "three_year_usd_pct": 16.948351204112335,
+                "last_price": 20.4950008392334,
+                "last_price_inr": 1945.5904359230044,
+                "daily_usd_pct": -2.3815193141866864,
+                "five_day_usd_pct": -7.367227845272772,
+                "one_month_usd_pct": -21.089610319988072,
+                "three_month_usd_pct": -12.085787284789706,
+                "one_year_usd_pct": -36.51850414713188,
+                "three_year_usd_pct": 15.658299909121464,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": -18.939394161098754,
-                "since_2024_09_26_usd_pct": 30.6410665021555,
-                "daily_pct": -1.289013164154984,
-                "five_day_pct": -11.322444531925047,
-                "one_month_pct": -17.094236407435382,
-                "three_month_pct": -13.297368823607291,
-                "one_year_pct": -34.602200588936874,
-                "three_year_pct": 21.990250197640073,
+                "ytd_usd_pct": -21.384729270624604,
+                "since_2024_09_26_usd_pct": 26.70004998300295,
+                "daily_pct": -2.4305445218611887,
+                "five_day_pct": -8.185368927232473,
+                "one_month_pct": -21.979778362330304,
+                "three_month_pct": -13.322804409669986,
+                "one_year_pct": -31.5211231531493,
+                "three_year_pct": 20.89419538544728,
                 "five_year_pct": null,
-                "ytd_pct": -14.645328154592253,
-                "since_2024_09_26_pct": 47.670601364895184,
+                "ytd_pct": -16.865351161442298,
+                "since_2024_09_26_pct": 43.82977900124985,
                 "aum": 640752832.0,
                 "aum_display": "640.8M",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -2583,33 +2583,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "GBP",
-                "last_price": 9.473719127476215,
-                "last_price_inr": 895.4113332748414,
-                "daily_usd_pct": -0.09472151795472117,
-                "five_day_usd_pct": -4.228971366876988,
-                "one_month_usd_pct": -5.713785636479463,
-                "three_month_usd_pct": -12.301212228650682,
-                "one_year_usd_pct": -3.017712753672386,
-                "three_year_usd_pct": 5.623340440281321,
-                "five_year_usd_pct": -6.395387640838035,
-                "ytd_usd_pct": 0.24456992242869457,
-                "since_2024_09_26_usd_pct": 13.3808658738924,
-                "daily_pct": -0.7333703472842124,
-                "five_day_pct": -6.423310933038984,
-                "one_month_pct": -7.189854004842811,
-                "three_month_pct": -13.930498434153083,
-                "one_year_pct": 4.448542594421645,
-                "three_year_pct": 10.183785679408675,
-                "five_year_pct": -1.9705727874063883,
-                "ytd_pct": 5.554581916965939,
-                "since_2024_09_26_pct": 28.15047447975867,
+                "last_price": 9.27681515544653,
+                "last_price_inr": 880.1336315155029,
+                "daily_usd_pct": -1.3625636851821055,
+                "five_day_usd_pct": -5.290915493848503,
+                "one_month_usd_pct": -9.070166675569135,
+                "three_month_usd_pct": -11.859886198270253,
+                "one_year_usd_pct": -3.8991583159766363,
+                "three_year_usd_pct": 6.6969024594391025,
+                "five_year_usd_pct": -7.3281639180877045,
+                "ytd_usd_pct": -1.8389364309406853,
+                "since_2024_09_26_usd_pct": 11.024331703696678,
+                "daily_pct": -1.4664028752555236,
+                "five_day_pct": -6.188295985839165,
+                "one_month_pct": -10.154453927777574,
+                "three_month_pct": -13.130930819764053,
+                "one_year_pct": 3.609684996475515,
+                "three_year_pct": 11.483907246755765,
+                "five_year_pct": -2.897471010390573,
+                "ytd_pct": 3.7535868190358146,
+                "since_2024_09_26_pct": 25.96394337761265,
                 "aum": 3387463424.0,
                 "aum_display": "3.4B",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -2627,33 +2627,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "GBP",
-                "last_price": 80.59463753700255,
-                "last_price_inr": 7617.425731201171,
-                "daily_usd_pct": 0.20967060691672312,
-                "five_day_usd_pct": -0.7941875894171835,
-                "one_month_usd_pct": -4.597542538235344,
-                "three_month_usd_pct": 3.04308683302712,
-                "one_year_usd_pct": -2.646998812105328,
-                "three_year_usd_pct": 29.294467934984535,
-                "five_year_usd_pct": 18.404468397659258,
-                "ytd_usd_pct": -3.7395134467947178,
-                "since_2024_09_26_usd_pct": 56.41712174414884,
-                "daily_pct": -0.43092406228389946,
-                "five_day_pct": -3.0672261322077343,
-                "one_month_pct": -6.091085901642723,
-                "three_month_pct": 1.1287310680745177,
-                "one_year_pct": 4.847796231508661,
-                "three_year_pct": 34.87694940434296,
-                "five_year_pct": 24.001605518086212,
-                "ytd_pct": 1.3594593812900957,
-                "since_2024_09_26_pct": 76.792867242395,
+                "last_price": 79.98259789199626,
+                "last_price_inr": 7588.312708742172,
+                "daily_usd_pct": -0.6517324988417506,
+                "five_day_usd_pct": -0.6433483777831484,
+                "one_month_usd_pct": -5.386438263521676,
+                "three_month_usd_pct": 2.539317103265315,
+                "one_year_usd_pct": -5.273587464130891,
+                "three_year_usd_pct": 27.331970424105023,
+                "five_year_usd_pct": 18.1510857454138,
+                "ytd_usd_pct": -4.470520320435756,
+                "since_2024_09_26_usd_pct": 55.22928242144896,
+                "daily_pct": -0.7563200065663911,
+                "five_day_pct": -1.5847651529553253,
+                "one_month_pct": -6.514651910530911,
+                "three_month_pct": 1.0606254851794894,
+                "one_year_pct": 2.1278647689435326,
+                "three_year_pct": 33.044776868794166,
+                "five_year_pct": 23.799955993179346,
+                "ytd_pct": 0.9720738889297698,
+                "since_2024_09_26_pct": 76.11718297631327,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -2671,33 +2671,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 86.20999908447266,
-                "last_price_inr": 8148.9831940233125,
-                "daily_usd_pct": -0.6224794415300772,
-                "five_day_usd_pct": -13.29578716697939,
-                "one_month_usd_pct": -13.660490333591369,
-                "three_month_usd_pct": -6.840287193030026,
-                "one_year_usd_pct": 86.09821406293786,
-                "three_year_usd_pct": 42.19506567371829,
-                "five_year_usd_pct": 17.130668279012617,
-                "ytd_usd_pct": 63.49326727268243,
-                "since_2024_09_26_usd_pct": 151.26783921257356,
-                "daily_pct": -1.2768011020500958,
-                "five_day_pct": -15.354068922048347,
-                "one_month_pct": -14.98077177314643,
-                "three_month_pct": -8.74578633034867,
-                "one_year_pct": 100.33022307261051,
-                "three_year_pct": 48.325405700946675,
-                "five_year_pct": 22.676307378772933,
-                "ytd_pct": 72.15408190665585,
-                "since_2024_09_26_pct": 184.0215095730738,
+                "last_price": 84.80000305175781,
+                "last_price_inr": 8050.064315582276,
+                "daily_usd_pct": -5.060453043562118,
+                "five_day_usd_pct": -8.324321025126691,
+                "one_month_usd_pct": -19.452883705358115,
+                "three_month_usd_pct": -7.190543392065285,
+                "one_year_usd_pct": 78.90295426564424,
+                "three_year_usd_pct": 42.90858787698095,
+                "five_year_usd_pct": 16.442822739670127,
+                "ytd_usd_pct": 60.81927515253183,
+                "since_2024_09_26_usd_pct": 147.15826189902538,
+                "daily_pct": -5.108132857603098,
+                "five_day_pct": -9.134008972936469,
+                "one_month_pct": -20.361515244488317,
+                "three_month_pct": -8.496440170630015,
+                "one_year_pct": 92.9865263586303,
+                "three_year_pct": 49.37811431287993,
+                "five_year_pct": 22.023137508418,
+                "ytd_pct": 70.06433791089665,
+                "since_2024_09_26_pct": 180.57382922926058,
                 "aum": 5095872000.0,
                 "aum_display": "5.1B",
                 "ter": 0.09,
                 "ter_display": "0.09",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:NDIA",
@@ -2709,33 +2709,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 8.484999656677246,
-                "last_price_inr": 802.0429223738392,
-                "daily_usd_pct": -0.011788879928287255,
-                "five_day_usd_pct": 4.64972698896029,
-                "one_month_usd_pct": -0.2820562738467647,
-                "three_month_usd_pct": -3.0396610146218084,
-                "one_year_usd_pct": -13.752801381868029,
-                "three_year_usd_pct": 2.938070349428523,
-                "five_year_usd_pct": 0.8088935636669792,
-                "ytd_usd_pct": -13.276785439273054,
-                "since_2024_09_26_usd_pct": -20.74538205985985,
-                "daily_pct": -0.6701314504094835,
-                "five_day_pct": 2.165434511163955,
-                "one_month_pct": -1.8069172650768128,
-                "three_month_pct": -5.022898582921154,
-                "one_year_pct": -7.156978235617128,
-                "three_year_pct": 7.375955517938904,
-                "five_year_pct": 5.581766031350299,
-                "ytd_pct": -8.682751089711438,
-                "since_2024_09_26_pct": -10.414256362700435,
+                "last_price": 8.383000373840332,
+                "last_price_inr": 795.7982280469514,
+                "daily_usd_pct": -0.1667254786628325,
+                "five_day_usd_pct": 0.13139791663392408,
+                "one_month_usd_pct": -2.88461071040782,
+                "three_month_usd_pct": -4.205233841999567,
+                "one_year_usd_pct": -15.58754828390475,
+                "three_year_usd_pct": 3.2005271777868938,
+                "five_year_usd_pct": 0.7414901078689473,
+                "ytd_usd_pct": -14.319296464426113,
+                "since_2024_09_26_usd_pct": -21.69811211507515,
+                "daily_pct": -0.2168629831788782,
+                "five_day_pct": -0.752971711134709,
+                "one_month_pct": -3.9801447245696786,
+                "three_month_pct": -5.553136104347267,
+                "one_year_pct": -8.942443656263455,
+                "three_year_pct": 7.872454517452021,
+                "five_year_pct": 5.569346491352922,
+                "ytd_pct": -9.393745838632483,
+                "since_2024_09_26_pct": -11.111769637184654,
                 "aum": 4835530240.0,
                 "aum_display": "4.8B",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:FLXC",
@@ -2747,33 +2747,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 27.875,
-                "last_price_inr": 2634.878888130188,
-                "daily_usd_pct": -0.30400245799672154,
-                "five_day_usd_pct": -2.0727214102412406,
-                "one_month_usd_pct": -2.7729336385712067,
-                "three_month_usd_pct": -6.081537353828848,
-                "one_year_usd_pct": -17.67572505158741,
-                "three_year_usd_pct": 9.143202991613819,
-                "five_year_usd_pct": -3.6253662599784575,
-                "ytd_usd_pct": -14.151527711595268,
-                "since_2024_09_26_usd_pct": 10.560239649990466,
-                "daily_pct": -0.9604210352795128,
-                "five_day_pct": -4.3974288755293856,
-                "one_month_pct": -4.259704777709672,
-                "three_month_pct": -8.00255604483089,
-                "one_year_pct": -11.379910614677602,
-                "three_year_pct": 13.848604988717494,
-                "five_year_pct": 0.9375628596661745,
-                "ytd_pct": -9.603831543412388,
-                "since_2024_09_26_pct": 24.97216620542242,
+                "last_price": 27.614999771118164,
+                "last_price_inr": 2621.4919366996764,
+                "daily_usd_pct": -0.32485166156193124,
+                "five_day_usd_pct": -2.360115118684536,
+                "one_month_usd_pct": -5.4766399901182155,
+                "three_month_usd_pct": -6.988887590484227,
+                "one_year_usd_pct": -18.83909321763113,
+                "three_year_usd_pct": 10.811626338328463,
+                "five_year_usd_pct": -4.3279979789990435,
+                "ytd_usd_pct": -14.952267530219165,
+                "since_2024_09_26_usd_pct": 9.529004219883607,
+                "daily_pct": -0.37490975315430664,
+                "five_day_pct": -3.222479476363349,
+                "one_month_pct": -6.542933981021159,
+                "three_month_pct": -8.297621813327682,
+                "one_year_pct": -12.449956232758453,
+                "three_year_pct": 15.828111048245951,
+                "five_year_pct": 0.2569122221823372,
+                "ytd_pct": -10.063104689546032,
+                "since_2024_09_26_pct": 24.337223807616404,
                 "aum": 1588554112.0,
                 "aum_display": "1.6B",
                 "ter": 0.19,
                 "ter_display": "0.19",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:FLXT",
@@ -2785,33 +2785,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 70.91500091552734,
-                "last_price_inr": 6703.226502746402,
-                "daily_usd_pct": -1.1224209306669786,
-                "five_day_usd_pct": -5.923317193657985,
-                "one_month_usd_pct": -2.294021594823026,
-                "three_month_usd_pct": 5.685547731983354,
-                "one_year_usd_pct": 71.70702718050363,
-                "three_year_usd_pct": 46.35756163239939,
+                "last_price": 69.80000305175781,
+                "last_price_inr": 6626.11431100464,
+                "daily_usd_pct": -2.103786726223733,
+                "five_day_usd_pct": -6.245794609927335,
+                "one_month_usd_pct": -8.242403928250596,
+                "three_month_usd_pct": 8.217058994973359,
+                "one_year_usd_pct": 66.65672670054028,
+                "three_year_usd_pct": 47.002704168550565,
                 "five_year_usd_pct": null,
-                "ytd_usd_pct": 66.82938640157671,
-                "since_2024_09_26_usd_pct": 117.98201261696488,
-                "daily_pct": -1.773450875480087,
-                "five_day_pct": -8.15661490170152,
-                "one_month_pct": -3.7881161330053703,
-                "three_month_pct": 3.523843772594626,
-                "one_year_pct": 84.83845872143488,
-                "three_year_pct": 52.66735595691847,
+                "ytd_usd_pct": 64.2063248906093,
+                "since_2024_09_26_usd_pct": 114.55467742313736,
+                "daily_pct": -2.1529514146370055,
+                "five_day_pct": -7.073840292377431,
+                "one_month_pct": -9.277498039386478,
+                "three_month_pct": 6.694366007724417,
+                "one_year_pct": 79.77625306556052,
+                "three_year_pct": 53.65757281497336,
                 "five_year_pct": null,
-                "ytd_pct": 75.6669270246639,
-                "since_2024_09_26_pct": 146.3967552603091,
+                "ytd_pct": 73.64609992686823,
+                "since_2024_09_26_pct": 143.562270429997,
                 "aum": 1312995840.0,
                 "aum_display": "1.3B",
                 "ter": 0.19,
                 "ter_display": "0.19",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:CSKR",
@@ -2823,33 +2823,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 426.8500061035156,
-                "last_price_inr": 40347.91280647158,
-                "daily_usd_pct": -0.4431472644861545,
-                "five_day_usd_pct": -13.566872364471772,
-                "one_month_usd_pct": -14.010876037092013,
-                "three_month_usd_pct": -6.83182106514243,
-                "one_year_usd_pct": 80.10548780739055,
-                "three_year_usd_pct": 40.70225064015867,
-                "five_year_usd_pct": 16.147117012653943,
-                "ytd_usd_pct": 57.55283762518768,
-                "since_2024_09_26_usd_pct": 146.7341075742865,
-                "daily_pct": -1.0986496842685045,
-                "five_day_pct": -15.61871879537554,
-                "one_month_pct": -15.325799469139223,
-                "three_month_pct": -8.737493369583415,
-                "one_year_pct": 93.87919830790823,
-                "three_year_pct": 46.76823214896646,
-                "five_year_pct": 21.646189142042793,
-                "ytd_pct": 65.89896676243481,
-                "since_2024_09_26_pct": 178.89678964098525,
+                "last_price": 419.5,
+                "last_price_inr": 39823.13512802124,
+                "daily_usd_pct": -4.993769313228336,
+                "five_day_usd_pct": -8.48603717592299,
+                "one_month_usd_pct": -20.0800189582233,
+                "three_month_usd_pct": -7.568581170335154,
+                "one_year_usd_pct": 72.86494065090375,
+                "three_year_usd_pct": 41.42791995657005,
+                "five_year_usd_pct": 15.434481325882764,
+                "ytd_usd_pct": 54.83990731802375,
+                "since_2024_09_26_usd_pct": 142.48554913294797,
+                "daily_pct": -5.041482616662984,
+                "five_day_pct": -9.29429683195757,
+                "one_month_pct": -20.981575944020403,
+                "three_month_pct": -8.869158681501265,
+                "one_year_pct": 86.47318912282,
+                "three_year_pct": 47.830415989354734,
+                "five_year_pct": 20.96647312932538,
+                "ytd_pct": 63.74123248129657,
+                "since_2024_09_26_pct": 175.26937003945454,
                 "aum": 865075648.0,
                 "aum_display": "865.1M",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "ucits-etfs-lse:CMXC",
@@ -2861,33 +2861,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 218.14999389648438,
-                "last_price_inr": 20620.58523277403,
-                "daily_usd_pct": 1.8916336653491905,
-                "five_day_usd_pct": 4.303131849219377,
-                "one_month_usd_pct": 0.4952191470022127,
-                "three_month_usd_pct": -1.5235301175889449,
-                "one_year_usd_pct": 15.668073614350696,
-                "three_year_usd_pct": 15.298769922183798,
-                "five_year_usd_pct": 11.538726644202256,
-                "ytd_usd_pct": 9.006867655957219,
-                "since_2024_09_26_usd_pct": 47.483354492999986,
-                "daily_pct": 1.2207585765127371,
-                "five_day_pct": 1.8270672352051598,
-                "one_month_pct": -1.0415277388261868,
-                "three_month_pct": -3.537778796048585,
-                "one_year_pct": 24.513881587844644,
-                "three_year_pct": 20.269551861734627,
-                "five_year_pct": 16.819611084664345,
-                "ytd_pct": 14.781345653413336,
-                "since_2024_09_26_pct": 66.70834242564902,
+                "last_price": 221.10000610351562,
+                "last_price_inr": 20989.023646881105,
+                "daily_usd_pct": 0.18124565509951562,
+                "five_day_usd_pct": 3.5475997768690037,
+                "one_month_usd_pct": 3.5354731650029114,
+                "three_month_usd_pct": -0.15804508898158431,
+                "one_year_usd_pct": 18.634979823061258,
+                "three_year_usd_pct": 17.317659420903155,
+                "five_year_usd_pct": 11.791924195791381,
+                "ytd_usd_pct": 10.480952456472515,
+                "since_2024_09_26_usd_pct": 49.47775150542766,
+                "daily_pct": 0.13093339517877833,
+                "five_day_pct": 2.6330579430753343,
+                "one_month_pct": 2.367515817003518,
+                "three_month_pct": -1.5628942503628118,
+                "one_year_pct": 27.974145282604933,
+                "three_year_pct": 22.62867473703436,
+                "five_year_pct": 17.14935294012212,
+                "ytd_pct": 16.83220194503814,
+                "since_2024_09_26_pct": 69.68700460270998,
                 "aum": 111428880.0,
                 "aum_display": "111.4M",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -3953,33 +3953,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 149.9499969482422,
-                "last_price_inr": 14173.993945618276,
-                "daily_usd_pct": 0.06672728772363357,
-                "five_day_usd_pct": 1.2970331586693584,
-                "one_month_usd_pct": -0.4249946246179692,
-                "three_month_usd_pct": -2.4207726069036206,
-                "one_year_usd_pct": -3.108036785553958,
-                "three_year_usd_pct": 3.8508958494947176,
-                "five_year_usd_pct": -1.4609004310562335,
-                "ytd_usd_pct": -3.668255543833776,
-                "since_2024_09_26_usd_pct": 0.4219057012604832,
-                "daily_pct": -0.5921322490584746,
-                "five_day_pct": -1.1076693163377227,
-                "one_month_pct": -1.9476698395764935,
-                "three_month_pct": -4.416668987595907,
-                "one_year_pct": 4.301853203860473,
-                "three_year_pct": 8.328134920156472,
-                "five_year_pct": 3.2045069422117267,
-                "ytd_pct": 1.4347765015815472,
-                "since_2024_09_26_pct": 13.51226380924604,
+                "last_price": 149.5800018310547,
+                "last_price_inr": 14199.629619470215,
+                "daily_usd_pct": 0.07359377095952357,
+                "five_day_usd_pct": 0.7544086397262006,
+                "one_month_usd_pct": -0.6112944644154905,
+                "three_month_usd_pct": -2.5156416507654655,
+                "one_year_usd_pct": -3.5216664676974596,
+                "three_year_usd_pct": 4.247817538215237,
+                "five_year_usd_pct": -1.4533407674028775,
+                "ytd_usd_pct": -3.9059499473304227,
+                "since_2024_09_26_usd_pct": 0.17411900219868048,
+                "daily_pct": 0.02333557514571094,
+                "five_day_pct": -0.13546347550131843,
+                "one_month_pct": -1.7324731811383831,
+                "three_month_pct": -3.887317708158,
+                "one_year_pct": 4.073286736349591,
+                "three_year_pct": 8.967156113086784,
+                "five_year_pct": 3.2693322577596717,
+                "ytd_pct": 1.6182356492018934,
+                "since_2024_09_26_pct": 13.71756680178109,
                 "aum": 4940705280.0,
                 "aum_display": "4.9B",
                 "ter": 0.07,
                 "ter_display": "0.07",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:JPSA",
@@ -3991,33 +3991,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 126.60250091552734,
-                "last_price_inr": 11967.076478809176,
-                "daily_usd_pct": 0.021729384118729378,
-                "five_day_usd_pct": 0.08894225129087996,
-                "one_month_usd_pct": 0.32490335878370136,
-                "three_month_usd_pct": 0.840319640014231,
-                "one_year_usd_pct": 3.4989463954311795,
-                "three_year_usd_pct": 4.903048587844405,
-                "five_year_usd_pct": 3.8320174347520553,
-                "ytd_usd_pct": 2.616008847438578,
-                "since_2024_09_26_usd_pct": 8.737009863169565,
-                "daily_pct": -0.6368338773805715,
-                "five_day_pct": -2.287081208108155,
-                "one_month_pct": -1.2092391020842697,
-                "three_month_pct": -1.2222794845571983,
-                "one_year_pct": 11.41411068117355,
-                "three_year_pct": 9.42564826237875,
-                "five_year_pct": 8.748021963314368,
-                "ytd_pct": 8.051940527876278,
-                "since_2024_09_26_pct": 22.911271830820933,
+                "last_price": 126.63500213623047,
+                "last_price_inr": 12021.460791438294,
+                "daily_usd_pct": 0.08693982139891254,
+                "five_day_usd_pct": 0.1225480512199617,
+                "one_month_usd_pct": 0.36457227925246194,
+                "three_month_usd_pct": 0.8039817999844434,
+                "one_year_usd_pct": 3.5403309923964343,
+                "three_year_usd_pct": 4.893697089494653,
+                "five_year_usd_pct": 3.8398221985197267,
+                "ytd_usd_pct": 2.6423522887379702,
+                "since_2024_09_26_usd_pct": 8.764924679469432,
+                "daily_pct": 0.036674923033586104,
+                "five_day_pct": -0.7617434137311418,
+                "one_month_pct": -0.7676149420833278,
+                "three_month_pct": -0.614403781726236,
+                "one_year_pct": 11.691217723410485,
+                "three_year_pct": 9.642274878702327,
+                "five_year_pct": 8.816160625955849,
+                "ytd_pct": 8.542981971812601,
+                "since_2024_09_26_pct": 23.469841423379844,
                 "aum": 978946304.0,
                 "aum_display": "978.9M",
                 "ter": 0.18,
                 "ter_display": "0.18",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:AGGU",
@@ -4029,33 +4029,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 5.7789998054504395,
-                "last_price_inr": 546.2588190812494,
-                "daily_usd_pct": 0.1386223727271929,
-                "five_day_usd_pct": 0.8375477107572804,
-                "one_month_usd_pct": 0.32985374676437473,
-                "three_month_usd_pct": -0.8577833379239119,
-                "one_year_usd_pct": -0.4821827793061062,
-                "three_year_usd_pct": 4.624921330093645,
-                "five_year_usd_pct": 0.381555927793209,
-                "ytd_usd_pct": -0.5335651916421713,
-                "since_2024_09_26_usd_pct": 3.418038490863262,
-                "daily_pct": -0.5207105358107977,
-                "five_day_pct": -1.556246983840337,
-                "one_month_pct": -1.2043644141555676,
-                "three_month_pct": -2.8856492751330953,
-                "one_year_pct": 7.128521484781403,
-                "three_year_pct": 9.13553033074086,
-                "five_year_pct": 5.134195775470829,
-                "ytd_pct": 4.735522450606733,
-                "since_2024_09_26_pct": 16.898953329286236,
+                "last_price": 5.764999866485596,
+                "last_price_inr": 547.2714390848159,
+                "daily_usd_pct": 0.10418548609985034,
+                "five_day_usd_pct": 0.3132007719998997,
+                "one_month_usd_pct": -0.15587636126516147,
+                "three_month_usd_pct": -0.9450223978271999,
+                "one_year_usd_pct": -0.8086705603993605,
+                "three_year_usd_pct": 4.811090020121012,
+                "five_year_usd_pct": 0.3683018767648871,
+                "ytd_usd_pct": -0.7745279989179621,
+                "since_2024_09_26_usd_pct": 3.167502710368786,
+                "daily_pct": 0.05391192674852885,
+                "five_day_pct": -0.5727745551484476,
+                "one_month_pct": -1.2821925338157736,
+                "three_month_pct": -2.338798214206883,
+                "one_year_pct": 6.999854709046205,
+                "three_year_pct": 9.555928155700833,
+                "five_year_pct": 5.178273879326478,
+                "ytd_pct": 4.929674529095562,
+                "since_2024_09_26_pct": 17.115653205612837,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.1,
                 "ter_display": "0.10",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:CBU7",
@@ -4067,33 +4067,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 141.05999755859375,
-                "last_price_inr": 13333.668503204826,
-                "daily_usd_pct": 0.0709356129143357,
-                "five_day_usd_pct": 0.6924129103148324,
-                "one_month_usd_pct": -0.035435512395676216,
-                "three_month_usd_pct": -1.3083294011141167,
-                "one_year_usd_pct": -1.1354045418748293,
-                "three_year_usd_pct": 4.080798456812551,
-                "five_year_usd_pct": 0.345246335615812,
-                "ytd_usd_pct": -1.7824799092249655,
-                "since_2024_09_26_usd_pct": 3.1894665015993917,
-                "daily_pct": -0.587951632330519,
-                "five_day_pct": -1.6979364117684081,
-                "one_month_pct": -1.5640677644912393,
-                "three_month_pct": -3.3269798189870525,
-                "one_year_pct": 6.42534406811357,
-                "three_year_pct": 8.567949131293506,
-                "five_year_pct": 5.096167078493363,
-                "ytd_pct": 3.420448318369962,
-                "since_2024_09_26_pct": 16.64058615567463,
+                "last_price": 140.8800048828125,
+                "last_price_inr": 13373.738906518556,
+                "daily_usd_pct": 0.042605848226950904,
+                "five_day_usd_pct": 0.45636007171978576,
+                "one_month_usd_pct": 0.0,
+                "three_month_usd_pct": -1.3099790663310018,
+                "one_year_usd_pct": -1.3514408716304271,
+                "three_year_usd_pct": 4.228476348776478,
+                "five_year_usd_pct": 0.306604699591273,
+                "ytd_usd_pct": -1.9078055476462685,
+                "since_2024_09_26_usd_pct": 3.0577966553671176,
+                "daily_pct": -0.007636785069020657,
+                "five_day_pct": -0.43087965140464757,
+                "one_month_pct": -1.1280745741491516,
+                "three_month_pct": -2.6986196760719117,
+                "one_year_pct": 6.414356513082686,
+                "three_year_pct": 8.94693934060411,
+                "five_year_pct": 5.113619974886441,
+                "ytd_pct": 3.731247936195148,
+                "since_2024_09_26_pct": 16.991114993922295,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.07,
                 "ter_display": "0.07",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:CRPA",
@@ -4105,33 +4105,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 5.83050012588501,
-                "last_price_inr": 551.1268767330876,
-                "daily_usd_pct": 0.2148553875306103,
-                "five_day_usd_pct": 1.0310209388610714,
-                "one_month_usd_pct": -0.9260849766726587,
-                "three_month_usd_pct": -1.8434331697075423,
-                "one_year_usd_pct": -2.271202688639007,
-                "three_year_usd_pct": 5.871479698187354,
-                "five_year_usd_pct": -0.2957873658409049,
-                "ytd_usd_pct": -2.5570297958075416,
-                "since_2024_09_26_usd_pct": 3.3227006169983753,
-                "daily_pct": -0.44497945456893895,
-                "five_day_pct": -1.367366640009282,
-                "one_month_pct": -2.4410976476358037,
-                "three_month_pct": -3.851138515524022,
-                "one_year_pct": 5.202684854254724,
-                "three_year_pct": 10.435830554249815,
-                "five_year_pct": 4.424783156967926,
-                "ytd_pct": 2.604867794230503,
-                "since_2024_09_26_pct": 16.791187819225527,
+                "last_price": 5.800000190734863,
+                "last_price_inr": 550.5940198764802,
+                "daily_usd_pct": -0.20646262050250108,
+                "five_day_usd_pct": 0.2852942963649019,
+                "one_month_usd_pct": -1.4443506345134471,
+                "three_month_usd_pct": -2.2581702760255506,
+                "one_year_usd_pct": -2.8312895933023885,
+                "three_year_usd_pct": 6.11118704633915,
+                "five_year_usd_pct": -0.3784228358284847,
+                "ytd_usd_pct": -3.066763816542928,
+                "since_2024_09_26_usd_pct": 2.7822091325087506,
+                "daily_pct": -0.25658016853472576,
+                "five_day_pct": -0.6004345582485415,
+                "one_month_pct": -2.5561318563930846,
+                "three_month_pct": -3.633469143540402,
+                "one_year_pct": 4.818011357665797,
+                "three_year_pct": 10.914881071584581,
+                "five_year_pct": 4.395763715609258,
+                "ytd_pct": 2.5056643083661623,
+                "since_2024_09_26_pct": 16.67826829407064,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.2,
                 "ter_display": "0.20",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:DTLA",
@@ -4143,33 +4143,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 4.381499767303467,
-                "last_price_inr": 414.1604030570488,
-                "daily_usd_pct": 0.06851164948520339,
-                "five_day_usd_pct": 3.166930609362373,
-                "one_month_usd_pct": -0.7025527025293576,
-                "three_month_usd_pct": -3.320836173716446,
-                "one_year_usd_pct": -7.446143290063434,
-                "three_year_usd_pct": 2.0435602618873006,
-                "five_year_usd_pct": -7.869672653016102,
-                "ytd_usd_pct": -5.69307245708055,
-                "since_2024_09_26_usd_pct": -9.557235862287817,
-                "daily_pct": -0.5903596358949992,
-                "five_day_pct": 0.7178384134772342,
-                "one_month_pct": -2.220983571184776,
-                "three_month_pct": -5.298322554008161,
-                "one_year_pct": -0.3680134476658825,
-                "three_year_pct": 6.442881145705881,
-                "five_year_pct": -3.507693394158784,
-                "ytd_pct": -0.6973021004546109,
-                "since_2024_09_26_pct": 2.2323051006244876,
+                "last_price": 4.363500118255615,
+                "last_price_inr": 414.2270675576401,
+                "daily_usd_pct": 0.2988164837356866,
+                "five_day_usd_pct": 1.986678428315325,
+                "one_month_usd_pct": -1.8335219405694603,
+                "three_month_usd_pct": -3.7498636593934487,
+                "one_year_usd_pct": -8.358705730828698,
+                "three_year_usd_pct": 3.0664670355942336,
+                "five_year_usd_pct": -7.65407378799935,
+                "ytd_usd_pct": -6.080494958211579,
+                "since_2024_09_26_usd_pct": -9.928783985043587,
+                "daily_pct": 0.24844517829150092,
+                "five_day_pct": 1.0859227940626326,
+                "one_month_pct": -2.940913019895597,
+                "three_month_pct": -5.104173312499083,
+                "one_year_pct": -1.1445332213126158,
+                "three_year_pct": 7.732325421344144,
+                "five_year_pct": -3.2285598426132767,
+                "ytd_pct": -0.6813180403803631,
+                "since_2024_09_26_pct": 2.248760719060061,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.07,
                 "ter_display": "0.07",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:ERNA",
@@ -4181,26 +4181,26 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 6.453999996185303,
-                "last_price_inr": 612.613667820282,
-                "daily_usd_pct": 0.0,
-                "five_day_usd_pct": 0.04650104577459402,
-                "one_month_usd_pct": 0.26410127230409586,
-                "three_month_usd_pct": 0.8910452036717809,
-                "one_year_usd_pct": 3.8789663999791335,
-                "three_year_usd_pct": 4.919817323849585,
-                "five_year_usd_pct": 4.026360331861212,
-                "ytd_usd_pct": 2.9756693218907726,
-                "since_2024_09_26_usd_pct": 9.075548350660757,
-                "daily_pct": 0.4180860410240683,
-                "five_day_pct": -1.8715128022183336,
-                "one_month_pct": -0.8773975442116111,
-                "three_month_pct": -0.5390460603024283,
-                "one_year_pct": 12.044704496226966,
-                "three_year_pct": 9.665725735292185,
-                "five_year_pct": 9.009341005330395,
-                "ytd_pct": 8.883986911772945,
-                "since_2024_09_26_pct": 23.809414785582426,
+                "last_price": 6.456999778747559,
+                "last_price_inr": 612.9629909670257,
+                "daily_usd_pct": 0.046479432352475314,
+                "five_day_usd_pct": 0.13957544335947425,
+                "one_month_usd_pct": 0.3107034574287848,
+                "three_month_usd_pct": 0.9379387887769264,
+                "one_year_usd_pct": 3.9272487538954515,
+                "three_year_usd_pct": 4.936070184536279,
+                "five_year_usd_pct": 4.036028706861772,
+                "ytd_usd_pct": 3.0235318284527413,
+                "since_2024_09_26_usd_pct": 9.126246046369491,
+                "daily_pct": -0.0037651463053345324,
+                "five_day_pct": -0.7448664090701218,
+                "one_month_pct": -0.8208760834246265,
+                "three_month_pct": -0.48233166551596707,
+                "one_year_pct": 12.108594368109603,
+                "three_year_pct": 9.686566219964266,
+                "five_year_pct": 9.02176998155344,
+                "ytd_pct": 8.946074486595347,
+                "since_2024_09_26_pct": 23.880013103317133,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.09,
@@ -4219,33 +4219,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 122.22000122070312,
-                "last_price_inr": 11552.821557800053,
-                "daily_usd_pct": 0.0,
-                "five_day_usd_pct": 0.04911391355202355,
-                "one_month_usd_pct": 0.3283545615506256,
-                "three_month_usd_pct": 0.891531976635429,
-                "one_year_usd_pct": 3.681713665088604,
-                "three_year_usd_pct": 4.532860618377699,
-                "five_year_usd_pct": 3.66288936294219,
-                "ytd_usd_pct": 2.8095592567732197,
-                "since_2024_09_26_usd_pct": 8.466454463693452,
-                "daily_pct": -0.65842019084692,
-                "five_day_pct": -2.325964056138674,
-                "one_month_pct": -1.2058406742169847,
-                "three_month_pct": -1.1721146507707725,
-                "one_year_pct": 11.61085522321661,
-                "three_year_pct": 9.039500680557921,
-                "five_year_pct": 8.570886396442102,
-                "ytd_pct": 8.255743984602649,
-                "since_2024_09_26_pct": 22.605448557841925,
+                "last_price": 122.26000213623047,
+                "last_price_inr": 11606.14204010315,
+                "daily_usd_pct": 0.03272861653398351,
+                "five_day_usd_pct": 0.08185860439042791,
+                "one_month_usd_pct": 0.34471914885410015,
+                "three_month_usd_pct": 0.9412147983794528,
+                "one_year_usd_pct": 3.6804647512520994,
+                "three_year_usd_pct": 4.51171589452064,
+                "five_year_usd_pct": 3.6696739607078532,
+                "ytd_usd_pct": 2.843207403182646,
+                "since_2024_09_26_usd_pct": 8.501954033642868,
+                "daily_pct": -0.01750905629415156,
+                "five_day_pct": -0.8020734876597269,
+                "one_month_pct": -0.7872441143654929,
+                "three_month_pct": -0.4791017517590812,
+                "one_year_pct": 11.842383071451511,
+                "three_year_pct": 9.243001248923587,
+                "five_year_pct": 8.637858337065518,
+                "ytd_pct": 8.75538370053357,
+                "since_2024_09_26_pct": 23.171317390610135,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.07,
                 "ter_display": "0.07",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:IHYA",
@@ -4257,33 +4257,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 7.375,
-                "last_price_inr": 697.1204233169556,
-                "daily_usd_pct": -0.12188278355634852,
-                "five_day_usd_pct": -0.040658479949351456,
-                "one_month_usd_pct": -1.2981814840152373,
-                "three_month_usd_pct": -1.7976061886476935,
-                "one_year_usd_pct": 1.5001405048698846,
-                "three_year_usd_pct": 7.978566440988022,
-                "five_year_usd_pct": 3.471861501536977,
-                "ytd_usd_pct": -0.08129036617746666,
-                "since_2024_09_26_usd_pct": 9.470090730708879,
-                "daily_pct": -0.7795004735471678,
-                "five_day_pct": -2.413605331974411,
-                "one_month_pct": -2.8075041514763255,
-                "three_month_pct": -3.8062488846367315,
-                "one_year_pct": 9.262444519565083,
-                "three_year_pct": 12.633758411255357,
-                "five_year_pct": 8.370814178055808,
-                "ytd_pct": 5.211755867714407,
-                "since_2024_09_26_pct": 23.739912437156185,
+                "last_price": 7.339000225067139,
+                "last_price_inr": 696.6912936053086,
+                "daily_usd_pct": -0.12247991920504298,
+                "five_day_usd_pct": -0.4746385553036969,
+                "one_month_usd_pct": -1.898138250779502,
+                "three_month_usd_pct": -2.2769640293360927,
+                "one_year_usd_pct": 0.8242948374826309,
+                "three_year_usd_pct": 8.285344434683717,
+                "five_year_usd_pct": 3.3440695021631273,
+                "ytd_usd_pct": -0.5690261029096089,
+                "since_2024_09_26_usd_pct": 8.935731594683748,
+                "daily_pct": -0.17263964438797297,
+                "five_day_pct": -1.3536556137458855,
+                "one_month_pct": -3.004800409939412,
+                "three_month_pct": -3.6519984550278495,
+                "one_year_pct": 8.761370169171844,
+                "three_year_pct": 13.18746339651733,
+                "five_year_pct": 8.296649865099969,
+                "ytd_pct": 5.14699017021476,
+                "since_2024_09_26_pct": 23.663741274804174,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.5,
                 "ter_display": "0.50",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:IUAA",
@@ -4295,33 +4295,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 5.635000228881836,
-                "last_price_inr": 532.6472874507454,
-                "daily_usd_pct": 0.2134106991638518,
-                "five_day_usd_pct": 1.2214894501811457,
-                "one_month_usd_pct": -0.19482252468641104,
-                "three_month_usd_pct": -1.675095421514572,
-                "one_year_usd_pct": -1.589235171829595,
-                "three_year_usd_pct": 4.563082143987862,
-                "five_year_usd_pct": -0.5274834851301979,
-                "ytd_usd_pct": -2.051096091435378,
-                "since_2024_09_26_usd_pct": 2.0278919099992576,
-                "daily_pct": -0.4464146308157946,
-                "five_day_pct": -1.1814196836281932,
-                "one_month_pct": -1.7210174718349625,
-                "three_month_pct": -3.6862439663737923,
-                "one_year_pct": 5.9368063795934845,
-                "three_year_pct": 9.071025122181764,
-                "five_year_pct": 4.182117211609415,
-                "ytd_pct": 3.1376025901934224,
-                "since_2024_09_26_pct": 15.327596120730735,
+                "last_price": 5.61899995803833,
+                "last_price_inr": 533.4116677313614,
+                "daily_usd_pct": 0.08906509761699155,
+                "five_day_usd_pct": 0.46486721240208695,
+                "one_month_usd_pct": -0.6014491531142419,
+                "three_month_usd_pct": -1.714186626907166,
+                "one_year_usd_pct": -2.073892641666264,
+                "three_year_usd_pct": 4.859075244139199,
+                "five_year_usd_pct": -0.5461942704314771,
+                "ytd_usd_pct": -2.329216575500115,
+                "since_2024_09_26_usd_pct": 1.7381893655725733,
+                "daily_pct": 0.03879913191167095,
+                "five_day_pct": -0.42244764656379497,
+                "one_month_pct": -1.7227389322906794,
+                "three_month_pct": -3.097139741316013,
+                "one_year_pct": 5.63503200090143,
+                "three_year_pct": 9.606085689164745,
+                "five_year_pct": 4.219952133985938,
+                "ytd_pct": 3.2856111344352845,
+                "since_2024_09_26_pct": 15.493098024828367,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.25,
                 "ter_display": "0.25",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:LQDA",
@@ -4333,33 +4333,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 6.124000072479248,
-                "last_price_inr": 578.8699014128542,
-                "daily_usd_pct": -0.016325347277579283,
-                "five_day_usd_pct": 1.373947767346717,
-                "one_month_usd_pct": -0.8419696369930563,
-                "three_month_usd_pct": -2.4840785368996365,
-                "one_year_usd_pct": -3.2084726432114796,
-                "three_year_usd_pct": 5.488418963284225,
-                "five_year_usd_pct": -0.9766013154713371,
-                "ytd_usd_pct": -3.2696222336420777,
-                "since_2024_09_26_usd_pct": 0.8563907369513624,
-                "daily_pct": -0.6746380487418047,
-                "five_day_pct": -1.0325805928228626,
-                "one_month_pct": -2.3582685779638735,
-                "three_month_pct": -4.478680051051875,
-                "one_year_pct": 4.193736434065909,
-                "three_year_pct": 10.036255233943137,
-                "five_year_pct": 3.711735561664642,
-                "ytd_pct": 1.8545268232813772,
-                "since_2024_09_26_pct": 14.003385538594927,
+                "last_price": 6.09499979019165,
+                "last_price_inr": 578.5983319429397,
+                "daily_usd_pct": 0.19726461819791208,
+                "five_day_usd_pct": 0.7771152849255891,
+                "one_month_usd_pct": -1.3115337842131258,
+                "three_month_usd_pct": -2.6513394356200926,
+                "one_year_usd_pct": -3.924969701597947,
+                "three_year_usd_pct": 6.11402676633821,
+                "five_year_usd_pct": -0.9965705963985827,
+                "ytd_usd_pct": -3.7276902002994827,
+                "since_2024_09_26_usd_pct": 0.3787839820096117,
+                "daily_pct": 0.1469443133558901,
+                "five_day_pct": -0.11295737746076506,
+                "one_month_pct": -2.424813279211191,
+                "three_month_pct": -4.021106126159546,
+                "one_year_pct": 3.6382347244969138,
+                "three_year_pct": 10.917849346794162,
+                "five_year_pct": 3.747992325205929,
+                "ytd_pct": 1.8067430642877191,
+                "since_2024_09_26_pct": 13.949902296671969,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.2,
                 "ter_display": "0.20",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:SDHA",
@@ -4371,33 +4371,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 7.216000080108643,
-                "last_price_inr": 682.0909871865115,
-                "daily_usd_pct": 0.027721859982143826,
-                "five_day_usd_pct": 0.013859009003525102,
-                "one_month_usd_pct": -0.7018042777416578,
-                "three_month_usd_pct": -0.7427771796361005,
-                "one_year_usd_pct": 2.485445156716626,
-                "three_year_usd_pct": 7.337602026280932,
-                "five_year_usd_pct": 4.37228863872281,
-                "ytd_usd_pct": 1.1210751394711949,
-                "since_2024_09_26_usd_pct": 10.590037925544271,
-                "daily_pct": -0.6308808571881874,
-                "five_day_pct": -2.360382040260367,
-                "one_month_pct": -2.2202465911152602,
-                "three_month_pct": -2.7729954656106504,
-                "one_year_pct": 10.323101128726208,
-                "three_year_pct": 11.965160619898452,
-                "five_year_pct": 9.313872711543137,
-                "ytd_pct": 6.477814912188373,
-                "since_2024_09_26_pct": 25.005848793818885,
+                "last_price": 7.193999767303467,
+                "last_price_inr": 682.9264001055526,
+                "daily_usd_pct": 0.0,
+                "five_day_usd_pct": -0.37391533746908845,
+                "one_month_usd_pct": -1.3033374479536675,
+                "three_month_usd_pct": -1.0998130148090923,
+                "one_year_usd_pct": 2.042547130109984,
+                "three_year_usd_pct": 7.505484187603972,
+                "five_year_usd_pct": 4.294252092735307,
+                "ytd_usd_pct": 0.8127747986221623,
+                "since_2024_09_26_usd_pct": 10.252868385565339,
+                "daily_pct": -0.050221236112346634,
+                "five_day_pct": -1.2538219925464777,
+                "one_month_pct": -2.416709403737094,
+                "three_month_pct": -2.4914108142554126,
+                "one_year_pct": 10.07552553987352,
+                "three_year_pct": 12.372298577754792,
+                "five_year_pct": 9.292368263018847,
+                "ytd_pct": 6.6082270475778415,
+                "since_2024_09_26_pct": 25.158953735827904,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.45,
                 "ter_display": "0.45",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:SDIA",
@@ -4409,33 +4409,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 6.377999782562256,
-                "last_price_inr": 602.8791740115594,
-                "daily_usd_pct": 0.26724919610099374,
-                "five_day_usd_pct": 0.33034306847754547,
-                "one_month_usd_pct": 0.17276078824393082,
-                "three_month_usd_pct": -0.12527988794849287,
-                "one_year_usd_pct": 1.7874240701865274,
-                "three_year_usd_pct": 5.175639084271744,
-                "five_year_usd_pct": 2.533571600620199,
-                "ytd_usd_pct": 0.9496667347431265,
-                "since_2024_09_26_usd_pct": 7.220301166124732,
-                "daily_pct": -0.39293061741294544,
-                "five_day_pct": -2.0514110340060343,
-                "one_month_pct": -1.359055147805599,
-                "three_month_pct": -2.1681285322738164,
-                "one_year_pct": 9.571698324147615,
-                "three_year_pct": 9.709990730812802,
-                "five_year_pct": 7.388100239968498,
-                "ytd_pct": 6.297326400096748,
-                "since_2024_09_26_pct": 21.196854677128442,
+                "last_price": 6.364999771118164,
+                "last_price_inr": 604.2294302146911,
+                "daily_usd_pct": 0.1415957300117343,
+                "five_day_usd_pct": 0.15735251006554485,
+                "one_month_usd_pct": 0.06287863613629874,
+                "three_month_usd_pct": -0.12553544105378123,
+                "one_year_usd_pct": 1.563739742332948,
+                "three_year_usd_pct": 5.225840170606788,
+                "five_year_usd_pct": 2.482636195572896,
+                "ytd_usd_pct": 0.743905231518105,
+                "since_2024_09_26_usd_pct": 7.001758489781373,
+                "daily_pct": 0.09130338277349992,
+                "five_day_pct": -0.7272463510365812,
+                "one_month_pct": -1.0659052559196747,
+                "three_month_pct": -1.530842036904012,
+                "one_year_pct": 9.559025547230938,
+                "three_year_pct": 9.989454204141545,
+                "five_year_pct": 7.39393390243912,
+                "ytd_pct": 6.535398356361233,
+                "since_2024_09_26_pct": 21.468296803315923,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": 0.2,
                 "ter_display": "0.20",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:VDCA",
@@ -4447,33 +4447,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 62.047000885009766,
-                "last_price_inr": 5864.980545424478,
-                "daily_usd_pct": 0.02256853408884041,
-                "five_day_usd_pct": 0.2455778756311977,
-                "one_month_usd_pct": 0.13556417877258475,
-                "three_month_usd_pct": 0.18892391289750954,
-                "one_year_usd_pct": 2.3202531489495914,
-                "three_year_usd_pct": 5.248352093629305,
-                "five_year_usd_pct": 2.7524994001033365,
-                "ytd_usd_pct": 1.4005593684172757,
-                "since_2024_09_26_usd_pct": 7.636395857905187,
-                "daily_pct": -0.6360002525432895,
-                "five_day_pct": -2.134163975726411,
-                "one_month_pct": -1.3956829563503637,
-                "three_month_pct": -1.8603514909509289,
-                "one_year_pct": 10.14527593071226,
-                "three_year_pct": 9.785838556907178,
-                "five_year_pct": 7.617393339869349,
-                "ytd_pct": 6.772104405842905,
-                "since_2024_09_26_pct": 21.66718881481666,
+                "last_price": 62.007999420166016,
+                "last_price_inr": 5886.4194038796995,
+                "daily_usd_pct": 0.07262102873757392,
+                "five_day_usd_pct": 0.20199408750583014,
+                "one_month_usd_pct": 0.26517955735843035,
+                "three_month_usd_pct": 0.14697030466688243,
+                "one_year_usd_pct": 2.1548577278192704,
+                "three_year_usd_pct": 5.2394800591244906,
+                "five_year_usd_pct": 2.7168337551040977,
+                "ytd_usd_pct": 1.3368210685005266,
+                "since_2024_09_26_usd_pct": 7.568737839804696,
+                "daily_pct": 0.02236332144691655,
+                "five_day_pct": -0.6829990520748175,
+                "one_month_pct": -0.8658864399531119,
+                "three_month_pct": -1.2621706458760928,
+                "one_year_pct": 10.196677435962354,
+                "three_year_pct": 10.003711575629737,
+                "five_year_pct": 7.6393549626507795,
+                "ytd_pct": 7.162399312295564,
+                "since_2024_09_26_pct": 22.111931234581462,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:VDPA",
@@ -4485,33 +4485,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 60.347999572753906,
-                "last_price_inr": 5704.382780812157,
-                "daily_usd_pct": 0.19924110149414087,
-                "five_day_usd_pct": 1.0431161398903432,
-                "one_month_usd_pct": -0.2396979116435327,
-                "three_month_usd_pct": -1.666909186383747,
-                "one_year_usd_pct": -1.279243385731288,
-                "three_year_usd_pct": 5.832712585663291,
-                "five_year_usd_pct": 0.08405803258850764,
-                "ytd_usd_pct": -1.6164149489091284,
-                "since_2024_09_26_usd_pct": 3.4064409554679154,
-                "daily_pct": -0.46049093299348476,
-                "five_day_pct": -1.35555856841455,
-                "one_month_pct": -1.7652066359872265,
-                "three_month_pct": -3.678225173407723,
-                "one_year_pct": 6.270505034212226,
-                "three_year_pct": 10.395392106785128,
-                "five_year_pct": 4.822612619898514,
-                "ytd_pct": 3.59531032496474,
-                "since_2024_09_26_pct": 16.885844013264606,
+                "last_price": 59.974998474121094,
+                "last_price_inr": 5693.426623451232,
+                "daily_usd_pct": -0.10660235706974053,
+                "five_day_usd_pct": 0.46063267615961134,
+                "one_month_usd_pct": -1.139026617740746,
+                "three_month_usd_pct": -1.7946336014175723,
+                "one_year_usd_pct": -2.1135987823850066,
+                "three_year_usd_pct": 6.130950431226956,
+                "five_year_usd_pct": 0.04507909892705886,
+                "ytd_usd_pct": -2.2245077700680294,
+                "since_2024_09_26_usd_pct": 2.7673026848513693,
+                "daily_pct": -0.15677005616063777,
+                "five_day_pct": -0.4266447829964437,
+                "one_month_pct": -2.2542521222223777,
+                "three_month_pct": -3.1764547681920163,
+                "one_year_pct": 5.592200119204049,
+                "three_year_pct": 10.935539152465768,
+                "five_year_pct": 4.839561225871369,
+                "ytd_pct": 3.3963393643216655,
+                "since_2024_09_26_pct": 16.661346508542184,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:VDST",
@@ -4524,32 +4524,32 @@
                 "exchange": "LSE",
                 "currency": "USD",
                 "last_price": 59.78200149536133,
-                "last_price_inr": 5650.881923956767,
-                "daily_usd_pct": 0.018406228657563695,
-                "five_day_usd_pct": 0.06026029151346979,
-                "one_month_usd_pct": 0.3440955942894064,
-                "three_month_usd_pct": 0.8808693699176917,
-                "one_year_usd_pct": 3.6622219411709844,
-                "three_year_usd_pct": 4.499510706026633,
+                "last_price_inr": 5675.10542019867,
+                "daily_usd_pct": -0.0066868544162712595,
+                "five_day_usd_pct": 0.05355898805243786,
+                "one_month_usd_pct": 0.31378516792988087,
+                "three_month_usd_pct": 0.8587429280912273,
+                "one_year_usd_pct": 3.5948551247961147,
+                "three_year_usd_pct": 4.4737581985865305,
                 "five_year_usd_pct": 3.629965111387401,
                 "ytd_usd_pct": 2.780023303330381,
                 "since_2024_09_26_usd_pct": 8.379263344334586,
-                "daily_pct": -0.6401351525152088,
-                "five_day_pct": -2.315082283386627,
-                "one_month_pct": -1.1903403492775078,
-                "three_month_pct": -1.1825591633436328,
-                "one_year_pct": 11.589872854201676,
-                "three_year_pct": 9.004712980604168,
-                "five_year_pct": 8.536403321571173,
-                "ytd_pct": 8.22464340760023,
-                "since_2024_09_26_pct": 22.506891761161228,
+                "daily_pct": -0.05690473230767212,
+                "five_day_pct": -0.8301231592082958,
+                "one_month_pct": -0.8178291369161261,
+                "three_month_pct": -0.5604131826517311,
+                "one_year_pct": 11.750034096553819,
+                "three_year_pct": 9.203325193575672,
+                "five_year_pct": 8.596246511905958,
+                "ytd_pct": 8.688567318618645,
+                "since_2024_09_26_pct": 23.032039034121034,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "debt-etfs:VDTA",
@@ -4561,33 +4561,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "USD",
-                "last_price": 26.770999908447266,
-                "last_price_inr": 2530.523496785754,
-                "daily_usd_pct": 0.08973031771577489,
-                "five_day_usd_pct": 1.0340799733142614,
-                "one_month_usd_pct": -0.10448105583373835,
-                "three_month_usd_pct": -1.294151742166294,
-                "one_year_usd_pct": -1.5228970595117297,
-                "three_year_usd_pct": 3.7525685184864432,
-                "five_year_usd_pct": -0.7925034808414222,
-                "ytd_usd_pct": -1.7559968490722722,
-                "since_2024_09_26_usd_pct": 1.3285383464789025,
-                "daily_pct": -0.5692806756602886,
-                "five_day_pct": -1.3643802243435532,
-                "one_month_pct": -1.6320574813461164,
-                "three_month_pct": -3.313092151453756,
-                "one_year_pct": 6.008217751839973,
-                "three_year_pct": 8.225568483028756,
-                "five_year_pct": 3.904549645974531,
-                "ytd_pct": 3.4483342795641025,
-                "since_2024_09_26_pct": 14.537079294308253,
+                "last_price": 26.733999252319336,
+                "last_price_inr": 2537.8585571812437,
+                "daily_usd_pct": 0.14234382689481961,
+                "five_day_usd_pct": 0.6645896922092831,
+                "one_month_usd_pct": -0.28347711725840163,
+                "three_month_usd_pct": -1.3905824494377828,
+                "one_year_usd_pct": -1.8395496486304674,
+                "three_year_usd_pct": 3.987500080752171,
+                "five_year_usd_pct": -0.7593056769025552,
+                "ytd_usd_pct": -1.8917815634889923,
+                "since_2024_09_26_usd_pct": 1.188490443295409,
+                "daily_pct": 0.09205110395307248,
+                "five_day_pct": -0.22448913389179204,
+                "one_month_pct": -1.4083538581242228,
+                "three_month_pct": -2.7780889107611895,
+                "one_year_pct": 5.887822908620666,
+                "three_year_pct": 8.695053984752633,
+                "five_year_pct": 3.9966277431424446,
+                "ytd_pct": 3.7481930956221987,
+                "since_2024_09_26_pct": 14.869080319081917,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-16"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -5085,33 +5085,33 @@
                 "asset_type": "index",
                 "exchange": "FTSE Index",
                 "currency": "GBP",
-                "last_price": 14355.422247637762,
-                "last_price_inr": 1363399.4764584303,
-                "daily_usd_pct": -0.6113385776789326,
-                "five_day_usd_pct": 1.735270925588539,
-                "one_month_usd_pct": -0.15769653438572062,
-                "three_month_usd_pct": 1.4378200789726847,
-                "one_year_usd_pct": 13.70485811454425,
-                "three_year_usd_pct": 16.380620663172184,
-                "five_year_usd_pct": 7.683934322744568,
-                "ytd_usd_pct": 7.331760674724519,
-                "since_2024_09_26_usd_pct": 30.125279292669283,
-                "daily_pct": -0.12842221442443957,
-                "five_day_pct": -0.1511914651735169,
-                "one_month_pct": -1.244296298853742,
-                "three_month_pct": 0.08037106962832663,
-                "one_year_pct": 22.71838206321992,
-                "three_year_pct": 21.603233630112427,
-                "five_year_pct": 12.82467767218607,
-                "ytd_pct": 13.56632076028539,
-                "since_2024_09_26_pct": 47.7907296653969,
+                "last_price": 14292.93180695863,
+                "last_price_inr": 1356035.4243855178,
+                "daily_usd_pct": -0.4353089696780943,
+                "five_day_usd_pct": 1.5929050438944437,
+                "one_month_usd_pct": -0.5923190369047648,
+                "three_month_usd_pct": 0.9962521495229915,
+                "one_year_usd_pct": 13.209890668211877,
+                "three_year_usd_pct": 16.73884026070711,
+                "five_year_usd_pct": 7.484674195888896,
+                "ytd_usd_pct": 6.8645358931940015,
+                "since_2024_09_26_usd_pct": 29.558832280089618,
+                "daily_pct": -0.5401243142649115,
+                "five_day_pct": 0.6302994861865141,
+                "one_month_pct": -1.7776998662670462,
+                "three_month_pct": -0.4601873483252805,
+                "one_year_pct": 22.055550243623955,
+                "three_year_pct": 21.976381129395772,
+                "five_year_pct": 12.623577273463859,
+                "ytd_pct": 12.952921449043009,
+                "since_2024_09_26_pct": 46.992476000244565,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "indices:DAX",
@@ -5123,33 +5123,33 @@
                 "asset_type": "index",
                 "exchange": "XETRA",
                 "currency": "EUR",
-                "last_price": 28422.67435587989,
-                "last_price_inr": 2699846.9555743635,
-                "daily_usd_pct": -1.07321285304256,
-                "five_day_usd_pct": 0.35204665494434906,
-                "one_month_usd_pct": -3.1906812788490613,
-                "three_month_usd_pct": 0.1011778674576691,
-                "one_year_usd_pct": 0.505950711696812,
-                "three_year_usd_pct": 21.47740661440649,
-                "five_year_usd_pct": 9.542500136658806,
-                "ytd_usd_pct": -1.4205862911329192,
-                "since_2024_09_26_usd_pct": 32.72777663076927,
-                "daily_pct": -1.0743080941448158,
-                "five_day_pct": 1.640161344022073,
-                "one_month_pct": -4.0581065752139605,
-                "three_month_pct": -1.1856319690238037,
-                "one_year_pct": 9.22156795783442,
-                "three_year_pct": 26.982150204972367,
-                "five_year_pct": 14.794194950064622,
-                "ytd_pct": 4.241868992449516,
-                "since_2024_09_26_pct": 50.89800474856641,
+                "last_price": 28189.64262160845,
+                "last_price_inr": 2674799.267395735,
+                "daily_usd_pct": -0.819879689552272,
+                "five_day_usd_pct": -0.0033793734678044807,
+                "one_month_usd_pct": -3.984401220637701,
+                "three_month_usd_pct": -0.719531358880221,
+                "one_year_usd_pct": -0.318077164979802,
+                "three_year_usd_pct": 21.629866974197796,
+                "five_year_usd_pct": 9.318236566639904,
+                "ytd_usd_pct": -2.228818882211625,
+                "since_2024_09_26_usd_pct": 31.639568547779273,
+                "daily_pct": -0.9277447422311402,
+                "five_day_pct": -0.8537929506408859,
+                "one_month_pct": -4.948202447059414,
+                "three_month_pct": -2.102377073000117,
+                "one_year_pct": 8.2082706037232,
+                "three_year_pct": 27.162831259692254,
+                "five_year_pct": 14.568358105269485,
+                "ytd_pct": 3.274770533668603,
+                "since_2024_09_26_pct": 49.49805644337988,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-20"
               },
               {
                 "item_id": "indices:STOXX600",
@@ -5161,33 +5161,33 @@
                 "asset_type": "index",
                 "exchange": "Zurich",
                 "currency": "EUR",
-                "last_price": 717.9372434342149,
-                "last_price_inr": 68196.28078306885,
-                "daily_usd_pct": -0.6942956811197498,
-                "five_day_usd_pct": 0.8014818130979817,
-                "one_month_usd_pct": -2.5757999607951887,
-                "three_month_usd_pct": -1.7752741948547701,
-                "one_year_usd_pct": 7.649178188286476,
-                "three_year_usd_pct": 15.710722609179628,
-                "five_year_usd_pct": 5.6976212259325365,
-                "ytd_usd_pct": 2.875099798290881,
-                "since_2024_09_26_usd_pct": 22.71221328931652,
-                "daily_pct": -0.6953951173007455,
-                "five_day_pct": 2.095365433137286,
-                "one_month_pct": -3.4487346814240705,
-                "three_month_pct": -3.0379620677099317,
-                "one_year_pct": 16.98423772761364,
-                "three_year_pct": 20.954149155685165,
-                "five_year_pct": 10.764984564262981,
-                "ytd_pct": 8.784301633496217,
-                "since_2024_09_26_pct": 39.5113262173467,
+                "last_price": 713.2181310486194,
+                "last_price_inr": 67674.33557174169,
+                "daily_usd_pct": -0.6573154448739627,
+                "five_day_usd_pct": 0.6396669143526879,
+                "one_month_usd_pct": -3.2161842746977976,
+                "three_month_usd_pct": -2.4209204882571056,
+                "one_year_usd_pct": 6.941583513774985,
+                "three_year_usd_pct": 15.811124481720373,
+                "five_year_usd_pct": 5.458442592786161,
+                "ytd_usd_pct": 2.1988858783872134,
+                "since_2024_09_26_usd_pct": 21.90560695861916,
+                "daily_pct": -0.7653572971046185,
+                "five_day_pct": -0.2162154005685979,
+                "one_month_pct": -4.187696835986632,
+                "three_month_pct": -3.7800681004460546,
+                "one_year_pct": 16.088890327703155,
+                "three_year_pct": 21.079393136131074,
+                "five_year_pct": 10.523193527999087,
+                "ytd_pct": 7.951713042839947,
+                "since_2024_09_26_pct": 38.44356610185482,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-20"
               }
             ]
           },
@@ -9283,7 +9283,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-20T06:42:15.635638Z",
+    "built_at": "2026-10-20T12:18:33.867788Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -264878,11 +264878,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-19",
-            "close": 349.37,
-            "inr_close": 25704.8963
-          },
-          {
             "date": "2020-10-20",
             "close": 346.47,
             "inr_close": 25491.5293
@@ -272438,9 +272433,14 @@
             "inr_close": 78738.2149
           },
           {
-            "date": "2026-10-20",
+            "date": "2026-10-19",
             "close": 833.61,
-            "inr_close": 79126.2583
+            "inr_close": 79174.3585
+          },
+          {
+            "date": "2026-10-20",
+            "close": 828.05,
+            "inr_close": 78606.7856
           }
         ]
       },
@@ -272453,11 +272453,6 @@
         "name": "Vanguard S&P 500 UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 62.655,
-            "inr_close": 4609.8413
-          },
           {
             "date": "2020-10-20",
             "close": 62.17,
@@ -280017,6 +280012,16 @@
             "date": "2026-10-16",
             "close": 149.38,
             "inr_close": 14120.1156
+          },
+          {
+            "date": "2026-10-19",
+            "close": 149.5,
+            "inr_close": 14199.166
+          },
+          {
+            "date": "2026-10-20",
+            "close": 148.48,
+            "inr_close": 14095.206
           }
         ]
       },
@@ -283773,6 +283778,16 @@
             "date": "2026-10-16",
             "close": 19.126,
             "inr_close": 1807.8813
+          },
+          {
+            "date": "2026-10-19",
+            "close": 19.136,
+            "inr_close": 1817.4932
+          },
+          {
+            "date": "2026-10-20",
+            "close": 19.01,
+            "inr_close": 1804.6193
           }
         ]
       },
@@ -283785,11 +283800,6 @@
         "name": "Invesco S&P 500 UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 6.4379,
-            "inr_close": 473.6685
-          },
           {
             "date": "2020-10-20",
             "close": 6.3813,
@@ -291354,6 +291364,16 @@
             "date": "2026-10-16",
             "close": 15.518,
             "inr_close": 1466.8359
+          },
+          {
+            "date": "2026-10-19",
+            "close": 15.532,
+            "inr_close": 1475.1936
+          },
+          {
+            "date": "2026-10-20",
+            "close": 15.43,
+            "inr_close": 1464.7699
           }
         ]
       },
@@ -291366,11 +291386,6 @@
         "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 665.46,
-            "inr_close": 48961.2191
-          },
           {
             "date": "2020-10-20",
             "close": 656.4,
@@ -298900,6 +298915,16 @@
             "date": "2026-10-16",
             "close": 1696.2,
             "inr_close": 160332.9665
+          },
+          {
+            "date": "2026-10-19",
+            "close": 1710.0,
+            "inr_close": 162411.8658
+          },
+          {
+            "date": "2026-10-20",
+            "close": 1685.8,
+            "inr_close": 160032.9991
           }
         ]
       },
@@ -306156,6 +306181,16 @@
             "date": "2026-10-16",
             "close": 68.51,
             "inr_close": 6475.8945
+          },
+          {
+            "date": "2026-10-19",
+            "close": 69.09,
+            "inr_close": 6562.0089
+          },
+          {
+            "date": "2026-10-20",
+            "close": 68.08,
+            "inr_close": 6462.8346
           }
         ]
       },
@@ -306168,11 +306203,6 @@
         "name": "Xtrackers Russell 2000 UCITS ETF 1C",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 231.425,
-            "inr_close": 17027.0939
-          },
           {
             "date": "2020-10-20",
             "close": 229.6,
@@ -313737,6 +313767,16 @@
             "date": "2026-10-16",
             "close": 407.8,
             "inr_close": 38547.2136
+          },
+          {
+            "date": "2026-10-19",
+            "close": 406.38,
+            "inr_close": 38597.0379
+          },
+          {
+            "date": "2026-10-20",
+            "close": 404.22,
+            "inr_close": 38372.6048
           }
         ]
       },
@@ -313749,11 +313789,6 @@
         "name": "iShares Core MSCI World UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 66.29,
-            "inr_close": 4877.2866
-          },
           {
             "date": "2020-10-20",
             "close": 65.85,
@@ -321318,6 +321353,16 @@
             "date": "2026-10-16",
             "close": 146.81,
             "inr_close": 13877.1861
+          },
+          {
+            "date": "2026-10-19",
+            "close": 146.58,
+            "inr_close": 13921.8313
+          },
+          {
+            "date": "2026-10-20",
+            "close": 145.61,
+            "inr_close": 13822.7574
           }
         ]
       },
@@ -321330,11 +321375,6 @@
         "name": "Vanguard FTSE All-World UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 90.07,
-            "inr_close": 6626.9
-          },
           {
             "date": "2020-10-20",
             "close": 89.635,
@@ -328894,6 +328934,16 @@
             "date": "2026-10-16",
             "close": 191.68,
             "inr_close": 18118.5136
+          },
+          {
+            "date": "2026-10-19",
+            "close": 191.58,
+            "inr_close": 18195.8278
+          },
+          {
+            "date": "2026-10-20",
+            "close": 190.04,
+            "inr_close": 18040.4966
           }
         ]
       },
@@ -333100,6 +333150,16 @@
             "date": "2026-10-16",
             "close": 9.448,
             "inr_close": 893.0703
+          },
+          {
+            "date": "2026-10-19",
+            "close": 9.442,
+            "inr_close": 896.7795
+          },
+          {
+            "date": "2026-10-20",
+            "close": 9.371,
+            "inr_close": 889.5891
           }
         ]
       },
@@ -333112,11 +333172,6 @@
         "name": "iShares Core MSCI EM IMI UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 30.98,
-            "inr_close": 2279.3534
-          },
           {
             "date": "2020-10-20",
             "close": 31.1,
@@ -340681,6 +340736,16 @@
             "date": "2026-10-16",
             "close": 52.15,
             "inr_close": 4929.4686
+          },
+          {
+            "date": "2026-10-19",
+            "close": 52.43,
+            "inr_close": 4979.6808
+          },
+          {
+            "date": "2026-10-20",
+            "close": 51.48,
+            "inr_close": 4886.9964
           }
         ]
       },
@@ -340693,11 +340758,6 @@
         "name": "Xtrackers MSCI Emerging Markets UCITS ETF 1C",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 54.035,
-            "inr_close": 3975.6249
-          },
           {
             "date": "2020-10-20",
             "close": 54.225,
@@ -348262,6 +348322,16 @@
             "date": "2026-10-16",
             "close": 88.39,
             "inr_close": 8355.0473
+          },
+          {
+            "date": "2026-10-19",
+            "close": 88.85,
+            "inr_close": 8438.7684
+          },
+          {
+            "date": "2026-10-20",
+            "close": 87.19,
+            "inr_close": 8276.947
           }
         ]
       },
@@ -348274,11 +348344,6 @@
         "name": "Vanguard FTSE Emerging Markets UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 56.48,
-            "inr_close": 4155.5158
-          },
           {
             "date": "2020-10-20",
             "close": 56.655,
@@ -355838,6 +355903,16 @@
             "date": "2026-10-16",
             "close": 86.05,
             "inr_close": 8133.8596
+          },
+          {
+            "date": "2026-10-19",
+            "close": 85.89,
+            "inr_close": 8157.6345
+          },
+          {
+            "date": "2026-10-20",
+            "close": 85.21,
+            "inr_close": 8088.9852
           }
         ]
       },
@@ -359159,6 +359234,16 @@
             "date": "2026-10-16",
             "close": 45.505,
             "inr_close": 4301.3513
+          },
+          {
+            "date": "2026-10-19",
+            "close": 45.18,
+            "inr_close": 4291.0925
+          },
+          {
+            "date": "2026-10-20",
+            "close": 44.895,
+            "inr_close": 4261.8824
           }
         ]
       },
@@ -359171,11 +359256,6 @@
         "name": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.484,
-            "inr_close": 403.4853
-          },
           {
             "date": "2020-10-20",
             "close": 5.4685,
@@ -366740,6 +366820,16 @@
             "date": "2026-10-16",
             "close": 10.148,
             "inr_close": 959.2377
+          },
+          {
+            "date": "2026-10-19",
+            "close": 10.1,
+            "inr_close": 959.2748
+          },
+          {
+            "date": "2026-10-20",
+            "close": 10.04,
+            "inr_close": 953.0972
           }
         ]
       },
@@ -374161,6 +374251,16 @@
             "date": "2026-10-16",
             "close": 101.18,
             "inr_close": 9564.0196
+          },
+          {
+            "date": "2026-10-19",
+            "close": 103.04,
+            "inr_close": 9786.5022
+          },
+          {
+            "date": "2026-10-20",
+            "close": 99.36,
+            "inr_close": 9432.2449
           }
         ]
       },
@@ -374173,11 +374273,6 @@
         "name": "State Street SPDR S&P U.S. Technology Select Sector UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 62.1425,
-            "inr_close": 4572.1344
-          },
           {
             "date": "2020-10-20",
             "close": 61.1875,
@@ -381737,6 +381832,16 @@
             "date": "2026-10-16",
             "close": 188.82,
             "inr_close": 17848.174
+          },
+          {
+            "date": "2026-10-19",
+            "close": 190.48,
+            "inr_close": 18091.3518
+          },
+          {
+            "date": "2026-10-20",
+            "close": 187.34,
+            "inr_close": 17784.1859
           }
         ]
       },
@@ -381749,11 +381854,6 @@
         "name": "Xtrackers MSCI World Information Technology UCITS ETF 1C",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 48.08,
-            "inr_close": 3537.486
-          },
           {
             "date": "2020-10-20",
             "close": 47.435,
@@ -389318,6 +389418,16 @@
             "date": "2026-10-16",
             "close": 145.22,
             "inr_close": 13726.892
+          },
+          {
+            "date": "2026-10-19",
+            "close": 146.52,
+            "inr_close": 13916.1329
+          },
+          {
+            "date": "2026-10-20",
+            "close": 143.77,
+            "inr_close": 13648.0865
           }
         ]
       },
@@ -389330,11 +389440,6 @@
         "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 15.155,
-            "inr_close": 1115.0291
-          },
           {
             "date": "2020-10-20",
             "close": 14.905,
@@ -396899,6 +397004,16 @@
             "date": "2026-10-16",
             "close": 51.61,
             "inr_close": 4878.4251
+          },
+          {
+            "date": "2026-10-19",
+            "close": 52.08,
+            "inr_close": 4946.4388
+          },
+          {
+            "date": "2026-10-20",
+            "close": 51.14,
+            "inr_close": 4854.7202
           }
         ]
       },
@@ -396911,11 +397026,6 @@
         "name": "iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 54.84,
-            "inr_close": 4034.8528
-          },
           {
             "date": "2020-10-20",
             "close": 54.305,
@@ -404480,6 +404590,16 @@
             "date": "2026-10-16",
             "close": 112.63,
             "inr_close": 10646.3283
+          },
+          {
+            "date": "2026-10-19",
+            "close": 112.98,
+            "inr_close": 10730.5808
+          },
+          {
+            "date": "2026-10-20",
+            "close": 111.02,
+            "inr_close": 10539.1283
           }
         ]
       },
@@ -406276,6 +406396,16 @@
             "date": "2026-10-16",
             "close": 26.27,
             "inr_close": 2483.1666
+          },
+          {
+            "date": "2026-10-19",
+            "close": 26.465,
+            "inr_close": 2513.5848
+          },
+          {
+            "date": "2026-10-20",
+            "close": 25.88,
+            "inr_close": 2456.7883
           }
         ]
       },
@@ -410962,6 +411092,16 @@
             "date": "2026-10-16",
             "close": 44.925,
             "inr_close": 4246.5267
+          },
+          {
+            "date": "2026-10-19",
+            "close": 44.565,
+            "inr_close": 4232.681
+          },
+          {
+            "date": "2026-10-20",
+            "close": 43.64,
+            "inr_close": 4142.7452
           }
         ]
       },
@@ -416633,6 +416773,16 @@
             "date": "2026-10-16",
             "close": 21.1325,
             "inr_close": 1997.5454
+          },
+          {
+            "date": "2026-10-19",
+            "close": 20.995,
+            "inr_close": 1994.0569
+          },
+          {
+            "date": "2026-10-20",
+            "close": 20.495,
+            "inr_close": 1945.5904
           }
         ]
       },
@@ -423029,6 +423179,16 @@
             "date": "2026-10-16",
             "close": 10.822,
             "inr_close": 1022.9474
+          },
+          {
+            "date": "2026-10-19",
+            "close": 10.567,
+            "inr_close": 1003.6294
+          },
+          {
+            "date": "2026-10-20",
+            "close": 10.49,
+            "inr_close": 995.8157
           }
         ]
       },
@@ -429220,6 +429380,16 @@
             "date": "2026-10-16",
             "close": 64.12,
             "inr_close": 6060.9306
+          },
+          {
+            "date": "2026-10-19",
+            "close": 62.62,
+            "inr_close": 5947.5034
+          },
+          {
+            "date": "2026-10-20",
+            "close": 61.07,
+            "inr_close": 5797.3751
           }
         ]
       },
@@ -429232,11 +429402,6 @@
         "name": "VanEck Gold Miners UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 42.16,
-            "inr_close": 3101.9219
-          },
           {
             "date": "2020-10-20",
             "close": 41.995,
@@ -436796,6 +436961,16 @@
             "date": "2026-10-16",
             "close": 99.6,
             "inr_close": 9414.6703
+          },
+          {
+            "date": "2026-10-19",
+            "close": 98.23,
+            "inr_close": 9329.6597
+          },
+          {
+            "date": "2026-10-20",
+            "close": 96.7,
+            "inr_close": 9179.7307
           }
         ]
       },
@@ -442422,6 +442597,16 @@
             "date": "2026-10-16",
             "close": 39.155,
             "inr_close": 3701.1186
+          },
+          {
+            "date": "2026-10-19",
+            "close": 38.875,
+            "inr_close": 3692.2581
+          },
+          {
+            "date": "2026-10-20",
+            "close": 38.24,
+            "inr_close": 3630.1234
           }
         ]
       },
@@ -442434,11 +442619,6 @@
         "name": "iShares Global Clean Energy Transition UCITS ETF USD (Dist)",
         "currency": "GBP",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 11.9905,
-            "inr_close": 882.083
-          },
           {
             "date": "2020-10-20",
             "close": 12.1426,
@@ -449988,6 +450168,16 @@
             "date": "2026-10-16",
             "close": 9.4737,
             "inr_close": 895.4113
+          },
+          {
+            "date": "2026-10-19",
+            "close": 9.405,
+            "inr_close": 893.232
+          },
+          {
+            "date": "2026-10-20",
+            "close": 9.2768,
+            "inr_close": 880.1336
           }
         ]
       },
@@ -450000,11 +450190,6 @@
         "name": "iShares Physical Gold ETC",
         "currency": "GBP",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 37.1368,
-            "inr_close": 2731.9805
-          },
           {
             "date": "2020-10-20",
             "close": 37.3051,
@@ -457569,6 +457754,16 @@
             "date": "2026-10-16",
             "close": 80.5946,
             "inr_close": 7617.4257
+          },
+          {
+            "date": "2026-10-19",
+            "close": 80.5073,
+            "inr_close": 7646.142
+          },
+          {
+            "date": "2026-10-20",
+            "close": 79.9826,
+            "inr_close": 7588.3127
           }
         ]
       },
@@ -457581,11 +457776,6 @@
         "name": "iShares VII PLC - iShares MSCI Mexico Capped ETF USD Acc",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 85.21,
-            "inr_close": 6269.3254
-          },
           {
             "date": "2020-10-20",
             "close": 86.445,
@@ -465140,6 +465330,16 @@
             "date": "2026-10-16",
             "close": 218.15,
             "inr_close": 20620.5852
+          },
+          {
+            "date": "2026-10-19",
+            "close": 220.7,
+            "inr_close": 20961.5779
+          },
+          {
+            "date": "2026-10-20",
+            "close": 221.1,
+            "inr_close": 20989.0236
           }
         ]
       },
@@ -465152,11 +465352,6 @@
         "name": "iShares MSCI India UCITS ETF USD Acc",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.44,
-            "inr_close": 400.248
-          },
           {
             "date": "2020-10-20",
             "close": 5.447,
@@ -472721,6 +472916,16 @@
             "date": "2026-10-16",
             "close": 8.485,
             "inr_close": 802.0429
+          },
+          {
+            "date": "2026-10-19",
+            "close": 8.397,
+            "inr_close": 797.5278
+          },
+          {
+            "date": "2026-10-20",
+            "close": 8.383,
+            "inr_close": 795.7982
           }
         ]
       },
@@ -472733,11 +472938,6 @@
         "name": "iShares VII PLC - iShares MSCI Korea ETF USD Acc",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 168.335,
-            "inr_close": 12385.2476
-          },
           {
             "date": "2020-10-20",
             "close": 170.125,
@@ -480292,6 +480492,16 @@
             "date": "2026-10-16",
             "close": 426.85,
             "inr_close": 40347.9128
+          },
+          {
+            "date": "2026-10-19",
+            "close": 441.55,
+            "inr_close": 41937.402
+          },
+          {
+            "date": "2026-10-20",
+            "close": 419.5,
+            "inr_close": 39823.1351
           }
         ]
       },
@@ -480304,11 +480514,6 @@
         "name": "Franklin FTSE Korea UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 31.965,
-            "inr_close": 2351.8248
-          },
           {
             "date": "2020-10-20",
             "close": 32.3275,
@@ -487868,6 +488073,16 @@
             "date": "2026-10-16",
             "close": 86.21,
             "inr_close": 8148.9832
+          },
+          {
+            "date": "2026-10-19",
+            "close": 89.32,
+            "inr_close": 8483.4081
+          },
+          {
+            "date": "2026-10-20",
+            "close": 84.8,
+            "inr_close": 8050.0643
           }
         ]
       },
@@ -493649,6 +493864,16 @@
             "date": "2026-10-16",
             "close": 70.915,
             "inr_close": 6703.2265
+          },
+          {
+            "date": "2026-10-19",
+            "close": 71.3,
+            "inr_close": 6771.9102
+          },
+          {
+            "date": "2026-10-20",
+            "close": 69.8,
+            "inr_close": 6626.1143
           }
         ]
       },
@@ -493661,11 +493886,6 @@
         "name": "Franklin FTSE China UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 36.335,
-            "inr_close": 2673.3474
-          },
           {
             "date": "2020-10-20",
             "close": 36.565,
@@ -501225,6 +501445,16 @@
             "date": "2026-10-16",
             "close": 27.875,
             "inr_close": 2634.8789
+          },
+          {
+            "date": "2026-10-19",
+            "close": 27.705,
+            "inr_close": 2631.3572
+          },
+          {
+            "date": "2026-10-20",
+            "close": 27.615,
+            "inr_close": 2621.4919
           }
         ]
       },
@@ -691884,11 +692114,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-19",
-            "close": 104.445,
-            "inr_close": 7684.5405
-          },
-          {
             "date": "2020-10-20",
             "close": 104.455,
             "inr_close": 7685.2764
@@ -699447,6 +699672,16 @@
             "date": "2026-10-16",
             "close": 126.6025,
             "inr_close": 11967.0765
+          },
+          {
+            "date": "2026-10-19",
+            "close": 126.525,
+            "inr_close": 12017.0535
+          },
+          {
+            "date": "2026-10-20",
+            "close": 126.635,
+            "inr_close": 12021.4608
           }
         ]
       },
@@ -699459,11 +699694,6 @@
         "name": "iShares $ Ultrashort Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.273,
-            "inr_close": 387.9609
-          },
           {
             "date": "2020-10-20",
             "close": 5.276,
@@ -707030,9 +707260,14 @@
             "inr_close": 610.0631
           },
           {
-            "date": "2026-10-20",
+            "date": "2026-10-19",
             "close": 6.454,
-            "inr_close": 612.6137
+            "inr_close": 612.9861
+          },
+          {
+            "date": "2026-10-20",
+            "close": 6.457,
+            "inr_close": 612.963
           }
         ]
       },
@@ -707045,11 +707280,6 @@
         "name": "iShares $ Short Duration Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.616,
-            "inr_close": 413.1972
-          },
           {
             "date": "2020-10-20",
             "close": 5.618,
@@ -714614,6 +714844,16 @@
             "date": "2026-10-16",
             "close": 6.378,
             "inr_close": 602.8792
+          },
+          {
+            "date": "2026-10-19",
+            "close": 6.356,
+            "inr_close": 603.6783
+          },
+          {
+            "date": "2026-10-20",
+            "close": 6.365,
+            "inr_close": 604.2294
           }
         ]
       },
@@ -714626,11 +714866,6 @@
         "name": "iShares $ Treasury Bond 20+yr UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 7.173,
-            "inr_close": 527.7534
-          },
           {
             "date": "2020-10-20",
             "close": 7.1395,
@@ -722195,6 +722430,16 @@
             "date": "2026-10-16",
             "close": 4.3815,
             "inr_close": 414.1604
+          },
+          {
+            "date": "2026-10-19",
+            "close": 4.3505,
+            "inr_close": 413.2005
+          },
+          {
+            "date": "2026-10-20",
+            "close": 4.3635,
+            "inr_close": 414.2271
           }
         ]
       },
@@ -722207,11 +722452,6 @@
         "name": "iShares $ High Yield Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.766,
-            "inr_close": 424.2334
-          },
           {
             "date": "2020-10-20",
             "close": 5.765,
@@ -729776,6 +730016,16 @@
             "date": "2026-10-16",
             "close": 7.375,
             "inr_close": 697.1204
+          },
+          {
+            "date": "2026-10-19",
+            "close": 7.348,
+            "inr_close": 697.8961
+          },
+          {
+            "date": "2026-10-20",
+            "close": 7.339,
+            "inr_close": 696.6913
           }
         ]
       },
@@ -729788,11 +730038,6 @@
         "name": "iShares $ Short Duration High Yield Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.447,
-            "inr_close": 400.763
-          },
           {
             "date": "2020-10-20",
             "close": 5.447,
@@ -737357,6 +737602,16 @@
             "date": "2026-10-16",
             "close": 7.216,
             "inr_close": 682.091
+          },
+          {
+            "date": "2026-10-19",
+            "close": 7.194,
+            "inr_close": 683.2695
+          },
+          {
+            "date": "2026-10-20",
+            "close": 7.194,
+            "inr_close": 682.9264
           }
         ]
       },
@@ -737369,11 +737624,6 @@
         "name": "iShares $ Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 6.3855,
-            "inr_close": 469.8131
-          },
           {
             "date": "2020-10-20",
             "close": 6.374,
@@ -744938,6 +745188,16 @@
             "date": "2026-10-16",
             "close": 6.124,
             "inr_close": 578.8699
+          },
+          {
+            "date": "2026-10-19",
+            "close": 6.083,
+            "inr_close": 577.7494
+          },
+          {
+            "date": "2026-10-20",
+            "close": 6.095,
+            "inr_close": 578.5983
           }
         ]
       },
@@ -744950,11 +745210,6 @@
         "name": "Vanguard U.S. Treasury 0-1 Year Bond UCITS ETF USD Accumulating",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 50.0021,
-            "inr_close": 3678.9045
-          },
           {
             "date": "2020-10-20",
             "close": 50.0023,
@@ -752504,6 +752759,16 @@
             "date": "2026-10-16",
             "close": 59.782,
             "inr_close": 5650.8819
+          },
+          {
+            "date": "2026-10-19",
+            "close": 59.786,
+            "inr_close": 5678.3367
+          },
+          {
+            "date": "2026-10-20",
+            "close": 59.782,
+            "inr_close": 5675.1054
           }
         ]
       },
@@ -752516,11 +752781,6 @@
         "name": "Vanguard USD Corporate Bond UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 59.41,
-            "inr_close": 4371.0906
-          },
           {
             "date": "2020-10-20",
             "close": 59.29,
@@ -760080,6 +760340,16 @@
             "date": "2026-10-16",
             "close": 60.348,
             "inr_close": 5704.3828
+          },
+          {
+            "date": "2026-10-19",
+            "close": 60.039,
+            "inr_close": 5702.3662
+          },
+          {
+            "date": "2026-10-20",
+            "close": 59.975,
+            "inr_close": 5693.4266
           }
         ]
       },
@@ -760092,11 +760362,6 @@
         "name": "iShares Global Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.8775,
-            "inr_close": 432.437
-          },
           {
             "date": "2020-10-20",
             "close": 5.8765,
@@ -767661,6 +767926,16 @@
             "date": "2026-10-16",
             "close": 5.8305,
             "inr_close": 551.1269
+          },
+          {
+            "date": "2026-10-19",
+            "close": 5.812,
+            "inr_close": 552.0104
+          },
+          {
+            "date": "2026-10-20",
+            "close": 5.8,
+            "inr_close": 550.594
           }
         ]
       },
@@ -767673,11 +767948,6 @@
         "name": "iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 102.0573,
-            "inr_close": 7508.8675
-          },
           {
             "date": "2020-10-20",
             "close": 102.0672,
@@ -775242,6 +775512,16 @@
             "date": "2026-10-16",
             "close": 122.22,
             "inr_close": 11552.8216
+          },
+          {
+            "date": "2026-10-19",
+            "close": 122.22,
+            "inr_close": 11608.1745
+          },
+          {
+            "date": "2026-10-20",
+            "close": 122.26,
+            "inr_close": 11606.142
           }
         ]
       },
@@ -775254,11 +775534,6 @@
         "name": "iShares $ Treasury Bond 3-7yr UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 141.85,
-            "inr_close": 10436.6138
-          },
           {
             "date": "2020-10-20",
             "close": 141.84,
@@ -782813,6 +783088,16 @@
             "date": "2026-10-16",
             "close": 141.06,
             "inr_close": 13333.6685
+          },
+          {
+            "date": "2026-10-19",
+            "close": 140.82,
+            "inr_close": 13374.7603
+          },
+          {
+            "date": "2026-10-20",
+            "close": 140.88,
+            "inr_close": 13373.7389
           }
         ]
       },
@@ -782825,11 +783110,6 @@
         "name": "Vanguard USD Treasury Bond UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 28.74,
-            "inr_close": 2114.5454
-          },
           {
             "date": "2020-10-20",
             "close": 28.7075,
@@ -790389,6 +790669,16 @@
             "date": "2026-10-16",
             "close": 26.771,
             "inr_close": 2530.5235
+          },
+          {
+            "date": "2026-10-19",
+            "close": 26.696,
+            "inr_close": 2535.5246
+          },
+          {
+            "date": "2026-10-20",
+            "close": 26.734,
+            "inr_close": 2537.8586
           }
         ]
       },
@@ -790401,11 +790691,6 @@
         "name": "iShares VII PLC - iShares $ Treasury Bd 7-10y ETF USD Acc",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 169.345,
-            "inr_close": 12459.5579
-          },
           {
             "date": "2020-10-20",
             "close": 169.2,
@@ -797960,6 +798245,16 @@
             "date": "2026-10-16",
             "close": 149.95,
             "inr_close": 14173.9939
+          },
+          {
+            "date": "2026-10-19",
+            "close": 149.47,
+            "inr_close": 14196.3168
+          },
+          {
+            "date": "2026-10-20",
+            "close": 149.58,
+            "inr_close": 14199.6296
           }
         ]
       },
@@ -797972,11 +798267,6 @@
         "name": "Vanguard USD Corporate 1-3 Year Bond UCITS ETF USD Accuimulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 53.835,
-            "inr_close": 3960.9099
-          },
           {
             "date": "2020-10-20",
             "close": 53.84,
@@ -805536,6 +805826,16 @@
             "date": "2026-10-16",
             "close": 62.047,
             "inr_close": 5864.9805
+          },
+          {
+            "date": "2026-10-19",
+            "close": 61.963,
+            "inr_close": 5885.1033
+          },
+          {
+            "date": "2026-10-20",
+            "close": 62.008,
+            "inr_close": 5886.4194
           }
         ]
       },
@@ -805548,11 +805848,6 @@
         "name": "iShares US Aggregate Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.864,
-            "inr_close": 431.4438
-          },
           {
             "date": "2020-10-20",
             "close": 5.861,
@@ -813117,6 +813412,16 @@
             "date": "2026-10-16",
             "close": 5.635,
             "inr_close": 532.6473
+          },
+          {
+            "date": "2026-10-19",
+            "close": 5.614,
+            "inr_close": 533.2048
+          },
+          {
+            "date": "2026-10-20",
+            "close": 5.619,
+            "inr_close": 533.4117
           }
         ]
       },
@@ -813129,11 +813434,6 @@
         "name": "iShares Core Global Aggregate Bond UCITS ETF USD Hedged (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 5.7455,
-            "inr_close": 422.7252
-          },
           {
             "date": "2020-10-20",
             "close": 5.741,
@@ -820698,6 +820998,16 @@
             "date": "2026-10-16",
             "close": 5.779,
             "inr_close": 546.2588
+          },
+          {
+            "date": "2026-10-19",
+            "close": 5.759,
+            "inr_close": 546.9766
+          },
+          {
+            "date": "2026-10-20",
+            "close": 5.765,
+            "inr_close": 547.2714
           }
         ]
       },
@@ -910028,11 +910338,6 @@
         "currency": "GBP",
         "points": [
           {
-            "date": "2020-10-19",
-            "close": 7619.905,
-            "inr_close": 560560.8842
-          },
-          {
             "date": "2020-10-20",
             "close": 7625.7319,
             "inr_close": 560989.5423
@@ -917596,6 +917901,11 @@
             "date": "2026-10-19",
             "close": 14355.4222,
             "inr_close": 1363399.4765
+          },
+          {
+            "date": "2026-10-20",
+            "close": 14292.9318,
+            "inr_close": 1356035.4244
           }
         ]
       },
@@ -917608,11 +917918,6 @@
         "name": "DAX",
         "currency": "EUR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 15128.4691,
-            "inr_close": 1108714.4385
-          },
           {
             "date": "2020-10-20",
             "close": 14989.9379,
@@ -925252,6 +925557,11 @@
             "date": "2026-10-19",
             "close": 28422.6744,
             "inr_close": 2699846.9556
+          },
+          {
+            "date": "2026-10-20",
+            "close": 28189.6426,
+            "inr_close": 2674799.2674
           }
         ]
       },
@@ -925264,11 +925574,6 @@
         "name": "STOXX Europe 600",
         "currency": "EUR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 431.6935,
-            "inr_close": 31637.3623
-          },
           {
             "date": "2020-10-20",
             "close": 430.1636,
@@ -932813,6 +933118,11 @@
             "date": "2026-10-19",
             "close": 717.9372,
             "inr_close": 68196.2808
+          },
+          {
+            "date": "2026-10-20",
+            "close": 713.2181,
+            "inr_close": 67674.3356
           }
         ]
       },
@@ -1580415,7 +1580725,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-20T06:42:15.635638Z",
+    "built_at": "2026-10-20T12:18:33.867788Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
