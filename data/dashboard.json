@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-21T01:54:37.913385Z",
+  "built_at": "2026-10-21T07:03:35.178541Z",
   "snapshot": {
-    "built_at": "2026-10-21T01:54:37.913385Z",
+    "built_at": "2026-10-21T07:03:35.178541Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -4617,33 +4617,33 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 331.82842941277545,
-                "last_price_inr": 31516.30078125,
-                "daily_usd_pct": -1.7481546622496902,
-                "five_day_usd_pct": 13.274247042565168,
-                "one_month_usd_pct": 10.506004443220252,
-                "three_month_usd_pct": 9.56087483558614,
-                "one_year_usd_pct": -17.258398298402156,
-                "three_year_usd_pct": -4.314935008611453,
-                "five_year_usd_pct": -7.620070687418368,
-                "ytd_usd_pct": -21.370500483803823,
-                "since_2024_09_26_usd_pct": -34.18343843863254,
-                "daily_pct": -1.277401189430083,
-                "five_day_pct": 11.170179528136238,
-                "one_month_pct": 9.314313303576949,
-                "three_month_pct": 8.073549251206869,
-                "one_year_pct": -10.699978505587104,
-                "three_year_pct": -0.025106664111673727,
-                "five_year_pct": -3.212918075182336,
-                "ytd_pct": -16.80852461308493,
-                "since_2024_09_26_pct": -25.247558877403254,
+                "last_price": 339.58073251209714,
+                "last_price_inr": 32154.900390625,
+                "daily_usd_pct": 2.336238372655619,
+                "five_day_usd_pct": 9.029642254828097,
+                "one_month_usd_pct": 13.087688123111274,
+                "three_month_usd_pct": 13.047049418720302,
+                "one_year_usd_pct": -15.460155268870867,
+                "three_year_usd_pct": -2.902524495208969,
+                "five_year_usd_pct": -6.690080633034478,
+                "ytd_usd_pct": -19.533527943879392,
+                "since_2024_09_26_usd_pct": -32.64580667187338,
+                "daily_pct": 2.0262517920723866,
+                "five_day_pct": 7.793473074824608,
+                "one_month_pct": 11.529296535882283,
+                "three_month_pct": 10.938642708736168,
+                "one_year_pct": -8.908985500959643,
+                "three_year_pct": 1.3922684932318186,
+                "five_year_pct": -2.186760716342606,
+                "ytd_pct": -15.122855852206108,
+                "since_2024_09_26_pct": -23.732886199538783,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-21"
               },
               {
                 "item_id": "indices:NIFTYPHARMA",
@@ -4655,33 +4655,33 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 269.6948883183975,
-                "last_price_inr": 25615.0,
-                "daily_usd_pct": -1.120153885641495,
-                "five_day_usd_pct": 0.08034812199562147,
-                "one_month_usd_pct": -4.170467140072409,
-                "three_month_usd_pct": -0.13703199856824888,
-                "one_year_usd_pct": 5.765930771043237,
-                "three_year_usd_pct": 13.711943202819054,
-                "five_year_usd_pct": 7.122587744480846,
-                "ytd_usd_pct": 6.54251543803015,
-                "since_2024_09_26_usd_pct": -3.0016392531092118,
-                "daily_pct": -0.646391476496011,
-                "five_day_pct": -1.7786429091881883,
-                "one_month_pct": -5.203887955535991,
-                "three_month_pct": -1.4927052483799885,
-                "one_year_pct": 14.149348054599663,
-                "three_year_pct": 18.809966777381113,
-                "five_year_pct": 12.23306570133369,
-                "ytd_pct": 12.723966262779118,
-                "since_2024_09_26_pct": 10.167776600721368,
+                "last_price": 267.92004388291616,
+                "last_price_inr": 25369.349609375,
+                "daily_usd_pct": -0.6580934650070147,
+                "five_day_usd_pct": -1.590474355932825,
+                "one_month_usd_pct": -4.8011150333703405,
+                "three_month_usd_pct": -0.9249715634201183,
+                "one_year_usd_pct": 4.570648647497033,
+                "three_year_usd_pct": 14.32230500055216,
+                "five_year_usd_pct": 7.181140592377622,
+                "ytd_usd_pct": 5.841366106478385,
+                "since_2024_09_26_usd_pct": -3.639979126348425,
+                "daily_pct": -0.9590099185047829,
+                "five_day_pct": -2.7062335210930044,
+                "one_month_pct": -6.112992072399304,
+                "three_month_pct": -2.7727902886469313,
+                "one_year_pct": 12.674047396443356,
+                "three_year_pct": 19.3789826472798,
+                "five_year_pct": 12.353912880661099,
+                "ytd_pct": 11.642932245787074,
+                "since_2024_09_26_pct": 9.111256696124247,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-21"
               },
               {
                 "item_id": "indices:NIFTYBANK",
@@ -4693,147 +4693,33 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 584.2224225609344,
-                "last_price_inr": 55488.1015625,
-                "daily_usd_pct": -1.1111140047672996,
-                "five_day_usd_pct": 2.9503981719253725,
-                "one_month_usd_pct": -0.6687416576887428,
-                "three_month_usd_pct": -2.922188714029883,
-                "one_year_usd_pct": -11.407753641434171,
-                "three_year_usd_pct": 3.5966202300433237,
-                "five_year_usd_pct": 2.139039897399031,
-                "ytd_usd_pct": -11.977731691430327,
-                "since_2024_09_26_usd_pct": -10.152168720367216,
-                "daily_pct": -0.6373082828952104,
-                "five_day_pct": 1.0380960022214891,
-                "one_month_pct": -1.7399249029120933,
-                "three_month_pct": -4.240052528259552,
-                "one_year_pct": -4.385589094712017,
-                "three_year_pct": 8.241145662483728,
-                "five_year_pct": 7.011768636690197,
-                "ytd_pct": -6.8708002397437244,
-                "since_2024_09_26_pct": 2.046423550422438,
+                "last_price": 579.7861210608992,
+                "last_price_inr": 54899.94921875,
+                "daily_usd_pct": -0.7593514607995955,
+                "five_day_usd_pct": 0.08739526481833515,
+                "one_month_usd_pct": -1.423015018941709,
+                "three_month_usd_pct": -3.271390155782461,
+                "one_year_usd_pct": -12.163311774011143,
+                "three_year_usd_pct": 3.767843122030534,
+                "five_year_usd_pct": 1.617150087865027,
+                "ytd_usd_pct": -12.6461300716604,
+                "since_2024_09_26_usd_pct": -10.834429539685864,
+                "daily_pct": -1.0599611938201248,
+                "five_day_pct": -1.0473874490790736,
+                "one_month_pct": -2.7814435679597405,
+                "three_month_pct": -5.0754465295812174,
+                "one_year_pct": -5.356662693336222,
+                "three_year_pct": 8.357678261916623,
+                "five_year_pct": 6.52139326986223,
+                "ytd_pct": -7.85793361731767,
+                "since_2024_09_26_pct": 0.9647710611066396,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
-              },
-              {
-                "item_id": "indices:NIFTYNEXT50",
-                "ticker": "NIFTYNEXT50",
-                "isin": null,
-                "scheme_code": null,
-                "source_ticker": "^NSMIDCP",
-                "name": "Nifty Next 50",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 723.2840138624107,
-                "last_price_inr": 68695.8515625,
-                "daily_usd_pct": -0.8991666857407266,
-                "five_day_usd_pct": 2.4056805544646176,
-                "one_month_usd_pct": -3.6613044895545843,
-                "three_month_usd_pct": -3.890132652399436,
-                "one_year_usd_pct": -8.350853851962869,
-                "three_year_usd_pct": 10.223601165577145,
-                "five_year_usd_pct": 4.300713045990623,
-                "ytd_usd_pct": -6.394808475052216,
-                "since_2024_09_26_usd_pct": -21.53798787284693,
-                "daily_pct": -0.4243454619598075,
-                "five_day_pct": 0.503496506693657,
-                "one_month_pct": -4.700216089182474,
-                "three_month_pct": -5.1948563033551,
-                "one_year_pct": -1.0863875891557018,
-                "three_year_pct": 15.165232637066307,
-                "five_year_pct": 9.276568335978519,
-                "ytd_pct": -0.9639634647406137,
-                "since_2024_09_26_pct": -10.88524221328796,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Available",
-                "data_date": "2026-10-19"
-              },
-              {
-                "item_id": "indices:NIFTY100",
-                "ticker": "NIFTY100",
-                "isin": null,
-                "scheme_code": null,
-                "source_ticker": "^CNX100",
-                "name": "Nifty 100",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 251.5901037817185,
-                "last_price_inr": 23895.44921875,
-                "daily_usd_pct": -1.4568976952287205,
-                "five_day_usd_pct": 3.9338821407121083,
-                "one_month_usd_pct": -1.6465722407211114,
-                "three_month_usd_pct": -4.200459192797778,
-                "one_year_usd_pct": -16.292188408888684,
-                "three_year_usd_pct": 2.310049742392417,
-                "five_year_usd_pct": 0.3010391817575453,
-                "ytd_usd_pct": -15.377726686913995,
-                "since_2024_09_26_usd_pct": -22.810379527311696,
-                "daily_pct": -0.9847487246631204,
-                "five_day_pct": 2.0033117703914805,
-                "one_month_pct": -2.707210610598143,
-                "three_month_pct": -5.500970056992294,
-                "one_year_pct": -9.657183078289966,
-                "three_year_pct": 6.89689463142078,
-                "five_year_pct": 5.086082752684673,
-                "ytd_pct": -10.468058288221481,
-                "since_2024_09_26_pct": -12.330385806007794,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Available",
-                "data_date": "2026-10-19"
-              },
-              {
-                "item_id": "indices:NIFTY500",
-                "ticker": "NIFTY500",
-                "isin": null,
-                "scheme_code": null,
-                "source_ticker": "^CRSLDX",
-                "name": "Nifty 500",
-                "asset_type": "index",
-                "exchange": "NSE",
-                "currency": "INR",
-                "last_price": 232.0713154405319,
-                "last_price_inr": 22041.599609375,
-                "daily_usd_pct": -1.497775523960987,
-                "five_day_usd_pct": 2.914485836347702,
-                "one_month_usd_pct": -2.5291476679011993,
-                "three_month_usd_pct": -4.255330227508081,
-                "one_year_usd_pct": -13.886309153699393,
-                "three_year_usd_pct": 3.7363681218166134,
-                "five_year_usd_pct": 2.0726666386456483,
-                "ytd_usd_pct": -12.72915909405813,
-                "since_2024_09_26_usd_pct": -20.77873315501688,
-                "daily_pct": -1.0258224110891612,
-                "five_day_pct": 1.0028507377622065,
-                "one_month_pct": -3.5802683891949183,
-                "three_month_pct": -5.555096199021814,
-                "one_year_pct": -7.060604515837287,
-                "three_year_pct": 8.387158842024434,
-                "five_year_pct": 6.94222892086247,
-                "ytd_pct": -7.665824431114643,
-                "since_2024_09_26_pct": -10.022903886197977,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "Yahoo Finance via yfinance",
-                "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-21"
               },
               {
                 "item_id": "indices:NIFTY50",
@@ -4845,33 +4731,147 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 240.99287930026364,
-                "last_price_inr": 22888.94921875,
-                "daily_usd_pct": -1.5827509336656442,
-                "five_day_usd_pct": 4.287409426325306,
-                "one_month_usd_pct": -1.178029802006908,
-                "three_month_usd_pct": -4.26820709629403,
-                "one_year_usd_pct": -17.93598502730116,
-                "three_year_usd_pct": 0.7459250426431918,
-                "five_year_usd_pct": -0.3141836492180472,
-                "ytd_usd_pct": -17.205824520538382,
-                "since_2024_09_26_usd_pct": -23.127961792067797,
-                "daily_pct": -1.1112049629608212,
-                "five_day_pct": 2.3502722917440932,
-                "one_month_pct": -2.24372090974716,
-                "three_month_pct": -5.56779825999959,
-                "one_year_pct": -11.431273382778762,
-                "three_year_pct": 5.262645858788084,
-                "five_year_pct": 4.4415095971654495,
-                "ytd_pct": -12.402219854384189,
-                "since_2024_09_26_pct": -12.691086045956157,
+                "last_price": 240.56921969239417,
+                "last_price_inr": 22779.5,
+                "daily_usd_pct": -0.17579756260831525,
+                "five_day_usd_pct": 1.4029814880899716,
+                "one_month_usd_pct": -1.3517564169365004,
+                "three_month_usd_pct": -4.03209563833008,
+                "one_year_usd_pct": -18.274577344485454,
+                "three_year_usd_pct": 1.2361635189250375,
+                "five_year_usd_pct": -0.20028199769940302,
+                "ytd_usd_pct": -17.35137466301293,
+                "since_2024_09_26_usd_pct": -23.263100961564675,
+                "daily_pct": -0.4781749380628697,
+                "five_day_pct": 0.25328276503016056,
+                "one_month_pct": -2.711166936739551,
+                "three_month_pct": -5.821964321676287,
+                "one_year_pct": -11.941503042381484,
+                "three_year_pct": 5.7140179945161185,
+                "five_year_pct": 4.616248343437124,
+                "ytd_pct": -12.821090485339937,
+                "since_2024_09_26_pct": -13.108575391179278,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-21"
+              },
+              {
+                "item_id": "indices:NIFTY100",
+                "ticker": "NIFTY100",
+                "isin": null,
+                "scheme_code": null,
+                "source_ticker": "^CNX100",
+                "name": "Nifty 100",
+                "asset_type": "index",
+                "exchange": "NSE",
+                "currency": "INR",
+                "last_price": 250.5512578630541,
+                "last_price_inr": 23724.69921875,
+                "daily_usd_pct": -0.4129120752562332,
+                "five_day_usd_pct": 0.9612461926344906,
+                "one_month_usd_pct": -2.052685420367595,
+                "three_month_usd_pct": -4.306056050336848,
+                "one_year_usd_pct": -16.83574209059957,
+                "three_year_usd_pct": 2.7823330263256674,
+                "five_year_usd_pct": 0.39893412581526455,
+                "ytd_usd_pct": -15.727142271780059,
+                "since_2024_09_26_usd_pct": -23.129104791087883,
+                "daily_pct": -0.7145712074164257,
+                "five_day_pct": -0.18344417171964889,
+                "one_month_pct": -3.402436870467107,
+                "three_month_pct": -6.090815179971432,
+                "one_year_pct": -10.391169428802115,
+                "three_year_pct": 7.328577312514839,
+                "five_year_pct": 5.244383813595044,
+                "ytd_pct": -11.107827765134704,
+                "since_2024_09_26_pct": -12.956847626691125,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "Yahoo Finance via yfinance",
+                "data_status": "Available",
+                "data_date": "2026-10-21"
+              },
+              {
+                "item_id": "indices:NIFTY500",
+                "ticker": "NIFTY500",
+                "isin": null,
+                "scheme_code": null,
+                "source_ticker": "^CRSLDX",
+                "name": "Nifty 500",
+                "asset_type": "index",
+                "exchange": "NSE",
+                "currency": "INR",
+                "last_price": 230.29517191235536,
+                "last_price_inr": 21806.650390625,
+                "daily_usd_pct": -0.7653438447595029,
+                "five_day_usd_pct": -0.15062123671367722,
+                "one_month_usd_pct": -3.2751348366595545,
+                "three_month_usd_pct": -4.843498737834362,
+                "one_year_usd_pct": -14.818934389161754,
+                "three_year_usd_pct": 4.279919044751601,
+                "five_year_usd_pct": 2.152936945801187,
+                "ytd_usd_pct": -13.397081103201625,
+                "since_2024_09_26_usd_pct": -21.38504824455547,
+                "daily_pct": -1.0659354262567589,
+                "five_day_pct": -1.282705338954282,
+                "one_month_pct": -4.608040466336183,
+                "three_month_pct": -6.618234184636207,
+                "one_year_pct": -8.218075071251185,
+                "three_year_pct": 8.892404207936643,
+                "five_year_pct": 7.083038253545526,
+                "ytd_pct": -8.650047119045501,
+                "since_2024_09_26_pct": -10.982001629192084,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "Yahoo Finance via yfinance",
+                "data_status": "Available",
+                "data_date": "2026-10-21"
+              },
+              {
+                "item_id": "indices:NIFTYNEXT50",
+                "ticker": "NIFTYNEXT50",
+                "isin": null,
+                "scheme_code": null,
+                "source_ticker": "^NSMIDCP",
+                "name": "Nifty Next 50",
+                "asset_type": "index",
+                "exchange": "NSE",
+                "currency": "INR",
+                "last_price": 713.0192748360997,
+                "last_price_inr": 67515.796875,
+                "daily_usd_pct": -1.419185109801635,
+                "five_day_usd_pct": -0.925443237234469,
+                "one_month_usd_pct": -5.028528911215968,
+                "three_month_usd_pct": -5.466219520160975,
+                "one_year_usd_pct": -9.86701842923784,
+                "three_year_usd_pct": 10.720561567940257,
+                "five_year_usd_pct": 4.402937029478626,
+                "ytd_usd_pct": -7.723239415175575,
+                "since_2024_09_26_usd_pct": -22.65150906580624,
+                "daily_pct": -1.7177961414837073,
+                "five_day_pct": -2.0487424709088264,
+                "one_month_pct": -6.3372721000448,
+                "three_month_pct": -7.229340787887328,
+                "one_year_pct": -2.8824247641319967,
+                "three_year_pct": 15.617927735557569,
+                "five_year_pct": 9.441627758992087,
+                "ytd_pct": -2.6652006790216842,
+                "since_2024_09_26_pct": -12.416052084040652,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "Yahoo Finance via yfinance",
+                "data_status": "Available",
+                "data_date": "2026-10-21"
               },
               {
                 "item_id": "indices:NIFTYMIDCAP150",
@@ -4883,33 +4883,33 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 226.36156639167888,
-                "last_price_inr": 21499.30078125,
-                "daily_usd_pct": -1.5640217303429904,
-                "five_day_usd_pct": 1.3214693740719818,
-                "one_month_usd_pct": -4.747050895170379,
-                "three_month_usd_pct": -5.591364376947916,
-                "one_year_usd_pct": -9.14264852489307,
-                "three_year_usd_pct": 7.655375344637072,
-                "five_year_usd_pct": 7.288816590438429,
-                "ytd_usd_pct": -8.782900705883101,
-                "since_2024_09_26_usd_pct": -15.372811719146517,
-                "daily_pct": -1.0923860225194648,
-                "five_day_pct": -0.5605754665710783,
-                "one_month_pct": -5.7742538607019505,
-                "three_month_pct": -6.872993237243352,
-                "one_year_pct": -1.940942974327342,
-                "three_year_pct": 12.48186608938131,
-                "five_year_pct": 12.407224796839444,
-                "ytd_pct": -3.4906095360656364,
-                "since_2024_09_26_pct": -3.883023371906824,
+                "last_price": 223.57746578737542,
+                "last_price_inr": 21170.55078125,
+                "daily_usd_pct": -1.22993520882696,
+                "five_day_usd_pct": -1.9059936438001412,
+                "one_month_usd_pct": -5.918600453656698,
+                "three_month_usd_pct": -6.894972069421335,
+                "one_year_usd_pct": -10.577363601910816,
+                "three_year_usd_pct": 8.498116701993563,
+                "five_year_usd_pct": 7.466990718725652,
+                "ytd_usd_pct": -9.904811926572087,
+                "since_2024_09_26_usd_pct": -16.41367130405301,
+                "daily_pct": -1.5291194971638777,
+                "five_day_pct": -3.018175477041296,
+                "one_month_pct": -7.215078116266094,
+                "three_month_pct": -8.631446100645213,
+                "one_year_pct": -3.64781607315402,
+                "three_year_pct": 13.297180204399028,
+                "five_year_pct": 12.653558695355072,
+                "ytd_pct": -4.966353442243676,
+                "since_2024_09_26_pct": -5.352766801611441,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-21"
               },
               {
                 "item_id": "indices:NIFTYMIDCAP50",
@@ -4921,33 +4921,33 @@
                 "asset_type": "index",
                 "exchange": "NSE",
                 "currency": "INR",
-                "last_price": 176.54512308179096,
-                "last_price_inr": 16767.849609375,
-                "daily_usd_pct": -1.5248624235765451,
-                "five_day_usd_pct": 1.5305564911709535,
-                "one_month_usd_pct": -5.195883988510708,
-                "three_month_usd_pct": -5.7734492938771425,
-                "one_year_usd_pct": -7.590874589164587,
-                "three_year_usd_pct": 8.410339758964835,
-                "five_year_usd_pct": 8.389885617765124,
-                "ytd_usd_pct": -8.147076610568394,
-                "since_2024_09_26_usd_pct": -12.886263303795253,
-                "daily_pct": -1.0530390920031607,
-                "five_day_pct": -0.3553721396738596,
-                "one_month_pct": -6.2182467607585945,
-                "three_month_pct": -7.052606290417518,
-                "one_year_pct": -0.26616942673782784,
-                "three_year_pct": 13.270677664119779,
-                "five_year_pct": 13.560822325499089,
-                "ytd_pct": -2.81789579756746,
-                "since_2024_09_26_pct": -1.058877600576602,
+                "last_price": 173.81665217438947,
+                "last_price_inr": 16458.69921875,
+                "daily_usd_pct": -1.5454807585579267,
+                "five_day_usd_pct": -1.9238446512810925,
+                "one_month_usd_pct": -6.66106335978921,
+                "three_month_usd_pct": -7.294705916511268,
+                "one_year_usd_pct": -9.154396326427571,
+                "three_year_usd_pct": 9.069166649344274,
+                "five_year_usd_pct": 8.409617421818872,
+                "ytd_usd_pct": -9.56664586772501,
+                "since_2024_09_26_usd_pct": -14.232589342495917,
+                "daily_pct": -1.8437092282373113,
+                "five_day_pct": -3.035824091257222,
+                "one_month_pct": -7.947309599633224,
+                "three_month_pct": -9.023724631300567,
+                "one_year_pct": -2.1145800808837767,
+                "three_year_pct": 13.893488700411073,
+                "five_year_pct": 13.64167841392665,
+                "ytd_pct": -4.6096512209429115,
+                "since_2024_09_26_pct": -2.883064204776342,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-19"
+                "data_date": "2026-10-21"
               }
             ]
           },
@@ -5003,26 +5003,26 @@
                 "asset_type": "index",
                 "exchange": "Nasdaq GIDS",
                 "currency": "USD",
-                "last_price": 29490.283203125,
-                "last_price_inr": 2801388.1351653486,
-                "daily_usd_pct": -0.13229687333715656,
-                "five_day_usd_pct": -3.530309475583737,
-                "one_month_usd_pct": -3.254560160102893,
-                "three_month_usd_pct": 3.097628287336751,
-                "one_year_usd_pct": 17.29947214936496,
-                "three_year_usd_pct": 26.52133759084252,
-                "five_year_usd_pct": 13.892557622623713,
-                "ytd_usd_pct": 16.793896436419065,
-                "since_2024_09_26_usd_pct": 46.60448875616603,
-                "daily_pct": -0.11557860834141565,
-                "five_day_pct": -4.318279236699906,
-                "one_month_pct": -4.281837137034494,
-                "three_month_pct": 1.7150681118734745,
-                "one_year_pct": 26.61827546295694,
-                "three_year_pct": 32.27853388224846,
-                "five_year_pct": 19.366643061139953,
-                "ytd_pct": 23.590804493337103,
-                "since_2024_09_26_pct": 66.53677650505394,
+                "last_price": 29490.279296875,
+                "last_price_inr": 2801387.764096603,
+                "daily_usd_pct": -0.13231010170164925,
+                "five_day_usd_pct": -3.53032225385127,
+                "one_month_usd_pct": -3.2545729748958863,
+                "three_month_usd_pct": 3.0976146311399777,
+                "one_year_usd_pct": 17.299456612007802,
+                "three_year_usd_pct": 26.52133200455056,
+                "five_year_usd_pct": 13.892554605407327,
+                "ytd_usd_pct": 16.793880966029896,
+                "since_2024_09_26_usd_pct": 46.604469337099076,
+                "daily_pct": -0.11559183892039249,
+                "five_day_pct": -4.318291910593852,
+                "one_month_pct": -4.281849815755523,
+                "three_month_pct": 1.715054638809077,
+                "one_year_pct": 26.618258691241504,
+                "three_year_pct": 32.27852804175924,
+                "five_year_pct": 19.366639898905326,
+                "ytd_pct": 23.590788122637086,
+                "since_2024_09_26_pct": 66.53675444577839,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -5041,26 +5041,26 @@
                 "asset_type": "index",
                 "exchange": "Chicago Options",
                 "currency": "USD",
-                "last_price": 2773.419677734375,
-                "last_price_inr": 263457.1165534239,
-                "daily_usd_pct": 1.6537634460561002,
-                "five_day_usd_pct": -0.35749609409400085,
-                "one_month_usd_pct": -3.5453100091488166,
-                "three_month_usd_pct": -5.743900715828232,
-                "one_year_usd_pct": 10.940784877892561,
-                "three_year_usd_pct": 18.168224165086343,
-                "five_year_usd_pct": 3.9069855258017316,
-                "ytd_usd_pct": 11.745380612032207,
-                "since_2024_09_26_usd_pct": 25.50147884999252,
-                "daily_pct": 1.6707807049085366,
-                "five_day_pct": -1.1713815701740016,
-                "one_month_pct": -4.569499702313196,
-                "three_month_pct": -7.007894188128261,
-                "one_year_pct": 19.754425167903022,
-                "three_year_pct": 23.54532240700773,
-                "five_year_pct": 8.901128499669998,
-                "ytd_pct": 18.248486518930072,
-                "since_2024_09_26_pct": 42.564609798933574,
+                "last_price": 2773.419921875,
+                "last_price_inr": 263457.13974522054,
+                "daily_usd_pct": 1.6537723945082572,
+                "five_day_usd_pct": -0.357487322690464,
+                "one_month_usd_pct": -3.5453015183645076,
+                "three_month_usd_pct": -5.743892418583075,
+                "one_year_usd_pct": 10.9407946438695,
+                "three_year_usd_pct": 18.16822763248598,
+                "five_year_usd_pct": 3.906987355161773,
+                "ytd_usd_pct": 11.745390448836668,
+                "since_2024_09_26_usd_pct": 25.50148989772889,
+                "daily_pct": 1.6707896548587176,
+                "five_day_pct": -1.1713728704157655,
+                "one_month_pct": -4.569491301687001,
+                "three_month_pct": -7.007886002150854,
+                "one_year_pct": 19.754435709733542,
+                "three_year_pct": 23.545326032187084,
+                "five_year_pct": 8.901130416955617,
+                "ytd_pct": 18.248496928194726,
+                "since_2024_09_26_pct": 42.56462234871579,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -9283,7 +9283,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-21T01:54:37.913385Z",
+    "built_at": "2026-10-21T07:03:35.178541Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -264913,11 +264913,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 346.47,
-            "inr_close": 25516.6491
-          },
-          {
             "date": "2020-10-21",
             "close": 346.66,
             "inr_close": 25530.6423
@@ -272483,11 +272478,6 @@
         "name": "Vanguard S&P 500 UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 62.17,
-            "inr_close": 4578.6649
-          },
           {
             "date": "2020-10-21",
             "close": 62.15,
@@ -283821,11 +283811,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 6.3813,
-            "inr_close": 469.9668
-          },
-          {
             "date": "2020-10-21",
             "close": 6.3779,
             "inr_close": 469.7164
@@ -291401,11 +291386,6 @@
         "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 656.4,
-            "inr_close": 48342.2202
-          },
           {
             "date": "2020-10-21",
             "close": 657.655,
@@ -306209,11 +306189,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 229.6,
-            "inr_close": 16909.4662
-          },
-          {
             "date": "2020-10-21",
             "close": 227.44,
             "inr_close": 16750.3874
@@ -313790,11 +313765,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 65.85,
-            "inr_close": 4849.6877
-          },
-          {
             "date": "2020-10-21",
             "close": 65.78,
             "inr_close": 4844.5324
@@ -321370,11 +321340,6 @@
         "name": "Vanguard FTSE All-World UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 89.635,
-            "inr_close": 6601.3937
-          },
           {
             "date": "2020-10-21",
             "close": 89.445,
@@ -333158,11 +333123,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 31.1,
-            "inr_close": 2290.4372
-          },
-          {
             "date": "2020-10-21",
             "close": 31.3,
             "inr_close": 2305.1667
@@ -340739,11 +340699,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 54.225,
-            "inr_close": 3993.5355
-          },
-          {
             "date": "2020-10-21",
             "close": 54.56,
             "inr_close": 4018.2077
@@ -348319,11 +348274,6 @@
         "name": "Vanguard FTSE Emerging Markets UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 56.655,
-            "inr_close": 4172.499
-          },
           {
             "date": "2020-10-21",
             "close": 56.995,
@@ -359221,11 +359171,6 @@
         "name": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 5.4685,
-            "inr_close": 402.7414
-          },
           {
             "date": "2020-10-21",
             "close": 5.426,
@@ -374229,11 +374174,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 61.1875,
-            "inr_close": 4506.3064
-          },
-          {
             "date": "2020-10-21",
             "close": 61.2988,
             "inr_close": 4514.4998
@@ -381804,11 +381744,6 @@
         "name": "Xtrackers MSCI World Information Technology UCITS ETF 1C",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 47.435,
-            "inr_close": 3493.4692
-          },
           {
             "date": "2020-10-21",
             "close": 47.355,
@@ -389386,11 +389321,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 14.905,
-            "inr_close": 1097.716
-          },
-          {
             "date": "2020-10-21",
             "close": 14.935,
             "inr_close": 1099.9254
@@ -396966,11 +396896,6 @@
         "name": "iShares Edge MSCI World Momentum Factor UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 54.305,
-            "inr_close": 3999.4275
-          },
           {
             "date": "2020-10-21",
             "close": 54.11,
@@ -429313,11 +429238,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 41.995,
-            "inr_close": 3092.8266
-          },
-          {
             "date": "2020-10-21",
             "close": 42.16,
             "inr_close": 3104.9786
@@ -442520,11 +442440,6 @@
         "currency": "GBP",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 12.1476,
-            "inr_close": 892.7365
-          },
-          {
             "date": "2020-10-21",
             "close": 11.691,
             "inr_close": 859.1785
@@ -450085,11 +450000,6 @@
         "name": "iShares Physical Gold ETC",
         "currency": "GBP",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 37.3206,
-            "inr_close": 2742.7073
-          },
           {
             "date": "2020-10-21",
             "close": 37.0874,
@@ -457667,11 +457577,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 86.445,
-            "inr_close": 6366.458
-          },
-          {
             "date": "2020-10-21",
             "close": 87.895,
             "inr_close": 6473.2467
@@ -465237,11 +465142,6 @@
         "name": "iShares MSCI India UCITS ETF USD Acc",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 5.447,
-            "inr_close": 401.1579
-          },
           {
             "date": "2020-10-21",
             "close": 5.442,
@@ -472819,11 +472719,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 170.125,
-            "inr_close": 12529.2808
-          },
-          {
             "date": "2020-10-21",
             "close": 171.555,
             "inr_close": 12634.5962
@@ -480389,11 +480284,6 @@
         "name": "Franklin FTSE Korea UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 32.3275,
-            "inr_close": 2380.8395
-          },
           {
             "date": "2020-10-21",
             "close": 32.5075,
@@ -493751,11 +493641,6 @@
         "name": "Franklin FTSE China UCITS ETF",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 36.565,
-            "inr_close": 2692.9207
-          },
           {
             "date": "2020-10-21",
             "close": 36.76,
@@ -691979,11 +691864,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 104.455,
-            "inr_close": 7692.8497
-          },
-          {
             "date": "2020-10-21",
             "close": 104.4575,
             "inr_close": 7693.0334
@@ -699554,11 +699434,6 @@
         "name": "iShares $ Ultrashort Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 5.276,
-            "inr_close": 388.5642
-          },
           {
             "date": "2020-10-21",
             "close": 5.2765,
@@ -707136,11 +707011,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 5.618,
-            "inr_close": 413.7517
-          },
-          {
             "date": "2020-10-21",
             "close": 5.614,
             "inr_close": 413.457
@@ -714716,11 +714586,6 @@
         "name": "iShares $ Treasury Bond 20+yr UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 7.1395,
-            "inr_close": 525.8063
-          },
           {
             "date": "2020-10-21",
             "close": 7.103,
@@ -722298,11 +722163,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 5.765,
-            "inr_close": 424.5778
-          },
-          {
             "date": "2020-10-21",
             "close": 5.764,
             "inr_close": 424.5042
@@ -729878,11 +729738,6 @@
         "name": "iShares $ Short Duration High Yield Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 5.447,
-            "inr_close": 401.1579
-          },
           {
             "date": "2020-10-21",
             "close": 5.4455,
@@ -737460,11 +737315,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 6.374,
-            "inr_close": 469.4292
-          },
-          {
             "date": "2020-10-21",
             "close": 6.357,
             "inr_close": 468.1771
@@ -745041,11 +744891,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 50.0023,
-            "inr_close": 3686.1696
-          },
-          {
             "date": "2020-10-23",
             "close": 50.0012,
             "inr_close": 3686.0886
@@ -752606,11 +752451,6 @@
         "name": "Vanguard USD Corporate Bond UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 59.29,
-            "inr_close": 4366.5603
-          },
           {
             "date": "2020-10-21",
             "close": 59.25,
@@ -760182,11 +760022,6 @@
         "name": "iShares Global Corp Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 5.8765,
-            "inr_close": 432.7895
-          },
           {
             "date": "2020-10-21",
             "close": 5.883,
@@ -767764,11 +767599,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 102.0672,
-            "inr_close": 7516.9968
-          },
-          {
             "date": "2020-10-21",
             "close": 102.0672,
             "inr_close": 7516.9968
@@ -775345,11 +775175,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 141.84,
-            "inr_close": 10446.161
-          },
-          {
             "date": "2020-10-21",
             "close": 141.7,
             "inr_close": 10435.8504
@@ -782915,11 +782740,6 @@
         "name": "Vanguard USD Treasury Bond UCITS ETF USD Accumulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 28.7075,
-            "inr_close": 2114.2356
-          },
           {
             "date": "2020-10-21",
             "close": 28.6625,
@@ -790492,11 +790312,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 169.2,
-            "inr_close": 12461.1566
-          },
-          {
             "date": "2020-10-21",
             "close": 168.78,
             "inr_close": 12430.2248
@@ -798062,11 +797877,6 @@
         "name": "Vanguard USD Corporate 1-3 Year Bond UCITS ETF USD Accuimulation",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 53.84,
-            "inr_close": 3965.1814
-          },
           {
             "date": "2020-10-21",
             "close": 53.825,
@@ -805638,11 +805448,6 @@
         "name": "iShares US Aggregate Bond UCITS ETF USD (Acc)",
         "currency": "USD",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 5.861,
-            "inr_close": 431.648
-          },
           {
             "date": "2020-10-21",
             "close": 5.8575,
@@ -813220,11 +813025,6 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2020-10-20",
-            "close": 5.741,
-            "inr_close": 422.8103
-          },
-          {
             "date": "2020-10-21",
             "close": 5.737,
             "inr_close": 422.5157
@@ -820801,16 +820601,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-10-19",
-            "close": 161.2146,
-            "inr_close": 11873.0498
-          },
-          {
-            "date": "2020-10-20",
-            "close": 161.5371,
-            "inr_close": 11896.7998
-          },
-          {
             "date": "2020-10-21",
             "close": 162.0917,
             "inr_close": 11937.6504
@@ -828214,6 +828004,11 @@
             "date": "2026-10-19",
             "close": 240.9929,
             "inr_close": 22888.9492
+          },
+          {
+            "date": "2026-10-21",
+            "close": 240.5692,
+            "inr_close": 22779.5
           }
         ]
       },
@@ -828226,16 +828021,6 @@
         "name": "Nifty Next 50",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 371.7675,
-            "inr_close": 27379.75
-          },
-          {
-            "date": "2020-10-20",
-            "close": 372.5177,
-            "inr_close": 27435.0
-          },
           {
             "date": "2020-10-21",
             "close": 371.6447,
@@ -835635,6 +835420,11 @@
             "date": "2026-10-19",
             "close": 723.284,
             "inr_close": 68695.8516
+          },
+          {
+            "date": "2026-10-21",
+            "close": 713.0193,
+            "inr_close": 67515.7969
           }
         ]
       },
@@ -835647,16 +835437,6 @@
         "name": "Nifty Bank",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 329.4986,
-            "inr_close": 24266.75
-          },
-          {
-            "date": "2020-10-20",
-            "close": 330.1103,
-            "inr_close": 24311.8008
-          },
           {
             "date": "2020-10-21",
             "close": 334.4995,
@@ -843056,6 +842836,11 @@
             "date": "2026-10-19",
             "close": 584.2224,
             "inr_close": 55488.1016
+          },
+          {
+            "date": "2026-10-21",
+            "close": 579.7861,
+            "inr_close": 54899.9492
           }
         ]
       },
@@ -843068,16 +842853,6 @@
         "name": "Nifty 100",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 162.2988,
-            "inr_close": 11952.9004
-          },
-          {
-            "date": "2020-10-20",
-            "close": 162.624,
-            "inr_close": 11976.8496
-          },
           {
             "date": "2020-10-21",
             "close": 163.0605,
@@ -850447,6 +850222,11 @@
             "date": "2026-10-19",
             "close": 251.5901,
             "inr_close": 23895.4492
+          },
+          {
+            "date": "2026-10-21",
+            "close": 250.5513,
+            "inr_close": 23724.6992
           }
         ]
       },
@@ -850459,16 +850239,6 @@
         "name": "Nifty 500",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 131.8348,
-            "inr_close": 9709.2998
-          },
-          {
-            "date": "2020-10-20",
-            "close": 132.1566,
-            "inr_close": 9733.0
-          },
           {
             "date": "2020-10-21",
             "close": 132.477,
@@ -857838,6 +857608,11 @@
             "date": "2026-10-19",
             "close": 232.0713,
             "inr_close": 22041.5996
+          },
+          {
+            "date": "2026-10-21",
+            "close": 230.2952,
+            "inr_close": 21806.6504
           }
         ]
       },
@@ -857850,16 +857625,6 @@
         "name": "Nifty Midcap 150",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 87.3696,
-            "inr_close": 6434.5498
-          },
-          {
-            "date": "2020-10-20",
-            "close": 87.8251,
-            "inr_close": 6468.1001
-          },
           {
             "date": "2020-10-21",
             "close": 87.9887,
@@ -865254,6 +865019,11 @@
             "date": "2026-10-19",
             "close": 226.3616,
             "inr_close": 21499.3008
+          },
+          {
+            "date": "2026-10-21",
+            "close": 223.5775,
+            "inr_close": 21170.5508
           }
         ]
       },
@@ -865266,16 +865036,6 @@
         "name": "Nifty Midcap 50",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 63.2309,
-            "inr_close": 4656.7998
-          },
-          {
-            "date": "2020-10-20",
-            "close": 63.6885,
-            "inr_close": 4690.5
-          },
           {
             "date": "2020-10-21",
             "close": 63.8331,
@@ -872645,6 +872405,11 @@
             "date": "2026-10-19",
             "close": 176.5451,
             "inr_close": 16767.8496
+          },
+          {
+            "date": "2026-10-21",
+            "close": 173.8167,
+            "inr_close": 16458.6992
           }
         ]
       },
@@ -872657,16 +872422,6 @@
         "name": "Nifty IT",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 290.4634,
-            "inr_close": 21391.9004
-          },
-          {
-            "date": "2020-10-20",
-            "close": 294.5701,
-            "inr_close": 21694.3496
-          },
           {
             "date": "2020-10-21",
             "close": 292.9855,
@@ -880066,6 +879821,11 @@
             "date": "2026-10-19",
             "close": 331.8284,
             "inr_close": 31516.3008
+          },
+          {
+            "date": "2026-10-21",
+            "close": 339.5807,
+            "inr_close": 32154.9004
           }
         ]
       },
@@ -880078,16 +879838,6 @@
         "name": "Nifty Pharma",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-10-19",
-            "close": 157.7331,
-            "inr_close": 11616.6504
-          },
-          {
-            "date": "2020-10-20",
-            "close": 158.1099,
-            "inr_close": 11644.4004
-          },
           {
             "date": "2020-10-21",
             "close": 158.1276,
@@ -887482,6 +887232,11 @@
             "date": "2026-10-19",
             "close": 269.6949,
             "inr_close": 25615.0
+          },
+          {
+            "date": "2026-10-21",
+            "close": 267.92,
+            "inr_close": 25369.3496
           }
         ]
       },
@@ -902562,8 +902317,8 @@
           },
           {
             "date": "2026-10-20",
-            "close": 29490.2832,
-            "inr_close": 2801388.1352
+            "close": 29490.2793,
+            "inr_close": 2801387.7641
           }
         ]
       },
@@ -910103,8 +909858,8 @@
           },
           {
             "date": "2026-10-20",
-            "close": 2773.4197,
-            "inr_close": 263457.1166
+            "close": 2773.4199,
+            "inr_close": 263457.1397
           }
         ]
       },
@@ -910117,11 +909872,6 @@
         "name": "FTSE 100",
         "currency": "GBP",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 7628.8925,
-            "inr_close": 560650.8971
-          },
           {
             "date": "2020-10-21",
             "close": 7482.9003,
@@ -917698,11 +917448,6 @@
         "name": "DAX",
         "currency": "EUR",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 15067.6082,
-            "inr_close": 1105669.1555
-          },
           {
             "date": "2020-10-21",
             "close": 14855.4867,
@@ -925354,11 +925099,6 @@
         "name": "STOXX Europe 600",
         "currency": "EUR",
         "points": [
-          {
-            "date": "2020-10-20",
-            "close": 432.3925,
-            "inr_close": 31729.1924
-          },
           {
             "date": "2020-10-21",
             "close": 426.8088,
@@ -1581025,7 +1580765,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-21T01:54:37.913385Z",
+    "built_at": "2026-10-21T07:03:35.178541Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
