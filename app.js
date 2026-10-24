@@ -7,6 +7,20 @@ const RANGE_OPTIONS = [
   { key: "5Y", years: 5 },
 ];
 const DATA_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
+const INDEX_COMPARISON_TAB_ID = "index-performance";
+const INDEX_COMPARISON_SERIES = [
+  { ticker: "NIFTY50", label: "Nifty 50", color: "#f5b84b" },
+  { ticker: "NIFTYNEXT50", label: "Nifty Next 50", color: "#48c8f0" },
+  { ticker: "NIFTYMIDCAP150", label: "Nifty Midcap 150", color: "#a78bfa" },
+  { ticker: "SP500", label: "S&P 500", color: "#52d39b" },
+  { ticker: "NASDAQ100", label: "NASDAQ-100", color: "#ff7f9f" },
+];
+const INDEX_COMPARISON_RANGES = [
+  { key: "1W", label: "1 week", days: 7 },
+  { key: "1M", label: "1 month", months: 1 },
+  { key: "1Y", label: "1 year", years: 1 },
+  { key: "YTD", label: "Year to date", ytd: true },
+];
 const SAVED_THEME = window.localStorage.getItem("dashboard-theme") || "dark";
 document.documentElement.dataset.theme = SAVED_THEME;
 
@@ -19,6 +33,7 @@ const state = {
   sortStateByTab: {},
   selectedItemByTab: {},
   chartRangeByTab: {},
+  comparisonRange: "1Y",
   filterText: "",
   displayCurrency: "INR",
   theme: SAVED_THEME,
@@ -27,6 +42,9 @@ const state = {
 const elements = {
   tablist: document.getElementById("tablist"),
   tablePanel: document.getElementById("table-panel"),
+  comparisonPanel: document.getElementById("comparison-panel"),
+  dashboardLayout: document.querySelector(".dashboard"),
+  detailPanel: document.getElementById("detail-panel"),
   builtAt: document.getElementById("built-at"),
   instrumentCount: document.getElementById("instrument-count"),
   detailTabLabel: document.getElementById("detail-tab-label"),
@@ -116,7 +134,7 @@ async function reloadDashboard(options = {}) {
   state.history = dashboard.history;
   state.meta = dashboard.meta;
 
-  const nextTabId = state.snapshot.tabs.some((tab) => tab.id === previousTabId)
+  const nextTabId = previousTabId === INDEX_COMPARISON_TAB_ID || state.snapshot.tabs.some((tab) => tab.id === previousTabId)
     ? previousTabId
     : state.snapshot.tabs[0]?.id || null;
   state.activeTabId = nextTabId;
@@ -158,6 +176,15 @@ function render() {
   }
   renderHeader();
   renderTabs();
+  const isComparisonTab = state.activeTabId === INDEX_COMPARISON_TAB_ID;
+  elements.dashboardLayout.classList.toggle("comparison-mode", isComparisonTab);
+  elements.tablePanel.hidden = isComparisonTab;
+  elements.comparisonPanel.hidden = !isComparisonTab;
+  elements.detailPanel.hidden = isComparisonTab;
+  if (isComparisonTab) {
+    renderIndexComparison();
+    return;
+  }
   renderReturnBasisUi();
   renderRangeButtons();
   renderTable();
@@ -176,7 +203,11 @@ function renderHeader() {
 
 function renderTabs() {
   const activeTabId = state.activeTabId;
-  elements.tablist.innerHTML = state.snapshot.tabs.map((tab) => {
+  const tabs = [
+    ...state.snapshot.tabs,
+    { id: INDEX_COMPARISON_TAB_ID, label: "Index Performance" },
+  ];
+  elements.tablist.innerHTML = tabs.map((tab) => {
     const isActive = tab.id === activeTabId;
     return `
       <button
@@ -234,6 +265,214 @@ function renderRangeButtons() {
       renderDetail();
     });
   });
+}
+
+function renderIndexComparison() {
+  const range = INDEX_COMPARISON_RANGES.find((entry) => entry.key === state.comparisonRange) || INDEX_COMPARISON_RANGES[2];
+  const comparisons = getIndexComparisonData(range);
+  const currency = state.displayCurrency;
+  elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
+
+  if (!comparisons.series.length) {
+    elements.comparisonPanel.innerHTML = `
+      <div class="comparison-empty">
+        <span class="comparison-eyebrow">Market comparison</span>
+        <h2>Index data is unavailable</h2>
+        <p>Refresh the dashboard data and try again.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const chart = renderComparisonSvg(comparisons.series, comparisons.startDate, comparisons.endDate);
+  elements.comparisonPanel.innerHTML = `
+    <div class="comparison-heading">
+      <div>
+        <span class="comparison-eyebrow">Market comparison · ${escapeHtml(currency)}</span>
+        <h2>How the major indices moved</h2>
+        <p>Each line starts at 100, so percentage performance is easy to compare.</p>
+      </div>
+      <div class="comparison-ranges" role="group" aria-label="Comparison period">
+        ${INDEX_COMPARISON_RANGES.map((option) => `
+          <button
+            class="comparison-range-button ${option.key === range.key ? "active" : ""}"
+            type="button"
+            data-comparison-range="${option.key}"
+            aria-pressed="${option.key === range.key}"
+          >${option.key}</button>
+        `).join("")}
+      </div>
+    </div>
+    <div class="comparison-legend" aria-label="Latest performance by index">
+      ${comparisons.series.map((entry) => `
+        <div class="comparison-legend-item">
+          <span class="comparison-legend-name"><i style="--series-color:${entry.color}"></i>${escapeHtml(entry.label)}</span>
+          <strong class="${getChangeClass(entry.change)}">${escapeHtml(formatPercent(entry.change, true))}</strong>
+        </div>
+      `).join("")}
+    </div>
+    <div class="comparison-chart-card">
+      <div class="comparison-chart-meta">
+        <span>Indexed value <b>100 = period start</b></span>
+        <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparisons.endDate)}</span>
+      </div>
+      ${chart}
+    </div>
+    <p class="comparison-footnote">NASDAQ-100 is used for the Nasdaq line. Cross-market returns are converted to ${escapeHtml(currency)} using the dashboard’s configured exchange-rate data.</p>
+  `;
+
+  elements.comparisonPanel.querySelectorAll("[data-comparison-range]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.comparisonRange = button.dataset.comparisonRange;
+      renderIndexComparison();
+    });
+  });
+}
+
+function getIndexComparisonData(range) {
+  const indexTab = state.snapshot.tabs.find((tab) => tab.id === "indices");
+  const rowsByTicker = new Map((indexTab?.groups || []).flatMap((group) => group.rows).map((row) => [row.ticker, row]));
+  const rawSeries = INDEX_COMPARISON_SERIES.map((definition) => {
+    const row = rowsByTicker.get(definition.ticker);
+    const history = row ? state.history.series[row.item_id]?.points || [] : [];
+    const points = history.map((point) => ({
+      date: point.date,
+      value: state.displayCurrency === "INR" ? point.inr_close : point.close,
+    })).filter((point) => point.value != null && Number.isFinite(Number(point.value)))
+      .sort((left, right) => left.date.localeCompare(right.date));
+    return { ...definition, points };
+  });
+
+  if (rawSeries.some((entry) => entry.points.length < 2)) {
+    return { series: [], startDate: "", endDate: "" };
+  }
+
+  const endDate = rawSeries.reduce((latest, entry) => {
+    const lastDate = entry.points[entry.points.length - 1].date;
+    return lastDate < latest ? lastDate : latest;
+  }, rawSeries[0].points[rawSeries[0].points.length - 1].date);
+  const end = parseIsoDateUtc(endDate);
+  let anchor;
+  if (range.ytd) {
+    anchor = new Date(Date.UTC(end.getUTCFullYear(), 0, 1));
+  } else if (range.days) {
+    anchor = new Date(end.getTime() - range.days * 24 * 60 * 60 * 1000);
+  } else {
+    anchor = subtractCalendarOffsetUtc(end, range);
+  }
+  const anchorDate = anchor.toISOString().slice(0, 10);
+
+  const series = rawSeries.map((entry) => {
+    const eligible = entry.points.filter((point) => point.date <= endDate);
+    const baselineIndex = eligible.reduce((found, point, index) => {
+      const isBaseline = range.ytd ? point.date < anchorDate : point.date <= anchorDate;
+      return isBaseline ? index : found;
+    }, -1);
+    const firstAfterAnchor = eligible.findIndex((point) => point.date >= anchorDate);
+    const basePoint = baselineIndex >= 0
+      ? eligible[baselineIndex]
+      : eligible[Math.max(firstAfterAnchor, 0)];
+    if (!basePoint || !basePoint.value) return null;
+    const periodPoints = eligible.filter((point) => point.date >= anchorDate && point.date <= endDate);
+    const lastPoint = periodPoints[periodPoints.length - 1] || basePoint;
+    const normalizedPoints = [
+      { date: anchorDate, value: 100 },
+      ...periodPoints.filter((point) => point.date > anchorDate).map((point) => ({
+        date: point.date,
+        value: (Number(point.value) / Number(basePoint.value)) * 100,
+      })),
+    ];
+    return {
+      ...entry,
+      change: ((Number(lastPoint.value) / Number(basePoint.value)) - 1) * 100,
+      points: normalizedPoints,
+    };
+  }).filter(Boolean);
+
+  return { series, startDate: anchorDate, endDate };
+}
+
+function renderComparisonSvg(series, startDate, endDate) {
+  const width = 1000;
+  const height = 470;
+  const padding = { top: 24, right: 28, bottom: 28, left: 76 };
+  const plotWidth = width - padding.left - padding.right;
+  const plotHeight = height - padding.top - padding.bottom;
+  const startTime = parseIsoDateUtc(startDate).getTime();
+  const endTime = parseIsoDateUtc(endDate).getTime();
+  const timeSpan = Math.max(endTime - startTime, 1);
+  const values = series.flatMap((entry) => entry.points.map((point) => point.value));
+  const dataMin = Math.min(100, ...values);
+  const dataMax = Math.max(100, ...values);
+  const spread = Math.max(dataMax - dataMin, 1.5);
+  const min = dataMin - spread * 0.12;
+  const max = dataMax + spread * 0.12;
+  const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
+  const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
+  const ticks = Array.from({ length: 5 }, (_, index) => min + ((max - min) * index) / 4);
+  const hasZeroTick = ticks.some((value) => Math.abs(value - 100) < 0.01);
+  const xTicks = Array.from({ length: 4 }, (_, index) => {
+    const ratio = index / 3;
+    const date = new Date(startTime + timeSpan * ratio).toISOString().slice(0, 10);
+    return { ratio, date };
+  });
+
+  return `
+    <svg class="comparison-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Normalized performance of Nifty 50, Nifty Next 50, Nifty Midcap 150, S&P 500, and NASDAQ-100">
+      ${ticks.map((value) => {
+        const y = yFor(value);
+        return `
+          <line class="comparison-gridline" x1="${padding.left}" y1="${y.toFixed(1)}" x2="${width - padding.right}" y2="${y.toFixed(1)}"></line>
+          <text class="comparison-y-label" x="${padding.left - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end">${value === 100 ? "0%" : `${value > 100 ? "+" : ""}${(value - 100).toFixed(0)}%`}</text>
+        `;
+      }).join("")}
+      ${hasZeroTick ? "" : `
+        <line class="comparison-baseline" x1="${padding.left}" y1="${yFor(100).toFixed(1)}" x2="${width - padding.right}" y2="${yFor(100).toFixed(1)}"></line>
+        <text class="comparison-y-label comparison-zero-label" x="${padding.left - 12}" y="${(yFor(100) + 4).toFixed(1)}" text-anchor="end">0%</text>
+      `}
+      ${xTicks.map(({ ratio, date }) => {
+        const x = padding.left + plotWidth * ratio;
+        return `<line class="comparison-x-tick" x1="${x.toFixed(1)}" y1="${padding.top}" x2="${x.toFixed(1)}" y2="${height - padding.bottom}"></line>`;
+      }).join("")}
+      ${series.map((entry) => {
+        const points = entry.points.map((point) => ({ x: xFor(point.date), y: yFor(point.value) }));
+        const end = points[points.length - 1];
+        return `
+          <path class="comparison-line comparison-line-glow" d="${smoothLinePath(points)}" stroke="${entry.color}"></path>
+          <path class="comparison-line" d="${smoothLinePath(points)}" stroke="${entry.color}"></path>
+          <circle class="comparison-endpoint-halo" cx="${end.x.toFixed(1)}" cy="${end.y.toFixed(1)}" r="8" fill="${entry.color}"></circle>
+          <circle class="comparison-endpoint" cx="${end.x.toFixed(1)}" cy="${end.y.toFixed(1)}" r="3.5" fill="${entry.color}"></circle>
+        `;
+      }).join("")}
+      ${xTicks.map(({ ratio, date }) => {
+        const x = padding.left + plotWidth * ratio;
+        const label = ratio === 0 ? startDate : ratio === 1 ? endDate : date.slice(5);
+        return `<text class="comparison-x-label" x="${x.toFixed(1)}" y="${height - 4}" text-anchor="${ratio === 0 ? "start" : ratio === 1 ? "end" : "middle"}">${escapeHtml(label)}</text>`;
+      }).join("")}
+    </svg>
+  `;
+}
+
+function smoothLinePath(points) {
+  if (!points.length) return "";
+  if (points.length === 1) return `M ${points[0].x.toFixed(1)} ${points[0].y.toFixed(1)}`;
+  let path = `M ${points[0].x.toFixed(1)} ${points[0].y.toFixed(1)}`;
+  for (let index = 0; index < points.length - 1; index += 1) {
+    const previous = points[Math.max(0, index - 1)];
+    const current = points[index];
+    const next = points[index + 1];
+    const following = points[Math.min(points.length - 1, index + 2)];
+    const controlOne = {
+      x: current.x + (next.x - previous.x) / 6,
+      y: current.y + (next.y - previous.y) / 6,
+    };
+    const controlTwo = {
+      x: next.x - (following.x - current.x) / 6,
+      y: next.y - (following.y - current.y) / 6,
+    };
+    path += ` C ${controlOne.x.toFixed(1)} ${controlOne.y.toFixed(1)}, ${controlTwo.x.toFixed(1)} ${controlTwo.y.toFixed(1)}, ${next.x.toFixed(1)} ${next.y.toFixed(1)}`;
+  }
+  return path;
 }
 
 function renderTable() {

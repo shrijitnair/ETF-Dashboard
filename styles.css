@@ -539,6 +539,231 @@ tbody tr.active {
   font-size: 0.82rem;
 }
 
+.dashboard.comparison-mode {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.dashboard.comparison-mode .detail-panel,
+.dashboard.comparison-mode .search-shell,
+.dashboard.comparison-mode .mobile-sort-shell {
+  display: none;
+}
+
+.dashboard.comparison-mode .panel-controls {
+  grid-template-columns: minmax(150px, 180px);
+}
+
+.comparison-panel {
+  padding: clamp(18px, 3vw, 36px);
+  color: #eef4ff;
+  background:
+    radial-gradient(ellipse at 88% 0%, rgba(61, 104, 173, 0.15), transparent 36%),
+    linear-gradient(145deg, #0b1220 0%, #080d16 54%, #0b111b 100%);
+  border-radius: 0 0 27px 27px;
+}
+
+.comparison-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+
+.comparison-eyebrow {
+  color: #7f9bb8;
+  font: 500 0.74rem "IBM Plex Mono", "Menlo", monospace;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.comparison-heading h2,
+.comparison-empty h2 {
+  margin: 8px 0 7px;
+  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+  letter-spacing: -0.04em;
+}
+
+.comparison-heading p,
+.comparison-empty p {
+  margin: 0;
+  color: #96a5b8;
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
+.comparison-ranges {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid rgba(151, 175, 204, 0.13);
+  border-radius: 14px;
+  background: rgba(4, 9, 17, 0.76);
+  flex: 0 0 auto;
+}
+
+.comparison-range-button {
+  min-width: 48px;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #94a4b8;
+  cursor: pointer;
+  font: 500 0.82rem "IBM Plex Mono", "Menlo", monospace;
+  transition: color 160ms ease, background 160ms ease, box-shadow 160ms ease;
+}
+
+.comparison-range-button:hover {
+  color: #f4f7fc;
+}
+
+.comparison-range-button.active {
+  background: #1a2a42;
+  color: #f5c66d;
+  box-shadow: inset 0 0 0 1px rgba(245, 184, 75, 0.17), 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.comparison-legend {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.comparison-legend-item {
+  min-width: 0;
+  padding: 14px 15px;
+  border: 1px solid rgba(151, 175, 204, 0.12);
+  border-radius: 15px;
+  background: rgba(17, 27, 42, 0.7);
+}
+
+.comparison-legend-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  color: #aebbd0;
+  font-size: 0.78rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.comparison-legend-name i {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--series-color);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--series-color) 60%, transparent);
+}
+
+.comparison-legend-item strong {
+  display: block;
+  margin: 10px 0 0 16px;
+  font: 500 1.1rem "IBM Plex Mono", "Menlo", monospace;
+}
+
+.comparison-chart-card {
+  overflow: hidden;
+  padding: 17px 18px 13px;
+  border: 1px solid rgba(151, 175, 204, 0.14);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(12, 20, 32, 0.98), rgba(8, 14, 23, 0.98));
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
+}
+
+.comparison-chart-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 8px;
+  color: #7f90a6;
+  font: 0.76rem "IBM Plex Mono", "Menlo", monospace;
+}
+
+.comparison-chart-meta b {
+  color: #d8e2f0;
+  font-weight: 500;
+}
+
+.comparison-chart-meta i {
+  padding: 0 4px;
+  color: #42536b;
+  font-style: normal;
+}
+
+.comparison-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  overflow: visible;
+}
+
+.comparison-gridline {
+  stroke: rgba(158, 178, 205, 0.13);
+  stroke-width: 1;
+}
+
+.comparison-baseline {
+  stroke: rgba(245, 184, 75, 0.32);
+  stroke-dasharray: 5 7;
+  stroke-width: 1.2;
+}
+
+.comparison-x-tick {
+  stroke: rgba(158, 178, 205, 0.07);
+  stroke-dasharray: 3 8;
+  stroke-width: 1;
+}
+
+.comparison-y-label,
+.comparison-x-label {
+  fill: #74859b;
+  font: 12px "IBM Plex Mono", "Menlo", monospace;
+}
+
+.comparison-line {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  transition: opacity 200ms ease;
+}
+
+.comparison-line-glow {
+  filter: blur(5px);
+  opacity: 0.2;
+  stroke-width: 8;
+}
+
+.comparison-endpoint-halo {
+  opacity: 0.17;
+}
+
+.comparison-endpoint {
+  stroke: #0b111b;
+  stroke-width: 2;
+}
+
+.comparison-footnote {
+  margin: 13px 3px 0;
+  color: #75869b;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.comparison-empty {
+  min-height: 340px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -618,6 +843,19 @@ tbody tr.active {
     grid-template-columns: 1fr;
   }
 
+  .comparison-heading {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .comparison-ranges {
+    align-self: flex-start;
+  }
+
+  .comparison-legend {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .stats-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -650,6 +888,10 @@ tbody tr.active {
   .panel-topbar {
     position: static;
     padding: 14px;
+  }
+
+  .dashboard.comparison-mode .panel-controls {
+    grid-template-columns: minmax(120px, 1fr);
   }
 
   .tablist {
@@ -717,6 +959,74 @@ tbody tr.active {
 
   .table-panel {
     padding: 12px;
+  }
+
+  .comparison-panel {
+    padding: 20px 14px 18px;
+    border-radius: 0 0 17px 17px;
+  }
+
+  .comparison-heading {
+    gap: 16px;
+    margin-bottom: 19px;
+  }
+
+  .comparison-heading p {
+    font-size: 0.88rem;
+  }
+
+  .comparison-ranges {
+    width: 100%;
+  }
+
+  .comparison-range-button {
+    min-width: 0;
+    flex: 1;
+    padding: 9px 7px;
+  }
+
+  .comparison-legend {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .comparison-legend-item {
+    padding: 11px 10px;
+  }
+
+  .comparison-legend-name {
+    font-size: 0.71rem;
+  }
+
+  .comparison-legend-item strong {
+    margin-top: 8px;
+    font-size: 0.95rem;
+  }
+
+  .comparison-chart-card {
+    padding: 13px 9px 11px;
+    border-radius: 15px;
+  }
+
+  .comparison-chart-meta {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 4px;
+    font-size: 0.67rem;
+  }
+
+  .comparison-chart-meta b {
+    display: block;
+    margin-top: 3px;
+  }
+
+  .comparison-y-label,
+  .comparison-x-label {
+    font-size: 10px;
+  }
+
+  .comparison-footnote {
+    font-size: 0.72rem;
   }
 
   .group-heading {
