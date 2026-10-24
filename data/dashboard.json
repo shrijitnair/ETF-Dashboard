@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-24T09:43:27.088860Z",
+  "built_at": "2026-10-24T13:27:48.661588Z",
   "snapshot": {
-    "built_at": "2026-10-24T09:43:27.088860Z",
+    "built_at": "2026-10-24T13:27:48.661588Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -2583,33 +2583,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "GBP",
-                "last_price": 9.296592950820923,
-                "last_price_inr": 876.7467854309083,
-                "daily_usd_pct": -1.465338512022707,
-                "five_day_usd_pct": -1.9626088562952115,
-                "one_month_usd_pct": -9.438530464968597,
-                "three_month_usd_pct": -13.521437314867901,
-                "one_year_usd_pct": 0.8818531882576197,
-                "three_year_usd_pct": 6.8787522884555585,
-                "five_year_usd_pct": -7.196227925236265,
-                "ytd_usd_pct": -1.6296610065120953,
-                "since_2024_09_26_usd_pct": 11.261031096453822,
-                "daily_pct": -1.8911732576374907,
-                "five_day_pct": -2.8025498289453,
-                "one_month_pct": -10.755486360483491,
-                "three_month_pct": -15.356420520966507,
-                "one_year_pct": 8.111847967821717,
-                "three_year_pct": 11.455381803624999,
-                "five_year_pct": -2.8147540437960306,
-                "ytd_pct": 3.354332186900444,
-                "since_2024_09_26_pct": 25.479220975067985,
+                "last_price": 9.195233657956123,
+                "last_price_inr": 867.7194452285767,
+                "daily_usd_pct": -1.0902842944828461,
+                "five_day_usd_pct": -2.939558010669885,
+                "one_month_usd_pct": -9.591755892777275,
+                "three_month_usd_pct": -13.169349053861701,
+                "one_year_usd_pct": -1.8266274842582586,
+                "three_year_usd_pct": 6.488904604069279,
+                "five_year_usd_pct": -7.539905209232889,
+                "ytd_usd_pct": -2.7021773629876233,
+                "since_2024_09_26_usd_pct": 10.047969548529512,
+                "daily_pct": -1.0296405247605,
+                "five_day_pct": -3.0926443542975357,
+                "one_month_pct": -10.839128022332245,
+                "three_month_pct": -15.105406085565676,
+                "one_year_pct": 5.559682410911426,
+                "three_year_pct": 11.071531421225389,
+                "five_year_pct": -3.186483819173791,
+                "ytd_pct": 2.2901540986085323,
+                "since_2024_09_26_pct": 24.187236065754902,
                 "aum": 3387463424.0,
                 "aum_display": "3.4B",
                 "ter": 0.65,
                 "ter_display": "0.65",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-22"
+                "data_date": "2026-10-23"
               }
             ]
           },
@@ -2627,33 +2627,33 @@
                 "asset_type": "etf",
                 "exchange": "LSE",
                 "currency": "GBP",
-                "last_price": 78.79331374168396,
-                "last_price_inr": 7430.871169891358,
-                "daily_usd_pct": -1.6714144208620052,
-                "five_day_usd_pct": -2.0300573663296517,
-                "one_month_usd_pct": -6.417392308095393,
-                "three_month_usd_pct": -2.3503782949581775,
-                "one_year_usd_pct": 0.6383492370767074,
-                "three_year_usd_pct": 27.218937278704413,
-                "five_year_usd_pct": 17.563913180375756,
-                "ytd_usd_pct": -5.8909755077491415,
-                "since_2024_09_26_usd_pct": 52.92113377269576,
-                "daily_pct": -2.0963585734520396,
-                "five_day_pct": -2.869420470000772,
-                "one_month_pct": -7.778281961833155,
-                "three_month_pct": -4.42239950283888,
-                "one_year_pct": 7.850892589647707,
-                "three_year_pct": 32.66654899545438,
-                "five_year_pct": 23.114368765141748,
-                "ytd_pct": -1.1228844113148617,
-                "since_2024_09_26_pct": 72.46312160982309,
+                "last_price": 77.53421020388603,
+                "last_price_inr": 7316.610362167358,
+                "daily_usd_pct": -1.5979827196071161,
+                "five_day_usd_pct": -3.7973088863529125,
+                "one_month_usd_pct": -7.249771095865953,
+                "three_month_usd_pct": -1.7483810813807787,
+                "one_year_usd_pct": -3.8257352182025417,
+                "three_year_usd_pct": 26.537649791320185,
+                "five_year_usd_pct": 17.069005255893188,
+                "ytd_usd_pct": -7.394821456726142,
+                "since_2024_09_26_usd_pct": 50.47748048038081,
+                "daily_pct": -1.5376502311998719,
+                "five_day_pct": -3.949042362194166,
+                "one_month_pct": -8.529455837974764,
+                "three_month_pct": -3.9390906477721144,
+                "one_year_pct": 3.4101669965711734,
+                "three_year_pct": 31.9830511640699,
+                "five_year_pct": 22.58112064737383,
+                "ytd_pct": -2.6432686077680456,
+                "since_2024_09_26_pct": 69.81124202165515,
                 "aum": null,
                 "aum_display": "N/A",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-22"
+                "data_date": "2026-10-23"
               }
             ]
           },
@@ -9283,7 +9283,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-24T09:43:27.088860Z",
+    "built_at": "2026-10-24T13:27:48.661588Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -450478,6 +450478,11 @@
             "date": "2026-10-22",
             "close": 9.2966,
             "inr_close": 876.7468
+          },
+          {
+            "date": "2026-10-23",
+            "close": 9.1952,
+            "inr_close": 867.7194
           }
         ]
       },
@@ -458059,6 +458064,11 @@
             "date": "2026-10-22",
             "close": 78.7933,
             "inr_close": 7430.8712
+          },
+          {
+            "date": "2026-10-23",
+            "close": 77.5342,
+            "inr_close": 7316.6104
           }
         ]
       },
@@ -1581640,7 +1581650,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-24T09:43:27.088860Z",
+    "built_at": "2026-10-24T13:27:48.661588Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
