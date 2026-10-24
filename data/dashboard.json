@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-24T19:19:34.010775Z",
+  "built_at": "2026-10-24T21:41:16.531155Z",
   "snapshot": {
-    "built_at": "2026-10-24T19:19:34.010775Z",
+    "built_at": "2026-10-24T21:41:16.531155Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -5894,7 +5894,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -6274,7 +6274,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -6692,7 +6692,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -7090,7 +7090,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -7736,7 +7736,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -7774,7 +7774,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -8210,7 +8210,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -8286,7 +8286,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -8438,7 +8438,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -8514,7 +8514,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -8742,7 +8742,7 @@
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Stale",
+                "data_status": "Available",
                 "data_date": "2026-10-22"
               },
               {
@@ -9403,7 +9403,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-24T19:19:34.010775Z",
+    "built_at": "2026-10-24T21:41:16.531155Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -1604623,7 +1604623,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-24T19:19:34.010775Z",
+    "built_at": "2026-10-24T21:41:16.531155Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
@@ -1604776,62 +1604776,6 @@
         ]
       }
     ],
-    "failures": [
-      {
-        "source_ticker": "120166",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "149763",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "151917",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "120726",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "120381",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "119178",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "152939",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "129649",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "149019",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "118778",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      },
-      {
-        "source_ticker": "125354",
-        "stage": "mfapi",
-        "error": "The read operation timed out"
-      }
-    ]
+    "failures": []
   }
 }
