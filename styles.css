@@ -606,6 +606,17 @@ tbody tr.active {
   flex: 0 0 auto;
 }
 
+.comparison-section + .comparison-section {
+  margin-top: 24px;
+}
+
+.comparison-section h3 {
+  margin: 0 0 12px;
+  color: #dce7f5;
+  font-size: 1.08rem;
+  letter-spacing: -0.02em;
+}
+
 .comparison-range-button {
   min-width: 48px;
   padding: 9px 12px;

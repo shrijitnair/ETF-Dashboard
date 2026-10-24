@@ -9,11 +9,14 @@ const RANGE_OPTIONS = [
 const DATA_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 const INDEX_COMPARISON_TAB_ID = "index-performance";
 const INDEX_COMPARISON_SERIES = [
-  { ticker: "NIFTY50", label: "Nifty 50", color: "#f5b84b" },
-  { ticker: "NIFTYNEXT50", label: "Nifty Next 50", color: "#48c8f0" },
-  { ticker: "NIFTYMIDCAP150", label: "Nifty Midcap 150", color: "#a78bfa" },
-  { ticker: "SP500", label: "S&P 500", color: "#52d39b" },
-  { ticker: "NASDAQ100", label: "NASDAQ-100", color: "#ff7f9f" },
+  { group: "indices", ticker: "NIFTY50", label: "Nifty 50", color: "#f5b84b" },
+  { group: "indices", ticker: "NIFTYNEXT50", label: "Nifty Next 50", color: "#48c8f0" },
+  { group: "indices", ticker: "NIFTYMIDCAP150", label: "Nifty Midcap 150", color: "#a78bfa" },
+  { group: "indices", ticker: "SP500", label: "S&P 500", color: "#52d39b" },
+  { group: "indices", ticker: "NASDAQ100", label: "NASDAQ-100", color: "#ff7f9f" },
+  { group: "commodities", ticker: "GOLD", label: "Gold / oz", color: "#fde047" },
+  { group: "commodities", ticker: "SILVER", label: "Silver / oz", color: "#cbd5e1" },
+  { group: "commodities", ticker: "BRENT", label: "Brent / bbl", color: "#2dd4bf" },
 ];
 const INDEX_COMPARISON_RANGES = [
   { key: "1W", label: "1 week", days: 7 },
@@ -269,11 +272,17 @@ function renderRangeButtons() {
 
 function renderIndexComparison() {
   const range = INDEX_COMPARISON_RANGES.find((entry) => entry.key === state.comparisonRange) || INDEX_COMPARISON_RANGES[2];
-  const comparisons = getIndexComparisonData(range);
+  const sections = [
+    { id: "indices", title: "Equity indices" },
+    { id: "commodities", title: "Commodities" },
+  ].map((section) => ({
+    ...section,
+    comparison: getIndexComparisonData(range, INDEX_COMPARISON_SERIES.filter((entry) => entry.group === section.id)),
+  }));
   const currency = state.displayCurrency;
   elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
 
-  if (!comparisons.series.length) {
+  if (sections.some((section) => !section.comparison.series.length)) {
     elements.comparisonPanel.innerHTML = `
       <div class="comparison-empty">
         <span class="comparison-eyebrow">Market comparison</span>
@@ -284,12 +293,11 @@ function renderIndexComparison() {
     return;
   }
 
-  const chart = renderComparisonSvg(comparisons.series, comparisons.startDate, comparisons.endDate);
   elements.comparisonPanel.innerHTML = `
     <div class="comparison-heading">
       <div>
         <span class="comparison-eyebrow">Market comparison · ${escapeHtml(currency)}</span>
-        <h2>How the major indices moved</h2>
+        <h2>How markets and commodities moved</h2>
         <p>Each line starts at 100, so percentage performance is easy to compare.</p>
       </div>
       <div class="comparison-ranges" role="group" aria-label="Comparison period">
@@ -303,22 +311,8 @@ function renderIndexComparison() {
         `).join("")}
       </div>
     </div>
-    <div class="comparison-legend" aria-label="Latest performance by index">
-      ${comparisons.series.map((entry) => `
-        <div class="comparison-legend-item">
-          <span class="comparison-legend-name"><i style="--series-color:${entry.color}"></i>${escapeHtml(entry.label)}</span>
-          <strong class="${getChangeClass(entry.change)}">${escapeHtml(formatPercent(entry.change, true))}</strong>
-        </div>
-      `).join("")}
-    </div>
-    <div class="comparison-chart-card">
-      <div class="comparison-chart-meta">
-        <span>Indexed value <b>100 = period start</b></span>
-        <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparisons.endDate)}</span>
-      </div>
-      ${chart}
-    </div>
-    <p class="comparison-footnote">NASDAQ-100 is used for the Nasdaq line. Cross-market returns are converted to ${escapeHtml(currency)} using the dashboard’s configured exchange-rate data.</p>
+    ${sections.map((section) => renderComparisonSection(section, range)).join("")}
+    <p class="comparison-footnote">NASDAQ-100 is used for the Nasdaq line. Gold and silver are futures per troy ounce; Brent is futures per barrel, so returns can differ from spot prices. Cross-market returns are converted to ${escapeHtml(currency)}.</p>
   `;
 
   elements.comparisonPanel.querySelectorAll("[data-comparison-range]").forEach((button) => {
@@ -329,10 +323,34 @@ function renderIndexComparison() {
   });
 }
 
-function getIndexComparisonData(range) {
+function renderComparisonSection(section, range) {
+  const { comparison } = section;
+  return `
+    <section class="comparison-section" aria-label="${escapeHtml(section.title)}">
+      <h3>${escapeHtml(section.title)}</h3>
+      <div class="comparison-legend" aria-label="Latest performance by ${escapeHtml(section.title.toLowerCase())}">
+        ${comparison.series.map((entry) => `
+          <div class="comparison-legend-item">
+            <span class="comparison-legend-name"><i style="--series-color:${entry.color}"></i>${escapeHtml(entry.label)}</span>
+            <strong class="${getChangeClass(entry.change)}">${escapeHtml(formatPercent(entry.change, true))}</strong>
+          </div>
+        `).join("")}
+      </div>
+      <div class="comparison-chart-card">
+        <div class="comparison-chart-meta">
+          <span>Indexed value <b>100 = period start</b></span>
+          <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparison.endDate)}</span>
+        </div>
+        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate)}
+      </div>
+    </section>
+  `;
+}
+
+function getIndexComparisonData(range, definitions = INDEX_COMPARISON_SERIES) {
   const indexTab = state.snapshot.tabs.find((tab) => tab.id === "indices");
   const rowsByTicker = new Map((indexTab?.groups || []).flatMap((group) => group.rows).map((row) => [row.ticker, row]));
-  const rawSeries = INDEX_COMPARISON_SERIES.map((definition) => {
+  const rawSeries = definitions.map((definition) => {
     const row = rowsByTicker.get(definition.ticker);
     const history = row ? state.history.series[row.item_id]?.points || [] : [];
     const points = history.map((point) => ({
@@ -418,7 +436,7 @@ function renderComparisonSvg(series, startDate, endDate) {
   });
 
   return `
-    <svg class="comparison-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Normalized performance of Nifty 50, Nifty Next 50, Nifty Midcap 150, S&P 500, and NASDAQ-100">
+    <svg class="comparison-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Normalized performance of ${escapeHtml(series.map((entry) => entry.label).join(", "))}">
       ${ticks.map((value) => {
         const y = yFor(value);
         const isZero = Math.abs(value - 100) < 0.01;

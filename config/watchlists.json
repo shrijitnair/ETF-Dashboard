@@ -906,6 +906,15 @@
             {"ticker": "DAX", "source_ticker": "^GDAXI", "name": "DAX", "exchange": "XETRA", "currency": "EUR"},
             {"ticker": "STOXX600", "source_ticker": "^STOXX", "name": "STOXX Europe 600", "exchange": "STOXX", "currency": "EUR"}
           ]
+        },
+        {
+          "id": "commodities",
+          "label": "Commodities",
+          "items": [
+            {"ticker": "GOLD", "source_ticker": "GC=F", "name": "Gold (per troy oz)", "exchange": "COMEX", "currency": "USD"},
+            {"ticker": "SILVER", "source_ticker": "SI=F", "name": "Silver (per troy oz)", "exchange": "COMEX", "currency": "USD"},
+            {"ticker": "BRENT", "source_ticker": "BZ=F", "name": "Brent Crude (per barrel)", "exchange": "ICE", "currency": "USD"}
+          ]
         }
       ]
     },
