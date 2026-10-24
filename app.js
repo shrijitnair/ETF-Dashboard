@@ -421,9 +421,10 @@ function renderComparisonSvg(series, startDate, endDate) {
     <svg class="comparison-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Normalized performance of Nifty 50, Nifty Next 50, Nifty Midcap 150, S&P 500, and NASDAQ-100">
       ${ticks.map((value) => {
         const y = yFor(value);
+        const isZero = Math.abs(value - 100) < 0.01;
         return `
-          <line class="comparison-gridline" x1="${padding.left}" y1="${y.toFixed(1)}" x2="${width - padding.right}" y2="${y.toFixed(1)}"></line>
-          <text class="comparison-y-label" x="${padding.left - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end">${value === 100 ? "0%" : `${value > 100 ? "+" : ""}${(value - 100).toFixed(0)}%`}</text>
+          <line class="${isZero ? "comparison-baseline" : "comparison-gridline"}" x1="${padding.left}" y1="${y.toFixed(1)}" x2="${width - padding.right}" y2="${y.toFixed(1)}"></line>
+          <text class="comparison-y-label ${isZero ? "comparison-zero-label" : ""}" x="${padding.left - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end">${isZero ? "0%" : `${value > 100 ? "+" : ""}${(value - 100).toFixed(0)}%`}</text>
         `;
       }).join("")}
       ${hasZeroTick ? "" : `
