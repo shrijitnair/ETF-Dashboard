@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-25T19:18:38.007028Z",
+  "built_at": "2026-10-25T21:54:22.750140Z",
   "snapshot": {
-    "built_at": "2026-10-25T19:18:38.007028Z",
+    "built_at": "2026-10-25T21:54:22.750140Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -9403,7 +9403,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-25T19:18:38.007028Z",
+    "built_at": "2026-10-25T21:54:22.750140Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -1604323,7 +1604323,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-25T19:18:38.007028Z",
+    "built_at": "2026-10-25T21:54:22.750140Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
