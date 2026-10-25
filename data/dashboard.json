@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-25T21:54:22.750140Z",
+  "built_at": "2026-10-25T23:48:30.362459Z",
   "snapshot": {
-    "built_at": "2026-10-25T21:54:22.750140Z",
+    "built_at": "2026-10-25T23:48:30.362459Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -5205,33 +5205,33 @@
                 "asset_type": "index",
                 "exchange": "NY Mercantile",
                 "currency": "USD",
-                "last_price": 111.69999694824219,
-                "last_price_inr": 10579.252335475758,
-                "daily_usd_pct": -1.2989319117144849,
-                "five_day_usd_pct": 1.6748555686037836,
-                "one_month_usd_pct": 8.362432056719825,
-                "three_month_usd_pct": 10.93454587335312,
-                "one_year_usd_pct": 69.2680717748118,
-                "three_year_usd_pct": 7.533533704851392,
-                "five_year_usd_pct": 5.370986163654079,
-                "ytd_usd_pct": 83.56614584920179,
-                "since_2024_09_26_usd_pct": 56.00558565460685,
-                "daily_pct": -0.8813625139987624,
-                "five_day_pct": 1.8754634067686293,
-                "one_month_pct": 7.254353069749109,
-                "three_month_pct": 8.81391054185543,
-                "one_year_pct": 82.71648488839148,
-                "three_year_pct": 12.298351536052387,
-                "five_year_pct": 10.406960396136444,
-                "ytd_pct": 93.67165972282523,
-                "since_2024_09_26_pct": 76.68940474082129,
+                "last_price": 110.58000183105469,
+                "last_price_inr": 10497.35960756836,
+                "daily_usd_pct": -5.260451786698028,
+                "five_day_usd_pct": 0.9402088093144467,
+                "one_month_usd_pct": 6.000768936487111,
+                "three_month_usd_pct": 25.147126603912675,
+                "one_year_usd_pct": 68.5156921710347,
+                "three_year_usd_pct": 7.053879856012801,
+                "five_year_usd_pct": 5.158826473958245,
+                "ytd_usd_pct": 81.72556220865523,
+                "since_2024_09_26_usd_pct": 54.44134663078577,
+                "daily_pct": -5.0416899734602065,
+                "five_day_pct": 0.8895153887160223,
+                "one_month_pct": 4.6434788060345955,
+                "three_month_pct": 23.025257031755686,
+                "one_year_pct": 82.1402301706941,
+                "three_year_pct": 11.96066968163738,
+                "five_year_pct": 10.235499249971003,
+                "ytd_pct": 92.17247055235138,
+                "since_2024_09_26_pct": 75.32167317646122,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-23"
+                "data_date": "2026-10-25"
               },
               {
                 "item_id": "indices:GOLD",
@@ -5243,33 +5243,33 @@
                 "asset_type": "index",
                 "exchange": "COMEX",
                 "currency": "USD",
-                "last_price": 4007.89990234375,
-                "last_price_inr": 379593.42489391565,
-                "daily_usd_pct": -1.2929760925690092,
-                "five_day_usd_pct": -4.142455125855249,
-                "one_month_usd_pct": -7.190163185940246,
-                "three_month_usd_pct": -1.0443940876520452,
-                "one_year_usd_pct": -3.3215986122334895,
-                "three_year_usd_pct": 26.33239314779314,
-                "five_year_usd_pct": 17.273896354806585,
-                "ytd_usd_pct": -7.6754782846954805,
-                "since_2024_09_26_usd_pct": 48.72166119632444,
-                "daily_pct": -0.875381497883676,
-                "five_day_pct": -3.9533250332531744,
-                "one_month_pct": -8.13920639220579,
-                "three_month_pct": -2.9360388633656087,
-                "one_year_pct": 4.359537395228452,
-                "three_year_pct": 31.930189656378815,
-                "five_year_pct": 22.87874396692211,
-                "ytd_pct": -2.5929140092756597,
-                "since_2024_09_26_pct": 68.43974963193047,
+                "last_price": 4014.699951171875,
+                "last_price_inr": 381115.4675899353,
+                "daily_usd_pct": 0.1696661342302619,
+                "five_day_usd_pct": -3.4951117297944756,
+                "one_month_usd_pct": -7.092942476331155,
+                "three_month_usd_pct": -1.5280855734148835,
+                "one_year_usd_pct": -0.1243873936048967,
+                "three_year_usd_pct": 26.25366257115431,
+                "five_year_usd_pct": 17.31366419221738,
+                "ytd_usd_pct": -7.518834837754551,
+                "since_2024_09_26_usd_pct": 48.97399148963926,
+                "daily_pct": 0.4009665595353651,
+                "five_day_pct": -3.543577677592613,
+                "one_month_pct": -8.282573773268421,
+                "three_month_pct": -3.1976769144540063,
+                "one_year_pct": 7.950582133945061,
+                "three_year_pct": 32.04046999733266,
+                "five_year_pct": 22.977126834665373,
+                "ytd_pct": -2.202344167834991,
+                "since_2024_09_26_pct": 69.11513670091962,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-23"
+                "data_date": "2026-10-25"
               },
               {
                 "item_id": "indices:SILVER",
@@ -5281,33 +5281,33 @@
                 "asset_type": "index",
                 "exchange": "COMEX",
                 "currency": "USD",
-                "last_price": 53.94900131225586,
-                "last_price_inr": 5109.58024818683,
-                "daily_usd_pct": -1.4882014235945373,
-                "five_day_usd_pct": -5.3443243735633805,
-                "one_month_usd_pct": -16.204842749065673,
-                "three_month_usd_pct": -6.659398250946991,
-                "one_year_usd_pct": 11.276356264504672,
-                "three_year_usd_pct": 32.72907028702756,
-                "five_year_usd_pct": 17.033064947888853,
-                "ytd_usd_pct": -23.07725319180507,
-                "since_2024_09_26_usd_pct": 68.45901246455995,
-                "daily_pct": -1.071432758410007,
-                "five_day_pct": -5.157565608564296,
-                "one_month_pct": -17.061704774006813,
-                "three_month_pct": -8.443706072951084,
-                "one_year_pct": 20.117305376336027,
-                "three_year_pct": 38.610303973239304,
-                "five_year_pct": 22.626402553277035,
-                "ytd_pct": -18.842573199634728,
-                "since_2024_09_26_pct": 90.7939546567814,
+                "last_price": 54.060001373291016,
+                "last_price_inr": 5131.915946864319,
+                "daily_usd_pct": 0.6497790911601298,
+                "five_day_usd_pct": -5.114609646670143,
+                "one_month_usd_pct": -15.853375263234582,
+                "three_month_usd_pct": -7.545489703735964,
+                "one_year_usd_pct": 16.103262433752597,
+                "three_year_usd_pct": 33.19634928278701,
+                "five_year_usd_pct": 17.081184464059707,
+                "ytd_usd_pct": -22.918984653314777,
+                "since_2024_09_26_usd_pct": 68.8056168540881,
+                "daily_pct": 0.8821881388198616,
+                "five_day_pct": -5.162262262595608,
+                "one_month_pct": -16.930833327095772,
+                "three_month_pct": -9.113055955793925,
+                "one_year_pct": 25.490241714635186,
+                "three_year_pct": 39.301373148808175,
+                "five_year_pct": 22.733423859287406,
+                "ytd_pct": -18.48780671346464,
+                "since_2024_09_26_pct": 91.62797938556662,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "Yahoo Finance via yfinance",
                 "data_status": "Available",
-                "data_date": "2026-10-23"
+                "data_date": "2026-10-25"
               }
             ]
           },
@@ -9403,7 +9403,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-25T21:54:22.750140Z",
+    "built_at": "2026-10-25T23:48:30.362459Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -941104,6 +941104,11 @@
             "date": "2026-10-23",
             "close": 4007.8999,
             "inr_close": 379593.4249
+          },
+          {
+            "date": "2026-10-25",
+            "close": 4014.7,
+            "inr_close": 381115.4676
           }
         ]
       },
@@ -948653,8 +948658,13 @@
           },
           {
             "date": "2026-10-23",
-            "close": 53.949,
-            "inr_close": 5109.5802
+            "close": 53.711,
+            "inr_close": 5087.0387
+          },
+          {
+            "date": "2026-10-25",
+            "close": 54.06,
+            "inr_close": 5131.9159
           }
         ]
       },
@@ -956209,8 +956219,13 @@
           },
           {
             "date": "2026-10-23",
-            "close": 111.7,
-            "inr_close": 10579.2523
+            "close": 116.72,
+            "inr_close": 11054.7035
+          },
+          {
+            "date": "2026-10-25",
+            "close": 110.58,
+            "inr_close": 10497.3596
           }
         ]
       },
@@ -1604323,7 +1604338,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-25T21:54:22.750140Z",
+    "built_at": "2026-10-25T23:48:30.362459Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",
