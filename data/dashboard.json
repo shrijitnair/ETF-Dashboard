@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-25T17:05:12.770413Z",
+  "built_at": "2026-10-25T19:18:38.007028Z",
   "snapshot": {
-    "built_at": "2026-10-25T17:05:12.770413Z",
+    "built_at": "2026-10-25T19:18:38.007028Z",
     "tabs": [
       {
         "id": "us-etfs",
@@ -5123,17 +5123,17 @@
                 "asset_type": "index",
                 "exchange": "XETRA",
                 "currency": "EUR",
-                "last_price": 28214.73565138993,
+                "last_price": 28257.476513552247,
                 "last_price_inr": 2677187.2227579355,
-                "daily_usd_pct": -1.016141619820654,
-                "five_day_usd_pct": -1.7969557247064727,
-                "one_month_usd_pct": -3.008566173303351,
-                "three_month_usd_pct": -0.15679497626567285,
-                "one_year_usd_pct": 0.40281633338106193,
-                "three_year_usd_pct": 21.64647194515037,
-                "five_year_usd_pct": 9.215255305165782,
-                "ytd_usd_pct": -2.1417877980474564,
-                "since_2024_09_26_usd_pct": 31.756747600324566,
+                "daily_usd_pct": -0.8661967293352779,
+                "five_day_usd_pct": -1.6481936440990053,
+                "one_month_usd_pct": -2.861639490901191,
+                "three_month_usd_pct": -0.005548311526737404,
+                "one_year_usd_pct": 0.5549107207478254,
+                "three_year_usd_pct": 21.70786601007617,
+                "five_year_usd_pct": 9.248324041402345,
+                "ytd_usd_pct": -1.9935480834936015,
+                "since_2024_09_26_usd_pct": 31.95633823472639,
                 "daily_pct": -0.49467613409380773,
                 "five_day_pct": -1.9045883967518495,
                 "one_month_pct": -3.6586493518059315,
@@ -5161,17 +5161,17 @@
                 "asset_type": "index",
                 "exchange": "Zurich",
                 "currency": "EUR",
-                "last_price": 712.3473941498087,
+                "last_price": 713.4264877894311,
                 "last_price_inr": 67591.89117863774,
-                "daily_usd_pct": -0.5769674800429336,
-                "five_day_usd_pct": -1.4674884988778003,
-                "one_month_usd_pct": -2.7613302588602617,
-                "three_month_usd_pct": -2.3537930812052688,
-                "one_year_usd_pct": 6.826689039512801,
-                "three_year_usd_pct": 15.800282161487122,
-                "five_year_usd_pct": 5.3222374667263095,
-                "ytd_usd_pct": 2.07411571750975,
-                "since_2024_09_26_usd_pct": 21.756777721770227,
+                "daily_usd_pct": -0.42635731019412537,
+                "five_day_usd_pct": -1.3182273275306633,
+                "one_month_usd_pct": -2.6140290531497468,
+                "three_month_usd_pct": -2.2058745211253394,
+                "one_year_usd_pct": 6.988514578050831,
+                "three_year_usd_pct": 15.858725698136954,
+                "five_year_usd_pct": 5.3541274557292295,
+                "ytd_usd_pct": 2.228741859116279,
+                "since_2024_09_26_usd_pct": 21.94121998336829,
                 "daily_pct": -0.05318834277869833,
                 "five_day_pct": -1.5754822741672725,
                 "one_month_pct": -3.4130705312190868,
@@ -5860,44 +5860,6 @@
                 "data_date": "2026-10-23"
               },
               {
-                "item_id": "flexicap:INF205KA1494",
-                "ticker": "INF205KA1494",
-                "isin": "INF205KA1494",
-                "scheme_code": "149763",
-                "source_ticker": "149763",
-                "name": "Invesco India Flexi Cap Fund - Direct Plan - Growth",
-                "asset_type": "mutual_fund",
-                "exchange": "Invesco Mutual Fund",
-                "currency": "INR",
-                "last_price": 0.20771415457191897,
-                "last_price_inr": 19.59,
-                "daily_usd_pct": -0.13229959125591328,
-                "five_day_usd_pct": -0.9384365253807925,
-                "one_month_usd_pct": -4.096783675745607,
-                "three_month_usd_pct": -2.335930262037833,
-                "one_year_usd_pct": -11.480277932045556,
-                "three_year_usd_pct": 10.576858519897115,
-                "five_year_usd_pct": null,
-                "ytd_usd_pct": -6.58128582441776,
-                "since_2024_09_26_usd_pct": -14.180290624728265,
-                "daily_pct": -0.5583756345177604,
-                "five_day_pct": -1.951951951951958,
-                "one_month_pct": -5.499276410998554,
-                "three_month_pct": -4.392386530014636,
-                "one_year_pct": -5.133171912832923,
-                "three_year_pct": 15.331474971057734,
-                "five_year_pct": null,
-                "ytd_pct": -1.853707414829664,
-                "since_2024_09_26_pct": -3.2114624505928835,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
-              },
-              {
                 "item_id": "flexicap:INF582M01633",
                 "ticker": "INF582M01633",
                 "isin": "INF582M01633",
@@ -6088,6 +6050,44 @@
                 "data_date": "2026-10-23"
               },
               {
+                "item_id": "flexicap:INF205KA1494",
+                "ticker": "INF205KA1494",
+                "isin": "INF205KA1494",
+                "scheme_code": "149763",
+                "source_ticker": "149763",
+                "name": "Invesco India Flexi Cap Fund - Direct Plan - Growth",
+                "asset_type": "mutual_fund",
+                "exchange": "Invesco Mutual Fund",
+                "currency": "INR",
+                "last_price": 0.20388273884324148,
+                "last_price_inr": 19.31,
+                "daily_usd_pct": -1.844561694206015,
+                "five_day_usd_pct": -3.2915884977579024,
+                "one_month_usd_pct": -6.47412378178166,
+                "three_month_usd_pct": -3.2612988980896263,
+                "one_year_usd_pct": -13.11931378999709,
+                "three_year_usd_pct": 10.518440452597954,
+                "five_year_usd_pct": null,
+                "ytd_usd_pct": -8.304451641320354,
+                "since_2024_09_26_usd_pct": -15.763288109943453,
+                "daily_pct": -1.429300663603883,
+                "five_day_pct": -3.738783649052846,
+                "one_month_pct": -7.430488974113136,
+                "three_month_pct": -5.110565110565124,
+                "one_year_pct": -6.216610004856737,
+                "three_year_pct": 15.415519694785118,
+                "five_year_pct": null,
+                "ytd_pct": -3.2565130260521102,
+                "since_2024_09_26_pct": -4.594861660079053,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
                 "item_id": "flexicap:INF226401018",
                 "ticker": "INF226401018",
                 "isin": "INF226401018",
@@ -6238,44 +6238,6 @@
                 "data_source": "MFAPI / AMFI NAV",
                 "data_status": "Available",
                 "data_date": "2026-10-23"
-              },
-              {
-                "item_id": "flexicap:INF0J8L01156",
-                "ticker": "INF0J8L01156",
-                "isin": "INF0J8L01156",
-                "scheme_code": "151917",
-                "source_ticker": "151917",
-                "name": "NJ Flexi Cap Fund - Direct Plan - Growth Option",
-                "asset_type": "mutual_fund",
-                "exchange": "NJ Mutual Fund",
-                "currency": "INR",
-                "last_price": 0.1367796117395485,
-                "last_price_inr": 12.9,
-                "daily_usd_pct": 0.11802501857687275,
-                "five_day_usd_pct": -0.43280101876354005,
-                "one_month_usd_pct": -2.4482121958299463,
-                "three_month_usd_pct": -3.461755073482964,
-                "one_year_usd_pct": -14.449751667999811,
-                "three_year_usd_pct": 3.5490977551322134,
-                "five_year_usd_pct": null,
-                "ytd_usd_pct": -11.409640042274926,
-                "since_2024_09_26_usd_pct": -28.867712106117082,
-                "daily_pct": -0.3091190108191588,
-                "five_day_pct": -1.4514896867838023,
-                "one_month_pct": -3.874813710879277,
-                "three_month_pct": -5.494505494505497,
-                "one_year_pct": -8.315565031982942,
-                "three_year_pct": 8.0015324713961,
-                "five_year_pct": null,
-                "ytd_pct": -6.926406926406925,
-                "since_2024_09_26_pct": -19.77611940298506,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
               },
               {
                 "item_id": "flexicap:INF843K01KK1",
@@ -6658,6 +6620,44 @@
                 "data_date": "2026-10-23"
               },
               {
+                "item_id": "flexicap:INF0J8L01156",
+                "ticker": "INF0J8L01156",
+                "isin": "INF0J8L01156",
+                "scheme_code": "151917",
+                "source_ticker": "151917",
+                "name": "NJ Flexi Cap Fund - Direct Plan - Growth Option",
+                "asset_type": "mutual_fund",
+                "exchange": "NJ Mutual Fund",
+                "currency": "INR",
+                "last_price": 0.13461962300628322,
+                "last_price_inr": 12.75,
+                "daily_usd_pct": -1.5791744879187553,
+                "five_day_usd_pct": -2.294188133350583,
+                "one_month_usd_pct": -4.509085816570724,
+                "three_month_usd_pct": -4.493165439650215,
+                "one_year_usd_pct": -15.691887811267879,
+                "three_year_usd_pct": 3.7996539160548792,
+                "five_year_usd_pct": null,
+                "ytd_usd_pct": -12.808636405482721,
+                "since_2024_09_26_usd_pct": -29.991015049210212,
+                "daily_pct": -1.1627906976744207,
+                "five_day_pct": -2.7459954233409523,
+                "one_month_pct": -5.485544848035584,
+                "three_month_pct": -6.3188831741366585,
+                "one_year_pct": -8.993576017130621,
+                "three_year_pct": 8.39902329239479,
+                "five_year_pct": null,
+                "ytd_pct": -8.00865800865801,
+                "since_2024_09_26_pct": -20.708955223880587,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
                 "item_id": "flexicap:INF174K01LS2",
                 "ticker": "INF174K01LS2",
                 "isin": "INF174K01LS2",
@@ -6667,33 +6667,33 @@
                 "asset_type": "mutual_fund",
                 "exchange": "Kotak Mahindra Mutual Fund",
                 "currency": "INR",
-                "last_price": 0.9594718656055614,
-                "last_price_inr": 90.49,
-                "daily_usd_pct": 0.11977784484815679,
-                "five_day_usd_pct": 0.02887169713594595,
-                "one_month_usd_pct": -3.3510116418014713,
-                "three_month_usd_pct": -4.51181789895193,
-                "one_year_usd_pct": -14.355833256955531,
-                "three_year_usd_pct": 5.488185394235812,
-                "five_year_usd_pct": 4.209845105926013,
-                "ytd_usd_pct": -12.59529831672025,
-                "since_2024_09_26_usd_pct": -16.461064106496583,
-                "daily_pct": -0.30737366281441414,
-                "five_day_pct": -0.9945404216676446,
-                "one_month_pct": -4.764410579159517,
-                "three_month_pct": -6.522457749679777,
-                "one_year_pct": -8.214912414163855,
-                "three_year_pct": 10.023997574035315,
-                "five_year_pct": 9.135536231673358,
-                "ytd_pct": -8.172067016429384,
-                "since_2024_09_26_pct": -5.783747201832479,
+                "last_price": 0.9476165619461898,
+                "last_price_inr": 89.75,
+                "daily_usd_pct": -1.2356072214675384,
+                "five_day_usd_pct": -2.3945416479581927,
+                "one_month_usd_pct": -5.056973914842599,
+                "three_month_usd_pct": -4.526325316346269,
+                "one_year_usd_pct": -15.673579270922389,
+                "three_year_usd_pct": 5.645670415164372,
+                "five_year_usd_pct": 3.9510379147642993,
+                "ytd_usd_pct": -13.67527712262101,
+                "since_2024_09_26_usd_pct": -17.493277231133842,
+                "daily_pct": -0.817769919328093,
+                "five_day_pct": -2.8458848872579323,
+                "one_month_pct": -6.027830420806857,
+                "three_month_pct": -6.351409163475486,
+                "one_year_pct": -8.973812856244546,
+                "three_year_pct": 10.326836901936742,
+                "five_year_pct": 8.956453959949151,
+                "ytd_pct": -8.92300822990979,
+                "since_2024_09_26_pct": -6.554219376334014,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
                 "data_status": "Available",
-                "data_date": "2026-10-22"
+                "data_date": "2026-10-23"
               },
               {
                 "item_id": "flexicap:INF680P01109",
@@ -7056,44 +7056,6 @@
                 "data_date": "2026-10-23"
               },
               {
-                "item_id": "mid-cap:INF789F01UA6",
-                "ticker": "INF789F01UA6",
-                "isin": "INF789F01UA6",
-                "scheme_code": "120726",
-                "source_ticker": "120726",
-                "name": "UTI - Mid Cap Fund - Direct Plan - Growth",
-                "asset_type": "mutual_fund",
-                "exchange": "UTI Mutual Fund",
-                "currency": "INR",
-                "last_price": 3.4790445605629383,
-                "last_price_inr": 328.1167,
-                "daily_usd_pct": -0.2575942128156927,
-                "five_day_usd_pct": -1.9503783676078301,
-                "one_month_usd_pct": -5.225234243261534,
-                "three_month_usd_pct": -3.1026103308843145,
-                "one_year_usd_pct": -9.990521498071448,
-                "three_year_usd_pct": 5.344798319260602,
-                "five_year_usd_pct": 5.234531981598134,
-                "ytd_usd_pct": -8.020648729393564,
-                "since_2024_09_26_usd_pct": -18.462507720503286,
-                "daily_pct": -0.6831356984940751,
-                "five_day_pct": -2.953540447917169,
-                "one_month_pct": -6.611224469175447,
-                "three_month_pct": -5.142923056641924,
-                "one_year_pct": -3.536595870659187,
-                "three_year_pct": 9.874445099222505,
-                "five_year_pct": 10.208657024937807,
-                "ytd_pct": -3.36591119599583,
-                "since_2024_09_26_pct": -8.041000247752573,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
-              },
-              {
                 "item_id": "mid-cap:INF761K01GY4",
                 "ticker": "INF761K01GY4",
                 "isin": "INF761K01GY4",
@@ -7199,6 +7161,44 @@
                 "five_year_pct": 16.509973385320077,
                 "ytd_pct": -5.037709403991187,
                 "since_2024_09_26_pct": -0.20387264506053215,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
+                "item_id": "mid-cap:INF789F01UA6",
+                "ticker": "INF789F01UA6",
+                "isin": "INF789F01UA6",
+                "scheme_code": "120726",
+                "source_ticker": "120726",
+                "name": "UTI - Mid Cap Fund - Direct Plan - Growth",
+                "asset_type": "mutual_fund",
+                "exchange": "UTI Mutual Fund",
+                "currency": "INR",
+                "last_price": 3.3932222174963753,
+                "last_price_inr": 321.3765,
+                "daily_usd_pct": -2.4668365573528694,
+                "five_day_usd_pct": -4.565250497258955,
+                "one_month_usd_pct": -8.214854786295845,
+                "three_month_usd_pct": -4.2904603493486455,
+                "one_year_usd_pct": -12.718090729530985,
+                "three_year_usd_pct": 5.128061248941118,
+                "five_year_usd_pct": 4.710138984652734,
+                "ytd_usd_pct": -10.289628991752897,
+                "since_2024_09_26_usd_pct": -20.473904388002683,
+                "daily_pct": -2.054208152160486,
+                "five_day_pct": -5.006556031904042,
+                "one_month_pct": -9.153419829521582,
+                "three_month_pct": -6.120053013623505,
+                "one_year_pct": -5.783509618612259,
+                "three_year_pct": 9.786292440091348,
+                "five_year_pct": 9.752107013842304,
+                "ytd_pct": -5.3509765259736835,
+                "since_2024_09_26_pct": -9.93002951730848,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -7711,71 +7711,33 @@
                 "asset_type": "mutual_fund",
                 "exchange": "Tata Mutual Fund",
                 "currency": "INR",
-                "last_price": 5.172153489414322,
-                "last_price_inr": 487.7977,
-                "daily_usd_pct": -0.2137016951868187,
-                "five_day_usd_pct": -2.17713060576874,
-                "one_month_usd_pct": -6.783971141489031,
-                "three_month_usd_pct": -6.443353230467652,
-                "one_year_usd_pct": -8.750714018333605,
-                "three_year_usd_pct": 7.619307098495165,
-                "five_year_usd_pct": 7.6618516733846675,
-                "ytd_usd_pct": -9.98388836265235,
-                "since_2024_09_26_usd_pct": -16.319249346807208,
-                "daily_pct": -0.6394304441161291,
-                "five_day_pct": -3.177972745999169,
-                "one_month_pct": -8.147166332369471,
-                "three_month_pct": -8.413321850209831,
-                "one_year_pct": -2.207890805914625,
-                "three_year_pct": 12.246753879332584,
-                "five_year_pct": 12.750708938550703,
-                "ytd_pct": -5.428503184775124,
-                "since_2024_09_26_pct": -5.623806748838955,
+                "last_price": 5.070367328757854,
+                "last_price_inr": 480.2211,
+                "daily_usd_pct": -1.9679648112684744,
+                "five_day_usd_pct": -4.176562391202843,
+                "one_month_usd_pct": -8.986652404356876,
+                "three_month_usd_pct": -7.122448579076634,
+                "one_year_usd_pct": -11.000233875373134,
+                "three_year_usd_pct": 7.6878814452233435,
+                "five_year_usd_pct": 7.234726567943794,
+                "ytd_usd_pct": -11.755373764147492,
+                "since_2024_09_26_usd_pct": -17.966057073467358,
+                "daily_pct": -1.5532258557184764,
+                "five_day_pct": -4.619665281772756,
+                "one_month_pct": -9.917325296155822,
+                "three_month_pct": -8.89790468696081,
+                "one_year_pct": -3.929168379641157,
+                "three_year_pct": 12.459538434779782,
+                "five_year_pct": 12.39825770463443,
+                "ytd_pct": -6.897412125449176,
+                "since_2024_09_26_pct": -7.089682184058821,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
                 "data_status": "Available",
-                "data_date": "2026-10-22"
-              },
-              {
-                "item_id": "mid-cap:INF109K011N7",
-                "ticker": "INF109K011N7",
-                "isin": "INF109K011N7",
-                "scheme_code": "120381",
-                "source_ticker": "120381",
-                "name": "ICICI Prudential Mid Cap Fund - Direct Plan - Growth",
-                "asset_type": "mutual_fund",
-                "exchange": "ICICI Prudential Mutual Fund",
-                "currency": "INR",
-                "last_price": 3.6853092753732453,
-                "last_price_inr": 347.57,
-                "daily_usd_pct": -0.49055590689244255,
-                "five_day_usd_pct": -4.07746581350662,
-                "one_month_usd_pct": -8.375116517723225,
-                "three_month_usd_pct": -6.581592416590087,
-                "one_year_usd_pct": -5.55196011618222,
-                "three_year_usd_pct": 13.043148102272472,
-                "five_year_usd_pct": 9.05570137667835,
-                "ytd_usd_pct": -6.695995662915621,
-                "since_2024_09_26_usd_pct": -8.59241572444529,
-                "daily_pct": -0.9151034836649696,
-                "five_day_pct": -5.058865306345428,
-                "one_month_pct": -9.715042730602397,
-                "three_month_pct": -8.548650213124242,
-                "one_year_pct": 1.2202224940299322,
-                "three_year_pct": 17.90381080197596,
-                "five_year_pct": 14.21044179431583,
-                "ytd_pct": -1.9742222974306944,
-                "since_2024_09_26_pct": 3.0906124870235807,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
+                "data_date": "2026-10-23"
               },
               {
                 "item_id": "mid-cap:INF251K01HQ0",
@@ -7921,6 +7883,44 @@
                 "five_year_pct": 16.44411871632283,
                 "ytd_pct": -2.702336912388348,
                 "since_2024_09_26_pct": 4.279083260806504,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
+                "item_id": "mid-cap:INF109K011N7",
+                "ticker": "INF109K011N7",
+                "isin": "INF109K011N7",
+                "scheme_code": "120381",
+                "source_ticker": "120381",
+                "name": "ICICI Prudential Mid Cap Fund - Direct Plan - Growth",
+                "asset_type": "mutual_fund",
+                "exchange": "ICICI Prudential Mutual Fund",
+                "currency": "INR",
+                "last_price": 3.5895398614467537,
+                "last_price_inr": 339.97,
+                "daily_usd_pct": -2.598680511469209,
+                "five_day_usd_pct": -6.358123891937861,
+                "one_month_usd_pct": -11.676222406608904,
+                "three_month_usd_pct": -7.596695840525259,
+                "one_year_usd_pct": -8.5014046030373,
+                "three_year_usd_pct": 12.899897000377747,
+                "five_year_usd_pct": 8.482914207898485,
+                "ytd_usd_pct": -9.120668640043817,
+                "since_2024_09_26_usd_pct": -10.96780680301892,
+                "daily_pct": -2.1866098915326315,
+                "five_day_pct": -6.791138893458348,
+                "one_month_pct": -12.579392630306764,
+                "three_month_pct": -9.363086192647085,
+                "one_year_pct": -1.2318061648412204,
+                "three_year_pct": 17.902498736173644,
+                "five_year_pct": 13.70654766358237,
+                "ytd_pct": -4.117663648926861,
+                "since_2024_09_26_pct": 0.8364229571407478,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -8176,44 +8176,6 @@
                 "data_date": "2026-10-23"
               },
               {
-                "item_id": "small-cap:INF0GCD01800",
-                "ticker": "INF0GCD01800",
-                "isin": "INF0GCD01800",
-                "scheme_code": "152939",
-                "source_ticker": "152939",
-                "name": "TRUSTMF SMALL CAP FUND - Direct Plan - Growth",
-                "asset_type": "mutual_fund",
-                "exchange": "Trust Mutual Fund",
-                "currency": "INR",
-                "last_price": 0.13879419516827052,
-                "last_price_inr": 13.09,
-                "daily_usd_pct": -0.4084353972184873,
-                "five_day_usd_pct": -4.303108808956779,
-                "one_month_usd_pct": -5.65149340630845,
-                "three_month_usd_pct": 1.222991720523403,
-                "one_year_usd_pct": 11.34191347698772,
-                "three_year_usd_pct": null,
-                "five_year_usd_pct": null,
-                "ytd_usd_pct": 14.20230833098266,
-                "since_2024_09_26_usd_pct": null,
-                "daily_pct": -0.8333333333333304,
-                "five_day_pct": -5.282199710564406,
-                "one_month_pct": -7.03125,
-                "three_month_pct": -0.9084027252081794,
-                "one_year_pct": 19.32543299908842,
-                "three_year_pct": null,
-                "five_year_pct": null,
-                "ytd_pct": 19.981668194317148,
-                "since_2024_09_26_pct": null,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
-              },
-              {
                 "item_id": "small-cap:INF761K01EP7",
                 "ticker": "INF761K01EP7",
                 "isin": "INF761K01EP7",
@@ -8252,44 +8214,6 @@
                 "data_date": "2026-10-23"
               },
               {
-                "item_id": "small-cap:INF663L01W06",
-                "ticker": "INF663L01W06",
-                "isin": "INF663L01W06",
-                "scheme_code": "149019",
-                "source_ticker": "149019",
-                "name": "PGIM India Small Cap Fund - Direct Plan - Direct Growth",
-                "asset_type": "mutual_fund",
-                "exchange": "PGIM India Mutual Fund",
-                "currency": "INR",
-                "last_price": 0.19817139096218306,
-                "last_price_inr": 18.69,
-                "daily_usd_pct": -0.5821993434346973,
-                "five_day_usd_pct": -3.4107562724187135,
-                "one_month_usd_pct": -6.794202591530496,
-                "three_month_usd_pct": 0.16794064555682997,
-                "one_year_usd_pct": -2.408855652390751,
-                "three_year_usd_pct": 8.771765695211077,
-                "five_year_usd_pct": 6.204753665731788,
-                "ytd_usd_pct": 3.368548350170286,
-                "since_2024_09_26_usd_pct": -6.320496541883347,
-                "daily_pct": -1.0063559322033733,
-                "five_day_pct": -4.39897698209718,
-                "one_month_pct": -8.157248157248153,
-                "three_month_pct": -1.9412381951731228,
-                "one_year_pct": 4.5886961387800795,
-                "three_year_pct": 13.448766231477705,
-                "five_year_pct": 11.224738218167607,
-                "ytd_pct": 8.599651365485194,
-                "since_2024_09_26_pct": 5.652911249293391,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
-              },
-              {
                 "item_id": "small-cap:INF397L01JS1",
                 "ticker": "INF397L01JS1",
                 "isin": "INF397L01JS1",
@@ -8319,6 +8243,44 @@
                 "five_year_pct": null,
                 "ytd_pct": 9.586574995476749,
                 "since_2024_09_26_pct": -2.8169918036074937,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
+                "item_id": "small-cap:INF0GCD01800",
+                "ticker": "INF0GCD01800",
+                "isin": "INF0GCD01800",
+                "scheme_code": "152939",
+                "source_ticker": "152939",
+                "name": "TRUSTMF SMALL CAP FUND - Direct Plan - Growth",
+                "asset_type": "mutual_fund",
+                "exchange": "Trust Mutual Fund",
+                "currency": "INR",
+                "last_price": 0.13514754309650395,
+                "last_price_inr": 12.8,
+                "daily_usd_pct": -2.627380826226533,
+                "five_day_usd_pct": -5.166193083933679,
+                "one_month_usd_pct": -8.735067824146004,
+                "three_month_usd_pct": -0.2335274024739653,
+                "one_year_usd_pct": 7.798967148527325,
+                "three_year_usd_pct": null,
+                "five_year_usd_pct": null,
+                "ytd_usd_pct": 11.20177877878632,
+                "since_2024_09_26_usd_pct": null,
+                "daily_pct": -2.2154316271963292,
+                "five_day_pct": -5.604719764011801,
+                "one_month_pct": -9.668313338038104,
+                "three_month_pct": -2.1406727828746086,
+                "one_year_pct": 16.36363636363638,
+                "three_year_pct": null,
+                "five_year_pct": null,
+                "ytd_pct": 17.323556370302473,
+                "since_2024_09_26_pct": null,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -8404,42 +8366,42 @@
                 "data_date": "2026-10-23"
               },
               {
-                "item_id": "small-cap:INF582M01BU9",
-                "ticker": "INF582M01BU9",
-                "isin": "INF582M01BU9",
-                "scheme_code": "129649",
-                "source_ticker": "129649",
-                "name": "Union Small Cap Fund - Direct Plan - Growth Option",
+                "item_id": "small-cap:INF663L01W06",
+                "ticker": "INF663L01W06",
+                "isin": "INF663L01W06",
+                "scheme_code": "149019",
+                "source_ticker": "149019",
+                "name": "PGIM India Small Cap Fund - Direct Plan - Direct Growth",
                 "asset_type": "mutual_fund",
-                "exchange": "Union Mutual Fund",
+                "exchange": "PGIM India Mutual Fund",
                 "currency": "INR",
-                "last_price": 0.6581325969514554,
-                "last_price_inr": 62.07,
-                "daily_usd_pct": -0.7073106048120836,
-                "five_day_usd_pct": -5.083074008165633,
-                "one_month_usd_pct": -7.0652319359202576,
-                "three_month_usd_pct": -1.1920142181213733,
-                "one_year_usd_pct": 4.1675897461368905,
-                "three_year_usd_pct": 8.98510630596201,
-                "five_year_usd_pct": 10.108751019646878,
-                "ytd_usd_pct": 9.124804893003912,
-                "since_2024_09_26_usd_pct": -1.9320279330299117,
-                "daily_pct": -1.1309334182860842,
-                "five_day_pct": -6.054184955350372,
-                "one_month_pct": -8.424313956919448,
-                "three_month_pct": -3.2725572697522187,
-                "one_year_pct": 11.636690647482006,
-                "three_year_pct": 13.671280124877082,
-                "five_year_pct": 15.330588238604559,
-                "ytd_pct": 14.647210934613963,
-                "since_2024_09_26_pct": 10.602280826799726,
+                "last_price": 0.193218753020783,
+                "last_price_inr": 18.3,
+                "daily_usd_pct": -2.499168985671174,
+                "five_day_usd_pct": -5.036078259749377,
+                "one_month_usd_pct": -9.67726845897625,
+                "three_month_usd_pct": -1.3919548310558527,
+                "one_year_usd_pct": -5.606503658309469,
+                "three_year_usd_pct": 8.75938760651307,
+                "five_year_usd_pct": 5.668518711558845,
+                "ytd_usd_pct": 0.7851936488643352,
+                "since_2024_09_26_usd_pct": -8.661705638239358,
+                "daily_pct": -2.0866773675762507,
+                "five_day_pct": -5.475206611570238,
+                "one_month_pct": -10.60087933561309,
+                "three_month_pct": -3.2769556025370017,
+                "one_year_pct": 1.8930957683741534,
+                "three_year_pct": 13.578523103356076,
+                "five_year_pct": 10.756634324829006,
+                "ytd_pct": 6.333527019174889,
+                "since_2024_09_26_pct": 3.4482758620689724,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
                 "ter_display": "N/A",
                 "data_source": "MFAPI / AMFI NAV",
                 "data_status": "Available",
-                "data_date": "2026-10-22"
+                "data_date": "2026-10-23"
               },
               {
                 "item_id": "small-cap:INF0QA701BN2",
@@ -8478,44 +8440,6 @@
                 "data_source": "MFAPI / AMFI NAV",
                 "data_status": "Available",
                 "data_date": "2026-10-23"
-              },
-              {
-                "item_id": "small-cap:INF846K01K35",
-                "ticker": "INF846K01K35",
-                "isin": "INF846K01K35",
-                "scheme_code": "125354",
-                "source_ticker": "125354",
-                "name": "Axis Small Cap Fund - Direct Plan - Growth Option",
-                "asset_type": "mutual_fund",
-                "exchange": "Axis Mutual Fund",
-                "currency": "INR",
-                "last_price": 1.3498769279505363,
-                "last_price_inr": 127.31,
-                "daily_usd_pct": -0.22982188351927668,
-                "five_day_usd_pct": -3.694224272734681,
-                "one_month_usd_pct": -5.7626420064672335,
-                "three_month_usd_pct": -1.284079590778331,
-                "one_year_usd_pct": -3.8430714088664275,
-                "three_year_usd_pct": 8.11821335699483,
-                "five_year_usd_pct": 9.267976124944411,
-                "ytd_usd_pct": -0.37191154430027407,
-                "since_2024_09_26_usd_pct": -10.432244030696925,
-                "daily_pct": -0.6554818571986032,
-                "five_day_pct": -4.679544773884392,
-                "one_month_pct": -7.140773158278623,
-                "three_month_pct": -3.362684074692579,
-                "one_year_pct": 3.0516431924882514,
-                "three_year_pct": 12.76711225662095,
-                "five_year_pct": 14.432750142024343,
-                "ytd_pct": 4.6699005179643205,
-                "since_2024_09_26_pct": 1.0156311989208966,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
               },
               {
                 "item_id": "small-cap:INF740K01QD1",
@@ -8708,44 +8632,6 @@
                 "data_date": "2026-10-23"
               },
               {
-                "item_id": "small-cap:INF204K01K15",
-                "ticker": "INF204K01K15",
-                "isin": "INF204K01K15",
-                "scheme_code": "118778",
-                "source_ticker": "118778",
-                "name": "Nippon India Small Cap Fund - Direct Plan - Growth Option",
-                "asset_type": "mutual_fund",
-                "exchange": "Nippon India Mutual Fund",
-                "currency": "INR",
-                "last_price": 2.055395708066737,
-                "last_price_inr": 193.8491,
-                "daily_usd_pct": -0.44292316960239386,
-                "five_day_usd_pct": -4.343337212670129,
-                "one_month_usd_pct": -5.920472970139368,
-                "three_month_usd_pct": -2.050674898157656,
-                "one_year_usd_pct": -5.204071487709716,
-                "three_year_usd_pct": 7.632710626759653,
-                "five_year_usd_pct": 11.766074658621474,
-                "ytd_usd_pct": -1.341962651230466,
-                "since_2024_09_26_usd_pct": -15.151103515995024,
-                "daily_pct": -0.8676739669172262,
-                "five_day_pct": -5.322016530750096,
-                "one_month_pct": -7.29629599519096,
-                "three_month_pct": -4.113137624626296,
-                "one_year_pct": 1.5930556880321411,
-                "three_year_pct": 12.26073373646772,
-                "five_year_pct": 17.04892640402036,
-                "ytd_pct": 3.6507586832309036,
-                "since_2024_09_26_pct": -4.306357325719279,
-                "aum": null,
-                "aum_display": "",
-                "ter": null,
-                "ter_display": "N/A",
-                "data_source": "MFAPI / AMFI NAV",
-                "data_status": "Available",
-                "data_date": "2026-10-22"
-              },
-              {
                 "item_id": "small-cap:INF109K015M0",
                 "ticker": "INF109K015M0",
                 "isin": "INF109K015M0",
@@ -8775,6 +8661,82 @@
                 "five_year_pct": 11.774569140249458,
                 "ytd_pct": -1.9193065731090697,
                 "since_2024_09_26_pct": -7.520918466627757,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
+                "item_id": "small-cap:INF582M01BU9",
+                "ticker": "INF582M01BU9",
+                "isin": "INF582M01BU9",
+                "scheme_code": "129649",
+                "source_ticker": "129649",
+                "name": "Union Small Cap Fund - Direct Plan - Growth Option",
+                "asset_type": "mutual_fund",
+                "exchange": "Union Mutual Fund",
+                "currency": "INR",
+                "last_price": 0.6396279813114226,
+                "last_price_inr": 60.58,
+                "daily_usd_pct": -2.8116850199713994,
+                "five_day_usd_pct": -6.496492558926792,
+                "one_month_usd_pct": -10.399837016574775,
+                "three_month_usd_pct": -2.5704023921208297,
+                "one_year_usd_pct": 1.0645649429863902,
+                "three_year_usd_pct": 9.162780528998859,
+                "five_year_usd_pct": 9.482485143655017,
+                "ytd_usd_pct": 6.056559100754311,
+                "since_2024_09_26_usd_pct": -4.689390413026651,
+                "daily_pct": -2.400515546963111,
+                "five_day_pct": -6.9288677216162275,
+                "one_month_pct": -11.316059142146106,
+                "three_month_pct": -4.432875847925544,
+                "one_year_pct": 9.094183324329187,
+                "three_year_pct": 13.999790392319156,
+                "five_year_pct": 14.77148789356011,
+                "ytd_pct": 11.895086811968959,
+                "since_2024_09_26_pct": 7.9472558802565985,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
+                "item_id": "small-cap:INF846K01K35",
+                "ticker": "INF846K01K35",
+                "isin": "INF846K01K35",
+                "scheme_code": "125354",
+                "source_ticker": "125354",
+                "name": "Axis Small Cap Fund - Direct Plan - Growth Option",
+                "asset_type": "mutual_fund",
+                "exchange": "Axis Mutual Fund",
+                "currency": "INR",
+                "last_price": 1.3163159529563397,
+                "last_price_inr": 124.67,
+                "daily_usd_pct": -2.4862248031122913,
+                "five_day_usd_pct": -5.157373776867291,
+                "one_month_usd_pct": -8.732696471760482,
+                "three_month_usd_pct": -2.6205570179408055,
+                "one_year_usd_pct": -6.889744753156791,
+                "three_year_usd_pct": 8.114795149948396,
+                "five_year_usd_pct": 8.719161229322347,
+                "ytd_usd_pct": -2.848889790352538,
+                "since_2024_09_26_usd_pct": -12.659099795196827,
+                "daily_pct": -2.073678422747627,
+                "five_day_pct": -5.595941238830838,
+                "one_month_pct": -9.665966234330837,
+                "three_month_pct": -4.482071713147418,
+                "one_year_pct": 0.5079006772009009,
+                "three_year_pct": 12.905368713363941,
+                "five_year_pct": 13.954170373555197,
+                "ytd_pct": 2.4993833758119033,
+                "since_2024_09_26_pct": -1.079108148853447,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -9003,6 +8965,44 @@
                 "five_year_pct": 17.439187576597416,
                 "ytd_pct": 5.932932072227004,
                 "since_2024_09_26_pct": 5.547226386806603,
+                "aum": null,
+                "aum_display": "",
+                "ter": null,
+                "ter_display": "N/A",
+                "data_source": "MFAPI / AMFI NAV",
+                "data_status": "Available",
+                "data_date": "2026-10-23"
+              },
+              {
+                "item_id": "small-cap:INF204K01K15",
+                "ticker": "INF204K01K15",
+                "isin": "INF204K01K15",
+                "scheme_code": "118778",
+                "source_ticker": "118778",
+                "name": "Nippon India Small Cap Fund - Direct Plan - Growth Option",
+                "asset_type": "mutual_fund",
+                "exchange": "Nippon India Mutual Fund",
+                "currency": "INR",
+                "last_price": 1.9977594287739648,
+                "last_price_inr": 189.2104,
+                "daily_usd_pct": -2.804145161273286,
+                "five_day_usd_pct": -6.023435737256333,
+                "one_month_usd_pct": -9.134158424843875,
+                "three_month_usd_pct": -3.577589302429507,
+                "one_year_usd_pct": -8.658048397020114,
+                "three_year_usd_pct": 7.847498359380101,
+                "five_year_usd_pct": 11.132106661001707,
+                "ytd_usd_pct": -4.108477231753183,
+                "since_2024_09_26_usd_pct": -17.530389741145026,
+                "daily_pct": -2.3929437897828754,
+                "five_day_pct": -6.457998390295905,
+                "one_month_pct": -10.063322968051425,
+                "three_month_pct": -5.420809277448713,
+                "one_year_pct": -1.4008953682333458,
+                "three_year_pct": 12.626227984723105,
+                "five_year_pct": 16.483303156723885,
+                "ytd_pct": 1.170454290257683,
+                "since_2024_09_26_pct": -6.596252405310487,
                 "aum": null,
                 "aum_display": "",
                 "ter": null,
@@ -9403,7 +9403,7 @@
     ]
   },
   "history": {
-    "built_at": "2026-10-25T17:05:12.770413Z",
+    "built_at": "2026-10-25T19:18:38.007028Z",
     "series": {
       "us-etfs:VXUS": {
         "item_id": "us-etfs:VXUS",
@@ -925985,7 +925985,7 @@
           },
           {
             "date": "2026-10-23",
-            "close": 28214.7357,
+            "close": 28257.4765,
             "inr_close": 2677187.2228
           }
         ]
@@ -933546,7 +933546,7 @@
           },
           {
             "date": "2026-10-23",
-            "close": 712.3474,
+            "close": 713.4265,
             "inr_close": 67591.8912
           }
         ]
@@ -967816,11 +967816,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 1.2268,
-            "inr_close": 90.44
-          },
-          {
             "date": "2020-09-28",
             "close": 1.2505,
             "inr_close": 92.19
@@ -978993,11 +978988,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.4278,
-            "inr_close": 31.5379
-          },
-          {
             "date": "2020-09-28",
             "close": 0.4372,
             "inr_close": 32.2302
@@ -986489,16 +986479,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-24",
-            "close": 0.4875,
-            "inr_close": 35.939
-          },
-          {
-            "date": "2020-09-25",
-            "close": 0.4993,
-            "inr_close": 36.811
-          },
-          {
             "date": "2020-09-28",
             "close": 0.5086,
             "inr_close": 37.495
@@ -993972,6 +993952,11 @@
             "date": "2026-10-22",
             "close": 0.9595,
             "inr_close": 90.49
+          },
+          {
+            "date": "2026-10-23",
+            "close": 0.9476,
+            "inr_close": 89.75
           }
         ]
       },
@@ -993984,11 +993969,6 @@
         "name": "PGIM India Flexi Cap Fund - Direct Plan - Direct Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.2221,
-            "inr_close": 16.37
-          },
           {
             "date": "2020-09-28",
             "close": 0.2267,
@@ -1001481,11 +1001461,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 1.1751,
-            "inr_close": 86.63
-          },
-          {
             "date": "2020-09-28",
             "close": 1.2006,
             "inr_close": 88.508
@@ -1008976,11 +1008951,6 @@
         "name": "JM Flexi Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.4379,
-            "inr_close": 32.284
-          },
           {
             "date": "2020-09-28",
             "close": 0.4457,
@@ -1023737,6 +1023707,11 @@
             "date": "2026-10-22",
             "close": 0.2077,
             "inr_close": 19.59
+          },
+          {
+            "date": "2026-10-23",
+            "close": 0.2039,
+            "inr_close": 19.31
           }
         ]
       },
@@ -1029271,11 +1029246,6 @@
         "name": "Tata Flexi Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1541,
-            "inr_close": 11.3581
-          },
           {
             "date": "2020-09-28",
             "close": 0.1564,
@@ -1036767,11 +1036737,6 @@
         "name": "Edelweiss Flexi Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.2011,
-            "inr_close": 14.828
-          },
           {
             "date": "2020-09-28",
             "close": 0.2045,
@@ -1045530,11 +1045495,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.1422,
-            "inr_close": 10.4819
-          },
-          {
             "date": "2020-09-28",
             "close": 0.1447,
             "inr_close": 10.6662
@@ -1053031,11 +1052991,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 10.1753,
-            "inr_close": 750.12
-          },
-          {
             "date": "2020-09-28",
             "close": 10.3922,
             "inr_close": 766.11
@@ -1060526,11 +1060481,6 @@
         "name": "SBI FLEXICAP FUND - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.6633,
-            "inr_close": 48.8998
-          },
           {
             "date": "2020-09-28",
             "close": 0.6778,
@@ -1068057,11 +1068007,6 @@
         "name": "UTI - Flexi Cap Fund. - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 2.1274,
-            "inr_close": 156.8312
-          },
           {
             "date": "2020-09-28",
             "close": 2.1728,
@@ -1082050,11 +1081995,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.1525,
-            "inr_close": 11.24
-          },
-          {
             "date": "2020-09-28",
             "close": 0.1565,
             "inr_close": 11.54
@@ -1089545,11 +1089485,6 @@
         "name": "Franklin India Flexi Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 7.7309,
-            "inr_close": 569.9255
-          },
           {
             "date": "2020-09-28",
             "close": 7.9077,
@@ -1097042,11 +1096977,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.4302,
-            "inr_close": 31.7158
-          },
-          {
             "date": "2020-09-28",
             "close": 0.4424,
             "inr_close": 32.6151
@@ -1104532,11 +1104462,6 @@
         "name": "Canara Robeco Flexi Cap Fund - Direct Plan - GROWTH OPTION",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 2.0284,
-            "inr_close": 149.53
-          },
           {
             "date": "2020-09-28",
             "close": 2.0644,
@@ -1112029,11 +1111954,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.3562,
-            "inr_close": 26.256
-          },
-          {
             "date": "2020-09-28",
             "close": 0.3619,
             "inr_close": 26.6828
@@ -1119524,11 +1119444,6 @@
         "name": "Axis Flexi Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1693,
-            "inr_close": 12.48
-          },
           {
             "date": "2020-09-28",
             "close": 0.1715,
@@ -1127061,11 +1126976,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.5691,
-            "inr_close": 41.956
-          },
-          {
             "date": "2020-09-28",
             "close": 0.5796,
             "inr_close": 42.728
@@ -1134556,11 +1134466,6 @@
         "name": "HDFC Flexi Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 7.9467,
-            "inr_close": 585.831
-          },
           {
             "date": "2020-09-28",
             "close": 8.1334,
@@ -1158081,11 +1157986,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.2919,
-            "inr_close": 21.52
-          },
-          {
             "date": "2020-09-28",
             "close": 0.2976,
             "inr_close": 21.94
@@ -1165571,11 +1165471,6 @@
         "name": "LIC MF Flexi Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.6518,
-            "inr_close": 48.0506
-          },
           {
             "date": "2020-09-28",
             "close": 0.6598,
@@ -1195611,6 +1195506,11 @@
             "date": "2026-10-22",
             "close": 0.1368,
             "inr_close": 12.9
+          },
+          {
+            "date": "2026-10-23",
+            "close": 0.1346,
+            "inr_close": 12.75
           }
         ]
       },
@@ -1195623,11 +1195523,6 @@
         "name": "Shriram Flexi Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1411,
-            "inr_close": 10.4023
-          },
           {
             "date": "2020-09-28",
             "close": 0.1437,
@@ -1203120,11 +1203015,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 1.4063,
-            "inr_close": 103.67
-          },
-          {
             "date": "2020-09-28",
             "close": 1.425,
             "inr_close": 105.05
@@ -1210600,11 +1210490,6 @@
         "name": "Edelweiss Mid Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.4064,
-            "inr_close": 29.962
-          },
           {
             "date": "2020-09-28",
             "close": 0.4179,
@@ -1220093,11 +1219978,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.8748,
-            "inr_close": 64.4883
-          },
-          {
             "date": "2020-09-28",
             "close": 0.8906,
             "inr_close": 65.6529
@@ -1227589,16 +1227469,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-24",
-            "close": 1.5183,
-            "inr_close": 111.9276
-          },
-          {
-            "date": "2020-09-25",
-            "close": 1.5451,
-            "inr_close": 113.9081
-          },
-          {
             "date": "2020-09-28",
             "close": 1.5874,
             "inr_close": 117.0209
@@ -1235072,6 +1234942,11 @@
             "date": "2026-10-22",
             "close": 3.479,
             "inr_close": 328.1167
+          },
+          {
+            "date": "2026-10-23",
+            "close": 3.3932,
+            "inr_close": 321.3765
           }
         ]
       },
@@ -1235084,11 +1234959,6 @@
         "name": "Union Midcap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.2109,
-            "inr_close": 15.55
-          },
           {
             "date": "2020-09-28",
             "close": 0.2157,
@@ -1242575,11 +1242445,6 @@
         "name": "Invesco India Mid Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.8005,
-            "inr_close": 59.01
-          },
           {
             "date": "2020-09-28",
             "close": 0.8212,
@@ -1254057,11 +1253922,6 @@
         "name": "SBI MIDCAP FUND - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 1.0583,
-            "inr_close": 78.0165
-          },
           {
             "date": "2020-09-28",
             "close": 1.0837,
@@ -1266420,16 +1266280,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-24",
-            "close": 1.2946,
-            "inr_close": 95.44
-          },
-          {
-            "date": "2020-09-25",
-            "close": 1.3245,
-            "inr_close": 97.64
-          },
-          {
             "date": "2020-09-28",
             "close": 1.3528,
             "inr_close": 99.73
@@ -1273903,6 +1273753,11 @@
             "date": "2026-10-22",
             "close": 3.6853,
             "inr_close": 347.57
+          },
+          {
+            "date": "2026-10-23",
+            "close": 3.5895,
+            "inr_close": 339.97
           }
         ]
       },
@@ -1279001,11 +1278856,6 @@
         "name": "Mahindra Manulife Mid Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1388,
-            "inr_close": 10.2322
-          },
           {
             "date": "2020-09-28",
             "close": 0.1418,
@@ -1297015,11 +1296865,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 16.3084,
-            "inr_close": 1202.2589
-          },
-          {
             "date": "2020-09-28",
             "close": 16.6969,
             "inr_close": 1230.8927
@@ -1304511,11 +1304356,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.1532,
-            "inr_close": 11.297
-          },
-          {
             "date": "2020-09-28",
             "close": 0.1576,
             "inr_close": 11.617
@@ -1312006,11 +1311846,6 @@
         "name": "Kotak Mid Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.5942,
-            "inr_close": 43.802
-          },
           {
             "date": "2020-09-28",
             "close": 0.6073,
@@ -1331625,11 +1331460,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 6.0243,
-            "inr_close": 444.1115
-          },
-          {
             "date": "2020-09-28",
             "close": 6.1681,
             "inr_close": 454.7127
@@ -1339116,16 +1338946,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-24",
-            "close": 2.036,
-            "inr_close": 150.0914
-          },
-          {
-            "date": "2020-09-25",
-            "close": 2.0791,
-            "inr_close": 153.2726
-          },
-          {
             "date": "2020-09-28",
             "close": 2.1317,
             "inr_close": 157.1524
@@ -1346599,6 +1346419,11 @@
             "date": "2026-10-22",
             "close": 5.1722,
             "inr_close": 487.7977
+          },
+          {
+            "date": "2026-10-23",
+            "close": 5.0704,
+            "inr_close": 480.2211
           }
         ]
       },
@@ -1346611,11 +1346436,6 @@
         "name": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.7647,
-            "inr_close": 56.375
-          },
           {
             "date": "2020-09-28",
             "close": 0.7832,
@@ -1354107,11 +1353927,6 @@
         "name": "Axis Midcap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.6131,
-            "inr_close": 45.2
-          },
           {
             "date": "2020-09-28",
             "close": 0.6257,
@@ -1361643,11 +1361458,6 @@
         "name": "DSP Midcap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.8669,
-            "inr_close": 63.905
-          },
           {
             "date": "2020-09-28",
             "close": 0.8839,
@@ -1373931,11 +1373741,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 3.7703,
-            "inr_close": 277.95
-          },
-          {
             "date": "2020-09-28",
             "close": 3.8462,
             "inr_close": 283.54
@@ -1381426,11 +1381231,6 @@
         "name": "PGIM India Midcap Fund - Direct Plan - Direct Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.3205,
-            "inr_close": 23.63
-          },
           {
             "date": "2020-09-28",
             "close": 0.3299,
@@ -1388923,11 +1388723,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 13.1106,
-            "inr_close": 966.5111
-          },
-          {
             "date": "2020-09-28",
             "close": 13.3978,
             "inr_close": 987.6868
@@ -1396419,11 +1396214,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.6593,
-            "inr_close": 48.6
-          },
-          {
             "date": "2020-09-28",
             "close": 0.6712,
             "inr_close": 49.48
@@ -1403899,11 +1403689,6 @@
         "name": "Motilal Oswal Midcap Fund",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.3551,
-            "inr_close": 26.1811
-          },
           {
             "date": "2020-09-28",
             "close": 0.3633,
@@ -1415260,6 +1415045,11 @@
             "date": "2026-10-22",
             "close": 0.1388,
             "inr_close": 13.09
+          },
+          {
+            "date": "2026-10-23",
+            "close": 0.1351,
+            "inr_close": 12.8
           }
         ]
       },
@@ -1415272,16 +1415062,6 @@
         "name": "Union Small Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-24",
-            "close": 0.218,
-            "inr_close": 16.07
-          },
-          {
-            "date": "2020-09-25",
-            "close": 0.223,
-            "inr_close": 16.44
-          },
           {
             "date": "2020-09-28",
             "close": 0.2286,
@@ -1422751,6 +1422531,11 @@
             "date": "2026-10-22",
             "close": 0.6581,
             "inr_close": 62.07
+          },
+          {
+            "date": "2026-10-23",
+            "close": 0.6396,
+            "inr_close": 60.58
           }
         ]
       },
@@ -1422763,11 +1422548,6 @@
         "name": "BANK OF INDIA SMALL CAP FUND - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1861,
-            "inr_close": 13.72
-          },
           {
             "date": "2020-09-28",
             "close": 0.1919,
@@ -1433741,11 +1433521,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 1.0704,
-            "inr_close": 78.908
-          },
-          {
             "date": "2020-09-28",
             "close": 1.0989,
             "inr_close": 81.0111
@@ -1441231,11 +1441006,6 @@
         "name": "ITI Small Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1291,
-            "inr_close": 9.5207
-          },
           {
             "date": "2020-09-28",
             "close": 0.1312,
@@ -1457470,11 +1457240,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.4345,
-            "inr_close": 32.0342
-          },
-          {
             "date": "2020-09-28",
             "close": 0.4447,
             "inr_close": 32.7804
@@ -1464965,11 +1464730,6 @@
         "name": "Invesco India Small Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1559,
-            "inr_close": 11.49
-          },
           {
             "date": "2020-09-28",
             "close": 0.1591,
@@ -1478895,6 +1478655,11 @@
             "date": "2026-10-22",
             "close": 0.1982,
             "inr_close": 18.69
+          },
+          {
+            "date": "2026-10-23",
+            "close": 0.1932,
+            "inr_close": 18.3
           }
         ]
       },
@@ -1478907,11 +1478672,6 @@
         "name": "Quant Small Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.8042,
-            "inr_close": 59.285
-          },
           {
             "date": "2020-09-28",
             "close": 0.8262,
@@ -1489299,11 +1489059,6 @@
         "name": "DSP Small Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.831,
-            "inr_close": 61.262
-          },
           {
             "date": "2020-09-28",
             "close": 0.85,
@@ -1502578,11 +1502333,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.1663,
-            "inr_close": 12.26
-          },
-          {
             "date": "2020-09-28",
             "close": 0.1715,
             "inr_close": 12.64
@@ -1510114,16 +1509864,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-24",
-            "close": 0.5886,
-            "inr_close": 43.3934
-          },
-          {
-            "date": "2020-09-25",
-            "close": 0.6002,
-            "inr_close": 44.25
-          },
-          {
             "date": "2020-09-28",
             "close": 0.6134,
             "inr_close": 45.2174
@@ -1517597,6 +1517337,11 @@
             "date": "2026-10-22",
             "close": 2.0554,
             "inr_close": 193.8491
+          },
+          {
+            "date": "2026-10-23",
+            "close": 1.9978,
+            "inr_close": 189.2104
           }
         ]
       },
@@ -1517609,11 +1517354,6 @@
         "name": "Edelweiss Small Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1684,
-            "inr_close": 12.417
-          },
           {
             "date": "2020-09-28",
             "close": 0.1735,
@@ -1528787,16 +1528527,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-24",
-            "close": 0.4693,
-            "inr_close": 34.6
-          },
-          {
-            "date": "2020-09-25",
-            "close": 0.4778,
-            "inr_close": 35.22
-          },
-          {
             "date": "2020-09-28",
             "close": 0.4878,
             "inr_close": 35.96
@@ -1536310,6 +1536040,11 @@
             "date": "2026-10-22",
             "close": 1.3499,
             "inr_close": 127.31
+          },
+          {
+            "date": "2026-10-23",
+            "close": 1.3163,
+            "inr_close": 124.67
           }
         ]
       },
@@ -1541143,11 +1540878,6 @@
         "name": "SBI SMALL CAP FUND - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.8476,
-            "inr_close": 62.4845
-          },
           {
             "date": "2020-09-28",
             "close": 0.8623,
@@ -1548684,11 +1548414,6 @@
         "name": "ICICI Prudential Small Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.3633,
-            "inr_close": 26.78
-          },
           {
             "date": "2020-09-28",
             "close": 0.3718,
@@ -1563377,11 +1563102,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.1575,
-            "inr_close": 11.61
-          },
-          {
             "date": "2020-09-28",
             "close": 0.1617,
             "inr_close": 11.92
@@ -1570872,11 +1570592,6 @@
         "name": "Franklin India Small Cap Fund - Direct Plan - Growth",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.6896,
-            "inr_close": 50.8397
-          },
           {
             "date": "2020-09-28",
             "close": 0.7065,
@@ -1578369,11 +1578084,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 1.1635,
-            "inr_close": 85.775
-          },
-          {
             "date": "2020-09-28",
             "close": 1.1882,
             "inr_close": 87.591
@@ -1585865,11 +1585575,6 @@
         "currency": "INR",
         "points": [
           {
-            "date": "2020-09-25",
-            "close": 0.5509,
-            "inr_close": 40.609
-          },
-          {
             "date": "2020-09-28",
             "close": 0.5632,
             "inr_close": 41.519
@@ -1593360,11 +1593065,6 @@
         "name": "Tata Small Cap Fund - Direct Plan - Growth Option",
         "currency": "INR",
         "points": [
-          {
-            "date": "2020-09-25",
-            "close": 0.1518,
-            "inr_close": 11.1896
-          },
           {
             "date": "2020-09-28",
             "close": 0.1543,
@@ -1604623,7 +1604323,7 @@
     }
   },
   "meta": {
-    "built_at": "2026-10-25T17:05:12.770413Z",
+    "built_at": "2026-10-25T19:18:38.007028Z",
     "return_basis": "inr_adjusted",
     "return_basis_label": "INR-adjusted",
     "period_basis": "yahoo_style_calendar",

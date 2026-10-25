@@ -1,5 +1,5 @@
 {
-  "refresh_key": "2026-10-24",
+  "refresh_key": "2026-10-25",
   "attempted_codes": [
     "118275",
     "118424",
@@ -9391,10 +9391,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 90.44
-        },
-        {
           "date": "2020-09-28",
           "close": 92.19
         },
@@ -18333,10 +18329,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 31.5379
-        },
-        {
           "date": "2020-09-28",
           "close": 32.2302
         },
@@ -24330,14 +24322,6 @@
       "scheme_category": "Equity Schemes - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-24",
-          "close": 35.939
-        },
-        {
-          "date": "2020-09-25",
-          "close": 36.811
-        },
-        {
           "date": "2020-09-28",
           "close": 37.495
         },
@@ -30316,6 +30300,10 @@
         {
           "date": "2026-10-22",
           "close": 90.49
+        },
+        {
+          "date": "2026-10-23",
+          "close": 89.75
         }
       ]
     },
@@ -30326,10 +30314,6 @@
       "fund_house": "PGIM India Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 16.37
-        },
         {
           "date": "2020-09-28",
           "close": 16.71
@@ -36324,10 +36308,6 @@
       "scheme_category": "Equity Schemes - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 86.63
-        },
-        {
           "date": "2020-09-28",
           "close": 88.508
         },
@@ -42320,10 +42300,6 @@
       "fund_house": "JM Financial Mutual Fund",
       "scheme_category": "Equity Schemes - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 32.284
-        },
         {
           "date": "2020-09-28",
           "close": 32.8603
@@ -54129,6 +54105,10 @@
         {
           "date": "2026-10-22",
           "close": 19.59
+        },
+        {
+          "date": "2026-10-23",
+          "close": 19.31
         }
       ]
     },
@@ -58557,10 +58537,6 @@
       "fund_house": "Tata Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 11.3581
-        },
         {
           "date": "2020-09-28",
           "close": 11.5309
@@ -64554,10 +64530,6 @@
       "fund_house": "Edelweiss Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 14.828
-        },
         {
           "date": "2020-09-28",
           "close": 15.074
@@ -71565,10 +71537,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 10.4819
-        },
-        {
           "date": "2020-09-28",
           "close": 10.6662
         },
@@ -77566,10 +77534,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 750.12
-        },
-        {
           "date": "2020-09-28",
           "close": 766.11
         },
@@ -83562,10 +83526,6 @@
       "fund_house": "SBI Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 48.8998
-        },
         {
           "date": "2020-09-28",
           "close": 49.9657
@@ -89587,10 +89547,6 @@
       "fund_house": "UTI Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 156.8312
-        },
         {
           "date": "2020-09-28",
           "close": 160.1778
@@ -100782,10 +100738,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 11.24
-        },
-        {
           "date": "2020-09-28",
           "close": 11.54
         },
@@ -106778,10 +106730,6 @@
       "fund_house": "Franklin Templeton Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 569.9255
-        },
         {
           "date": "2020-09-28",
           "close": 582.9589
@@ -112776,10 +112724,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 31.7158
-        },
-        {
           "date": "2020-09-28",
           "close": 32.6151
         },
@@ -118768,10 +118712,6 @@
       "fund_house": "Canara Robeco Mutual Fund",
       "scheme_category": "Equity Schemes - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 149.53
-        },
         {
           "date": "2020-09-28",
           "close": 152.19
@@ -124766,10 +124706,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 26.256
-        },
-        {
           "date": "2020-09-28",
           "close": 26.6828
         },
@@ -130762,10 +130698,6 @@
       "fund_house": "Axis Mutual Fund",
       "scheme_category": "Equity Schemes - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 12.48
-        },
         {
           "date": "2020-09-28",
           "close": 12.64
@@ -136792,10 +136724,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 41.956
-        },
-        {
           "date": "2020-09-28",
           "close": 42.728
         },
@@ -142788,10 +142716,6 @@
       "fund_house": "HDFC Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 585.831
-        },
         {
           "date": "2020-09-28",
           "close": 599.592
@@ -161609,10 +161533,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 21.52
-        },
-        {
           "date": "2020-09-28",
           "close": 21.94
         },
@@ -167601,10 +167521,6 @@
       "fund_house": "LIC Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 48.0506
-        },
         {
           "date": "2020-09-28",
           "close": 48.6404
@@ -191634,6 +191550,10 @@
         {
           "date": "2026-10-22",
           "close": 12.9
+        },
+        {
+          "date": "2026-10-23",
+          "close": 12.75
         }
       ]
     },
@@ -191644,10 +191564,6 @@
       "fund_house": "Shriram Mutual Fund",
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 10.4023
-        },
         {
           "date": "2020-09-28",
           "close": 10.5969
@@ -197642,10 +197558,6 @@
       "scheme_category": "Equity Scheme - Flexi Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 103.67
-        },
-        {
           "date": "2020-09-28",
           "close": 105.05
         },
@@ -203626,10 +203538,6 @@
       "fund_house": "Edelweiss Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 29.962
-        },
         {
           "date": "2020-09-28",
           "close": 30.805
@@ -211221,10 +211129,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 64.4883
-        },
-        {
           "date": "2020-09-28",
           "close": 65.6529
         },
@@ -217218,14 +217122,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-24",
-          "close": 111.9276
-        },
-        {
-          "date": "2020-09-25",
-          "close": 113.9081
-        },
-        {
           "date": "2020-09-28",
           "close": 117.0209
         },
@@ -223204,6 +223100,10 @@
         {
           "date": "2026-10-22",
           "close": 328.1167
+        },
+        {
+          "date": "2026-10-23",
+          "close": 321.3765
         }
       ]
     },
@@ -223214,10 +223114,6 @@
       "fund_house": "Union Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 15.55
-        },
         {
           "date": "2020-09-28",
           "close": 15.9
@@ -229207,10 +229103,6 @@
       "fund_house": "Invesco Mutual Fund",
       "scheme_category": "Equity Schemes - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 59.01
-        },
         {
           "date": "2020-09-28",
           "close": 60.54
@@ -238393,10 +238285,6 @@
       "fund_house": "SBI Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 78.0165
-        },
         {
           "date": "2020-09-28",
           "close": 79.893
@@ -248284,14 +248172,6 @@
       "scheme_category": "Equity Schemes - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-24",
-          "close": 95.44
-        },
-        {
-          "date": "2020-09-25",
-          "close": 97.64
-        },
-        {
           "date": "2020-09-28",
           "close": 99.73
         },
@@ -254270,6 +254150,10 @@
         {
           "date": "2026-10-22",
           "close": 347.57
+        },
+        {
+          "date": "2026-10-23",
+          "close": 339.97
         }
       ]
     },
@@ -258349,10 +258233,6 @@
       "fund_house": "Mahindra Manulife Mutual Fund",
       "scheme_category": "Equity Schemes - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 10.2322
-        },
         {
           "date": "2020-09-28",
           "close": 10.4522
@@ -272761,10 +272641,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 1202.2589
-        },
-        {
           "date": "2020-09-28",
           "close": 1230.8927
         },
@@ -278758,10 +278634,6 @@
       "scheme_category": "Equity Schemes - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 11.297
-        },
-        {
           "date": "2020-09-28",
           "close": 11.617
         },
@@ -284754,10 +284626,6 @@
       "fund_house": "Kotak Mahindra Mutual Fund",
       "scheme_category": "Equity Schemes - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 43.802
-        },
         {
           "date": "2020-09-28",
           "close": 44.768
@@ -300450,10 +300318,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 444.1115
-        },
-        {
           "date": "2020-09-28",
           "close": 454.7127
         },
@@ -306443,14 +306307,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-24",
-          "close": 150.0914
-        },
-        {
-          "date": "2020-09-25",
-          "close": 153.2726
-        },
-        {
           "date": "2020-09-28",
           "close": 157.1524
         },
@@ -312429,6 +312285,10 @@
         {
           "date": "2026-10-22",
           "close": 487.7977
+        },
+        {
+          "date": "2026-10-23",
+          "close": 480.2211
         }
       ]
     },
@@ -312439,10 +312299,6 @@
       "fund_house": "HDFC Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 56.375
-        },
         {
           "date": "2020-09-28",
           "close": 57.739
@@ -318436,10 +318292,6 @@
       "fund_house": "Axis Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 45.2
-        },
         {
           "date": "2020-09-28",
           "close": 46.13
@@ -324465,10 +324317,6 @@
       "fund_house": "DSP Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 63.905
-        },
         {
           "date": "2020-09-28",
           "close": 65.16
@@ -334296,10 +334144,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 277.95
-        },
-        {
           "date": "2020-09-28",
           "close": 283.54
         },
@@ -340292,10 +340136,6 @@
       "fund_house": "PGIM India Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 23.63
-        },
         {
           "date": "2020-09-28",
           "close": 24.32
@@ -346290,10 +346130,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 966.5111
-        },
-        {
           "date": "2020-09-28",
           "close": 987.6868
         },
@@ -352287,10 +352123,6 @@
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 48.6
-        },
-        {
           "date": "2020-09-28",
           "close": 49.48
         },
@@ -358271,10 +358103,6 @@
       "fund_house": "Motilal Oswal Mutual Fund",
       "scheme_category": "Equity Scheme - Mid Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 26.1811
-        },
         {
           "date": "2020-09-28",
           "close": 26.7812
@@ -367360,6 +367188,10 @@
         {
           "date": "2026-10-22",
           "close": 13.09
+        },
+        {
+          "date": "2026-10-23",
+          "close": 12.8
         }
       ]
     },
@@ -367370,14 +367202,6 @@
       "fund_house": "Union Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-24",
-          "close": 16.07
-        },
-        {
-          "date": "2020-09-25",
-          "close": 16.44
-        },
         {
           "date": "2020-09-28",
           "close": 16.85
@@ -373353,6 +373177,10 @@
         {
           "date": "2026-10-22",
           "close": 62.07
+        },
+        {
+          "date": "2026-10-23",
+          "close": 60.58
         }
       ]
     },
@@ -373363,10 +373191,6 @@
       "fund_house": "Bank of India Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 13.72
-        },
         {
           "date": "2020-09-28",
           "close": 14.15
@@ -382146,10 +381970,6 @@
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 78.908
-        },
-        {
           "date": "2020-09-28",
           "close": 81.0111
         },
@@ -388138,10 +387958,6 @@
       "fund_house": "ITI Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 9.5207
-        },
         {
           "date": "2020-09-28",
           "close": 9.67
@@ -401130,10 +400946,6 @@
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 32.0342
-        },
-        {
           "date": "2020-09-28",
           "close": 32.7804
         },
@@ -407126,10 +406938,6 @@
       "fund_house": "Invesco Mutual Fund",
       "scheme_category": "Equity Schemes - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 11.49
-        },
         {
           "date": "2020-09-28",
           "close": 11.73
@@ -418270,6 +418078,10 @@
         {
           "date": "2026-10-22",
           "close": 18.69
+        },
+        {
+          "date": "2026-10-23",
+          "close": 18.3
         }
       ]
     },
@@ -418280,10 +418092,6 @@
       "fund_house": "quant Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 59.285
-        },
         {
           "date": "2020-09-28",
           "close": 60.9089
@@ -426594,10 +426402,6 @@
       "fund_house": "DSP Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 61.262
-        },
         {
           "date": "2020-09-28",
           "close": 62.663
@@ -437218,10 +437022,6 @@
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 12.26
-        },
-        {
           "date": "2020-09-28",
           "close": 12.64
         },
@@ -443247,14 +443047,6 @@
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-24",
-          "close": 43.3934
-        },
-        {
-          "date": "2020-09-25",
-          "close": 44.25
-        },
-        {
           "date": "2020-09-28",
           "close": 45.2174
         },
@@ -449233,6 +449025,10 @@
         {
           "date": "2026-10-22",
           "close": 193.8491
+        },
+        {
+          "date": "2026-10-23",
+          "close": 189.2104
         }
       ]
     },
@@ -449243,10 +449039,6 @@
       "fund_house": "Edelweiss Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 12.417
-        },
         {
           "date": "2020-09-28",
           "close": 12.788
@@ -458186,14 +457978,6 @@
       "scheme_category": "Equity Schemes - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-24",
-          "close": 34.6
-        },
-        {
-          "date": "2020-09-25",
-          "close": 35.22
-        },
-        {
           "date": "2020-09-28",
           "close": 35.96
         },
@@ -464204,6 +463988,10 @@
         {
           "date": "2026-10-22",
           "close": 127.31
+        },
+        {
+          "date": "2026-10-23",
+          "close": 124.67
         }
       ]
     },
@@ -468071,10 +467859,6 @@
       "fund_house": "SBI Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 62.4845
-        },
         {
           "date": "2020-09-28",
           "close": 63.5663
@@ -474104,10 +473888,6 @@
       "fund_house": "ICICI Prudential Mutual Fund",
       "scheme_category": "Equity Schemes - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 26.78
-        },
         {
           "date": "2020-09-28",
           "close": 27.41
@@ -485859,10 +485639,6 @@
       "scheme_category": "Equity Schemes - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 11.61
-        },
-        {
           "date": "2020-09-28",
           "close": 11.92
         },
@@ -491855,10 +491631,6 @@
       "fund_house": "Franklin Templeton Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 50.8397
-        },
         {
           "date": "2020-09-28",
           "close": 52.0807
@@ -497853,10 +497625,6 @@
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 85.775
-        },
-        {
           "date": "2020-09-28",
           "close": 87.591
         },
@@ -503850,10 +503618,6 @@
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
         {
-          "date": "2020-09-25",
-          "close": 40.609
-        },
-        {
           "date": "2020-09-28",
           "close": 41.519
         },
@@ -509846,10 +509610,6 @@
       "fund_house": "Tata Mutual Fund",
       "scheme_category": "Equity Scheme - Small Cap Fund",
       "history": [
-        {
-          "date": "2020-09-25",
-          "close": 11.1896
-        },
         {
           "date": "2020-09-28",
           "close": 11.3765
