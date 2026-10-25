@@ -423,8 +423,8 @@ function renderComparisonSvg(series, startDate, endDate) {
   const dataMin = Math.min(100, ...values);
   const dataMax = Math.max(100, ...values);
   const spread = Math.max(dataMax - dataMin, 1.5);
-  const min = dataMin - spread * 0.12;
-  const max = dataMax + spread * 0.12;
+  const min = dataMin - spread * 0.2;
+  const max = dataMax + spread * 0.2;
   const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
   const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
   const ticks = Array.from({ length: 5 }, (_, index) => min + ((max - min) * index) / 4);
