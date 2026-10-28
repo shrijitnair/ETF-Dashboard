@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-28T15:43:49.328278Z",
+  "built_at": "2026-10-28T20:36:05.281471Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -152,5 +152,51 @@
       ]
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "source_ticker": "150346",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "118424",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "140353",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "119076",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "151379",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "120841",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "150815",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "119775",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    },
+    {
+      "source_ticker": "150404",
+      "stage": "mfapi",
+      "error": "The read operation timed out"
+    }
+  ]
 }
