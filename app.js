@@ -325,7 +325,6 @@ function renderIndexComparison() {
 
 function renderComparisonSection(section, range) {
   const { comparison } = section;
-  const zoomFactor = section.id === "indices" ? 0.5 : 1;
   return `
     <section class="comparison-section" aria-label="${escapeHtml(section.title)}">
       <h3>${escapeHtml(section.title)}</h3>
@@ -339,10 +338,10 @@ function renderComparisonSection(section, range) {
       </div>
       <div class="comparison-chart-card">
         <div class="comparison-chart-meta">
-          <span>Indexed value <b>100 = period start</b>${zoomFactor < 1 ? " · Zoomed to half range; extremes may be clipped" : ""}</span>
+          <span>Indexed value <b>100 = period start</b></span>
           <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparison.endDate)}</span>
         </div>
-        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, zoomFactor)}
+        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate)}
       </div>
     </section>
   `;
@@ -411,7 +410,7 @@ function getIndexComparisonData(range, definitions = INDEX_COMPARISON_SERIES) {
   return { series, startDate: anchorDate, endDate };
 }
 
-function renderComparisonSvg(series, startDate, endDate, zoomFactor = 1) {
+function renderComparisonSvg(series, startDate, endDate) {
   const width = 1000;
   const height = 470;
   const padding = { top: 24, right: 28, bottom: 28, left: 76 };
@@ -424,11 +423,9 @@ function renderComparisonSvg(series, startDate, endDate, zoomFactor = 1) {
   const dataMin = Math.min(100, ...values);
   const dataMax = Math.max(100, ...values);
   const spread = Math.max(dataMax - dataMin, 1.5);
-  const fullMin = dataMin - spread * 0.08;
-  const fullMax = dataMax + spread * 0.08;
-  const halfRange = ((fullMax - fullMin) * zoomFactor) / 2;
-  const min = zoomFactor < 1 ? 100 - halfRange : fullMin;
-  const max = zoomFactor < 1 ? 100 + halfRange : fullMax;
+  // Keep the full observed range in view, with breathing room for the smoothed line.
+  const min = dataMin - spread * 0.12;
+  const max = dataMax + spread * 0.12;
   const clipId = `comparison-plot-${series.map((entry) => entry.ticker).join("-").toLowerCase()}`;
   const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
   const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
