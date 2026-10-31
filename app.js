@@ -325,6 +325,7 @@ function renderIndexComparison() {
 
 function renderComparisonSection(section, range) {
   const { comparison } = section;
+  const fixedReturnRange = section.id === "indices" ? 30 : null;
   return `
     <section class="comparison-section" aria-label="${escapeHtml(section.title)}">
       <h3>${escapeHtml(section.title)}</h3>
@@ -338,10 +339,10 @@ function renderComparisonSection(section, range) {
       </div>
       <div class="comparison-chart-card">
         <div class="comparison-chart-meta">
-          <span>Indexed value <b>100 = period start</b></span>
+          <span>Indexed value <b>100 = period start</b>${fixedReturnRange ? ` · Scale −${fixedReturnRange}% to +${fixedReturnRange}%` : ""}</span>
           <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparison.endDate)}</span>
         </div>
-        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate)}
+        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, fixedReturnRange)}
       </div>
     </section>
   `;
@@ -410,7 +411,7 @@ function getIndexComparisonData(range, definitions = INDEX_COMPARISON_SERIES) {
   return { series, startDate: anchorDate, endDate };
 }
 
-function renderComparisonSvg(series, startDate, endDate) {
+function renderComparisonSvg(series, startDate, endDate, fixedReturnRange = null) {
   const width = 1000;
   const height = 470;
   const padding = { top: 24, right: 28, bottom: 28, left: 76 };
@@ -423,9 +424,8 @@ function renderComparisonSvg(series, startDate, endDate) {
   const dataMin = Math.min(100, ...values);
   const dataMax = Math.max(100, ...values);
   const spread = Math.max(dataMax - dataMin, 1.5);
-  // Keep the full observed range in view, with breathing room for the smoothed line.
-  const min = dataMin - spread * 0.12;
-  const max = dataMax + spread * 0.12;
+  const min = fixedReturnRange == null ? dataMin - spread * 0.12 : 100 - fixedReturnRange;
+  const max = fixedReturnRange == null ? dataMax + spread * 0.12 : 100 + fixedReturnRange;
   const clipId = `comparison-plot-${series.map((entry) => entry.ticker).join("-").toLowerCase()}`;
   const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
   const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
