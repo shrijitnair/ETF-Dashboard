@@ -279,7 +279,7 @@ function renderIndexComparison() {
     ...section,
     comparison: getIndexComparisonData(range, INDEX_COMPARISON_SERIES.filter((entry) => entry.group === section.id)),
   }));
-  const sharedReturnBounds = { min: 70, max: 140 };
+  const sharedReturnBounds = { min: -30, max: 40 };
   const currency = state.displayCurrency;
   elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
 
