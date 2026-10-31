@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-31T19:35:18.030528Z",
+  "built_at": "2026-10-31T22:47:56.746131Z",
   "tabs": [
     {
       "id": "us-etfs",
@@ -6448,7 +6448,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -6714,7 +6714,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-28"
             },
             {
@@ -7094,7 +7094,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -7132,7 +7132,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -7284,7 +7284,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -7322,7 +7322,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -7796,7 +7796,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -8024,7 +8024,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -8100,7 +8100,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-28"
             },
             {
@@ -8670,7 +8670,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {
@@ -8954,7 +8954,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-28"
             },
             {
@@ -9258,7 +9258,7 @@
               "ter": null,
               "ter_display": "N/A",
               "data_source": "MFAPI / AMFI NAV",
-              "data_status": "Stale",
+              "data_status": "Available",
               "data_date": "2026-10-29"
             },
             {

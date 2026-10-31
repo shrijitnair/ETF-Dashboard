@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-31T19:35:18.030528Z",
+  "built_at": "2026-10-31T22:47:56.746131Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -152,66 +152,5 @@
       ]
     }
   ],
-  "failures": [
-    {
-      "source_ticker": "120843",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "120166",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "133839",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "144546",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "148990",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "150571",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "120726",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "150815",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "118533",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "153728",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "145678",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    },
-    {
-      "source_ticker": "152237",
-      "stage": "mfapi",
-      "error": "The read operation timed out"
-    }
-  ]
+  "failures": []
 }
