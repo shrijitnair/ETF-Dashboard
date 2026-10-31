@@ -897,6 +897,95 @@
               "currency": "USD"
             }
           ]
+        },
+        {
+          "id": "pharmaceuticals",
+          "label": "Pharmaceuticals",
+          "items": [
+            {
+              "ticker": "LLY",
+              "source_ticker": "LLY",
+              "name": "Eli Lilly",
+              "exchange": "NYSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "ABBV",
+              "source_ticker": "ABBV",
+              "name": "AbbVie",
+              "exchange": "NYSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "MRK",
+              "source_ticker": "MRK",
+              "name": "Merck",
+              "exchange": "NYSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PFE",
+              "source_ticker": "PFE",
+              "name": "Pfizer",
+              "exchange": "NYSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "JNJ",
+              "source_ticker": "JNJ",
+              "name": "Johnson & Johnson",
+              "exchange": "NYSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "NVO",
+              "source_ticker": "NVO",
+              "name": "Novo Nordisk",
+              "exchange": "NYSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "biotechnology",
+          "label": "Biotechnology",
+          "items": [
+            {
+              "ticker": "AMGN",
+              "source_ticker": "AMGN",
+              "name": "Amgen",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "GILD",
+              "source_ticker": "GILD",
+              "name": "Gilead Sciences",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "REGN",
+              "source_ticker": "REGN",
+              "name": "Regeneron",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "VRTX",
+              "source_ticker": "VRTX",
+              "name": "Vertex Pharmaceuticals",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "MRNA",
+              "source_ticker": "MRNA",
+              "name": "Moderna",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            }
+          ]
         }
       ]
     },
