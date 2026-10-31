@@ -279,7 +279,7 @@ function renderIndexComparison() {
     ...section,
     comparison: getIndexComparisonData(range, INDEX_COMPARISON_SERIES.filter((entry) => entry.group === section.id)),
   }));
-  const sharedReturnBounds = { min: -30, max: 40 };
+  const equityReturnBounds = { min: -30, max: 40 };
   const currency = state.displayCurrency;
   elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
 
@@ -312,7 +312,11 @@ function renderIndexComparison() {
         `).join("")}
       </div>
     </div>
-    ${sections.map((section) => renderComparisonSection(section, range, sharedReturnBounds)).join("")}
+    ${sections.map((section) => renderComparisonSection(
+      section,
+      range,
+      section.id === "indices" ? equityReturnBounds : null,
+    )).join("")}
     <p class="comparison-footnote">NASDAQ-100 is used for the Nasdaq line. Gold and silver are futures per troy ounce; Brent is futures per barrel, so returns can differ from spot prices. Cross-market returns are converted to ${escapeHtml(currency)}.</p>
   `;
 
@@ -324,8 +328,11 @@ function renderIndexComparison() {
   });
 }
 
-function renderComparisonSection(section, range, sharedReturnBounds) {
+function renderComparisonSection(section, range, fixedReturnBounds) {
   const { comparison } = section;
+  const scaleDescription = fixedReturnBounds
+    ? "Fixed scale −30% to +40%"
+    : "Scale fits selected period";
   return `
     <section class="comparison-section" aria-label="${escapeHtml(section.title)}">
       <h3>${escapeHtml(section.title)}</h3>
@@ -339,10 +346,10 @@ function renderComparisonSection(section, range, sharedReturnBounds) {
       </div>
       <div class="comparison-chart-card">
         <div class="comparison-chart-meta">
-          <span>Indexed value <b>100 = period start</b> · Shared scale −30% to +40%</span>
+          <span>Indexed value <b>100 = period start</b> · ${scaleDescription}</span>
           <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparison.endDate)}</span>
         </div>
-        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, sharedReturnBounds)}
+        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, fixedReturnBounds)}
       </div>
     </section>
   `;
@@ -423,15 +430,15 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
   const values = series.flatMap((entry) => entry.points.map((point) => point.value));
   const dataMin = Math.min(100, ...values);
   const dataMax = Math.max(100, ...values);
-  const spread = Math.max(dataMax - dataMin, 1.5);
-  const min = fixedReturnBounds == null ? dataMin - spread * 0.12 : 100 + fixedReturnBounds.min;
-  const max = fixedReturnBounds == null ? dataMax + spread * 0.12 : 100 + fixedReturnBounds.max;
+  const dynamicBounds = fixedReturnBounds == null ? getNiceComparisonBounds(dataMin, dataMax) : null;
+  const min = dynamicBounds?.min ?? 100 + fixedReturnBounds.min;
+  const max = dynamicBounds?.max ?? 100 + fixedReturnBounds.max;
   const clipId = `comparison-plot-${series.map((entry) => entry.ticker).join("-").toLowerCase()}`;
   const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
   const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
   const ticks = fixedReturnBounds
     ? Array.from({ length: (fixedReturnBounds.max - fixedReturnBounds.min) / 10 + 1 }, (_, index) => 100 + fixedReturnBounds.min + index * 10)
-    : Array.from({ length: 5 }, (_, index) => min + ((max - min) * index) / 4);
+    : Array.from({ length: Math.round((max - min) / dynamicBounds.step) + 1 }, (_, index) => min + index * dynamicBounds.step);
   const hasZeroTick = ticks.some((value) => Math.abs(value - 100) < 0.01);
   const xTicks = Array.from({ length: 4 }, (_, index) => {
     const ratio = index / 3;
@@ -447,7 +454,7 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
         const isZero = Math.abs(value - 100) < 0.01;
         return `
           <line class="${isZero ? "comparison-baseline" : "comparison-gridline"}" x1="${padding.left}" y1="${y.toFixed(1)}" x2="${width - padding.right}" y2="${y.toFixed(1)}"></line>
-          <text class="comparison-y-label ${isZero ? "comparison-zero-label" : ""}" x="${padding.left - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end">${isZero ? "0%" : `${value > 100 ? "+" : ""}${(value - 100).toFixed(0)}%`}</text>
+          <text class="comparison-y-label ${isZero ? "comparison-zero-label" : ""}" x="${padding.left - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end">${formatComparisonReturnTick(value, fixedReturnBounds ? 0 : dynamicBounds.step < 1 ? 1 : 0)}</text>
         `;
       }).join("")}
       ${hasZeroTick ? "" : `
@@ -475,6 +482,29 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
       }).join("")}
     </svg>
   `;
+}
+
+function getNiceComparisonBounds(dataMin, dataMax) {
+  const spread = Math.max(dataMax - dataMin, 1.5);
+  const padding = Math.max(spread * 0.06, 0.75);
+  const paddedMin = dataMin - padding;
+  const paddedMax = dataMax + padding;
+  const rawStep = (paddedMax - paddedMin) / 5;
+  const magnitude = 10 ** Math.floor(Math.log10(rawStep));
+  const fraction = rawStep / magnitude;
+  const niceFraction = [1, 2, 5, 10].find((candidate) => candidate >= fraction) || 10;
+  const step = niceFraction * magnitude;
+  return {
+    min: Math.floor(paddedMin / step) * step,
+    max: Math.ceil(paddedMax / step) * step,
+    step,
+  };
+}
+
+function formatComparisonReturnTick(value, decimals) {
+  const change = value - 100;
+  if (Math.abs(change) < 0.01) return "0%";
+  return `${change > 0 ? "+" : ""}${change.toFixed(decimals)}%`;
 }
 
 function smoothLinePath(points) {
