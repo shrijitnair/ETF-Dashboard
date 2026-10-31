@@ -156,6 +156,47 @@
           ]
         },
         {
+          "id": "healthcare-pharma-biotech",
+          "label": "Healthcare, Pharma & Biotech",
+          "items": [
+            {
+              "ticker": "IHE",
+              "source_ticker": "IHE",
+              "name": "iShares U.S. Pharmaceuticals ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            },
+            {
+              "ticker": "FTXH",
+              "source_ticker": "FTXH",
+              "name": "First Trust Nasdaq Pharmaceuticals ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "PPH",
+              "source_ticker": "PPH",
+              "name": "VanEck Pharmaceutical ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "IBB",
+              "source_ticker": "IBB",
+              "name": "iShares Biotechnology ETF",
+              "exchange": "NASDAQ",
+              "currency": "USD"
+            },
+            {
+              "ticker": "XBI",
+              "source_ticker": "XBI",
+              "name": "State Street SPDR S&P Biotech ETF",
+              "exchange": "NYSE Arca",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
           "id": "energy-nuclear-clean-tech",
           "label": "Energy, Nuclear & Clean Tech",
           "items": [
@@ -465,6 +506,26 @@
               "ticker": "IUIT",
               "source_ticker": "IUIT.L",
               "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc)",
+              "exchange": "LSE",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "healthcare",
+          "label": "Healthcare",
+          "items": [
+            {
+              "ticker": "IUHC",
+              "source_ticker": "IUHC.L",
+              "name": "iShares S&P 500 Health Care Sector UCITS ETF",
+              "exchange": "LSE",
+              "currency": "USD"
+            },
+            {
+              "ticker": "BTEC",
+              "source_ticker": "BTEC.L",
+              "name": "iShares Nasdaq US Biotechnology UCITS ETF",
               "exchange": "LSE",
               "currency": "USD"
             }

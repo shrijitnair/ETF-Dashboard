@@ -686,7 +686,7 @@ function renderCell(row, column) {
         </div>
       `;
     case "last_price":
-      return `<strong>${formatPrice(getDisplayLastPrice(row), state.displayCurrency)}</strong>`;
+      return `<strong>${formatRowPrice(row)}</strong>`;
     case "aum":
       return row.aum ? `<span class="aum-pill">${escapeHtml(row.aum_display)}</span>` : `<span class="subdued">N/A</span>`;
     case "ter":
@@ -733,7 +733,7 @@ function renderDetail() {
     ? ((endValue / startValue) - 1) * 100
     : null;
 
-  elements.chartLast.textContent = formatPrice(getDisplayLastPrice(row), state.displayCurrency);
+  elements.chartLast.textContent = formatRowPrice(row);
   elements.chartChange.textContent = formatPercent(rangeChange, true);
   elements.chartChange.className = getChangeClass(rangeChange);
   elements.chartStart.textContent = rangedSeries[0]?.date || "--";
@@ -1055,6 +1055,17 @@ function formatPrice(value, currency) {
   } catch (error) {
     return `${(value || 0).toFixed(2)} ${currency || ""}`.trim();
   }
+}
+
+function formatRowPrice(row) {
+  const value = getDisplayLastPrice(row);
+  if (row.asset_type !== "index") {
+    return formatPrice(value, state.displayCurrency);
+  }
+  if (value == null) {
+    return "N/A";
+  }
+  return new Intl.NumberFormat(undefined, { maximumFractionDigits: 2 }).format(value);
 }
 
 function formatTer(value) {
