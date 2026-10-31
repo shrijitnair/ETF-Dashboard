@@ -610,6 +610,11 @@ tbody tr.active {
   margin-top: 24px;
 }
 
+.comparison-section {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
 .comparison-section h3 {
   margin: 0 0 12px;
   color: #dce7f5;
