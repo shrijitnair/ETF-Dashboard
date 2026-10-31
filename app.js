@@ -279,10 +279,7 @@ function renderIndexComparison() {
     ...section,
     comparison: getIndexComparisonData(range, INDEX_COMPARISON_SERIES.filter((entry) => entry.group === section.id)),
   }));
-  const largestMove = Math.max(0, ...sections.flatMap((section) =>
-    section.comparison.series.flatMap((entry) => entry.points.map((point) => Math.abs(point.value - 100)))
-  ));
-  const sharedReturnRange = Math.max(30, Math.ceil((largestMove * 1.1) / 10) * 10);
+  const sharedReturnBounds = { min: 70, max: 140 };
   const currency = state.displayCurrency;
   elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
 
@@ -315,7 +312,7 @@ function renderIndexComparison() {
         `).join("")}
       </div>
     </div>
-    ${sections.map((section) => renderComparisonSection(section, range, sharedReturnRange)).join("")}
+    ${sections.map((section) => renderComparisonSection(section, range, sharedReturnBounds)).join("")}
     <p class="comparison-footnote">NASDAQ-100 is used for the Nasdaq line. Gold and silver are futures per troy ounce; Brent is futures per barrel, so returns can differ from spot prices. Cross-market returns are converted to ${escapeHtml(currency)}.</p>
   `;
 
@@ -327,7 +324,7 @@ function renderIndexComparison() {
   });
 }
 
-function renderComparisonSection(section, range, sharedReturnRange) {
+function renderComparisonSection(section, range, sharedReturnBounds) {
   const { comparison } = section;
   return `
     <section class="comparison-section" aria-label="${escapeHtml(section.title)}">
@@ -342,10 +339,10 @@ function renderComparisonSection(section, range, sharedReturnRange) {
       </div>
       <div class="comparison-chart-card">
         <div class="comparison-chart-meta">
-          <span>Indexed value <b>100 = period start</b> · Shared scale −${sharedReturnRange}% to +${sharedReturnRange}%</span>
+          <span>Indexed value <b>100 = period start</b> · Shared scale −30% to +40%</span>
           <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparison.endDate)}</span>
         </div>
-        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, sharedReturnRange)}
+        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, sharedReturnBounds)}
       </div>
     </section>
   `;
@@ -414,7 +411,7 @@ function getIndexComparisonData(range, definitions = INDEX_COMPARISON_SERIES) {
   return { series, startDate: anchorDate, endDate };
 }
 
-function renderComparisonSvg(series, startDate, endDate, fixedReturnRange = null) {
+function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = null) {
   const width = 1000;
   const height = 470;
   const padding = { top: 24, right: 28, bottom: 28, left: 76 };
@@ -427,12 +424,14 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnRange = null
   const dataMin = Math.min(100, ...values);
   const dataMax = Math.max(100, ...values);
   const spread = Math.max(dataMax - dataMin, 1.5);
-  const min = fixedReturnRange == null ? dataMin - spread * 0.12 : 100 - fixedReturnRange;
-  const max = fixedReturnRange == null ? dataMax + spread * 0.12 : 100 + fixedReturnRange;
+  const min = fixedReturnBounds == null ? dataMin - spread * 0.12 : 100 + fixedReturnBounds.min;
+  const max = fixedReturnBounds == null ? dataMax + spread * 0.12 : 100 + fixedReturnBounds.max;
   const clipId = `comparison-plot-${series.map((entry) => entry.ticker).join("-").toLowerCase()}`;
   const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
   const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
-  const ticks = Array.from({ length: 5 }, (_, index) => min + ((max - min) * index) / 4);
+  const ticks = fixedReturnBounds
+    ? Array.from({ length: (fixedReturnBounds.max - fixedReturnBounds.min) / 10 + 1 }, (_, index) => 100 + fixedReturnBounds.min + index * 10)
+    : Array.from({ length: 5 }, (_, index) => min + ((max - min) * index) / 4);
   const hasZeroTick = ticks.some((value) => Math.abs(value - 100) < 0.01);
   const xTicks = Array.from({ length: 4 }, (_, index) => {
     const ratio = index / 3;
