@@ -279,6 +279,10 @@ function renderIndexComparison() {
     ...section,
     comparison: getIndexComparisonData(range, INDEX_COMPARISON_SERIES.filter((entry) => entry.group === section.id)),
   }));
+  const largestMove = Math.max(0, ...sections.flatMap((section) =>
+    section.comparison.series.flatMap((entry) => entry.points.map((point) => Math.abs(point.value - 100)))
+  ));
+  const sharedReturnRange = Math.max(30, Math.ceil((largestMove * 1.1) / 10) * 10);
   const currency = state.displayCurrency;
   elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
 
@@ -311,7 +315,7 @@ function renderIndexComparison() {
         `).join("")}
       </div>
     </div>
-    ${sections.map((section) => renderComparisonSection(section, range)).join("")}
+    ${sections.map((section) => renderComparisonSection(section, range, sharedReturnRange)).join("")}
     <p class="comparison-footnote">NASDAQ-100 is used for the Nasdaq line. Gold and silver are futures per troy ounce; Brent is futures per barrel, so returns can differ from spot prices. Cross-market returns are converted to ${escapeHtml(currency)}.</p>
   `;
 
@@ -323,9 +327,8 @@ function renderIndexComparison() {
   });
 }
 
-function renderComparisonSection(section, range) {
+function renderComparisonSection(section, range, sharedReturnRange) {
   const { comparison } = section;
-  const fixedReturnRange = section.id === "indices" ? 30 : null;
   return `
     <section class="comparison-section" aria-label="${escapeHtml(section.title)}">
       <h3>${escapeHtml(section.title)}</h3>
@@ -339,10 +342,10 @@ function renderComparisonSection(section, range) {
       </div>
       <div class="comparison-chart-card">
         <div class="comparison-chart-meta">
-          <span>Indexed value <b>100 = period start</b>${fixedReturnRange ? ` · Scale −${fixedReturnRange}% to +${fixedReturnRange}%` : ""}</span>
+          <span>Indexed value <b>100 = period start</b> · Shared scale −${sharedReturnRange}% to +${sharedReturnRange}%</span>
           <span>${escapeHtml(range.label)} <i>·</i> through ${escapeHtml(comparison.endDate)}</span>
         </div>
-        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, fixedReturnRange)}
+        ${renderComparisonSvg(comparison.series, comparison.startDate, comparison.endDate, sharedReturnRange)}
       </div>
     </section>
   `;
