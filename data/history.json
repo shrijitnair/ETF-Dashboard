@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-03T16:58:32.234597Z",
+  "built_at": "2026-11-03T22:14:58.733042Z",
   "series": {
     "us-etfs:VXUS": {
       "item_id": "us-etfs:VXUS",
@@ -10,11 +10,6 @@
       "name": "Vanguard Total International Stock Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 52.68,
-          "inr_close": 3922.3844
-        },
         {
           "date": "2020-11-04",
           "close": 53.5,
@@ -7542,8 +7537,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 82.365,
-          "inr_close": 7802.4365
+          "close": 82.25,
+          "inr_close": 7791.5428
         }
       ]
     },
@@ -7556,11 +7551,6 @@
       "name": "Vanguard FTSE Europe ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 51.79,
-          "inr_close": 3856.1179
-        },
         {
           "date": "2020-11-04",
           "close": 52.51,
@@ -15088,8 +15078,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 87.655,
-          "inr_close": 8303.5583
+          "close": 87.54,
+          "inr_close": 8292.6646
         }
       ]
     },
@@ -15102,11 +15092,6 @@
       "name": "iShares Core MSCI Europe ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 44.21,
-          "inr_close": 3291.7352
-        },
         {
           "date": "2020-11-04",
           "close": 44.94,
@@ -22634,8 +22619,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 74.455,
-          "inr_close": 7053.1226
+          "close": 74.34,
+          "inr_close": 7042.2281
         }
       ]
     },
@@ -22648,11 +22633,6 @@
       "name": "Vanguard Information Technology Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 38.0025,
-          "inr_close": 2829.5445
-        },
         {
           "date": "2020-11-04",
           "close": 39.505,
@@ -30180,8 +30160,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 115.515,
-          "inr_close": 10942.7363
+          "close": 115.28,
+          "inr_close": 10920.4747
         }
       ]
     },
@@ -30194,11 +30174,6 @@
       "name": "Global X Robotics & Artificial Intelligence ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 28.65,
-          "inr_close": 2133.1874
-        },
         {
           "date": "2020-11-04",
           "close": 29.12,
@@ -37726,8 +37701,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 32.42,
-          "inr_close": 3071.1465
+          "close": 32.32,
+          "inr_close": 3061.6737
         }
       ]
     },
@@ -37740,11 +37715,6 @@
       "name": "Global X Artificial Intelligence & Technology ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 23.68,
-          "inr_close": 1763.1371
-        },
         {
           "date": "2020-11-04",
           "close": 24.68,
@@ -45272,8 +45242,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 59.545,
-          "inr_close": 5640.6979
+          "close": 59.54,
+          "inr_close": 5640.2245
         }
       ]
     },
@@ -49768,8 +49738,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 62.865,
-          "inr_close": 5955.2018
+          "close": 62.4,
+          "inr_close": 5911.1524
         }
       ]
     },
@@ -49782,11 +49752,6 @@
       "name": "Defiance Quantum ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 33.94,
-          "inr_close": 2527.0638
-        },
         {
           "date": "2020-11-04",
           "close": 34.74,
@@ -57314,8 +57279,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 132.65,
-          "inr_close": 12565.9344
+          "close": 132.18,
+          "inr_close": 12521.4111
         }
       ]
     },
@@ -57328,11 +57293,6 @@
       "name": "ARK Autonomous Technology & Robotics ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 60.36,
-          "inr_close": 4494.2126
-        },
         {
           "date": "2020-11-04",
           "close": 61.476,
@@ -64860,8 +64820,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 111.12,
-          "inr_close": 10526.3982
+          "close": 110.95,
+          "inr_close": 10510.2936
         }
       ]
     },
@@ -64874,11 +64834,6 @@
       "name": "First Trust RBA American Industrial RenaissanceTM ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 28.015,
-          "inr_close": 2085.9073
-        },
         {
           "date": "2020-11-04",
           "close": 27.262,
@@ -72406,8 +72361,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 101.67,
-          "inr_close": 9631.1993
+          "close": 101.65,
+          "inr_close": 9629.305
         }
       ]
     },
@@ -74127,8 +74082,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 26.9,
-          "inr_close": 2548.2371
+          "close": 26.8,
+          "inr_close": 2538.764
         }
       ]
     },
@@ -74141,11 +74096,6 @@
       "name": "ARK Innovation ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 93.16,
-          "inr_close": 6936.396
-        },
         {
           "date": "2020-11-04",
           "close": 97.51,
@@ -81673,8 +81623,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 80.88,
-          "inr_close": 7661.7624
+          "close": 80.32,
+          "inr_close": 7608.7138
         }
       ]
     },
@@ -81687,11 +81637,6 @@
       "name": "iShares U.S. Aerospace & Defense ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 79.905,
-          "inr_close": 5949.4707
-        },
         {
           "date": "2020-11-04",
           "close": 79.87,
@@ -89219,8 +89164,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 217.65,
-          "inr_close": 20617.9847
+          "close": 216.17,
+          "inr_close": 20477.7847
         }
       ]
     },
@@ -89233,11 +89178,6 @@
       "name": "Invesco Aerospace & Defense ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 57.3,
-          "inr_close": 4266.3747
-        },
         {
           "date": "2020-11-04",
           "close": 57.37,
@@ -96765,8 +96705,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 163.115,
-          "inr_close": 15451.885
+          "close": 162.13,
+          "inr_close": 15358.5759
         }
       ]
     },
@@ -100716,8 +100656,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 63.675,
-          "inr_close": 6031.9329
+          "close": 63.38,
+          "inr_close": 6003.9877
         }
       ]
     },
@@ -100730,11 +100670,6 @@
       "name": "iShares Semiconductor ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 104.1167,
-          "inr_close": 7752.1942
-        },
         {
           "date": "2020-11-04",
           "close": 107.7567,
@@ -108262,8 +108197,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 468.51,
-          "inr_close": 44381.9548
+          "close": 465.0,
+          "inr_close": 44049.4516
         }
       ]
     },
@@ -108276,11 +108211,6 @@
       "name": "First Trust NASDAQ Cybersecurity ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 34.11,
-          "inr_close": 2539.7216
-        },
         {
           "date": "2020-11-04",
           "close": 35.54,
@@ -115808,8 +115738,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 97.8899,
-          "inr_close": 9273.1106
+          "close": 97.22,
+          "inr_close": 9209.651
         }
       ]
     },
@@ -116564,8 +116494,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 47.615,
-          "inr_close": 4510.5693
+          "close": 47.64,
+          "inr_close": 4512.9373
         }
       ]
     },
@@ -116578,11 +116508,6 @@
       "name": "iShares U.S. Pharmaceuticals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 54.3733,
-          "inr_close": 4048.4645
-        },
         {
           "date": "2020-11-04",
           "close": 56.4567,
@@ -124110,8 +124035,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 107.715,
-          "inr_close": 10203.842
+          "close": 106.72,
+          "inr_close": 10109.5861
         }
       ]
     },
@@ -124124,11 +124049,6 @@
       "name": "First Trust Nasdaq Pharmaceuticals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 23.71,
-          "inr_close": 1765.3707
-        },
         {
           "date": "2020-11-04",
           "close": 24.8,
@@ -131656,8 +131576,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 44.239,
-          "inr_close": 4190.7605
+          "close": 43.8736,
+          "inr_close": 4156.1463
         }
       ]
     },
@@ -131670,11 +131590,6 @@
       "name": "VanEck Pharmaceutical ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 61.15,
-          "inr_close": 4553.0336
-        },
         {
           "date": "2020-11-04",
           "close": 63.88,
@@ -139202,8 +139117,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 119.47,
-          "inr_close": 11317.3936
+          "close": 118.6,
+          "inr_close": 11234.9783
         }
       ]
     },
@@ -139216,11 +139131,6 @@
       "name": "iShares Biotechnology ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 132.69,
-          "inr_close": 9879.6733
-        },
         {
           "date": "2020-11-04",
           "close": 140.7,
@@ -146748,8 +146658,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 216.98,
-          "inr_close": 20554.5157
+          "close": 215.47,
+          "inr_close": 20411.4739
         }
       ]
     },
@@ -146762,11 +146672,6 @@
       "name": "State Street SPDR S&P Biotech ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 115.82,
-          "inr_close": 8623.5868
-        },
         {
           "date": "2020-11-04",
           "close": 122.95,
@@ -154294,8 +154199,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 155.8,
-          "inr_close": 14758.9348
+          "close": 154.97,
+          "inr_close": 14680.3087
         }
       ]
     },
@@ -154308,11 +154213,6 @@
       "name": "Vanguard Energy Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 39.96,
-          "inr_close": 2975.2938
-        },
         {
           "date": "2020-11-04",
           "close": 39.9,
@@ -161840,8 +161740,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 187.46,
-          "inr_close": 17758.0871
+          "close": 185.8,
+          "inr_close": 17600.8349
         }
       ]
     },
@@ -161854,11 +161754,6 @@
       "name": "Global X Uranium ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 11.03,
-          "inr_close": 821.2585
-        },
         {
           "date": "2020-11-04",
           "close": 10.75,
@@ -169386,8 +169281,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 33.02,
-          "inr_close": 3127.9848
+          "close": 33.05,
+          "inr_close": 3130.8265
         }
       ]
     },
@@ -169400,11 +169295,6 @@
       "name": "VanEck Uranium and Nuclear ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 46.89,
-          "inr_close": 3491.2794
-        },
         {
           "date": "2020-11-04",
           "close": 46.54,
@@ -176932,8 +176822,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 90.13,
-          "inr_close": 8538.0149
+          "close": 90.04,
+          "inr_close": 8529.4896
         }
       ]
     },
@@ -180433,8 +180323,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 57.0818,
-          "inr_close": 5407.359
+          "close": 57.12,
+          "inr_close": 5410.9777
         }
       ]
     },
@@ -180447,11 +180337,6 @@
       "name": "Global X Lithium & Battery Tech ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 45.25,
-          "inr_close": 3369.1703
-        },
         {
           "date": "2020-11-04",
           "close": 45.82,
@@ -187979,8 +187864,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 60.235,
-          "inr_close": 5706.0618
+          "close": 60.1,
+          "inr_close": 5693.2731
         }
       ]
     },
@@ -187993,11 +187878,6 @@
       "name": "iShares Global Clean Energy ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 20.15,
-          "inr_close": 1500.3045
-        },
         {
           "date": "2020-11-04",
           "close": 19.89,
@@ -195525,8 +195405,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 16.0201,
-          "inr_close": 1517.5841
+          "close": 16.11,
+          "inr_close": 1526.1004
         }
       ]
     },
@@ -195539,11 +195419,6 @@
       "name": "Global X Copper Miners ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 22.48,
-          "inr_close": 1673.7889
-        },
         {
           "date": "2020-11-04",
           "close": 22.19,
@@ -203071,8 +202946,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 71.77,
-          "inr_close": 6798.772
+          "close": 71.71,
+          "inr_close": 6793.0885
         }
       ]
     },
@@ -207302,8 +207177,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 46.6,
-          "inr_close": 4414.418
+          "close": 46.62,
+          "inr_close": 4416.3127
         }
       ]
     },
@@ -207316,11 +207191,6 @@
       "name": "iShares MSCI Global Metals & Mining Producers ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 27.74,
-          "inr_close": 2065.4317
-        },
         {
           "date": "2020-11-04",
           "close": 27.37,
@@ -214848,8 +214718,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 54.64,
-          "inr_close": 5176.0473
+          "close": 54.53,
+          "inr_close": 5165.627
         }
       ]
     },
@@ -214862,11 +214732,6 @@
       "name": "State Street SPDR S&P Metals & Mining ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 25.62,
-          "inr_close": 1907.5833
-        },
         {
           "date": "2020-11-04",
           "close": 24.32,
@@ -222394,8 +222259,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 97.49,
-          "inr_close": 9235.2278
+          "close": 96.76,
+          "inr_close": 9166.0753
         }
       ]
     },
@@ -222408,11 +222273,6 @@
       "name": "VanEck Rare Earth and Strategic Metals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 42.77,
-          "inr_close": 3184.5175
-        },
         {
           "date": "2020-11-04",
           "close": 43.82,
@@ -229940,8 +229800,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 49.765,
-          "inr_close": 4714.2386
+          "close": 49.73,
+          "inr_close": 4710.923
         }
       ]
     },
@@ -229954,11 +229814,6 @@
       "name": "VanEck Gold Miners ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 39.37,
-          "inr_close": 2931.3642
-        },
         {
           "date": "2020-11-04",
           "close": 38.47,
@@ -237486,8 +237341,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 78.11,
-          "inr_close": 7399.3606
+          "close": 77.6,
+          "inr_close": 7351.0481
         }
       ]
     },
@@ -237500,11 +237355,6 @@
       "name": "SPDR Gold Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 178.92,
-          "inr_close": 13321.8109
-        },
         {
           "date": "2020-11-04",
           "close": 178.82,
@@ -245032,8 +244882,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 359.78,
-          "inr_close": 34081.9605
+          "close": 359.26,
+          "inr_close": 34032.7019
         }
       ]
     },
@@ -245046,11 +244896,6 @@
       "name": "iShares Gold Trust",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 36.34,
-          "inr_close": 2705.7602
-        },
         {
           "date": "2020-11-04",
           "close": 36.36,
@@ -252578,8 +252423,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 73.765,
-          "inr_close": 6987.7586
+          "close": 73.67,
+          "inr_close": 6978.7592
         }
       ]
     },
@@ -252592,11 +252437,6 @@
       "name": "iShares Silver Trust",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 22.44,
-          "inr_close": 1670.8107
-        },
         {
           "date": "2020-11-04",
           "close": 22.24,
@@ -260124,8 +259964,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 44.86,
-          "inr_close": 4249.588
+          "close": 44.84,
+          "inr_close": 4247.6934
         }
       ]
     },
@@ -260138,11 +259978,6 @@
       "name": "abrdn Physical Palladium Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 42.998,
-          "inr_close": 3201.4937
-        },
         {
           "date": "2020-11-04",
           "close": 42.908,
@@ -267670,8 +267505,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 16.985,
-          "inr_close": 1608.9892
+          "close": 16.94,
+          "inr_close": 1604.7263
         }
       ]
     },
@@ -267684,11 +267519,6 @@
       "name": "abrdn Physical Platinum Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 8.171,
-          "inr_close": 608.3865
-        },
         {
           "date": "2020-11-04",
           "close": 8.169,
@@ -275216,8 +275046,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 12.91,
-          "inr_close": 1222.9643
+          "close": 12.82,
+          "inr_close": 1214.4386
         }
       ]
     },
@@ -275230,11 +275060,6 @@
       "name": "abrdn Physical Precious Metals Basket Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 95.16,
-          "inr_close": 7085.3096
-        },
         {
           "date": "2020-11-04",
           "close": 94.75,
@@ -282762,8 +282587,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 166.8025,
-          "inr_close": 15801.2019
+          "close": 166.73,
+          "inr_close": 15794.3331
         }
       ]
     },
@@ -286303,8 +286128,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 43.955,
-          "inr_close": 4163.8575
+          "close": 44.05,
+          "inr_close": 4172.8566
         }
       ]
     },
@@ -286317,11 +286142,6 @@
       "name": "VanEck Semiconductor ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 89.99,
-          "inr_close": 6700.3675
-        },
         {
           "date": "2020-11-04",
           "close": 93.29,
@@ -293849,8 +293669,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 521.535,
-          "inr_close": 49405.0098
+          "close": 518.52,
+          "inr_close": 49119.4032
         }
       ]
     },
@@ -494884,8 +494704,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 9.1978,
-          "inr_close": 871.2794
+          "close": 9.1949,
+          "inr_close": 870.9641
         }
       ]
     },
@@ -502470,8 +502290,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 76.2119,
-          "inr_close": 7219.354
+          "close": 76.1884,
+          "inr_close": 7216.7409
         }
       ]
     },
@@ -546226,11 +546046,6 @@
       "currency": "USD",
       "points": [
         {
-          "date": "2020-11-03",
-          "close": 110.44,
-          "inr_close": 8223.0094
-        },
-        {
           "date": "2020-11-04",
           "close": 114.95,
           "inr_close": 8581.6612
@@ -553757,8 +553572,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 331.115,
-          "inr_close": 31366.5241
+          "close": 331.9,
+          "inr_close": 31440.8875
         }
       ]
     },
@@ -553771,11 +553586,6 @@
       "name": "Alphabet",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 82.5105,
-          "inr_close": 6143.4678
-        },
         {
           "date": "2020-11-04",
           "close": 87.4565,
@@ -561303,8 +561113,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 278.1,
-          "inr_close": 26344.4145
+          "close": 278.27,
+          "inr_close": 26360.517
         }
       ]
     },
@@ -561317,11 +561127,6 @@
       "name": "Microsoft",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 206.43,
-          "inr_close": 15370.1172
-        },
         {
           "date": "2020-11-04",
           "close": 216.39,
@@ -568849,8 +568654,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 516.31,
-          "inr_close": 48910.0478
+          "close": 520.99,
+          "inr_close": 49353.3835
         }
       ]
     },
@@ -568863,11 +568668,6 @@
       "name": "Amazon",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 152.4205,
-          "inr_close": 11348.7432
-        },
         {
           "date": "2020-11-04",
           "close": 162.058,
@@ -576395,8 +576195,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 248.35,
-          "inr_close": 23526.1969
+          "close": 250.69,
+          "inr_close": 23747.8648
         }
       ]
     },
@@ -576409,11 +576209,6 @@
       "name": "Meta",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 265.3,
-          "inr_close": 19753.3888
-        },
         {
           "date": "2020-11-04",
           "close": 287.38,
@@ -583941,8 +583736,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 621.2617,
-          "inr_close": 58852.1247
+          "close": 621.03,
+          "inr_close": 58830.1768
         }
       ]
     },
@@ -583955,11 +583750,6 @@
       "name": "Tesla",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 141.3,
-          "inr_close": 10520.7464
-        },
         {
           "date": "2020-11-04",
           "close": 140.3267,
@@ -591487,8 +591277,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 398.9227,
-          "inr_close": 37789.9486
+          "close": 398.5,
+          "inr_close": 37749.9063
         }
       ]
     },
@@ -591501,11 +591291,6 @@
       "name": "Palantir",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 10.5,
-          "inr_close": 781.7964
-        },
         {
           "date": "2020-11-04",
           "close": 10.72,
@@ -599033,8 +598818,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 173.305,
-          "inr_close": 16417.1825
+          "close": 175.4,
+          "inr_close": 16615.642
         }
       ]
     },
@@ -599047,11 +598832,6 @@
       "name": "Oracle",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 56.8,
-          "inr_close": 4229.1463
-        },
         {
           "date": "2020-11-04",
           "close": 56.49,
@@ -606579,8 +606359,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 125.7868,
-          "inr_close": 11915.7837
+          "close": 126.19,
+          "inr_close": 11953.9794
         }
       ]
     },
@@ -606593,11 +606373,6 @@
       "name": "Broadcom",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 35.376,
-          "inr_close": 2633.9838
-        },
         {
           "date": "2020-11-04",
           "close": 36.463,
@@ -614125,8 +613900,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 332.46,
-          "inr_close": 31493.9361
+          "close": 332.13,
+          "inr_close": 31462.6765
         }
       ]
     },
@@ -614139,11 +613914,6 @@
       "name": "Intel",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 44.85,
-          "inr_close": 3339.3875
-        },
         {
           "date": "2020-11-04",
           "close": 45.7,
@@ -621671,8 +621441,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 60.79,
-          "inr_close": 5758.637
+          "close": 60.55,
+          "inr_close": 5735.9016
         }
       ]
     },
@@ -621685,11 +621455,6 @@
       "name": "Marvell",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 37.19,
-          "inr_close": 2769.0484
-        },
         {
           "date": "2020-11-04",
           "close": 39.16,
@@ -629217,8 +628982,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 168.525,
-          "inr_close": 15964.3732
+          "close": 171.97,
+          "inr_close": 16290.7188
         }
       ]
     },
@@ -629231,11 +628996,6 @@
       "name": "AMD",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 76.58,
-          "inr_close": 5701.9021
-        },
         {
           "date": "2020-11-04",
           "close": 81.35,
@@ -636763,8 +636523,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 490.535,
-          "inr_close": 46468.3825
+          "close": 483.9,
+          "inr_close": 45839.848
         }
       ]
     },
@@ -636777,11 +636537,6 @@
       "name": "NVIDIA",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 13.0195,
-          "inr_close": 969.3903
-        },
         {
           "date": "2020-11-04",
           "close": 13.7942,
@@ -644309,8 +644064,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 208.4,
-          "inr_close": 19741.7321
+          "close": 206.69,
+          "inr_close": 19579.7446
         }
       ]
     },
@@ -644323,11 +644078,6 @@
       "name": "Qualcomm",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 125.45,
-          "inr_close": 9340.6056
-        },
         {
           "date": "2020-11-04",
           "close": 128.97,
@@ -651855,8 +651605,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 164.21,
-          "inr_close": 15555.6145
+          "close": 164.43,
+          "inr_close": 15576.4538
         }
       ]
     },
@@ -651869,11 +651619,6 @@
       "name": "TSMC",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 87.69,
-          "inr_close": 6529.1172
-        },
         {
           "date": "2020-11-04",
           "close": 89.45,
@@ -659401,8 +659146,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 407.6,
-          "inr_close": 38611.9499
+          "close": 404.8,
+          "inr_close": 38346.7042
         }
       ]
     },
@@ -659415,11 +659160,6 @@
       "name": "Micron",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 51.08,
-          "inr_close": 3803.2536
-        },
         {
           "date": "2020-11-04",
           "close": 51.96,
@@ -666947,8 +666687,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 855.45,
-          "inr_close": 81036.7825
+          "close": 855.1,
+          "inr_close": 81003.6236
         }
       ]
     },
@@ -669123,8 +668863,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 1121.63,
-          "inr_close": 106252.0141
+          "close": 1126.52,
+          "inr_close": 106715.2452
         }
       ]
     },
@@ -669137,11 +668877,6 @@
       "name": "ASML",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 372.06,
-          "inr_close": 27702.3977
-        },
         {
           "date": "2020-11-04",
           "close": 383.0,
@@ -676669,8 +676404,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 1558.78,
-          "inr_close": 147663.2374
+          "close": 1552.14,
+          "inr_close": 147034.2288
         }
       ]
     },
@@ -676683,11 +676418,6 @@
       "name": "Applied Materials",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 61.83,
-          "inr_close": 4603.6642
-        },
         {
           "date": "2020-11-04",
           "close": 64.86,
@@ -684215,8 +683945,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 381.68,
-          "inr_close": 36156.547
+          "close": 381.92,
+          "inr_close": 36179.2842
         }
       ]
     },
@@ -684229,11 +683959,6 @@
       "name": "CrowdStrike",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 31.715,
-          "inr_close": 2361.3975
-        },
         {
           "date": "2020-11-04",
           "close": 34.08,
@@ -691761,8 +691486,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 247.08,
-          "inr_close": 23405.8894
+          "close": 244.68,
+          "inr_close": 23178.5365
         }
       ]
     },
@@ -691775,11 +691500,6 @@
       "name": "Walmart",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 47.5933,
-          "inr_close": 3543.6475
-        },
         {
           "date": "2020-11-04",
           "close": 47.32,
@@ -699307,8 +699027,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 125.36,
-          "inr_close": 11875.3533
+          "close": 124.86,
+          "inr_close": 11827.9883
         }
       ]
     },
@@ -699321,11 +699041,6 @@
       "name": "HP",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 18.62,
-          "inr_close": 1386.3857
-        },
         {
           "date": "2020-11-04",
           "close": 18.28,
@@ -706853,8 +706568,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 28.165,
-          "inr_close": 2668.0706
+          "close": 28.27,
+          "inr_close": 2678.0172
         }
       ]
     },
@@ -706867,11 +706582,6 @@
       "name": "Dell",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 31.2975,
-          "inr_close": 2330.313
-        },
         {
           "date": "2020-11-04",
           "close": 31.5408,
@@ -714399,8 +714109,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 408.13,
-          "inr_close": 38662.1567
+          "close": 408.4,
+          "inr_close": 38687.7328
         }
       ]
     },
@@ -714413,11 +714123,6 @@
       "name": "Arista",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 15.5931,
-          "inr_close": 1161.0143
-        },
         {
           "date": "2020-11-04",
           "close": 15.9025,
@@ -721945,8 +721650,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 169.275,
-          "inr_close": 16035.4207
+          "close": 169.91,
+          "inr_close": 16095.5752
         }
       ]
     },
@@ -721959,11 +721664,6 @@
       "name": "Super Micro",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 2.321,
-          "inr_close": 172.8142
-        },
         {
           "date": "2020-11-04",
           "close": 2.838,
@@ -729491,8 +729191,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 31.535,
-          "inr_close": 2987.3106
+          "close": 31.39,
+          "inr_close": 2973.5747
         }
       ]
     },
@@ -729505,11 +729205,6 @@
       "name": "Cisco",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 36.68,
-          "inr_close": 2731.0755
-        },
         {
           "date": "2020-11-04",
           "close": 36.57,
@@ -737037,8 +736732,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 103.1455,
-          "inr_close": 9770.9736
+          "close": 102.97,
+          "inr_close": 9754.3486
         }
       ]
     },
@@ -737051,11 +736746,6 @@
       "name": "Eli Lilly",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 130.98,
-          "inr_close": 9752.3517
-        },
         {
           "date": "2020-11-04",
           "close": 148.59,
@@ -744583,8 +744273,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 1423.48,
-          "inr_close": 134846.2633
+          "close": 1409.38,
+          "inr_close": 133510.5726
         }
       ]
     },
@@ -744597,11 +744287,6 @@
       "name": "AbbVie",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 87.96,
-          "inr_close": 6549.2203
-        },
         {
           "date": "2020-11-04",
           "close": 94.5,
@@ -752129,8 +751814,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 288.82,
-          "inr_close": 27359.9203
+          "close": 286.0,
+          "inr_close": 27092.781
         }
       ]
     },
@@ -752143,11 +751828,6 @@
       "name": "Merck",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 73.3969,
-          "inr_close": 5464.9022
-        },
         {
           "date": "2020-11-04",
           "close": 76.9275,
@@ -759675,8 +759355,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 145.28,
-          "inr_close": 13762.3748
+          "close": 144.67,
+          "inr_close": 13704.5894
         }
       ]
     },
@@ -759689,11 +759369,6 @@
       "name": "Pfizer",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 34.3359,
-          "inr_close": 2556.5384
-        },
         {
           "date": "2020-11-04",
           "close": 35.4175,
@@ -767221,8 +766896,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 30.4503,
-          "inr_close": 2884.557
+          "close": 30.0,
+          "inr_close": 2841.9001
         }
       ]
     },
@@ -767235,11 +766910,6 @@
       "name": "Johnson & Johnson",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 138.5,
-          "inr_close": 10312.2671
-        },
         {
           "date": "2020-11-04",
           "close": 139.4,
@@ -774767,8 +774437,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 268.42,
-          "inr_close": 25427.4288
+          "close": 266.17,
+          "inr_close": 25214.2863
         }
       ]
     },
@@ -774781,11 +774451,6 @@
       "name": "Novo Nordisk",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 32.63,
-          "inr_close": 2429.5255
-        },
         {
           "date": "2020-11-04",
           "close": 34.985,
@@ -782313,8 +781978,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 40.51,
-          "inr_close": 3837.5123
+          "close": 40.19,
+          "inr_close": 3807.1987
         }
       ]
     },
@@ -782327,11 +781992,6 @@
       "name": "Amgen",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 220.06,
-          "inr_close": 16384.9637
-        },
         {
           "date": "2020-11-04",
           "close": 230.33,
@@ -789859,8 +789519,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 464.23,
-          "inr_close": 43976.5105
+          "close": 461.26,
+          "inr_close": 43695.1623
         }
       ]
     },
@@ -789873,11 +789533,6 @@
       "name": "Gilead Sciences",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 58.83,
-          "inr_close": 4380.2938
-        },
         {
           "date": "2020-11-04",
           "close": 59.87,
@@ -797405,8 +797060,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 169.87,
-          "inr_close": 16091.7852
+          "close": 167.47,
+          "inr_close": 15864.4338
         }
       ]
     },
@@ -797419,11 +797074,6 @@
       "name": "Regeneron",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 557.19,
-          "inr_close": 41486.5859
-        },
         {
           "date": "2020-11-04",
           "close": 587.14,
@@ -804951,8 +804601,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 967.41,
-          "inr_close": 91642.75
+          "close": 973.36,
+          "inr_close": 92206.3947
         }
       ]
     },
@@ -804965,11 +804615,6 @@
       "name": "Vertex Pharmaceuticals",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 211.14,
-          "inr_close": 15720.8092
-        },
         {
           "date": "2020-11-04",
           "close": 215.09,
@@ -812497,8 +812142,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 536.05,
-          "inr_close": 50780.0171
+          "close": 530.76,
+          "inr_close": 50278.8975
         }
       ]
     },
@@ -812511,11 +812156,6 @@
       "name": "Moderna",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 69.08,
-          "inr_close": 5143.476
-        },
         {
           "date": "2020-11-04",
           "close": 69.81,
@@ -820043,8 +819683,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 232.705,
-          "inr_close": 22044.1456
+          "close": 228.44,
+          "inr_close": 21640.1222
         }
       ]
     },
@@ -956378,11 +956018,6 @@
           "date": "2026-11-02",
           "close": 246.9923,
           "inr_close": 23440.8008
-        },
-        {
-          "date": "2026-11-03",
-          "close": 251.3549,
-          "inr_close": 23810.8496
         }
       ]
     },
@@ -963794,11 +963429,6 @@
           "date": "2026-11-02",
           "close": 726.6493,
           "inr_close": 68962.6484
-        },
-        {
-          "date": "2026-11-03",
-          "close": 734.9768,
-          "inr_close": 69624.3516
         }
       ]
     },
@@ -971210,11 +970840,6 @@
           "date": "2026-11-02",
           "close": 579.5501,
           "inr_close": 55002.1992
-        },
-        {
-          "date": "2026-11-03",
-          "close": 586.2984,
-          "inr_close": 55540.0508
         }
       ]
     },
@@ -978596,11 +978221,6 @@
           "date": "2026-11-02",
           "close": 256.9106,
           "inr_close": 24382.0996
-        },
-        {
-          "date": "2026-11-03",
-          "close": 261.158,
-          "inr_close": 24739.5
         }
       ]
     },
@@ -985982,11 +985602,6 @@
           "date": "2026-11-02",
           "close": 234.3544,
           "inr_close": 22241.4004
-        },
-        {
-          "date": "2026-11-03",
-          "close": 237.732,
-          "inr_close": 22520.3496
         }
       ]
     },
@@ -993393,11 +993008,6 @@
           "date": "2026-11-02",
           "close": 224.5482,
           "inr_close": 21310.75
-        },
-        {
-          "date": "2026-11-03",
-          "close": 227.2073,
-          "inr_close": 21523.3496
         }
       ]
     },
@@ -1000779,11 +1000389,6 @@
           "date": "2026-11-02",
           "close": 176.1519,
           "inr_close": 16717.6992
-        },
-        {
-          "date": "2026-11-03",
-          "close": 178.4894,
-          "inr_close": 16908.3008
         }
       ]
     },
@@ -1008195,11 +1007800,6 @@
           "date": "2026-11-02",
           "close": 341.8418,
           "inr_close": 32442.5
-        },
-        {
-          "date": "2026-11-03",
-          "close": 343.625,
-          "inr_close": 32551.5996
         }
       ]
     },
@@ -1015606,11 +1015206,6 @@
           "date": "2026-11-02",
           "close": 285.6014,
           "inr_close": 27105.0
-        },
-        {
-          "date": "2026-11-03",
-          "close": 287.3271,
-          "inr_close": 27218.5
         }
       ]
     },
@@ -1015623,11 +1015218,6 @@
       "name": "S&P 500",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 3369.1599,
-          "inr_close": 250856.8737
-        },
         {
           "date": "2020-11-04",
           "close": 3443.4399,
@@ -1023155,8 +1022745,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 7578.77,
-          "inr_close": 717936.9094
+          "close": 7568.9199,
+          "inr_close": 717003.8096
         }
       ]
     },
@@ -1023169,11 +1022759,6 @@
       "name": "NASDAQ-100",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 11279.9102,
-          "inr_close": 839866.0412
-        },
         {
           "date": "2020-11-04",
           "close": 11777.0195,
@@ -1030701,8 +1030286,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 28231.5664,
-          "inr_close": 2674376.3804
+          "close": 28180.2637,
+          "inr_close": 2669516.4722
         }
       ]
     },
@@ -1030715,11 +1030300,6 @@
       "name": "Russell 2000",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-03",
-          "close": 1614.3,
-          "inr_close": 120195.6197
-        },
         {
           "date": "2020-11-04",
           "close": 1615.08,
@@ -1038247,8 +1037827,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 2826.1733,
-          "inr_close": 267723.41
+          "close": 2812.4473,
+          "inr_close": 266423.1389
         }
       ]
     },
@@ -1045828,8 +1045408,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 14274.2148,
-          "inr_close": 1352158.2762
+          "close": 14269.8116,
+          "inr_close": 1351668.8526
         }
       ]
     },
@@ -1053484,8 +1053064,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 28954.0115,
-          "inr_close": 2741409.0819
+          "close": 28957.2552,
+          "inr_close": 2742585.9663
         }
       ]
     },
@@ -1061045,8 +1060625,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 722.7807,
-          "inr_close": 68433.9524
+          "close": 722.8616,
+          "inr_close": 68463.331
         }
       ]
     },
@@ -1068606,8 +1068186,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 3937.5,
-          "inr_close": 372999.3882
+          "close": 3940.2,
+          "inr_close": 373255.1546
         }
       ]
     },
@@ -1076162,8 +1075742,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 49.695,
-          "inr_close": 4707.6075
+          "close": 49.81,
+          "inr_close": 4718.5016
         }
       ]
     },
@@ -1083723,8 +1083303,8 @@
         },
         {
           "date": "2026-11-03",
-          "close": 103.4,
-          "inr_close": 9795.0825
+          "close": 104.42,
+          "inr_close": 9891.7068
         }
       ]
     },
@@ -1090141,6 +1089721,16 @@
           "date": "2026-10-30",
           "close": 0.1763,
           "inr_close": 16.7714
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1791,
+          "inr_close": 16.9962
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1814,
+          "inr_close": 17.186
         }
       ]
     },
@@ -1095367,6 +1094957,16 @@
           "date": "2026-10-30",
           "close": 0.1917,
           "inr_close": 18.245
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.194,
+          "inr_close": 18.412
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1966,
+          "inr_close": 18.626
         }
       ]
     },
@@ -1102913,6 +1102513,16 @@
           "date": "2026-10-31",
           "close": 2.3376,
           "inr_close": 222.433
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.3742,
+          "inr_close": 225.325
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.4113,
+          "inr_close": 228.426
         }
       ]
     },
@@ -1106574,6 +1106184,16 @@
           "date": "2026-10-30",
           "close": 0.162,
           "inr_close": 15.41
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1648,
+          "inr_close": 15.64
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1675,
+          "inr_close": 15.87
         }
       ]
     },
@@ -1114070,6 +1113690,16 @@
           "date": "2026-10-30",
           "close": 1.2057,
           "inr_close": 114.7275
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.2288,
+          "inr_close": 116.6223
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.2433,
+          "inr_close": 117.7785
         }
       ]
     },
@@ -1121566,6 +1121196,16 @@
           "date": "2026-10-30",
           "close": 0.9641,
           "inr_close": 91.733
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.9804,
+          "inr_close": 93.041
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.9944,
+          "inr_close": 94.201
         }
       ]
     },
@@ -1129062,6 +1128702,16 @@
           "date": "2026-10-30",
           "close": 0.4405,
           "inr_close": 41.91
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.4473,
+          "inr_close": 42.45
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.455,
+          "inr_close": 43.1
         }
       ]
     },
@@ -1136558,6 +1136208,16 @@
           "date": "2026-10-30",
           "close": 2.6148,
           "inr_close": 248.8011
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.6584,
+          "inr_close": 252.2934
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.6947,
+          "inr_close": 255.2709
         }
       ]
     },
@@ -1144054,6 +1143714,16 @@
           "date": "2026-10-30",
           "close": 1.1355,
           "inr_close": 108.0429
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.1531,
+          "inr_close": 109.4373
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.1722,
+          "inr_close": 111.0434
         }
       ]
     },
@@ -1145585,6 +1145255,16 @@
           "date": "2026-10-30",
           "close": 0.1053,
           "inr_close": 10.0215
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1054,
+          "inr_close": 10.0007
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1063,
+          "inr_close": 10.0696
         }
       ]
     },
@@ -1151386,6 +1151066,16 @@
           "date": "2026-10-30",
           "close": 0.2099,
           "inr_close": 19.97
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2124,
+          "inr_close": 20.16
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2159,
+          "inr_close": 20.45
         }
       ]
     },
@@ -1152432,6 +1152122,16 @@
           "date": "2026-10-30",
           "close": 0.1101,
           "inr_close": 10.479
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1122,
+          "inr_close": 10.65
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.113,
+          "inr_close": 10.702
         }
       ]
     },
@@ -1156958,6 +1156658,16 @@
           "date": "2026-10-30",
           "close": 0.1722,
           "inr_close": 16.384
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1753,
+          "inr_close": 16.641
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1784,
+          "inr_close": 16.896
         }
       ]
     },
@@ -1164454,6 +1164164,16 @@
           "date": "2026-10-30",
           "close": 0.263,
           "inr_close": 25.0272
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2678,
+          "inr_close": 25.4151
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2713,
+          "inr_close": 25.6963
         }
       ]
     },
@@ -1171955,6 +1171675,16 @@
           "date": "2026-10-30",
           "close": 0.4554,
           "inr_close": 43.329
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.4631,
+          "inr_close": 43.949
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.4704,
+          "inr_close": 44.562
         }
       ]
     },
@@ -1173241,6 +1172971,16 @@
           "date": "2026-10-30",
           "close": 0.0982,
           "inr_close": 9.3435
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1003,
+          "inr_close": 9.5155
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1016,
+          "inr_close": 9.6247
         }
       ]
     },
@@ -1180742,6 +1180482,16 @@
           "date": "2026-10-30",
           "close": 0.2907,
           "inr_close": 27.6602
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2964,
+          "inr_close": 28.1323
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.3009,
+          "inr_close": 28.5044
         }
       ]
     },
@@ -1188238,6 +1187988,16 @@
           "date": "2026-10-30",
           "close": 22.2707,
           "inr_close": 2119.11
+        },
+        {
+          "date": "2026-11-02",
+          "close": 22.521,
+          "inr_close": 2137.36
+        },
+        {
+          "date": "2026-11-03",
+          "close": 22.8126,
+          "inr_close": 2161.04
         }
       ]
     },
@@ -1195774,6 +1195534,16 @@
           "date": "2026-10-31",
           "close": 1.2217,
           "inr_close": 116.2461
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.239,
+          "inr_close": 117.5826
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.2568,
+          "inr_close": 119.0555
         }
       ]
     },
@@ -1203270,6 +1203040,16 @@
           "date": "2026-10-30",
           "close": 3.5338,
           "inr_close": 336.2532
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.5837,
+          "inr_close": 340.1138
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3.6372,
+          "inr_close": 344.5516
         }
       ]
     },
@@ -1209791,6 +1209571,16 @@
           "date": "2026-10-30",
           "close": 0.2185,
           "inr_close": 20.79
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2201,
+          "inr_close": 20.89
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2239,
+          "inr_close": 21.21
         }
       ]
     },
@@ -1217287,6 +1217077,16 @@
           "date": "2026-10-30",
           "close": 0.4214,
           "inr_close": 40.1
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.4264,
+          "inr_close": 40.47
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.4308,
+          "inr_close": 40.81
         }
       ]
     },
@@ -1224783,6 +1224583,16 @@
           "date": "2026-10-30",
           "close": 17.9305,
           "inr_close": 1706.1334
+        },
+        {
+          "date": "2026-11-02",
+          "close": 18.1825,
+          "inr_close": 1725.6061
+        },
+        {
+          "date": "2026-11-03",
+          "close": 18.4861,
+          "inr_close": 1751.1871
         }
       ]
     },
@@ -1232274,6 +1232084,11 @@
           "date": "2026-10-30",
           "close": 0.9378,
           "inr_close": 89.2332
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.9456,
+          "inr_close": 89.7397
         }
       ]
     },
@@ -1239770,6 +1239585,16 @@
           "date": "2026-10-30",
           "close": 3.902,
           "inr_close": 371.28
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.9681,
+          "inr_close": 376.59
+        },
+        {
+          "date": "2026-11-03",
+          "close": 4.0358,
+          "inr_close": 382.31
         }
       ]
     },
@@ -1247266,6 +1247091,16 @@
           "date": "2026-10-30",
           "close": 0.7105,
           "inr_close": 67.6101
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.7209,
+          "inr_close": 68.4163
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.7278,
+          "inr_close": 68.944
         }
       ]
     },
@@ -1254802,6 +1254637,16 @@
           "date": "2026-10-30",
           "close": 0.3161,
           "inr_close": 30.08
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.3194,
+          "inr_close": 30.31
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.3233,
+          "inr_close": 30.63
         }
       ]
     },
@@ -1262298,6 +1262143,16 @@
           "date": "2026-10-30",
           "close": 1.1507,
           "inr_close": 109.494
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.1638,
+          "inr_close": 110.455
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.1835,
+          "inr_close": 112.116
         }
       ]
     },
@@ -1269794,6 +1269649,16 @@
           "date": "2026-10-30",
           "close": 22.9902,
           "inr_close": 2187.57
+        },
+        {
+          "date": "2026-11-02",
+          "close": 23.2568,
+          "inr_close": 2207.185
+        },
+        {
+          "date": "2026-11-03",
+          "close": 23.6208,
+          "inr_close": 2237.596
         }
       ]
     },
@@ -1276190,6 +1276055,16 @@
           "date": "2026-10-30",
           "close": 0.1721,
           "inr_close": 16.3717
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1748,
+          "inr_close": 16.5936
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1774,
+          "inr_close": 16.8057
         }
       ]
     },
@@ -1280726,6 +1280601,16 @@
           "date": "2026-10-30",
           "close": 0.2139,
           "inr_close": 20.3487
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2168,
+          "inr_close": 20.574
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2197,
+          "inr_close": 20.8129
         }
       ]
     },
@@ -1285897,6 +1285782,16 @@
           "date": "2026-10-30",
           "close": 0.1666,
           "inr_close": 15.8483
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1691,
+          "inr_close": 16.0481
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1713,
+          "inr_close": 16.2285
         }
       ]
     },
@@ -1293388,6 +1293283,16 @@
           "date": "2026-10-30",
           "close": 0.596,
           "inr_close": 56.71
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.6046,
+          "inr_close": 57.38
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.6124,
+          "inr_close": 58.01
         }
       ]
     },
@@ -1300884,6 +1300789,16 @@
           "date": "2026-10-30",
           "close": 1.1463,
           "inr_close": 109.0698
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.1662,
+          "inr_close": 110.6763
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.1815,
+          "inr_close": 111.9226
         }
       ]
     },
@@ -1306700,6 +1306615,16 @@
           "date": "2026-10-30",
           "close": 0.0995,
           "inr_close": 9.47
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1001,
+          "inr_close": 9.5
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1006,
+          "inr_close": 9.53
         }
       ]
     },
@@ -1311816,6 +1311741,16 @@
           "date": "2026-10-30",
           "close": 0.1508,
           "inr_close": 14.3481
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1533,
+          "inr_close": 14.5505
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1557,
+          "inr_close": 14.7538
         }
       ]
     },
@@ -1314927,6 +1314862,16 @@
           "date": "2026-10-30",
           "close": 0.1297,
           "inr_close": 12.34
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1314,
+          "inr_close": 12.47
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1332,
+          "inr_close": 12.62
         }
       ]
     },
@@ -1318883,6 +1318828,16 @@
           "date": "2026-10-30",
           "close": 0.1641,
           "inr_close": 15.617
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1669,
+          "inr_close": 15.835
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1691,
+          "inr_close": 16.023
         }
       ]
     },
@@ -1319714,6 +1319669,16 @@
           "date": "2026-10-30",
           "close": 0.108,
           "inr_close": 10.28
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1098,
+          "inr_close": 10.42
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1112,
+          "inr_close": 10.53
         }
       ]
     },
@@ -1323595,6 +1323560,16 @@
           "date": "2026-10-30",
           "close": 0.1363,
           "inr_close": 12.97
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1377,
+          "inr_close": 13.07
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1404,
+          "inr_close": 13.3
         }
       ]
     },
@@ -1331091,6 +1331066,16 @@
           "date": "2026-10-30",
           "close": 0.2258,
           "inr_close": 21.4814
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2289,
+          "inr_close": 21.7243
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2319,
+          "inr_close": 21.9648
         }
       ]
     },
@@ -1338577,6 +1338562,11 @@
           "date": "2026-11-02",
           "close": 2.5923,
           "inr_close": 246.02
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.62,
+          "inr_close": 248.19
         }
       ]
     },
@@ -1346078,6 +1346068,16 @@
           "date": "2026-10-30",
           "close": 1.2502,
           "inr_close": 118.956
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.2682,
+          "inr_close": 120.359
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.2832,
+          "inr_close": 121.554
         }
       ]
     },
@@ -1348094,6 +1348094,16 @@
           "date": "2026-10-30",
           "close": 0.1387,
           "inr_close": 13.2
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1413,
+          "inr_close": 13.41
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1435,
+          "inr_close": 13.59
         }
       ]
     },
@@ -1355590,6 +1355600,16 @@
           "date": "2026-10-30",
           "close": 2.4823,
           "inr_close": 236.1921
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.5288,
+          "inr_close": 239.9975
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.545,
+          "inr_close": 241.0898
         }
       ]
     },
@@ -1363086,6 +1363106,16 @@
           "date": "2026-10-30",
           "close": 3.4516,
           "inr_close": 328.4311
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.4993,
+          "inr_close": 332.1009
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3.5285,
+          "inr_close": 334.2582
         }
       ]
     },
@@ -1370577,6 +1370607,16 @@
           "date": "2026-10-30",
           "close": 0.5612,
           "inr_close": 53.4
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.5704,
+          "inr_close": 54.13
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.5772,
+          "inr_close": 54.68
         }
       ]
     },
@@ -1378073,6 +1378113,16 @@
           "date": "2026-10-30",
           "close": 2.3528,
           "inr_close": 223.87
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.3881,
+          "inr_close": 226.64
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.4192,
+          "inr_close": 229.17
         }
       ]
     },
@@ -1382084,6 +1382134,16 @@
           "date": "2026-10-30",
           "close": 0.3355,
           "inr_close": 31.9207
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.3413,
+          "inr_close": 32.391
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.3463,
+          "inr_close": 32.8003
         }
       ]
     },
@@ -1389630,6 +1389690,16 @@
           "date": "2026-10-31",
           "close": 2.625,
           "inr_close": 249.7708
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.6752,
+          "inr_close": 253.886
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.7076,
+          "inr_close": 256.4939
         }
       ]
     },
@@ -1394476,6 +1394546,16 @@
           "date": "2026-10-30",
           "close": 5.2788,
           "inr_close": 502.2936
+        },
+        {
+          "date": "2026-11-02",
+          "close": 5.3343,
+          "inr_close": 506.2518
+        },
+        {
+          "date": "2026-11-03",
+          "close": 5.3604,
+          "inr_close": 507.7909
         }
       ]
     },
@@ -1401972,6 +1402052,16 @@
           "date": "2026-10-30",
           "close": 3.6985,
           "inr_close": 351.92
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.7593,
+          "inr_close": 356.78
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3.8141,
+          "inr_close": 361.31
         }
       ]
     },
@@ -1407083,6 +1407173,16 @@
           "date": "2026-10-30",
           "close": 0.231,
           "inr_close": 21.982
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2335,
+          "inr_close": 22.162
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2358,
+          "inr_close": 22.333
         }
       ]
     },
@@ -1414579,6 +1414679,16 @@
           "date": "2026-10-30",
           "close": 0.3941,
           "inr_close": 37.497
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.4012,
+          "inr_close": 38.0803
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.405,
+          "inr_close": 38.368
         }
       ]
     },
@@ -1420295,6 +1420405,16 @@
           "date": "2026-10-30",
           "close": 1.3128,
           "inr_close": 124.9134
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.3287,
+          "inr_close": 126.1033
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.3442,
+          "inr_close": 127.335
         }
       ]
     },
@@ -1425146,6 +1425266,16 @@
           "date": "2026-10-30",
           "close": 0.2185,
           "inr_close": 20.7892
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2214,
+          "inr_close": 21.0135
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2253,
+          "inr_close": 21.3434
         }
       ]
     },
@@ -1432642,6 +1432772,16 @@
           "date": "2026-10-30",
           "close": 48.4614,
           "inr_close": 4611.2203
+        },
+        {
+          "date": "2026-11-02",
+          "close": 49.1847,
+          "inr_close": 4667.8739
+        },
+        {
+          "date": "2026-11-03",
+          "close": 49.8372,
+          "inr_close": 4721.0805
         }
       ]
     },
@@ -1440138,6 +1440278,16 @@
           "date": "2026-10-30",
           "close": 0.4227,
           "inr_close": 40.224
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.43,
+          "inr_close": 40.813
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.4345,
+          "inr_close": 41.158
         }
       ]
     },
@@ -1447634,6 +1447784,16 @@
           "date": "2026-10-30",
           "close": 1.6291,
           "inr_close": 155.011
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.6592,
+          "inr_close": 157.467
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.674,
+          "inr_close": 158.582
         }
       ]
     },
@@ -1452860,6 +1453020,16 @@
           "date": "2026-10-31",
           "close": 0.2032,
           "inr_close": 19.333
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2055,
+          "inr_close": 19.507
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2078,
+          "inr_close": 19.684
         }
       ]
     },
@@ -1459811,6 +1459981,16 @@
           "date": "2026-10-30",
           "close": 0.2474,
           "inr_close": 23.543
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2506,
+          "inr_close": 23.7865
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2529,
+          "inr_close": 23.9589
         }
       ]
     },
@@ -1467302,6 +1467482,16 @@
           "date": "2026-10-30",
           "close": 15.8496,
           "inr_close": 1508.1232
+        },
+        {
+          "date": "2026-11-02",
+          "close": 16.091,
+          "inr_close": 1527.1205
+        },
+        {
+          "date": "2026-11-03",
+          "close": 16.287,
+          "inr_close": 1542.8668
         }
       ]
     },
@@ -1474798,6 +1474988,16 @@
           "date": "2026-10-30",
           "close": 5.1761,
           "inr_close": 492.5189
+        },
+        {
+          "date": "2026-11-02",
+          "close": 5.2572,
+          "inr_close": 498.9366
+        },
+        {
+          "date": "2026-11-03",
+          "close": 5.339,
+          "inr_close": 505.762
         }
       ]
     },
@@ -1482294,6 +1482494,16 @@
           "date": "2026-10-30",
           "close": 2.2699,
           "inr_close": 215.986
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.2994,
+          "inr_close": 218.226
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.3233,
+          "inr_close": 220.09
         }
       ]
     },
@@ -1489830,6 +1490040,16 @@
           "date": "2026-10-30",
           "close": 1.4342,
           "inr_close": 136.47
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.453,
+          "inr_close": 137.9
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.4709,
+          "inr_close": 139.34
         }
       ]
     },
@@ -1497326,6 +1497546,16 @@
           "date": "2026-10-30",
           "close": 1.6817,
           "inr_close": 160.022
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.712,
+          "inr_close": 162.474
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.7308,
+          "inr_close": 163.956
         }
       ]
     },
@@ -1502142,6 +1502372,16 @@
           "date": "2026-10-30",
           "close": 0.1896,
           "inr_close": 18.04
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1924,
+          "inr_close": 18.26
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1948,
+          "inr_close": 18.45
         }
       ]
     },
@@ -1509638,6 +1509878,16 @@
           "date": "2026-10-30",
           "close": 9.2034,
           "inr_close": 875.73
+        },
+        {
+          "date": "2026-11-02",
+          "close": 9.3355,
+          "inr_close": 885.99
+        },
+        {
+          "date": "2026-11-03",
+          "close": 9.4454,
+          "inr_close": 894.76
         }
       ]
     },
@@ -1517134,6 +1517384,16 @@
           "date": "2026-10-30",
           "close": 0.7662,
           "inr_close": 72.91
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.7788,
+          "inr_close": 73.91
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.7896,
+          "inr_close": 74.8
         }
       ]
     },
@@ -1524630,6 +1524890,16 @@
           "date": "2026-10-30",
           "close": 30.5179,
           "inr_close": 2903.8492
+        },
+        {
+          "date": "2026-11-02",
+          "close": 31.0163,
+          "inr_close": 2943.6022
+        },
+        {
+          "date": "2026-11-03",
+          "close": 31.3047,
+          "inr_close": 2965.4908
         }
       ]
     },
@@ -1532116,6 +1532386,11 @@
           "date": "2026-11-02",
           "close": 1.3859,
           "inr_close": 131.53
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.3905,
+          "inr_close": 131.72
         }
       ]
     },
@@ -1539612,6 +1539887,16 @@
           "date": "2026-10-30",
           "close": 1.1711,
           "inr_close": 111.4372
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.1908,
+          "inr_close": 113.0103
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.2091,
+          "inr_close": 114.5393
         }
       ]
     },
@@ -1541078,6 +1541363,16 @@
           "date": "2026-10-30",
           "close": 0.1046,
           "inr_close": 9.95
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1059,
+          "inr_close": 10.05
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1071,
+          "inr_close": 10.15
         }
       ]
     },
@@ -1543544,6 +1543839,16 @@
           "date": "2026-10-30",
           "close": 0.1401,
           "inr_close": 13.33
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1402,
+          "inr_close": 13.31
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1409,
+          "inr_close": 13.35
         }
       ]
     },
@@ -1551035,6 +1551340,16 @@
           "date": "2026-10-30",
           "close": 0.6577,
           "inr_close": 62.58
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.662,
+          "inr_close": 62.83
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.6692,
+          "inr_close": 63.39
         }
       ]
     },
@@ -1558531,6 +1558846,16 @@
           "date": "2026-10-30",
           "close": 0.6498,
           "inr_close": 61.83
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.6575,
+          "inr_close": 62.4
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.6628,
+          "inr_close": 62.79
         }
       ]
     },
@@ -1562037,6 +1562362,16 @@
           "date": "2026-10-30",
           "close": 0.1731,
           "inr_close": 16.4684
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1751,
+          "inr_close": 16.615
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1761,
+          "inr_close": 16.6851
         }
       ]
     },
@@ -1569528,6 +1569863,16 @@
           "date": "2026-10-30",
           "close": 3.2111,
           "inr_close": 305.541
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.2458,
+          "inr_close": 308.0383
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3.2787,
+          "inr_close": 310.5946
         }
       ]
     },
@@ -1577019,6 +1577364,16 @@
           "date": "2026-10-30",
           "close": 0.3791,
           "inr_close": 36.0751
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.3826,
+          "inr_close": 36.3089
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.3853,
+          "inr_close": 36.4991
         }
       ]
     },
@@ -1581030,6 +1581385,16 @@
           "date": "2026-10-30",
           "close": 0.3904,
           "inr_close": 37.1474
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.3967,
+          "inr_close": 37.6523
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.4003,
+          "inr_close": 37.9186
         }
       ]
     },
@@ -1585816,6 +1586181,16 @@
           "date": "2026-10-30",
           "close": 0.2353,
           "inr_close": 22.3851
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2392,
+          "inr_close": 22.7019
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2411,
+          "inr_close": 22.8388
         }
       ]
     },
@@ -1593312,6 +1593687,16 @@
           "date": "2026-10-30",
           "close": 1.1311,
           "inr_close": 107.6267
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.1428,
+          "inr_close": 108.457
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.1528,
+          "inr_close": 109.204
         }
       ]
     },
@@ -1600808,6 +1601193,16 @@
           "date": "2026-10-30",
           "close": 0.537,
           "inr_close": 51.1
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.5459,
+          "inr_close": 51.81
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.5514,
+          "inr_close": 52.23
         }
       ]
     },
@@ -1607284,6 +1607679,16 @@
           "date": "2026-10-30",
           "close": 0.1977,
           "inr_close": 18.81
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2008,
+          "inr_close": 19.06
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2039,
+          "inr_close": 19.32
         }
       ]
     },
@@ -1614780,6 +1615185,16 @@
           "date": "2026-10-30",
           "close": 3.1289,
           "inr_close": 297.724
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.1664,
+          "inr_close": 300.5114
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3.1917,
+          "inr_close": 302.3456
         }
       ]
     },
@@ -1617701,6 +1618116,16 @@
           "date": "2026-10-30",
           "close": 0.1161,
           "inr_close": 11.0434
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1174,
+          "inr_close": 11.1416
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.119,
+          "inr_close": 11.2703
         }
       ]
     },
@@ -1625197,6 +1625622,16 @@
           "date": "2026-10-30",
           "close": 2.4931,
           "inr_close": 237.226
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.5233,
+          "inr_close": 239.478
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.5427,
+          "inr_close": 240.873
         }
       ]
     },
@@ -1627353,6 +1627788,16 @@
           "date": "2026-10-30",
           "close": 0.1257,
           "inr_close": 11.957
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1271,
+          "inr_close": 12.065
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1285,
+          "inr_close": 12.174
         }
       ]
     },
@@ -1631029,6 +1631474,16 @@
           "date": "2026-10-30",
           "close": 0.1355,
           "inr_close": 12.89
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1379,
+          "inr_close": 13.09
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1396,
+          "inr_close": 13.22
         }
       ]
     },
@@ -1638570,6 +1639025,16 @@
           "date": "2026-10-31",
           "close": 0.5594,
           "inr_close": 53.228
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.5684,
+          "inr_close": 53.947
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.5714,
+          "inr_close": 54.13
         }
       ]
     },
@@ -1646066,6 +1646531,16 @@
           "date": "2026-10-30",
           "close": 2.0258,
           "inr_close": 192.758
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.0599,
+          "inr_close": 195.4973
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.075,
+          "inr_close": 196.5637
         }
       ]
     },
@@ -1653567,6 +1654042,16 @@
           "date": "2026-10-30",
           "close": 0.5162,
           "inr_close": 49.122
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.5233,
+          "inr_close": 49.66
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.5264,
+          "inr_close": 49.867
         }
       ]
     },
@@ -1657268,6 +1657753,16 @@
           "date": "2026-10-30",
           "close": 0.1444,
           "inr_close": 13.7399
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1462,
+          "inr_close": 13.8788
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1477,
+          "inr_close": 13.9945
         }
       ]
     },
@@ -1664804,6 +1665299,16 @@
           "date": "2026-10-30",
           "close": 1.3344,
           "inr_close": 126.97
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.3524,
+          "inr_close": 128.35
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.3643,
+          "inr_close": 129.24
         }
       ]
     },
@@ -1669650,6 +1670155,16 @@
           "date": "2026-10-30",
           "close": 0.98,
           "inr_close": 93.2503
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.9966,
+          "inr_close": 94.5847
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.0046,
+          "inr_close": 95.17
         }
       ]
     },
@@ -1677196,6 +1677711,16 @@
           "date": "2026-10-31",
           "close": 2.0796,
           "inr_close": 197.8812
+        },
+        {
+          "date": "2026-11-02",
+          "close": 2.1159,
+          "inr_close": 200.8122
+        },
+        {
+          "date": "2026-11-03",
+          "close": 2.1306,
+          "inr_close": 201.8271
         }
       ]
     },
@@ -1684692,6 +1685217,16 @@
           "date": "2026-10-30",
           "close": 1.0058,
           "inr_close": 95.7
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.0215,
+          "inr_close": 96.95
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.0311,
+          "inr_close": 97.68
         }
       ]
     },
@@ -1691913,6 +1692448,16 @@
           "date": "2026-10-30",
           "close": 0.2908,
           "inr_close": 27.6725
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.2953,
+          "inr_close": 28.0235
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.2969,
+          "inr_close": 28.1208
         }
       ]
     },
@@ -1699409,6 +1699954,16 @@
           "date": "2026-10-30",
           "close": 0.4386,
           "inr_close": 41.73
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.4455,
+          "inr_close": 42.28
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.4485,
+          "inr_close": 42.49
         }
       ]
     },
@@ -1706905,6 +1707460,16 @@
           "date": "2026-10-30",
           "close": 1.9463,
           "inr_close": 185.1973
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.9718,
+          "inr_close": 187.1378
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.9801,
+          "inr_close": 187.573
         }
       ]
     },
@@ -1714401,6 +1714966,16 @@
           "date": "2026-10-30",
           "close": 3.1616,
           "inr_close": 300.837
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3.2,
+          "inr_close": 303.698
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3.2302,
+          "inr_close": 305.996
         }
       ]
     },
@@ -1721897,6 +1722472,16 @@
           "date": "2026-10-30",
           "close": 1.5619,
           "inr_close": 148.615
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1.5861,
+          "inr_close": 150.528
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1.5858,
+          "inr_close": 150.219
         }
       ]
     },
@@ -1729393,6 +1729978,16 @@
           "date": "2026-10-30",
           "close": 0.4194,
           "inr_close": 39.9037
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.4273,
+          "inr_close": 40.5517
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.4306,
+          "inr_close": 40.7953
         }
       ]
     },
@@ -1730974,6 +1731569,16 @@
           "date": "2026-10-30",
           "close": 0.1122,
           "inr_close": 10.674
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1138,
+          "inr_close": 10.801
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1141,
+          "inr_close": 10.812
         }
       ]
     },
@@ -1732125,6 +1732730,16 @@
           "date": "2026-10-30",
           "close": 0.1142,
           "inr_close": 10.87
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1162,
+          "inr_close": 11.03
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1176,
+          "inr_close": 11.14
         }
       ]
     },
@@ -1733241,6 +1733856,16 @@
           "date": "2026-10-30",
           "close": 0.1277,
           "inr_close": 12.15
+        },
+        {
+          "date": "2026-11-02",
+          "close": 0.1275,
+          "inr_close": 12.1
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.1284,
+          "inr_close": 12.16
         }
       ]
     }
