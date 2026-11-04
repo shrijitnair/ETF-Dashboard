@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-04T17:31:38.347115Z",
+  "built_at": "2026-11-04T22:51:44.854175Z",
   "series": {
     "us-etfs:VXUS": {
       "item_id": "us-etfs:VXUS",
@@ -10,11 +10,6 @@
       "name": "Vanguard Total International Stock Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 53.5,
-          "inr_close": 3994.0747
-        },
         {
           "date": "2020-11-05",
           "close": 54.66,
@@ -7542,8 +7537,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 84.015,
-          "inr_close": 7950.3392
+          "close": 83.88,
+          "inr_close": 7937.5639
         }
       ]
     },
@@ -7556,11 +7551,6 @@
       "name": "Vanguard FTSE Europe ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 52.51,
-          "inr_close": 3920.1655
-        },
         {
           "date": "2020-11-05",
           "close": 53.79,
@@ -15088,8 +15078,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 90.175,
-          "inr_close": 8533.2603
+          "close": 90.24,
+          "inr_close": 8539.4107
         }
       ]
     },
@@ -15102,11 +15092,6 @@
       "name": "iShares Core MSCI Europe ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 44.94,
-          "inr_close": 3355.0226
-        },
         {
           "date": "2020-11-05",
           "close": 45.97,
@@ -22634,8 +22619,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 76.505,
-          "inr_close": 7239.6677
+          "close": 76.57,
+          "inr_close": 7245.8189
         }
       ]
     },
@@ -22648,11 +22633,6 @@
       "name": "Vanguard Information Technology Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 39.505,
-          "inr_close": 2949.2696
-        },
         {
           "date": "2020-11-05",
           "close": 40.7625,
@@ -30180,8 +30160,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 116.18,
-          "inr_close": 10994.1131
+          "close": 115.55,
+          "inr_close": 10934.4965
         }
       ]
     },
@@ -30194,11 +30174,6 @@
       "name": "Global X Robotics & Artificial Intelligence ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 29.12,
-          "inr_close": 2173.9712
-        },
         {
           "date": "2020-11-05",
           "close": 29.93,
@@ -37726,8 +37701,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 32.955,
-          "inr_close": 3118.5317
+          "close": 32.81,
+          "inr_close": 3104.8103
         }
       ]
     },
@@ -37740,11 +37715,6 @@
       "name": "Global X Artificial Intelligence & Technology ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 24.68,
-          "inr_close": 1842.5003
-        },
         {
           "date": "2020-11-05",
           "close": 25.33,
@@ -45272,8 +45242,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 60.22,
-          "inr_close": 5698.6186
+          "close": 59.87,
+          "inr_close": 5665.4978
         }
       ]
     },
@@ -49773,8 +49743,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 62.58,
-          "inr_close": 5921.9454
+          "close": 62.4262,
+          "inr_close": 5907.3912
         }
       ]
     },
@@ -49787,11 +49757,6 @@
       "name": "Defiance Quantum ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 34.74,
-          "inr_close": 2593.5357
-        },
         {
           "date": "2020-11-05",
           "close": 35.82,
@@ -57319,8 +57284,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 130.84,
-          "inr_close": 12381.3885
+          "close": 130.55,
+          "inr_close": 12353.9464
         }
       ]
     },
@@ -57333,11 +57298,6 @@
       "name": "ARK Autonomous Technology & Robotics ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 61.476,
-          "inr_close": 4589.5279
-        },
         {
           "date": "2020-11-05",
           "close": 63.6,
@@ -64865,8 +64825,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 108.595,
-          "inr_close": 10276.3447
+          "close": 107.74,
+          "inr_close": 10195.4357
         }
       ]
     },
@@ -64879,11 +64839,6 @@
       "name": "First Trust RBA American Industrial RenaissanceTM ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 27.262,
-          "inr_close": 2035.2609
-        },
         {
           "date": "2020-11-05",
           "close": 28.196,
@@ -72411,8 +72366,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 97.205,
-          "inr_close": 9198.5091
+          "close": 97.39,
+          "inr_close": 9216.0154
         }
       ]
     },
@@ -74137,8 +74092,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 27.6891,
-          "inr_close": 2620.2195
+          "close": 27.63,
+          "inr_close": 2614.6267
         }
       ]
     },
@@ -74151,11 +74106,6 @@
       "name": "ARK Innovation ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 97.51,
-          "inr_close": 7279.6679
-        },
         {
           "date": "2020-11-05",
           "close": 100.82,
@@ -81683,8 +81633,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 80.73,
-          "inr_close": 7639.48
+          "close": 80.37,
+          "inr_close": 7605.4131
         }
       ]
     },
@@ -81697,11 +81647,6 @@
       "name": "iShares U.S. Aerospace & Defense ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 79.87,
-          "inr_close": 5962.7431
-        },
         {
           "date": "2020-11-05",
           "close": 80.795,
@@ -89229,8 +89174,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 213.32,
-          "inr_close": 20186.4717
+          "close": 212.84,
+          "inr_close": 20141.0483
         }
       ]
     },
@@ -89243,11 +89188,6 @@
       "name": "Invesco Aerospace & Defense ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 57.37,
-          "inr_close": 4282.9918
-        },
         {
           "date": "2020-11-05",
           "close": 57.99,
@@ -96775,8 +96715,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 157.595,
-          "inr_close": 14913.2145
+          "close": 157.25,
+          "inr_close": 14880.5671
         }
       ]
     },
@@ -100731,8 +100671,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 61.04,
-          "inr_close": 5776.2151
+          "close": 61.16,
+          "inr_close": 5787.5706
         }
       ]
     },
@@ -100745,11 +100685,6 @@
       "name": "iShares Semiconductor ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 107.7567,
-          "inr_close": 8044.6389
-        },
         {
           "date": "2020-11-05",
           "close": 112.5967,
@@ -108277,8 +108212,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 453.27,
-          "inr_close": 42892.9378
+          "close": 450.41,
+          "inr_close": 42622.2974
         }
       ]
     },
@@ -108291,11 +108226,6 @@
       "name": "First Trust NASDAQ Cybersecurity ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 35.54,
-          "inr_close": 2653.2601
-        },
         {
           "date": "2020-11-05",
           "close": 36.28,
@@ -115823,8 +115753,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 97.1,
-          "inr_close": 9188.5726
+          "close": 97.36,
+          "inr_close": 9213.1766
         }
       ]
     },
@@ -116584,8 +116514,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 45.93,
-          "inr_close": 4346.3558
+          "close": 45.11,
+          "inr_close": 4268.7592
         }
       ]
     },
@@ -116598,11 +116528,6 @@
       "name": "iShares U.S. Pharmaceuticals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 56.4567,
-          "inr_close": 4214.8066
-        },
         {
           "date": "2020-11-05",
           "close": 56.3733,
@@ -124130,8 +124055,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 108.555,
-          "inr_close": 10272.5594
+          "close": 109.09,
+          "inr_close": 10323.1861
         }
       ]
     },
@@ -124144,11 +124069,6 @@
       "name": "First Trust Nasdaq Pharmaceuticals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 24.8,
-          "inr_close": 1851.4589
-        },
         {
           "date": "2020-11-05",
           "close": 24.74,
@@ -131676,8 +131596,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 44.6342,
-          "inr_close": 4223.7343
+          "close": 44.861,
+          "inr_close": 4245.1963
         }
       ]
     },
@@ -131690,11 +131610,6 @@
       "name": "VanEck Pharmaceutical ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 63.88,
-          "inr_close": 4768.9999
-        },
         {
           "date": "2020-11-05",
           "close": 63.78,
@@ -139222,8 +139137,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 121.655,
-          "inr_close": 11512.2122
+          "close": 122.11,
+          "inr_close": 11555.269
         }
       ]
     },
@@ -139236,11 +139151,6 @@
       "name": "iShares Biotechnology ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 140.7,
-          "inr_close": 10504.0429
-        },
         {
           "date": "2020-11-05",
           "close": 140.63,
@@ -146768,8 +146678,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 219.55,
-          "inr_close": 20776.0162
+          "close": 221.13,
+          "inr_close": 20925.5318
         }
       ]
     },
@@ -146782,11 +146692,6 @@
       "name": "State Street SPDR S&P Biotech ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 122.95,
-          "inr_close": 9178.906
-        },
         {
           "date": "2020-11-05",
           "close": 122.84,
@@ -154314,8 +154219,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 157.12,
-          "inr_close": 14868.2647
+          "close": 159.1,
+          "inr_close": 15055.6331
         }
       ]
     },
@@ -154328,11 +154233,6 @@
       "name": "Vanguard Energy Index Fund ETF Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 39.9,
-          "inr_close": 2978.7586
-        },
         {
           "date": "2020-11-05",
           "close": 40.0,
@@ -161860,8 +161760,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 174.78,
-          "inr_close": 16539.4308
+          "close": 176.42,
+          "inr_close": 16694.6239
         }
       ]
     },
@@ -161874,11 +161774,6 @@
       "name": "Global X Uranium ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 10.75,
-          "inr_close": 802.5477
-        },
         {
           "date": "2020-11-05",
           "close": 11.06,
@@ -169406,8 +169301,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 32.74,
-          "inr_close": 3098.1863
+          "close": 32.7,
+          "inr_close": 3094.401
         }
       ]
     },
@@ -169420,11 +169315,6 @@
       "name": "VanEck Uranium and Nuclear ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 46.54,
-          "inr_close": 3474.4718
-        },
         {
           "date": "2020-11-05",
           "close": 47.03,
@@ -176952,8 +176842,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 88.29,
-          "inr_close": 8354.8825
+          "close": 88.27,
+          "inr_close": 8352.9895
         }
       ]
     },
@@ -180458,8 +180348,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 56.0,
-          "inr_close": 5299.2798
+          "close": 55.9,
+          "inr_close": 5289.817
         }
       ]
     },
@@ -180472,11 +180362,6 @@
       "name": "Global X Lithium & Battery Tech ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 45.82,
-          "inr_close": 3420.7196
-        },
         {
           "date": "2020-11-05",
           "close": 49.33,
@@ -188004,8 +187889,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 62.155,
-          "inr_close": 5881.7274
+          "close": 61.88,
+          "inr_close": 5855.7043
         }
       ]
     },
@@ -188018,11 +187903,6 @@
       "name": "iShares Global Clean Energy ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 19.89,
-          "inr_close": 1484.8999
-        },
         {
           "date": "2020-11-05",
           "close": 21.29,
@@ -195550,8 +195430,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 16.73,
-          "inr_close": 1583.1598
+          "close": 16.6,
+          "inr_close": 1570.858
         }
       ]
     },
@@ -195564,11 +195444,6 @@
       "name": "Global X Copper Miners ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 22.19,
-          "inr_close": 1656.6078
-        },
         {
           "date": "2020-11-05",
           "close": 22.84,
@@ -203096,8 +202971,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 74.78,
-          "inr_close": 7076.4311
+          "close": 74.56,
+          "inr_close": 7055.6124
         }
       ]
     },
@@ -207332,8 +207207,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 48.5886,
-          "inr_close": 4597.9391
+          "close": 48.44,
+          "inr_close": 4583.8769
         }
       ]
     },
@@ -207346,11 +207221,6 @@
       "name": "iShares MSCI Global Metals & Mining Producers ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 27.37,
-          "inr_close": 2043.3239
-        },
         {
           "date": "2020-11-05",
           "close": 28.07,
@@ -214878,8 +214748,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 56.0199,
-          "inr_close": 5301.1631
+          "close": 55.76,
+          "inr_close": 5276.5685
         }
       ]
     },
@@ -214892,11 +214762,6 @@
       "name": "State Street SPDR S&P Metals & Mining ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 24.32,
-          "inr_close": 1815.6242
-        },
         {
           "date": "2020-11-05",
           "close": 25.6,
@@ -222424,8 +222289,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 95.96,
-          "inr_close": 9080.6944
+          "close": 95.78,
+          "inr_close": 9063.661
         }
       ]
     },
@@ -222438,11 +222303,6 @@
       "name": "VanEck Rare Earth and Strategic Metals ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 43.82,
-          "inr_close": 3271.4084
-        },
         {
           "date": "2020-11-05",
           "close": 45.08,
@@ -229970,8 +229830,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 52.31,
-          "inr_close": 4950.0953
+          "close": 51.73,
+          "inr_close": 4895.2097
         }
       ]
     },
@@ -229984,11 +229844,6 @@
       "name": "VanEck Gold Miners ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 38.47,
-          "inr_close": 2872.0011
-        },
         {
           "date": "2020-11-05",
           "close": 41.22,
@@ -237516,8 +237371,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 84.395,
-          "inr_close": 7986.2983
+          "close": 84.59,
+          "inr_close": 8004.7511
         }
       ]
     },
@@ -237530,11 +237385,6 @@
       "name": "SPDR Gold Shares",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 178.82,
-          "inr_close": 13349.9152
-        },
         {
           "date": "2020-11-05",
           "close": 182.93,
@@ -245062,8 +244912,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 372.7,
-          "inr_close": 35268.6011
+          "close": 372.49,
+          "inr_close": 35248.7268
         }
       ]
     },
@@ -245076,11 +244926,6 @@
       "name": "iShares Gold Trust",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 36.36,
-          "inr_close": 2714.4777
-        },
         {
           "date": "2020-11-05",
           "close": 37.16,
@@ -252608,8 +252453,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 76.385,
-          "inr_close": 7228.3125
+          "close": 76.37,
+          "inr_close": 7226.8932
         }
       ]
     },
@@ -252622,11 +252467,6 @@
       "name": "iShares Silver Trust",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 22.24,
-          "inr_close": 1660.3406
-        },
         {
           "date": "2020-11-05",
           "close": 23.61,
@@ -260154,8 +259994,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 47.26,
-          "inr_close": 4472.2135
+          "close": 47.16,
+          "inr_close": 4462.7507
         }
       ]
     },
@@ -260168,11 +260008,6 @@
       "name": "abrdn Physical Palladium Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 42.908,
-          "inr_close": 3203.3226
-        },
         {
           "date": "2020-11-05",
           "close": 44.438,
@@ -267700,8 +267535,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 18.1101,
-          "inr_close": 1713.7587
+          "close": 18.27,
+          "inr_close": 1728.8901
         }
       ]
     },
@@ -267714,11 +267549,6 @@
       "name": "abrdn Physical Platinum Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 8.169,
-          "inr_close": 609.8616
-        },
         {
           "date": "2020-11-05",
           "close": 8.429,
@@ -275246,8 +275076,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 13.545,
-          "inr_close": 1281.7633
+          "close": 13.54,
+          "inr_close": 1281.2902
         }
       ]
     },
@@ -275260,11 +275090,6 @@
       "name": "abrdn Physical Precious Metals Basket Shares ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 94.75,
-          "inr_close": 7073.6182
-        },
         {
           "date": "2020-11-05",
           "close": 98.34,
@@ -282792,8 +282617,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 173.795,
-          "inr_close": 16446.2202
+          "close": 173.77,
+          "inr_close": 16443.855
         }
       ]
     },
@@ -286338,8 +286163,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 45.475,
-          "inr_close": 4303.299
+          "close": 45.33,
+          "inr_close": 4289.5779
         }
       ]
     },
@@ -286352,11 +286177,6 @@
       "name": "VanEck Semiconductor ETF",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 93.29,
-          "inr_close": 6964.6211
-        },
         {
           "date": "2020-11-05",
           "close": 96.995,
@@ -293884,8 +293704,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 508.08,
-          "inr_close": 48079.6077
+          "close": 504.27,
+          "inr_close": 47719.0677
         }
       ]
     },
@@ -494974,8 +494794,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 9.6096,
-          "inr_close": 908.9431
+          "close": 9.6053,
+          "inr_close": 908.3157
         }
       ]
     },
@@ -502560,8 +502380,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 78.5746,
-          "inr_close": 7432.1714
+          "close": 78.5397,
+          "inr_close": 7427.0411
         }
       ]
     },
@@ -546321,11 +546141,6 @@
       "currency": "USD",
       "points": [
         {
-          "date": "2020-11-04",
-          "close": 114.95,
-          "inr_close": 8581.6612
-        },
-        {
           "date": "2020-11-05",
           "close": 119.03,
           "inr_close": 8853.451
@@ -553852,8 +553667,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 353.0062,
-          "inr_close": 33404.9753
+          "close": 349.51,
+          "inr_close": 33074.1313
         }
       ]
     },
@@ -553866,11 +553681,6 @@
       "name": "Alphabet",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 87.4565,
-          "inr_close": 6529.1174
-        },
         {
           "date": "2020-11-05",
           "close": 88.1685,
@@ -561398,8 +561208,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 289.77,
-          "inr_close": 27420.9333
+          "close": 287.3,
+          "inr_close": 27187.1971
         }
       ]
     },
@@ -561412,11 +561222,6 @@
       "name": "Microsoft",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 216.39,
-          "inr_close": 16154.7256
-        },
         {
           "date": "2020-11-05",
           "close": 223.29,
@@ -568944,8 +568749,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 555.495,
-          "inr_close": 52566.4899
+          "close": 555.8,
+          "inr_close": 52595.3513
         }
       ]
     },
@@ -568958,11 +568763,6 @@
       "name": "Amazon",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 162.058,
-          "inr_close": 12098.5374
-        },
         {
           "date": "2020-11-05",
           "close": 166.1,
@@ -576490,8 +576290,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 268.5,
-          "inr_close": 25408.1543
+          "close": 266.03,
+          "inr_close": 25174.4181
         }
       ]
     },
@@ -576504,11 +576304,6 @@
       "name": "Meta",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 287.38,
-          "inr_close": 21454.5271
-        },
         {
           "date": "2020-11-05",
           "close": 294.68,
@@ -584036,8 +583831,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 638.1133,
-          "inr_close": 60384.6581
+          "close": 630.0,
+          "inr_close": 59616.8983
         }
       ]
     },
@@ -584050,11 +583845,6 @@
       "name": "Tesla",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 140.3267,
-          "inr_close": 10476.1712
-        },
         {
           "date": "2020-11-05",
           "close": 146.03,
@@ -591582,8 +591372,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 387.82,
-          "inr_close": 36699.4062
+          "close": 385.19,
+          "inr_close": 36450.5289
         }
       ]
     },
@@ -591596,11 +591386,6 @@
       "name": "Palantir",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 10.72,
-          "inr_close": 800.3081
-        },
         {
           "date": "2020-11-05",
           "close": 11.88,
@@ -599128,8 +598913,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 170.585,
-          "inr_close": 16142.4587
+          "close": 171.7,
+          "inr_close": 16247.9702
         }
       ]
     },
@@ -599142,11 +598927,6 @@
       "name": "Oracle",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 56.49,
-          "inr_close": 4217.2951
-        },
         {
           "date": "2020-11-05",
           "close": 56.66,
@@ -606674,8 +606454,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 126.865,
-          "inr_close": 12005.2344
+          "close": 123.73,
+          "inr_close": 11708.5699
         }
       ]
     },
@@ -606688,11 +606468,6 @@
       "name": "Broadcom",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 36.463,
-          "inr_close": 2722.1673
-        },
         {
           "date": "2020-11-05",
           "close": 38.087,
@@ -614220,8 +613995,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 327.64,
-          "inr_close": 31004.5737
+          "close": 325.48,
+          "inr_close": 30800.1725
         }
       ]
     },
@@ -614234,11 +614009,6 @@
       "name": "Intel",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 45.7,
-          "inr_close": 3411.761
-        },
         {
           "date": "2020-11-05",
           "close": 45.68,
@@ -621766,8 +621536,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 59.6856,
-          "inr_close": 5648.0482
+          "close": 58.27,
+          "inr_close": 5514.09
         }
       ]
     },
@@ -621780,11 +621550,6 @@
       "name": "Marvell",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 39.16,
-          "inr_close": 2923.5133
-        },
         {
           "date": "2020-11-05",
           "close": 41.48,
@@ -629312,8 +629077,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 158.6353,
-          "inr_close": 15011.658
+          "close": 159.8,
+          "inr_close": 15121.8738
         }
       ]
     },
@@ -629326,11 +629091,6 @@
       "name": "AMD",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 81.35,
-          "inr_close": 6073.2331
-        },
         {
           "date": "2020-11-05",
           "close": 83.0,
@@ -636858,8 +636618,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 486.4436,
-          "inr_close": 46032.1569
+          "close": 488.78,
+          "inr_close": 46253.2499
         }
       ]
     },
@@ -636872,11 +636632,6 @@
       "name": "NVIDIA",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 13.7942,
-          "inr_close": 1029.818
-        },
         {
           "date": "2020-11-05",
           "close": 14.16,
@@ -644404,8 +644159,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 203.16,
-          "inr_close": 19225.0306
+          "close": 200.13,
+          "inr_close": 18938.3018
         }
       ]
     },
@@ -644418,11 +644173,6 @@
       "name": "Qualcomm",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 128.97,
-          "inr_close": 9628.333
-        },
         {
           "date": "2020-11-05",
           "close": 145.41,
@@ -651950,8 +651700,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 170.16,
-          "inr_close": 16102.2407
+          "close": 173.19,
+          "inr_close": 16388.9695
         }
       ]
     },
@@ -651964,11 +651714,6 @@
       "name": "TSMC",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 89.45,
-          "inr_close": 6677.9433
-        },
         {
           "date": "2020-11-05",
           "close": 90.43,
@@ -659496,8 +659241,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 397.265,
-          "inr_close": 37593.1872
+          "close": 395.75,
+          "inr_close": 37449.8214
         }
       ]
     },
@@ -659510,11 +659255,6 @@
       "name": "Micron",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 51.96,
-          "inr_close": 3879.105
-        },
         {
           "date": "2020-11-05",
           "close": 54.58,
@@ -667042,8 +666782,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 808.225,
-          "inr_close": 76482.3272
+          "close": 795.23,
+          "inr_close": 75252.6109
         }
       ]
     },
@@ -669223,8 +668963,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 1046.2502,
-          "inr_close": 99006.6577
+          "close": 1037.4,
+          "inr_close": 98169.1615
         }
       ]
     },
@@ -669237,11 +668977,6 @@
       "name": "ASML",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 383.0,
-          "inr_close": 28593.0954
-        },
         {
           "date": "2020-11-05",
           "close": 398.19,
@@ -676769,8 +676504,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 1507.335,
-          "inr_close": 142639.1032
+          "close": 1496.3,
+          "inr_close": 141594.8695
         }
       ]
     },
@@ -676783,11 +676518,6 @@
       "name": "Applied Materials",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 64.86,
-          "inr_close": 4842.1624
-        },
         {
           "date": "2020-11-05",
           "close": 69.95,
@@ -684315,8 +684045,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 368.915,
-          "inr_close": 34910.4262
+          "close": 369.4,
+          "inr_close": 34956.3204
         }
       ]
     },
@@ -684329,11 +684059,6 @@
       "name": "CrowdStrike",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 34.08,
-          "inr_close": 2544.263
-        },
         {
           "date": "2020-11-05",
           "close": 34.73,
@@ -691861,8 +691586,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 243.19,
-          "inr_close": 23013.0693
+          "close": 241.0,
+          "inr_close": 22805.8293
         }
       ]
     },
@@ -691875,11 +691600,6 @@
       "name": "Walmart",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 47.32,
-          "inr_close": 3532.703
-        },
         {
           "date": "2020-11-05",
           "close": 47.8233,
@@ -699407,8 +699127,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 130.58,
-          "inr_close": 12356.7852
+          "close": 129.17,
+          "inr_close": 12223.3566
         }
       ]
     },
@@ -699421,11 +699141,6 @@
       "name": "HP",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 18.28,
-          "inr_close": 1364.7044
-        },
         {
           "date": "2020-11-05",
           "close": 19.13,
@@ -706953,8 +706668,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 30.505,
-          "inr_close": 2886.688
+          "close": 29.93,
+          "inr_close": 2832.2758
         }
       ]
     },
@@ -706967,11 +706682,6 @@
       "name": "Dell",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 31.5408,
-          "inr_close": 2354.6974
-        },
         {
           "date": "2020-11-05",
           "close": 32.6964,
@@ -714499,8 +714209,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 375.07,
-          "inr_close": 35492.8738
+          "close": 372.36,
+          "inr_close": 35236.4244
         }
       ]
     },
@@ -714513,11 +714223,6 @@
       "name": "Arista",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 15.9025,
-          "inr_close": 1187.2107
-        },
         {
           "date": "2020-11-05",
           "close": 16.0625,
@@ -722045,8 +721750,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 179.0701,
-          "inr_close": 16945.403
+          "close": 178.48,
+          "inr_close": 16889.5615
         }
       ]
     },
@@ -722059,11 +721764,6 @@
       "name": "Super Micro",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 2.838,
-          "inr_close": 211.8726
-        },
         {
           "date": "2020-11-05",
           "close": 2.869,
@@ -729591,8 +729291,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 30.3,
-          "inr_close": 2867.2888
+          "close": 29.6,
+          "inr_close": 2801.048
         }
       ]
     },
@@ -729605,11 +729305,6 @@
       "name": "Cisco",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 36.57,
-          "inr_close": 2730.1553
-        },
         {
           "date": "2020-11-05",
           "close": 37.23,
@@ -737137,8 +736832,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 102.375,
-          "inr_close": 9687.746
+          "close": 103.61,
+          "inr_close": 9804.6141
         }
       ]
     },
@@ -737151,11 +736846,6 @@
       "name": "Eli Lilly",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 148.59,
-          "inr_close": 11093.0756
-        },
         {
           "date": "2020-11-05",
           "close": 145.52,
@@ -744683,8 +744373,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 1429.3575,
-          "inr_close": 135260.1005
+          "close": 1417.99,
+          "inr_close": 134184.3889
         }
       ]
     },
@@ -744697,11 +744387,6 @@
       "name": "AbbVie",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 94.5,
-          "inr_close": 7054.9543
-        },
         {
           "date": "2020-11-05",
           "close": 93.69,
@@ -752229,8 +751914,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 290.68,
-          "inr_close": 27507.0469
+          "close": 294.83,
+          "inr_close": 27899.7608
         }
       ]
     },
@@ -752243,11 +751928,6 @@
       "name": "Merck",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 76.9275,
-          "inr_close": 5743.0675
-        },
         {
           "date": "2020-11-05",
           "close": 76.7748,
@@ -759775,8 +759455,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 148.32,
-          "inr_close": 14035.5219
+          "close": 150.36,
+          "inr_close": 14228.5664
         }
       ]
     },
@@ -759789,11 +759469,6 @@
       "name": "Pfizer",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 35.4175,
-          "inr_close": 2644.1116
-        },
         {
           "date": "2020-11-05",
           "close": 34.5256,
@@ -767321,8 +766996,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 30.59,
-          "inr_close": 2894.7316
+          "close": 30.79,
+          "inr_close": 2913.6577
         }
       ]
     },
@@ -767335,11 +767010,6 @@
       "name": "Johnson & Johnson",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 139.4,
-          "inr_close": 10406.9904
-        },
         {
           "date": "2020-11-05",
           "close": 139.76,
@@ -774867,8 +774537,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 273.87,
-          "inr_close": 25916.3169
+          "close": 276.32,
+          "inr_close": 26148.1615
         }
       ]
     },
@@ -774881,11 +774551,6 @@
       "name": "Novo Nordisk",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 34.985,
-          "inr_close": 2611.8263
-        },
         {
           "date": "2020-11-05",
           "close": 35.78,
@@ -782413,8 +782078,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 42.965,
-          "inr_close": 4065.7778
+          "close": 42.18,
+          "inr_close": 3991.4933
         }
       ]
     },
@@ -782427,11 +782092,6 @@
       "name": "Amgen",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 230.33,
-          "inr_close": 17195.4248
-        },
         {
           "date": "2020-11-05",
           "close": 231.97,
@@ -789959,8 +789619,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 478.34,
-          "inr_close": 45265.3125
+          "close": 478.48,
+          "inr_close": 45278.5621
         }
       ]
     },
@@ -789973,11 +789633,6 @@
       "name": "Gilead Sciences",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 59.87,
-          "inr_close": 4469.6308
-        },
         {
           "date": "2020-11-05",
           "close": 59.63,
@@ -797505,8 +797160,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 174.455,
-          "inr_close": 16508.6763
+          "close": 174.48,
+          "inr_close": 16511.0415
         }
       ]
     },
@@ -797519,11 +797174,6 @@
       "name": "Regeneron",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 587.14,
-          "inr_close": 43833.291
-        },
         {
           "date": "2020-11-05",
           "close": 588.81,
@@ -805051,8 +804701,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 952.215,
-          "inr_close": 90108.1054
+          "close": 930.67,
+          "inr_close": 88069.2979
         }
       ]
     },
@@ -805065,11 +804715,6 @@
       "name": "Vertex Pharmaceuticals",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 215.09,
-          "inr_close": 16057.6731
-        },
         {
           "date": "2020-11-05",
           "close": 219.48,
@@ -812597,8 +812242,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 548.455,
-          "inr_close": 51900.2968
+          "close": 549.04,
+          "inr_close": 51955.6516
         }
       ]
     },
@@ -812611,11 +812256,6 @@
       "name": "Moderna",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 69.81,
-          "inr_close": 5211.7074
-        },
         {
           "date": "2020-11-05",
           "close": 71.48,
@@ -820143,8 +819783,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 248.78,
-          "inr_close": 23542.0506
+          "close": 258.38,
+          "inr_close": 24450.4992
         }
       ]
     },
@@ -956478,11 +956118,6 @@
           "date": "2026-11-03",
           "close": 251.3671,
           "inr_close": 23810.8496
-        },
-        {
-          "date": "2026-11-04",
-          "close": 253.203,
-          "inr_close": 23960.5996
         }
       ]
     },
@@ -963894,11 +963529,6 @@
           "date": "2026-11-03",
           "close": 735.0125,
           "inr_close": 69624.3516
-        },
-        {
-          "date": "2026-11-04",
-          "close": 748.1243,
-          "inr_close": 70795.0
         }
       ]
     },
@@ -971310,11 +970940,6 @@
           "date": "2026-11-03",
           "close": 586.3269,
           "inr_close": 55540.0508
-        },
-        {
-          "date": "2026-11-04",
-          "close": 590.8655,
-          "inr_close": 55913.6016
         }
       ]
     },
@@ -978696,11 +978321,6 @@
           "date": "2026-11-03",
           "close": 261.1707,
           "inr_close": 24739.5
-        },
-        {
-          "date": "2026-11-04",
-          "close": 263.5776,
-          "inr_close": 24942.3496
         }
       ]
     },
@@ -986082,11 +985702,6 @@
           "date": "2026-11-03",
           "close": 237.7435,
           "inr_close": 22520.3496
-        },
-        {
-          "date": "2026-11-04",
-          "close": 240.6129,
-          "inr_close": 22769.1992
         }
       ]
     },
@@ -993493,11 +993108,6 @@
           "date": "2026-11-03",
           "close": 227.2183,
           "inr_close": 21523.3496
-        },
-        {
-          "date": "2026-11-04",
-          "close": 231.0821,
-          "inr_close": 21867.3008
         }
       ]
     },
@@ -1000879,11 +1000489,6 @@
           "date": "2026-11-03",
           "close": 178.4981,
           "inr_close": 16908.3008
-        },
-        {
-          "date": "2026-11-04",
-          "close": 181.2227,
-          "inr_close": 17149.0996
         }
       ]
     },
@@ -1008295,11 +1007900,6 @@
           "date": "2026-11-03",
           "close": 343.6417,
           "inr_close": 32551.5996
-        },
-        {
-          "date": "2026-11-04",
-          "close": 338.8133,
-          "inr_close": 32061.9004
         }
       ]
     },
@@ -1015706,11 +1015306,6 @@
           "date": "2026-11-03",
           "close": 287.3411,
           "inr_close": 27218.5
-        },
-        {
-          "date": "2026-11-04",
-          "close": 288.8455,
-          "inr_close": 27333.4492
         }
       ]
     },
@@ -1015723,11 +1015318,6 @@
       "name": "S&P 500",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 3443.4399,
-          "inr_close": 257072.0801
-        },
         {
           "date": "2020-11-05",
           "close": 3510.45,
@@ -1023255,8 +1022845,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 7704.79,
-          "inr_close": 729104.2602
+          "close": 7688.6201,
+          "inr_close": 727574.1006
         }
       ]
     },
@@ -1023269,11 +1022859,6 @@
       "name": "NASDAQ-100",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 11777.0195,
-          "inr_close": 879220.477
-        },
         {
           "date": "2020-11-05",
           "close": 12078.0703,
@@ -1030801,8 +1030386,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 28609.9277,
-          "inr_close": 2707357.3829
+          "close": 28437.166,
+          "inr_close": 2691008.942
         }
       ]
     },
@@ -1030815,11 +1030400,6 @@
       "name": "Russell 2000",
       "currency": "USD",
       "points": [
-        {
-          "date": "2020-11-04",
-          "close": 1615.08,
-          "inr_close": 120574.7656
-        },
         {
           "date": "2020-11-05",
           "close": 1660.05,
@@ -1038347,8 +1037927,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 2851.4609,
-          "inr_close": 269833.7407
+          "close": 2856.9497,
+          "inr_close": 270353.1429
         }
       ]
     },
@@ -1045928,8 +1045508,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 14595.213,
-          "inr_close": 1380523.9158
+          "close": 14588.7248,
+          "inr_close": 1379570.973
         }
       ]
     },
@@ -1053584,8 +1053164,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 29721.9436,
-          "inr_close": 2811627.5991
+          "close": 29701.9088,
+          "inr_close": 2807973.9435
         }
       ]
     },
@@ -1061145,8 +1060725,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 739.0669,
-          "inr_close": 69914.0302
+          "close": 738.5687,
+          "inr_close": 69823.1782
         }
       ]
     },
@@ -1068706,8 +1068286,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 4074.0,
-          "inr_close": 385522.6088
+          "close": 4072.2,
+          "inr_close": 385352.2702
         }
       ]
     },
@@ -1076262,8 +1075842,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 52.285,
-          "inr_close": 4947.7294
+          "close": 52.325,
+          "inr_close": 4951.5147
         }
       ]
     },
@@ -1083823,8 +1083403,8 @@
         },
         {
           "date": "2026-11-04",
-          "close": 94.24,
-          "inr_close": 8917.9307
+          "close": 94.63,
+          "inr_close": 8954.8364
         }
       ]
     },
@@ -1090251,6 +1089831,11 @@
           "date": "2026-11-03",
           "close": 0.1814,
           "inr_close": 17.186
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1839,
+          "inr_close": 17.4028
         }
       ]
     },
@@ -1095487,6 +1095072,11 @@
           "date": "2026-11-03",
           "close": 0.1966,
           "inr_close": 18.626
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.199,
+          "inr_close": 18.832
         }
       ]
     },
@@ -1095499,11 +1095089,6 @@
       "name": "BANDHAN Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.2491,
-          "inr_close": 93.25
-        },
         {
           "date": "2020-10-06",
           "close": 1.2563,
@@ -1103043,6 +1102628,11 @@
           "date": "2026-11-03",
           "close": 2.4115,
           "inr_close": 228.426
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.4328,
+          "inr_close": 230.213
         }
       ]
     },
@@ -1106714,6 +1106304,11 @@
           "date": "2026-11-03",
           "close": 0.1675,
           "inr_close": 15.87
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1699,
+          "inr_close": 16.08
         }
       ]
     },
@@ -1106726,11 +1106321,6 @@
       "name": "Quant Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.4381,
-          "inr_close": 32.7088
-        },
         {
           "date": "2020-10-06",
           "close": 0.4385,
@@ -1114220,6 +1113810,11 @@
           "date": "2026-11-03",
           "close": 1.2434,
           "inr_close": 117.7785
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.2617,
+          "inr_close": 119.3933
         }
       ]
     },
@@ -1114232,11 +1113827,6 @@
       "name": "Kotak Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.5113,
-          "inr_close": 38.168
-        },
         {
           "date": "2020-10-06",
           "close": 0.5143,
@@ -1121726,6 +1121316,11 @@
           "date": "2026-11-03",
           "close": 0.9945,
           "inr_close": 94.201
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.0045,
+          "inr_close": 95.059
         }
       ]
     },
@@ -1121738,11 +1121333,6 @@
       "name": "PGIM India Flexi Cap Fund - Direct Plan - Direct Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.2244,
-          "inr_close": 16.75
-        },
         {
           "date": "2020-10-06",
           "close": 0.2256,
@@ -1129232,6 +1128822,11 @@
           "date": "2026-11-03",
           "close": 0.455,
           "inr_close": 43.1
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4599,
+          "inr_close": 43.52
         }
       ]
     },
@@ -1129244,11 +1128839,6 @@
       "name": "HSBC Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.2074,
-          "inr_close": 90.1395
-        },
         {
           "date": "2020-10-06",
           "close": 1.2168,
@@ -1136738,6 +1136328,11 @@
           "date": "2026-11-03",
           "close": 2.6949,
           "inr_close": 255.2709
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.7354,
+          "inr_close": 258.849
         }
       ]
     },
@@ -1136750,11 +1136345,6 @@
       "name": "JM Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.4498,
-          "inr_close": 33.5769
-        },
         {
           "date": "2020-10-06",
           "close": 0.455,
@@ -1144244,6 +1143834,11 @@
           "date": "2026-11-03",
           "close": 1.1723,
           "inr_close": 111.0434
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.1889,
+          "inr_close": 112.506
         }
       ]
     },
@@ -1145785,6 +1145380,11 @@
           "date": "2026-11-03",
           "close": 0.1063,
           "inr_close": 10.0696
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1074,
+          "inr_close": 10.1658
         }
       ]
     },
@@ -1151596,6 +1151196,11 @@
           "date": "2026-11-03",
           "close": 0.2159,
           "inr_close": 20.45
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.219,
+          "inr_close": 20.72
         }
       ]
     },
@@ -1152652,6 +1152257,11 @@
           "date": "2026-11-03",
           "close": 0.113,
           "inr_close": 10.702
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1144,
+          "inr_close": 10.83
         }
       ]
     },
@@ -1157188,6 +1156798,11 @@
           "date": "2026-11-03",
           "close": 0.1784,
           "inr_close": 16.896
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1804,
+          "inr_close": 17.073
         }
       ]
     },
@@ -1157200,11 +1156815,6 @@
       "name": "Tata Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.156,
-          "inr_close": 11.6426
-        },
         {
           "date": "2020-10-06",
           "close": 0.1567,
@@ -1164694,6 +1164304,11 @@
           "date": "2026-11-03",
           "close": 0.2713,
           "inr_close": 25.6963
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2743,
+          "inr_close": 25.9617
         }
       ]
     },
@@ -1164706,11 +1164321,6 @@
       "name": "Edelweiss Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.2048,
-          "inr_close": 15.288
-        },
         {
           "date": "2020-10-06",
           "close": 0.2064,
@@ -1172205,6 +1171815,11 @@
           "date": "2026-11-03",
           "close": 0.4704,
           "inr_close": 44.562
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4747,
+          "inr_close": 44.921
         }
       ]
     },
@@ -1173501,6 +1173116,11 @@
           "date": "2026-11-03",
           "close": 0.1016,
           "inr_close": 9.6247
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1033,
+          "inr_close": 9.7722
         }
       ]
     },
@@ -1173513,11 +1173133,6 @@
       "name": "Navi Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1444,
-          "inr_close": 10.7839
-        },
         {
           "date": "2020-10-06",
           "close": 0.1452,
@@ -1181012,6 +1180627,11 @@
           "date": "2026-11-03",
           "close": 0.3009,
           "inr_close": 28.5044
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.3041,
+          "inr_close": 28.7779
         }
       ]
     },
@@ -1181024,11 +1180644,6 @@
       "name": "Aditya Birla Sun Life Flexi Cap Fund - Direct Plan - GROWTH",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 10.4232,
-          "inr_close": 778.15
-        },
         {
           "date": "2020-10-06",
           "close": 10.5104,
@@ -1188518,6 +1188133,11 @@
           "date": "2026-11-03",
           "close": 22.8137,
           "inr_close": 2161.04
+        },
+        {
+          "date": "2026-11-04",
+          "close": 23.1306,
+          "inr_close": 2188.85
         }
       ]
     },
@@ -1188530,11 +1188150,6 @@
       "name": "SBI FLEXICAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.6806,
-          "inr_close": 50.8079
-        },
         {
           "date": "2020-10-06",
           "close": 0.6852,
@@ -1196064,6 +1195679,11 @@
           "date": "2026-11-03",
           "close": 1.2568,
           "inr_close": 119.0555
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.2693,
+          "inr_close": 120.113
         }
       ]
     },
@@ -1196076,11 +1195696,6 @@
       "name": "UTI - Flexi Cap Fund. - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 2.2022,
-          "inr_close": 164.4052
-        },
         {
           "date": "2020-10-06",
           "close": 2.2306,
@@ -1203570,6 +1203185,11 @@
           "date": "2026-11-03",
           "close": 3.6374,
           "inr_close": 344.5516
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3.6739,
+          "inr_close": 347.66
         }
       ]
     },
@@ -1210101,6 +1209721,11 @@
           "date": "2026-11-03",
           "close": 0.2239,
           "inr_close": 21.21
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2256,
+          "inr_close": 21.35
         }
       ]
     },
@@ -1210113,11 +1209738,6 @@
       "name": "BANK OF INDIA FLEXI CAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1565,
-          "inr_close": 11.68
-        },
         {
           "date": "2020-10-06",
           "close": 0.1573,
@@ -1217607,6 +1217227,11 @@
           "date": "2026-11-03",
           "close": 0.4308,
           "inr_close": 40.81
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4393,
+          "inr_close": 41.57
         }
       ]
     },
@@ -1217619,11 +1217244,6 @@
       "name": "Franklin India Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 7.8902,
-          "inr_close": 589.0486
-        },
         {
           "date": "2020-10-06",
           "close": 7.9745,
@@ -1225113,6 +1224733,11 @@
           "date": "2026-11-03",
           "close": 18.487,
           "inr_close": 1751.1871
+        },
+        {
+          "date": "2026-11-04",
+          "close": 18.6692,
+          "inr_close": 1766.6628
         }
       ]
     },
@@ -1225125,11 +1224750,6 @@
       "name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.4418,
-          "inr_close": 32.9808
-        },
         {
           "date": "2020-10-06",
           "close": 0.4443,
@@ -1232609,6 +1232229,11 @@
           "date": "2026-11-02",
           "close": 0.9456,
           "inr_close": 89.7397
+        },
+        {
+          "date": "2026-11-03",
+          "close": 0.9575,
+          "inr_close": 90.7043
         }
       ]
     },
@@ -1232621,11 +1232246,6 @@
       "name": "Canara Robeco Flexi Cap Fund - Direct Plan - GROWTH OPTION",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 2.0762,
-          "inr_close": 155.0
-        },
         {
           "date": "2020-10-06",
           "close": 2.0952,
@@ -1240115,6 +1239735,11 @@
           "date": "2026-11-03",
           "close": 4.036,
           "inr_close": 382.31
+        },
+        {
+          "date": "2026-11-04",
+          "close": 4.0796,
+          "inr_close": 386.05
         }
       ]
     },
@@ -1240127,11 +1239752,6 @@
       "name": "Motilal Oswal Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.364,
-          "inr_close": 27.1716
-        },
         {
           "date": "2020-10-06",
           "close": 0.3684,
@@ -1247621,6 +1247241,11 @@
           "date": "2026-11-03",
           "close": 0.7278,
           "inr_close": 68.944
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.7409,
+          "inr_close": 70.1078
         }
       ]
     },
@@ -1247633,11 +1247258,6 @@
       "name": "Axis Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1733,
-          "inr_close": 12.94
-        },
         {
           "date": "2020-10-06",
           "close": 0.1749,
@@ -1255167,6 +1254787,11 @@
           "date": "2026-11-03",
           "close": 0.3234,
           "inr_close": 30.63
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.3279,
+          "inr_close": 31.03
         }
       ]
     },
@@ -1255179,11 +1254804,6 @@
       "name": "DSP Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.5819,
-          "inr_close": 43.444
-        },
         {
           "date": "2020-10-06",
           "close": 0.5883,
@@ -1262673,6 +1262293,11 @@
           "date": "2026-11-03",
           "close": 1.1836,
           "inr_close": 112.116
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.1967,
+          "inr_close": 113.248
         }
       ]
     },
@@ -1262685,11 +1262310,6 @@
       "name": "HDFC Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 8.0714,
-          "inr_close": 602.573
-        },
         {
           "date": "2020-10-06",
           "close": 8.1149,
@@ -1270179,6 +1269799,11 @@
           "date": "2026-11-03",
           "close": 23.6219,
           "inr_close": 2237.596
+        },
+        {
+          "date": "2026-11-04",
+          "close": 23.8303,
+          "inr_close": 2255.063
         }
       ]
     },
@@ -1276585,6 +1276210,11 @@
           "date": "2026-11-03",
           "close": 0.1774,
           "inr_close": 16.8057
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1794,
+          "inr_close": 16.9782
         }
       ]
     },
@@ -1281131,6 +1280761,11 @@
           "date": "2026-11-03",
           "close": 0.2197,
           "inr_close": 20.8129
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2232,
+          "inr_close": 21.1225
         }
       ]
     },
@@ -1286312,6 +1285947,11 @@
           "date": "2026-11-03",
           "close": 0.1713,
           "inr_close": 16.2285
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1741,
+          "inr_close": 16.4741
         }
       ]
     },
@@ -1286324,11 +1285964,6 @@
       "name": "Union Flexi Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.2982,
-          "inr_close": 22.26
-        },
         {
           "date": "2020-10-06",
           "close": 0.3017,
@@ -1293813,6 +1293448,11 @@
           "date": "2026-11-03",
           "close": 0.6124,
           "inr_close": 58.01
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.6193,
+          "inr_close": 58.6
         }
       ]
     },
@@ -1293825,11 +1293465,6 @@
       "name": "LIC MF Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.666,
-          "inr_close": 49.7214
-        },
         {
           "date": "2020-10-06",
           "close": 0.6725,
@@ -1301319,6 +1300954,11 @@
           "date": "2026-11-03",
           "close": 1.1815,
           "inr_close": 111.9226
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.1959,
+          "inr_close": 113.1653
         }
       ]
     },
@@ -1307145,6 +1306785,11 @@
           "date": "2026-11-03",
           "close": 0.1006,
           "inr_close": 9.53
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1031,
+          "inr_close": 9.76
         }
       ]
     },
@@ -1312271,6 +1311916,11 @@
           "date": "2026-11-03",
           "close": 0.1558,
           "inr_close": 14.7538
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1573,
+          "inr_close": 14.8833
         }
       ]
     },
@@ -1315392,6 +1315042,11 @@
           "date": "2026-11-03",
           "close": 0.1332,
           "inr_close": 12.62
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1349,
+          "inr_close": 12.77
         }
       ]
     },
@@ -1319358,6 +1319013,11 @@
           "date": "2026-11-03",
           "close": 0.1692,
           "inr_close": 16.023
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1706,
+          "inr_close": 16.145
         }
       ]
     },
@@ -1320199,6 +1319859,11 @@
           "date": "2026-11-03",
           "close": 0.1112,
           "inr_close": 10.53
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1128,
+          "inr_close": 10.67
         }
       ]
     },
@@ -1324090,6 +1323755,11 @@
           "date": "2026-11-03",
           "close": 0.1404,
           "inr_close": 13.3
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1421,
+          "inr_close": 13.45
         }
       ]
     },
@@ -1324102,11 +1323772,6 @@
       "name": "Shriram Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.144,
-          "inr_close": 10.754
-        },
         {
           "date": "2020-10-06",
           "close": 0.1454,
@@ -1331596,6 +1331261,11 @@
           "date": "2026-11-03",
           "close": 0.2319,
           "inr_close": 21.9648
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2347,
+          "inr_close": 22.2061
         }
       ]
     },
@@ -1331608,11 +1331278,6 @@
       "name": "Taurus Flexi Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.4369,
-          "inr_close": 107.27
-        },
         {
           "date": "2020-10-06",
           "close": 1.4511,
@@ -1339087,6 +1338752,11 @@
           "date": "2026-11-03",
           "close": 2.6201,
           "inr_close": 248.19
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.6607,
+          "inr_close": 251.78
         }
       ]
     },
@@ -1339099,11 +1338769,6 @@
       "name": "Edelweiss Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.4159,
-          "inr_close": 31.05
-        },
         {
           "date": "2020-10-06",
           "close": 0.4174,
@@ -1346598,6 +1346263,11 @@
           "date": "2026-11-03",
           "close": 1.2832,
           "inr_close": 121.554
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.3012,
+          "inr_close": 123.133
         }
       ]
     },
@@ -1348624,6 +1348294,11 @@
           "date": "2026-11-03",
           "close": 0.1435,
           "inr_close": 13.59
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1455,
+          "inr_close": 13.77
         }
       ]
     },
@@ -1348636,11 +1348311,6 @@
       "name": "Quant Mid Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.8897,
-          "inr_close": 66.4188
-        },
         {
           "date": "2020-10-06",
           "close": 0.8962,
@@ -1356130,6 +1355800,11 @@
           "date": "2026-11-03",
           "close": 2.5451,
           "inr_close": 241.0898
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.5751,
+          "inr_close": 243.6828
         }
       ]
     },
@@ -1356142,11 +1355817,6 @@
       "name": "UTI - Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.5763,
-          "inr_close": 117.6833
-        },
         {
           "date": "2020-10-06",
           "close": 1.5816,
@@ -1363636,6 +1363306,11 @@
           "date": "2026-11-03",
           "close": 3.5287,
           "inr_close": 334.2582
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3.5792,
+          "inr_close": 338.6972
         }
       ]
     },
@@ -1363648,11 +1363323,6 @@
       "name": "Union Midcap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.2142,
-          "inr_close": 15.99
-        },
         {
           "date": "2020-10-06",
           "close": 0.2149,
@@ -1371137,6 +1370807,11 @@
           "date": "2026-11-03",
           "close": 0.5772,
           "inr_close": 54.68
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.5846,
+          "inr_close": 55.32
         }
       ]
     },
@@ -1371149,11 +1370824,6 @@
       "name": "Invesco India Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.8119,
-          "inr_close": 60.61
-        },
         {
           "date": "2020-10-06",
           "close": 0.8125,
@@ -1378643,6 +1378313,11 @@
           "date": "2026-11-03",
           "close": 2.4193,
           "inr_close": 229.17
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.4722,
+          "inr_close": 233.94
         }
       ]
     },
@@ -1382664,6 +1382339,11 @@
           "date": "2026-11-03",
           "close": 0.3463,
           "inr_close": 32.8003
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.3522,
+          "inr_close": 33.3304
         }
       ]
     },
@@ -1382676,11 +1382356,6 @@
       "name": "SBI MIDCAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.0792,
-          "inr_close": 80.569
-        },
         {
           "date": "2020-10-06",
           "close": 1.0869,
@@ -1390220,6 +1389895,11 @@
           "date": "2026-11-03",
           "close": 2.7078,
           "inr_close": 256.4939
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.7311,
+          "inr_close": 258.4459
         }
       ]
     },
@@ -1395076,6 +1394756,11 @@
           "date": "2026-11-03",
           "close": 5.3607,
           "inr_close": 507.7909
+        },
+        {
+          "date": "2026-11-04",
+          "close": 5.47,
+          "inr_close": 517.6273
         }
       ]
     },
@@ -1395088,11 +1394773,6 @@
       "name": "ICICI Prudential Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.3545,
-          "inr_close": 101.12
-        },
         {
           "date": "2020-10-06",
           "close": 1.3643,
@@ -1402582,6 +1402262,11 @@
           "date": "2026-11-03",
           "close": 3.8143,
           "inr_close": 361.31
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3.8944,
+          "inr_close": 368.53
         }
       ]
     },
@@ -1407703,6 +1407388,11 @@
           "date": "2026-11-03",
           "close": 0.2358,
           "inr_close": 22.333
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2395,
+          "inr_close": 22.667
         }
       ]
     },
@@ -1407715,11 +1407405,6 @@
       "name": "Mahindra Manulife Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.141,
-          "inr_close": 10.5235
-        },
         {
           "date": "2020-10-06",
           "close": 0.1412,
@@ -1415209,6 +1414894,11 @@
           "date": "2026-11-03",
           "close": 0.405,
           "inr_close": 38.368
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4122,
+          "inr_close": 39.0068
         }
       ]
     },
@@ -1420935,6 +1420625,11 @@
           "date": "2026-11-03",
           "close": 1.3443,
           "inr_close": 127.335
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.3675,
+          "inr_close": 129.4051
         }
       ]
     },
@@ -1425796,6 +1425491,11 @@
           "date": "2026-11-03",
           "close": 0.2253,
           "inr_close": 21.3434
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.229,
+          "inr_close": 21.6666
         }
       ]
     },
@@ -1425808,11 +1425508,6 @@
       "name": "Nippon India Growth Mid Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 16.5084,
-          "inr_close": 1232.4423
-        },
         {
           "date": "2020-10-06",
           "close": 16.6065,
@@ -1433302,6 +1432997,11 @@
           "date": "2026-11-03",
           "close": 49.8396,
           "inr_close": 4721.0805
+        },
+        {
+          "date": "2026-11-04",
+          "close": 50.3846,
+          "inr_close": 4767.8949
         }
       ]
     },
@@ -1433314,11 +1433014,6 @@
       "name": "Mirae Asset Midcap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1571,
-          "inr_close": 11.726
-        },
         {
           "date": "2020-10-06",
           "close": 0.1573,
@@ -1440808,6 +1440503,11 @@
           "date": "2026-11-03",
           "close": 0.4345,
           "inr_close": 41.158
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4402,
+          "inr_close": 41.658
         }
       ]
     },
@@ -1440820,11 +1440520,6 @@
       "name": "Kotak Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.6036,
-          "inr_close": 45.064
-        },
         {
           "date": "2020-10-06",
           "close": 0.6049,
@@ -1448314,6 +1448009,11 @@
           "date": "2026-11-03",
           "close": 1.6741,
           "inr_close": 158.582
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.7,
+          "inr_close": 160.871
         }
       ]
     },
@@ -1453550,6 +1453250,11 @@
           "date": "2026-11-03",
           "close": 0.2078,
           "inr_close": 19.684
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.211,
+          "inr_close": 19.964
         }
       ]
     },
@@ -1460511,6 +1460216,11 @@
           "date": "2026-11-03",
           "close": 0.2529,
           "inr_close": 23.9589
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.257,
+          "inr_close": 24.3227
         }
       ]
     },
@@ -1460523,11 +1460233,6 @@
       "name": "Sundaram Mid Cap Fund - Direct Plan - GROWTH",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 6.1151,
-          "inr_close": 456.5278
-        },
         {
           "date": "2020-10-06",
           "close": 6.1321,
@@ -1468012,6 +1467717,11 @@
           "date": "2026-11-03",
           "close": 16.2878,
           "inr_close": 1542.8668
+        },
+        {
+          "date": "2026-11-04",
+          "close": 16.5572,
+          "inr_close": 1566.8038
         }
       ]
     },
@@ -1468024,11 +1467734,6 @@
       "name": "Tata Mid Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 2.1227,
-          "inr_close": 158.4734
-        },
         {
           "date": "2020-10-06",
           "close": 2.1377,
@@ -1475518,6 +1475223,11 @@
           "date": "2026-11-03",
           "close": 5.3392,
           "inr_close": 505.762
+        },
+        {
+          "date": "2026-11-04",
+          "close": 5.4439,
+          "inr_close": 515.1562
         }
       ]
     },
@@ -1475530,11 +1475240,6 @@
       "name": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.7835,
-          "inr_close": 58.492
-        },
         {
           "date": "2020-10-06",
           "close": 0.7862,
@@ -1483024,6 +1482729,11 @@
           "date": "2026-11-03",
           "close": 2.3235,
           "inr_close": 220.09
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.358,
+          "inr_close": 223.138
         }
       ]
     },
@@ -1483036,11 +1482746,6 @@
       "name": "Axis Midcap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.625,
-          "inr_close": 46.66
-        },
         {
           "date": "2020-10-06",
           "close": 0.6275,
@@ -1490570,6 +1490275,11 @@
           "date": "2026-11-03",
           "close": 1.471,
           "inr_close": 139.34
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.4913,
+          "inr_close": 141.12
         }
       ]
     },
@@ -1490582,11 +1490292,6 @@
       "name": "DSP Midcap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.8833,
-          "inr_close": 65.947
-        },
         {
           "date": "2020-10-06",
           "close": 0.8846,
@@ -1498076,6 +1497781,11 @@
           "date": "2026-11-03",
           "close": 1.7309,
           "inr_close": 163.956
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.7524,
+          "inr_close": 165.826
         }
       ]
     },
@@ -1502902,6 +1502612,11 @@
           "date": "2026-11-03",
           "close": 0.1948,
           "inr_close": 18.45
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.198,
+          "inr_close": 18.74
         }
       ]
     },
@@ -1502914,11 +1502629,6 @@
       "name": "Aditya Birla Sun Life Midcap Fund - Direct Plan - GROWTH",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 3.8282,
-          "inr_close": 285.8
-        },
         {
           "date": "2020-10-06",
           "close": 3.8459,
@@ -1510408,6 +1510118,11 @@
           "date": "2026-11-03",
           "close": 9.4458,
           "inr_close": 894.76
+        },
+        {
+          "date": "2026-11-04",
+          "close": 9.6252,
+          "inr_close": 910.83
         }
       ]
     },
@@ -1510420,11 +1510135,6 @@
       "name": "PGIM India Midcap Fund - Direct Plan - Direct Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.3272,
-          "inr_close": 24.43
-        },
         {
           "date": "2020-10-06",
           "close": 0.3298,
@@ -1517914,6 +1517624,11 @@
           "date": "2026-11-03",
           "close": 0.7897,
           "inr_close": 74.8
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.8012,
+          "inr_close": 75.82
         }
       ]
     },
@@ -1517926,11 +1517641,6 @@
       "name": "Franklin India Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 13.3785,
-          "inr_close": 998.7782
-        },
         {
           "date": "2020-10-06",
           "close": 13.4309,
@@ -1525420,6 +1525130,11 @@
           "date": "2026-11-03",
           "close": 31.3062,
           "inr_close": 2965.4908
+        },
+        {
+          "date": "2026-11-04",
+          "close": 31.85,
+          "inr_close": 3013.9699
         }
       ]
     },
@@ -1525432,11 +1525147,6 @@
       "name": "Taurus Mid Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.6672,
-          "inr_close": 49.81
-        },
         {
           "date": "2020-10-06",
           "close": 0.6689,
@@ -1532911,6 +1532621,11 @@
           "date": "2026-11-03",
           "close": 1.3905,
           "inr_close": 131.72
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.4216,
+          "inr_close": 134.53
         }
       ]
     },
@@ -1532923,11 +1532638,6 @@
       "name": "Motilal Oswal Midcap Fund",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.3643,
-          "inr_close": 27.1975
-        },
         {
           "date": "2020-10-06",
           "close": 0.3662,
@@ -1540417,6 +1540127,11 @@
           "date": "2026-11-03",
           "close": 1.2092,
           "inr_close": 114.5393
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.2245,
+          "inr_close": 115.8773
         }
       ]
     },
@@ -1541893,6 +1541608,11 @@
           "date": "2026-11-03",
           "close": 0.1072,
           "inr_close": 10.15
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1087,
+          "inr_close": 10.29
         }
       ]
     },
@@ -1544369,6 +1544089,11 @@
           "date": "2026-11-03",
           "close": 0.1409,
           "inr_close": 13.35
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1436,
+          "inr_close": 13.59
         }
       ]
     },
@@ -1544381,11 +1544106,6 @@
       "name": "Union Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.2254,
-          "inr_close": 16.83
-        },
         {
           "date": "2020-10-06",
           "close": 0.2264,
@@ -1551870,6 +1551590,11 @@
           "date": "2026-11-03",
           "close": 0.6692,
           "inr_close": 63.39
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.681,
+          "inr_close": 64.44
         }
       ]
     },
@@ -1551882,11 +1551607,6 @@
       "name": "BANK OF INDIA SMALL CAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1903,
-          "inr_close": 14.21
-        },
         {
           "date": "2020-10-06",
           "close": 0.1917,
@@ -1559376,6 +1559096,11 @@
           "date": "2026-11-03",
           "close": 0.6629,
           "inr_close": 62.79
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.6759,
+          "inr_close": 63.96
         }
       ]
     },
@@ -1562892,6 +1562617,11 @@
           "date": "2026-11-03",
           "close": 0.1761,
           "inr_close": 16.6851
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1781,
+          "inr_close": 16.8552
         }
       ]
     },
@@ -1562904,11 +1562634,6 @@
       "name": "Sundaram Small Cap Fund - Direct Plan - GROWTH",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.102,
-          "inr_close": 82.2712
-        },
         {
           "date": "2020-10-06",
           "close": 1.1128,
@@ -1570393,6 +1570118,11 @@
           "date": "2026-11-03",
           "close": 3.2789,
           "inr_close": 310.5946
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3.3109,
+          "inr_close": 313.3151
         }
       ]
     },
@@ -1570405,11 +1570135,6 @@
       "name": "ITI Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1305,
-          "inr_close": 9.7395
-        },
         {
           "date": "2020-10-06",
           "close": 0.1316,
@@ -1577894,6 +1577619,11 @@
           "date": "2026-11-03",
           "close": 0.3853,
           "inr_close": 36.4991
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.3909,
+          "inr_close": 36.9904
         }
       ]
     },
@@ -1581915,6 +1581645,11 @@
           "date": "2026-11-03",
           "close": 0.4003,
           "inr_close": 37.9186
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4068,
+          "inr_close": 38.4959
         }
       ]
     },
@@ -1586711,6 +1586446,11 @@
           "date": "2026-11-03",
           "close": 0.2411,
           "inr_close": 22.8388
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2438,
+          "inr_close": 23.0706
         }
       ]
     },
@@ -1586723,11 +1586463,6 @@
       "name": "Aditya Birla Sun Life Small Cap Fund - Direct Plan - GROWTH",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.4413,
-          "inr_close": 32.9426
-        },
         {
           "date": "2020-10-06",
           "close": 0.4431,
@@ -1594217,6 +1593952,11 @@
           "date": "2026-11-03",
           "close": 1.1528,
           "inr_close": 109.204
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.1705,
+          "inr_close": 110.7647
         }
       ]
     },
@@ -1594229,11 +1593969,6 @@
       "name": "Invesco India Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1573,
-          "inr_close": 11.74
-        },
         {
           "date": "2020-10-06",
           "close": 0.1574,
@@ -1601723,6 +1601458,11 @@
           "date": "2026-11-03",
           "close": 0.5514,
           "inr_close": 52.23
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.5631,
+          "inr_close": 53.29
         }
       ]
     },
@@ -1608209,6 +1607949,11 @@
           "date": "2026-11-03",
           "close": 0.204,
           "inr_close": 19.32
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.2068,
+          "inr_close": 19.57
         }
       ]
     },
@@ -1608221,11 +1607966,6 @@
       "name": "Quant Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.8275,
-          "inr_close": 61.778
-        },
         {
           "date": "2020-10-06",
           "close": 0.8328,
@@ -1615715,6 +1615455,11 @@
           "date": "2026-11-03",
           "close": 3.1918,
           "inr_close": 302.3456
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3.2604,
+          "inr_close": 308.5319
         }
       ]
     },
@@ -1618646,6 +1618391,11 @@
           "date": "2026-11-03",
           "close": 0.119,
           "inr_close": 11.2703
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1216,
+          "inr_close": 11.5065
         }
       ]
     },
@@ -1618658,11 +1618408,6 @@
       "name": "DSP Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.863,
-          "inr_close": 64.427
-        },
         {
           "date": "2020-10-06",
           "close": 0.8637,
@@ -1626152,6 +1625897,11 @@
           "date": "2026-11-03",
           "close": 2.5429,
           "inr_close": 240.873
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.5865,
+          "inr_close": 244.757
         }
       ]
     },
@@ -1628318,6 +1628068,11 @@
           "date": "2026-11-03",
           "close": 0.1285,
           "inr_close": 12.174
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1312,
+          "inr_close": 12.417
         }
       ]
     },
@@ -1632004,6 +1631759,11 @@
           "date": "2026-11-03",
           "close": 0.1396,
           "inr_close": 13.22
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1424,
+          "inr_close": 13.48
         }
       ]
     },
@@ -1632016,11 +1631776,6 @@
       "name": "BANDHAN Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1707,
-          "inr_close": 12.74
-        },
         {
           "date": "2020-10-06",
           "close": 0.1712,
@@ -1639555,6 +1639310,11 @@
           "date": "2026-11-03",
           "close": 0.5714,
           "inr_close": 54.13
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.5812,
+          "inr_close": 54.996
         }
       ]
     },
@@ -1639567,11 +1639327,6 @@
       "name": "Nippon India Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.6075,
-          "inr_close": 45.3568
-        },
         {
           "date": "2020-10-06",
           "close": 0.6085,
@@ -1647061,6 +1646816,11 @@
           "date": "2026-11-03",
           "close": 2.0751,
           "inr_close": 196.5637
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.108,
+          "inr_close": 199.4805
         }
       ]
     },
@@ -1647073,11 +1646833,6 @@
       "name": "Edelweiss Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1729,
-          "inr_close": 12.908
-        },
         {
           "date": "2020-10-06",
           "close": 0.1734,
@@ -1654572,6 +1654327,11 @@
           "date": "2026-11-03",
           "close": 0.5264,
           "inr_close": 49.867
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.5357,
+          "inr_close": 50.693
         }
       ]
     },
@@ -1658283,6 +1658043,11 @@
           "date": "2026-11-03",
           "close": 0.1477,
           "inr_close": 13.9945
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1509,
+          "inr_close": 14.2819
         }
       ]
     },
@@ -1658295,11 +1658060,6 @@
       "name": "Axis Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.4866,
-          "inr_close": 36.33
-        },
         {
           "date": "2020-10-06",
           "close": 0.4889,
@@ -1665829,6 +1665589,11 @@
           "date": "2026-11-03",
           "close": 1.3644,
           "inr_close": 129.24
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.3855,
+          "inr_close": 131.11
         }
       ]
     },
@@ -1670685,6 +1670450,11 @@
           "date": "2026-11-03",
           "close": 1.0047,
           "inr_close": 95.17
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.0292,
+          "inr_close": 97.3937
         }
       ]
     },
@@ -1670697,11 +1670467,6 @@
       "name": "SBI SMALL CAP FUND - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.862,
-          "inr_close": 64.3535
-        },
         {
           "date": "2020-10-06",
           "close": 0.8608,
@@ -1678241,6 +1678006,11 @@
           "date": "2026-11-03",
           "close": 2.1307,
           "inr_close": 201.8271
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.1657,
+          "inr_close": 204.9386
         }
       ]
     },
@@ -1678253,11 +1678023,6 @@
       "name": "ICICI Prudential Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.3725,
-          "inr_close": 27.81
-        },
         {
           "date": "2020-10-06",
           "close": 0.3743,
@@ -1685747,6 +1685512,11 @@
           "date": "2026-11-03",
           "close": 1.0312,
           "inr_close": 97.68
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.0433,
+          "inr_close": 98.73
         }
       ]
     },
@@ -1692978,6 +1692748,11 @@
           "date": "2026-11-03",
           "close": 0.2969,
           "inr_close": 28.1208
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.3009,
+          "inr_close": 28.4695
         }
       ]
     },
@@ -1692990,11 +1692765,6 @@
       "name": "Canara Robeco Small Cap Fund - Direct Plan - GROWTH OPTION",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.1611,
-          "inr_close": 12.03
-        },
         {
           "date": "2020-10-06",
           "close": 0.1617,
@@ -1700484,6 +1700254,11 @@
           "date": "2026-11-03",
           "close": 0.4486,
           "inr_close": 42.49
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4564,
+          "inr_close": 43.19
         }
       ]
     },
@@ -1700496,11 +1700271,6 @@
       "name": "Franklin India Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.7035,
-          "inr_close": 52.5192
-        },
         {
           "date": "2020-10-06",
           "close": 0.7057,
@@ -1707990,6 +1707760,11 @@
           "date": "2026-11-03",
           "close": 1.9802,
           "inr_close": 187.573
+        },
+        {
+          "date": "2026-11-04",
+          "close": 2.0147,
+          "inr_close": 190.6464
         }
       ]
     },
@@ -1708002,11 +1707777,6 @@
       "name": "Kotak Small Cap Fund - Direct Plan - Growth",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 1.1895,
-          "inr_close": 88.8
-        },
         {
           "date": "2020-10-06",
           "close": 1.1922,
@@ -1715496,6 +1715266,11 @@
           "date": "2026-11-03",
           "close": 3.2303,
           "inr_close": 305.996
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3.2936,
+          "inr_close": 311.671
         }
       ]
     },
@@ -1715508,11 +1715283,6 @@
       "name": "HDFC Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.5624,
-          "inr_close": 41.988
-        },
         {
           "date": "2020-10-06",
           "close": 0.5642,
@@ -1723002,6 +1722772,11 @@
           "date": "2026-11-03",
           "close": 1.5858,
           "inr_close": 150.219
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1.6123,
+          "inr_close": 152.574
         }
       ]
     },
@@ -1723014,11 +1722789,6 @@
       "name": "Tata Small Cap Fund - Direct Plan - Growth Option",
       "currency": "INR",
       "points": [
-        {
-          "date": "2020-10-05",
-          "close": 0.153,
-          "inr_close": 11.4208
-        },
         {
           "date": "2020-10-06",
           "close": 0.1534,
@@ -1730508,6 +1730278,11 @@
           "date": "2026-11-03",
           "close": 0.4307,
           "inr_close": 40.7953
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.4398,
+          "inr_close": 41.6153
         }
       ]
     },
@@ -1732099,6 +1731874,11 @@
           "date": "2026-11-03",
           "close": 0.1141,
           "inr_close": 10.812
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1158,
+          "inr_close": 10.954
         }
       ]
     },
@@ -1733260,6 +1733040,11 @@
           "date": "2026-11-03",
           "close": 0.1176,
           "inr_close": 11.14
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1196,
+          "inr_close": 11.32
         }
       ]
     },
@@ -1734386,6 +1734171,11 @@
           "date": "2026-11-03",
           "close": 0.1284,
           "inr_close": 12.16
+        },
+        {
+          "date": "2026-11-04",
+          "close": 0.1309,
+          "inr_close": 12.39
         }
       ]
     }
