@@ -2,8 +2,14 @@ name: Build Dashboard Data
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Run every 10 minutes
+    - cron: '*/10 * * * *' # Market data refreshes every 10 minutes; MF NAV cache opens twice daily at 11:30 and 23:30 IST
   workflow_dispatch:
+    inputs:
+      force_mf_refresh:
+        description: 'Fetch every mutual fund NAV again, even if this window was already checked'
+        required: false
+        type: boolean
+        default: false
   push:
     branches:
       - main
@@ -33,8 +39,14 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build data
+        env:
+          FORCE_MF_REFRESH: ${{ github.event.inputs.force_mf_refresh }}
         run: |
-          python scripts/build_data.py --out-dir data
+          if [[ "$FORCE_MF_REFRESH" == "true" ]]; then
+            python scripts/build_data.py --out-dir data --force-mf-refresh
+          else
+            python scripts/build_data.py --out-dir data
+          fi
 
       - name: Commit and push changes
         run: |

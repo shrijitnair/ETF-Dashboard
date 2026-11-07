@@ -109,6 +109,11 @@ def parse_args() -> argparse.Namespace:
         help="Path to persisted custom watchlist config JSON.",
     )
     parser.add_argument("--out-dir", default=DEFAULT_OUTPUT_DIR, help="Directory for generated JSON files.")
+    parser.add_argument(
+        "--force-mf-refresh",
+        action="store_true",
+        help="Fetch every configured mutual fund again, even if this refresh window was already checked.",
+    )
     return parser.parse_args()
 
 
@@ -409,9 +414,13 @@ def download_histories(source_tickers: Sequence[str]) -> Dict[str, pd.DataFrame]
 def mf_nav_refresh_key(now: Optional[datetime] = None) -> str:
     local_now = now.astimezone(ZoneInfo("Asia/Kolkata")) if now else datetime.now(ZoneInfo("Asia/Kolkata"))
     local_day = local_now.date()
-    if (local_now.hour, local_now.minute) < (23, 30):
-        local_day -= timedelta(days=1)
-    return local_day.isoformat()
+    minutes_since_midnight = local_now.hour * 60 + local_now.minute
+    if minutes_since_midnight >= 23 * 60 + 30:
+        return "{}-pm".format(local_day.isoformat())
+    if minutes_since_midnight >= 11 * 60 + 30:
+        return "{}-am".format(local_day.isoformat())
+    local_day -= timedelta(days=1)
+    return "{}-pm".format(local_day.isoformat())
 
 
 def parse_mf_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
@@ -433,6 +442,7 @@ def parse_mf_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
 def download_mutual_fund_histories(
     items: Sequence[WatchItem],
     cache_path: str,
+    force_refresh: bool = False,
 ) -> Tuple[Dict[str, pd.DataFrame], Dict[str, Dict[str, Any]], Dict[str, str]]:
     if not items:
         return {}, {}, {}
@@ -447,7 +457,7 @@ def download_mutual_fund_histories(
 
     refresh_key = mf_nav_refresh_key()
     previous_attempted = set(cache_document.get("attempted_codes", []))
-    if cache_document.get("refresh_key") != refresh_key:
+    if force_refresh or cache_document.get("refresh_key") != refresh_key:
         attempted_codes = set()
     else:
         attempted_codes = previous_attempted
@@ -826,6 +836,7 @@ def build_dashboard_data(
     config_path: str = DEFAULT_CONFIG_PATH,
     custom_config_path: str = DEFAULT_CUSTOM_CONFIG_PATH,
     out_dir: str = DEFAULT_OUTPUT_DIR,
+    force_mf_refresh: bool = False,
 ) -> Dict[str, Any]:
     os.makedirs(out_dir, exist_ok=True)
 
@@ -844,6 +855,7 @@ def build_dashboard_data(
     mutual_fund_histories, info_cache, mutual_fund_failures = download_mutual_fund_histories(
         mutual_fund_items,
         os.path.join(out_dir, MF_NAV_CACHE_FILENAME),
+        force_refresh=force_mf_refresh,
     )
     histories.update(mutual_fund_histories)
 
@@ -1081,7 +1093,12 @@ def build_dashboard_data(
 
 def main() -> None:
     args = parse_args()
-    dashboard_payload = build_dashboard_data(args.config, args.custom_config, args.out_dir)
+    dashboard_payload = build_dashboard_data(
+        args.config,
+        args.custom_config,
+        args.out_dir,
+        force_mf_refresh=args.force_mf_refresh,
+    )
     instrument_count = sum(
         len(group["rows"])
         for tab in dashboard_payload["snapshot"]["tabs"]
