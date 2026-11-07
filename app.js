@@ -423,6 +423,7 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
   const height = 470;
   const padding = { top: 24, right: 28, bottom: 28, left: 76 };
   const plotWidth = width - padding.left - padding.right;
+  const dataPlotWidth = plotWidth - 18;
   const plotHeight = height - padding.top - padding.bottom;
   const startTime = parseIsoDateUtc(startDate).getTime();
   const endTime = parseIsoDateUtc(endDate).getTime();
@@ -435,7 +436,7 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
   const max = dynamicBounds?.max ?? 100 + fixedReturnBounds.max;
   const clipId = `comparison-plot-${series.map((entry) => entry.ticker).join("-").toLowerCase()}`;
   const yFor = (value) => padding.top + ((max - value) / (max - min)) * plotHeight;
-  const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * plotWidth;
+  const xFor = (date) => padding.left + ((parseIsoDateUtc(date).getTime() - startTime) / timeSpan) * dataPlotWidth;
   const ticks = fixedReturnBounds
     ? Array.from({ length: (fixedReturnBounds.max - fixedReturnBounds.min) / 10 + 1 }, (_, index) => 100 + fixedReturnBounds.min + index * 10)
     : Array.from({ length: Math.round((max - min) / dynamicBounds.step) + 1 }, (_, index) => min + index * dynamicBounds.step);
@@ -462,7 +463,7 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
         <text class="comparison-y-label comparison-zero-label" x="${padding.left - 12}" y="${(yFor(100) + 4).toFixed(1)}" text-anchor="end">0%</text>
       `}
       ${xTicks.map(({ ratio, date }) => {
-        const x = padding.left + plotWidth * ratio;
+        const x = padding.left + dataPlotWidth * ratio;
         return `<line class="comparison-x-tick" x1="${x.toFixed(1)}" y1="${padding.top}" x2="${x.toFixed(1)}" y2="${height - padding.bottom}"></line>`;
       }).join("")}
       <g clip-path="url(#${clipId})">${series.map((entry) => {
@@ -476,7 +477,7 @@ function renderComparisonSvg(series, startDate, endDate, fixedReturnBounds = nul
         `;
       }).join("")}</g>
       ${xTicks.map(({ ratio, date }) => {
-        const x = padding.left + plotWidth * ratio;
+        const x = padding.left + dataPlotWidth * ratio;
         const label = ratio === 0 ? startDate : ratio === 1 ? endDate : date.slice(5);
         return `<text class="comparison-x-label" x="${x.toFixed(1)}" y="${height - 4}" text-anchor="${ratio === 0 ? "start" : ratio === 1 ? "end" : "middle"}">${escapeHtml(label)}</text>`;
       }).join("")}
