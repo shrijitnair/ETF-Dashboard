@@ -1014,7 +1014,8 @@
             {"ticker": "CBU0", "source_ticker": "CBU0.L", "name": "iShares $ Treasury Bond 7-10yr UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
             {"ticker": "VDCA", "source_ticker": "VDCA.L", "name": "Vanguard USD Corporate 1-3 Year Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
             {"ticker": "IUAA", "source_ticker": "IUAA.L", "name": "iShares US Aggregate Bond UCITS ETF USD Acc", "exchange": "LON", "currency": "USD"},
-            {"ticker": "AGGU", "source_ticker": "AGGU.L", "name": "iShares Core Global Aggregate Bond UCITS ETF USD Hedged Acc", "exchange": "LON", "currency": "USD"}
+            {"ticker": "AGGU", "source_ticker": "AGGU.L", "name": "iShares Core Global Aggregate Bond UCITS ETF USD Hedged Acc", "exchange": "LON", "currency": "USD"},
+            {"ticker": "BOXX", "source_ticker": "BOXX", "name": "Alpha Architect 1-3 Month Box ETF", "exchange": "BATS", "currency": "USD"}
           ]
         }
       ]
