@@ -22,6 +22,8 @@ const INDEX_COMPARISON_RANGES = [
   { key: "1W", label: "1 week", days: 7 },
   { key: "1M", label: "1 month", months: 1 },
   { key: "1Y", label: "1 year", years: 1 },
+  { key: "3Y", label: "3 years", years: 3 },
+  { key: "5Y", label: "5 years", years: 5 },
   { key: "YTD", label: "Year to date", ytd: true },
 ];
 const SAVED_THEME = window.localStorage.getItem("dashboard-theme") || "dark";
@@ -279,7 +281,9 @@ function renderIndexComparison() {
     ...section,
     comparison: getIndexComparisonData(range, INDEX_COMPARISON_SERIES.filter((entry) => entry.group === section.id)),
   }));
-  const equityReturnBounds = { min: -30, max: 40 };
+  const equityReturnBounds = ["3Y", "5Y"].includes(range.key)
+    ? null
+    : { min: -30, max: 40 };
   const currency = state.displayCurrency;
   elements.returnBasisNote.textContent = `Indexed performance comparison • ${currency === "INR" ? "INR-adjusted" : "USD"} returns`;
 
