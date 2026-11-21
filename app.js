@@ -8,6 +8,9 @@ const RANGE_OPTIONS = [
 ];
 const DATA_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 const INDEX_COMPARISON_TAB_ID = "index-performance";
+const INSTRUMENT_COMPARISON_TAB_ID = "instrument-comparison";
+const MAX_COMPARE_INSTRUMENTS = 6;
+const COMPARISON_COLORS = ["#f5b84b", "#48c8f0", "#a78bfa", "#52d39b", "#ff7f9f", "#fb923c"];
 const INDEX_COMPARISON_SERIES = [
   { group: "indices", ticker: "NIFTY50", label: "Nifty 50", color: "#f5b84b" },
   { group: "indices", ticker: "NIFTYNEXT50", label: "Nifty Next 50", color: "#48c8f0" },
@@ -26,6 +29,16 @@ const INDEX_COMPARISON_RANGES = [
   { key: "5Y", label: "5 years", years: 5 },
   { key: "YTD", label: "Year to date", ytd: true },
 ];
+const INSTRUMENT_COMPARISON_RANGES = [
+  { key: "1W", label: "1 week", days: 7 },
+  { key: "1M", label: "1 month", months: 1 },
+  { key: "3M", label: "3 months", months: 3 },
+  { key: "6M", label: "6 months", months: 6 },
+  { key: "YTD", label: "Year to date", ytd: true },
+  { key: "1Y", label: "1 year", years: 1 },
+  { key: "3Y", label: "3 years", years: 3 },
+  { key: "5Y", label: "5 years", years: 5 },
+];
 const SAVED_THEME = window.localStorage.getItem("dashboard-theme") || "dark";
 document.documentElement.dataset.theme = SAVED_THEME;
 
@@ -37,8 +50,10 @@ const state = {
   activeTabId: null,
   sortStateByTab: {},
   selectedItemByTab: {},
+  compareItemIds: loadSavedComparisonItems(),
   chartRangeByTab: {},
   comparisonRange: "1Y",
+  instrumentComparisonRange: "1Y",
   filterText: "",
   displayCurrency: "INR",
   theme: SAVED_THEME,
@@ -48,6 +63,7 @@ const elements = {
   tablist: document.getElementById("tablist"),
   tablePanel: document.getElementById("table-panel"),
   comparisonPanel: document.getElementById("comparison-panel"),
+  instrumentComparisonPanel: document.getElementById("instrument-comparison-panel"),
   dashboardLayout: document.querySelector(".dashboard"),
   detailPanel: document.getElementById("detail-panel"),
   builtAt: document.getElementById("built-at"),
@@ -55,6 +71,7 @@ const elements = {
   detailTabLabel: document.getElementById("detail-tab-label"),
   detailTitle: document.getElementById("detail-title"),
   detailSubtitle: document.getElementById("detail-subtitle"),
+  detailCompareToggle: document.getElementById("detail-compare-toggle"),
   chartLast: document.getElementById("chart-last"),
   chartChange: document.getElementById("chart-change"),
   chartStart: document.getElementById("chart-start"),
@@ -122,6 +139,10 @@ function bindPersistentEvents() {
     sortState.direction = sortState.direction === "asc" ? "desc" : "asc";
     renderTable();
   });
+  elements.detailCompareToggle.addEventListener("click", () => {
+    const row = getSelectedRow(getActiveTab());
+    if (row) toggleComparisonItem(row);
+  });
   updateThemeToggle();
 }
 
@@ -140,7 +161,17 @@ async function reloadDashboard(options = {}) {
   state.history = dashboard.history;
   state.meta = dashboard.meta;
 
-  const nextTabId = previousTabId === INDEX_COMPARISON_TAB_ID || state.snapshot.tabs.some((tab) => tab.id === previousTabId)
+  const availableCompareIds = new Set(getAllSnapshotRows()
+    .filter((row) => (state.history.series[row.item_id]?.points || []).length > 1)
+    .map((row) => row.item_id));
+  const savedCompareItems = state.compareItemIds;
+  state.compareItemIds = savedCompareItems.filter((itemId) => availableCompareIds.has(itemId)).slice(0, MAX_COMPARE_INSTRUMENTS);
+  if (state.compareItemIds.length !== savedCompareItems.length) {
+    saveComparisonItems();
+  }
+
+  const nextTabId = [INDEX_COMPARISON_TAB_ID, INSTRUMENT_COMPARISON_TAB_ID].includes(previousTabId)
+    || state.snapshot.tabs.some((tab) => tab.id === previousTabId)
     ? previousTabId
     : state.snapshot.tabs[0]?.id || null;
   state.activeTabId = nextTabId;
@@ -182,13 +213,20 @@ function render() {
   }
   renderHeader();
   renderTabs();
-  const isComparisonTab = state.activeTabId === INDEX_COMPARISON_TAB_ID;
+  const isIndexComparisonTab = state.activeTabId === INDEX_COMPARISON_TAB_ID;
+  const isInstrumentComparisonTab = state.activeTabId === INSTRUMENT_COMPARISON_TAB_ID;
+  const isComparisonTab = isIndexComparisonTab || isInstrumentComparisonTab;
   elements.dashboardLayout.classList.toggle("comparison-mode", isComparisonTab);
   elements.tablePanel.hidden = isComparisonTab;
-  elements.comparisonPanel.hidden = !isComparisonTab;
+  elements.comparisonPanel.hidden = !isIndexComparisonTab;
+  elements.instrumentComparisonPanel.hidden = !isInstrumentComparisonTab;
   elements.detailPanel.hidden = isComparisonTab;
-  if (isComparisonTab) {
+  if (isIndexComparisonTab) {
     renderIndexComparison();
+    return;
+  }
+  if (isInstrumentComparisonTab) {
+    renderInstrumentComparison();
     return;
   }
   renderReturnBasisUi();
@@ -211,6 +249,7 @@ function renderTabs() {
   const activeTabId = state.activeTabId;
   const tabs = [
     ...state.snapshot.tabs,
+    { id: INSTRUMENT_COMPARISON_TAB_ID, label: `Compare${state.compareItemIds.length ? ` (${state.compareItemIds.length})` : ""}` },
     { id: INDEX_COMPARISON_TAB_ID, label: "Index Performance" },
   ];
   elements.tablist.innerHTML = tabs.map((tab) => {
@@ -331,6 +370,184 @@ function renderIndexComparison() {
       renderIndexComparison();
     });
   });
+}
+
+function renderInstrumentComparison() {
+  const range = INSTRUMENT_COMPARISON_RANGES.find((entry) => entry.key === state.instrumentComparisonRange)
+    || INSTRUMENT_COMPARISON_RANGES[5];
+  const selectedRows = state.compareItemIds.map(getSnapshotRowById).filter(Boolean);
+  elements.returnBasisNote.textContent = `Instrument comparison • ${state.displayCurrency} view`;
+
+  if (!selectedRows.length) {
+    elements.instrumentComparisonPanel.innerHTML = `
+      <div class="comparison-empty">
+        <span class="comparison-eyebrow">Instrument comparison</span>
+        <h2>Choose instruments to compare</h2>
+        <p>Open any market tab, select an instrument, then choose <b>Add to compare</b>. You can compare up to ${MAX_COMPARE_INSTRUMENTS} instruments.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const comparison = getInstrumentComparisonData(range, selectedRows);
+  elements.instrumentComparisonPanel.innerHTML = `
+    <div class="comparison-heading">
+      <div>
+        <span class="comparison-eyebrow">Instrument comparison · ${selectedRows.length} selected</span>
+        <h2>Compare performance</h2>
+        <p>Each line starts at 100. Add instruments from any market tab; choose up to ${MAX_COMPARE_INSTRUMENTS}.</p>
+      </div>
+      <div class="comparison-ranges instrument-comparison-ranges" role="group" aria-label="Comparison period">
+        ${INSTRUMENT_COMPARISON_RANGES.map((option) => `
+          <button
+            class="comparison-range-button ${option.key === range.key ? "active" : ""}"
+            type="button"
+            data-instrument-comparison-range="${option.key}"
+            aria-pressed="${option.key === range.key}"
+          >${option.key}</button>
+        `).join("")}
+      </div>
+    </div>
+    <div class="comparison-selection" aria-label="Selected instruments">
+      ${selectedRows.map((row, index) => `
+        <div class="comparison-selection-chip" style="--series-color:${COMPARISON_COLORS[index % COMPARISON_COLORS.length]}">
+          <span>${escapeHtml(getDisplayName(row))}</span>
+          <button type="button" data-remove-comparison="${escapeHtml(row.item_id)}" aria-label="Remove ${escapeHtml(getDisplayName(row))} from comparison">×</button>
+        </div>
+      `).join("")}
+    </div>
+    ${comparison.series.length
+      ? renderComparisonSection({ title: "Selected instruments", comparison }, range, null)
+      : `
+        <div class="comparison-empty comparison-empty-inline">
+          <h2>No selected instruments have enough ${escapeHtml(range.label)} history</h2>
+          <p>Choose a shorter period or remove an instrument whose history began later.</p>
+        </div>
+      `}
+    ${comparison.unavailable.length ? `
+      <p class="comparison-footnote">Not shown for this period because full history is unavailable: ${comparison.unavailable.map((row) => escapeHtml(getDisplayName(row))).join(", ")}.</p>
+    ` : ""}
+    <p class="comparison-footnote">International instruments follow the currency selector. Indian instruments and mutual funds remain INR-based. Available dates vary by market holidays and NAV publication days.</p>
+  `;
+
+  elements.instrumentComparisonPanel.querySelectorAll("[data-instrument-comparison-range]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.instrumentComparisonRange = button.dataset.instrumentComparisonRange;
+      renderInstrumentComparison();
+    });
+  });
+  elements.instrumentComparisonPanel.querySelectorAll("[data-remove-comparison]").forEach((button) => {
+    button.addEventListener("click", () => removeComparisonItem(button.dataset.removeComparison));
+  });
+}
+
+function getInstrumentComparisonData(range, rows) {
+  const rawSeries = rows.map((row, index) => {
+    const source = state.history.series[row.item_id];
+    const points = (source?.points || []).map((point) => ({
+      date: point.date,
+      value: getComparisonPointValue(point),
+    })).filter((point) => point.value != null && Number.isFinite(Number(point.value)) && Number(point.value) > 0)
+      .sort((left, right) => left.date.localeCompare(right.date));
+    return {
+      itemId: row.item_id,
+      ticker: row.item_id.replace(/[^a-z0-9-]/gi, "-"),
+      label: getDisplayName(row),
+      color: COMPARISON_COLORS[index % COMPARISON_COLORS.length],
+      row,
+      points,
+    };
+  });
+  const usableSeries = rawSeries.filter((entry) => entry.points.length >= 2);
+  if (!usableSeries.length) {
+    return { series: [], unavailable: rows, startDate: "", endDate: "" };
+  }
+
+  const endDate = usableSeries.reduce((earliest, entry) => {
+    const lastDate = entry.points[entry.points.length - 1].date;
+    return lastDate < earliest ? lastDate : earliest;
+  }, usableSeries[0].points[usableSeries[0].points.length - 1].date);
+  const end = parseIsoDateUtc(endDate);
+  const anchor = range.ytd
+    ? new Date(Date.UTC(end.getUTCFullYear(), 0, 1))
+    : range.days
+      ? new Date(end.getTime() - range.days * 24 * 60 * 60 * 1000)
+      : subtractCalendarOffsetUtc(end, range);
+  const anchorDate = anchor.toISOString().slice(0, 10);
+  const unavailable = [];
+
+  const series = usableSeries.map((entry) => {
+    const eligible = entry.points.filter((point) => point.date <= endDate);
+    const baselineIndex = eligible.reduce((found, point, index) => {
+      const isBaseline = range.ytd ? point.date < anchorDate : point.date <= anchorDate;
+      return isBaseline ? index : found;
+    }, -1);
+    const basePoint = baselineIndex >= 0 ? eligible[baselineIndex] : null;
+    const periodPoints = eligible.filter((point) => point.date >= anchorDate && point.date <= endDate);
+    const pointsAfterAnchor = periodPoints.filter((point) => point.date > anchorDate);
+    if (!basePoint || !pointsAfterAnchor.length || !basePoint.value) {
+      unavailable.push(entry.row);
+      return null;
+    }
+
+    const lastPoint = periodPoints[periodPoints.length - 1] || basePoint;
+    return {
+      ...entry,
+      change: ((Number(lastPoint.value) / Number(basePoint.value)) - 1) * 100,
+      points: [
+        { date: anchorDate, value: 100 },
+        ...pointsAfterAnchor.map((point) => ({
+          date: point.date,
+          value: (Number(point.value) / Number(basePoint.value)) * 100,
+        })),
+      ],
+    };
+  }).filter(Boolean);
+
+  const rowsWithoutHistory = rawSeries.filter((entry) => entry.points.length < 2).map((entry) => entry.row);
+  return { series, unavailable: [...rowsWithoutHistory, ...unavailable], startDate: anchorDate, endDate };
+}
+
+function getComparisonPointValue(point) {
+  if (state.displayCurrency === "INR") {
+    return point.inr_close ?? point.close;
+  }
+  return point.close;
+}
+
+function toggleComparisonItem(row) {
+  const existingIndex = state.compareItemIds.indexOf(row.item_id);
+  if (existingIndex >= 0) {
+    state.compareItemIds.splice(existingIndex, 1);
+  } else {
+    if (state.compareItemIds.length >= MAX_COMPARE_INSTRUMENTS) return;
+    const points = state.history.series[row.item_id]?.points || [];
+    if (points.length < 2) return;
+    state.compareItemIds.push(row.item_id);
+  }
+  saveComparisonItems();
+  render();
+}
+
+function removeComparisonItem(itemId) {
+  state.compareItemIds = state.compareItemIds.filter((selectedId) => selectedId !== itemId);
+  saveComparisonItems();
+  render();
+}
+
+function renderDetailCompareButton(row) {
+  const isSelected = state.compareItemIds.includes(row.item_id);
+  const hasHistory = (state.history.series[row.item_id]?.points || []).length > 1;
+  const atLimit = state.compareItemIds.length >= MAX_COMPARE_INSTRUMENTS;
+  elements.detailCompareToggle.hidden = false;
+  elements.detailCompareToggle.textContent = isSelected ? "Remove from compare" : "Add to compare";
+  elements.detailCompareToggle.disabled = !isSelected && (!hasHistory || atLimit);
+  elements.detailCompareToggle.setAttribute("aria-pressed", String(isSelected));
+  elements.detailCompareToggle.title = !hasHistory
+    ? "Historical data is unavailable for this instrument"
+    : !isSelected && atLimit
+      ? `Compare up to ${MAX_COMPARE_INSTRUMENTS} instruments at a time`
+      : "";
 }
 
 function renderComparisonSection(section, range, fixedReturnBounds) {
@@ -616,6 +833,14 @@ function renderTable() {
       renderDetail();
     });
   });
+
+  elements.tablePanel.querySelectorAll("[data-compare-item-id]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const row = getSnapshotRowById(button.dataset.compareItemId);
+      if (row) toggleComparisonItem(row);
+    });
+  });
 }
 
 function renderMobileSort(tab, columns) {
@@ -634,6 +859,9 @@ function renderMobileSort(tab, columns) {
 
 function renderMobileCard(row, columns, tabId) {
   const selected = state.selectedItemByTab[tabId] === row.item_id;
+  const isInComparison = state.compareItemIds.includes(row.item_id);
+  const comparisonAtLimit = !isInComparison && state.compareItemIds.length >= MAX_COMPARE_INSTRUMENTS;
+  const hasHistory = (state.history.series[row.item_id]?.points || []).length > 1;
   const summaryKeys = new Set(["daily_pct", "five_day_pct", "one_month_pct", "ytd_pct", "one_year_pct"]);
   const summaryColumns = columns.filter((column) => summaryKeys.has(column.key));
   const detailColumns = columns.filter((column) => ![
@@ -674,6 +902,15 @@ function renderMobileCard(row, columns, tabId) {
           }).join("")}
         </span>
       </button>
+      <div class="instrument-card-actions">
+        <button
+          class="instrument-card-compare"
+          type="button"
+          data-compare-item-id="${escapeHtml(row.item_id)}"
+          aria-pressed="${isInComparison}"
+          ${!isInComparison && (!hasHistory || comparisonAtLimit) ? "disabled" : ""}
+        >${isInComparison ? "Remove from compare" : "Add to compare"}</button>
+      </div>
       <details class="instrument-card-more">
         <summary>More metrics and details</summary>
         <div class="mobile-detail-metrics">
@@ -747,6 +984,7 @@ function renderDetail() {
     elements.chartEnd.textContent = "--";
     elements.currencyImpact.hidden = true;
     elements.currencyImpact.innerHTML = "";
+    elements.detailCompareToggle.hidden = true;
     return;
   }
 
@@ -757,6 +995,7 @@ function renderDetail() {
   elements.detailSubtitle.textContent = row.asset_type === "mutual_fund"
     ? `ISIN ${row.isin} • Scheme ${row.scheme_code} • ${row.exchange}`
     : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
+  renderDetailCompareButton(row);
 
   const series = state.history.series[row.item_id]?.points || [];
   const rangeKey = state.chartRangeByTab[tab.id];
@@ -1038,6 +1277,33 @@ function getFirstRowForTab(tab) {
 
 function getActiveTab() {
   return state.snapshot?.tabs.find((tab) => tab.id === state.activeTabId) || null;
+}
+
+function getAllSnapshotRows() {
+  return state.snapshot?.tabs.flatMap((tab) => tab.groups.flatMap((group) => group.rows)) || [];
+}
+
+function getSnapshotRowById(itemId) {
+  return getAllSnapshotRows().find((row) => row.item_id === itemId) || null;
+}
+
+function loadSavedComparisonItems() {
+  try {
+    const saved = JSON.parse(window.localStorage.getItem("dashboard-compare-items") || "[]");
+    return Array.isArray(saved)
+      ? [...new Set(saved.filter((itemId) => typeof itemId === "string"))].slice(0, MAX_COMPARE_INSTRUMENTS)
+      : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveComparisonItems() {
+  try {
+    window.localStorage.setItem("dashboard-compare-items", JSON.stringify(state.compareItemIds));
+  } catch (error) {
+    // Comparison still works for the current visit if storage is unavailable.
+  }
 }
 
 function getMetaColumnLabel(key, fallback) {

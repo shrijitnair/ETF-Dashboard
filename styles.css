@@ -465,6 +465,30 @@ tbody tr.active {
   line-height: 1.5;
 }
 
+.detail-compare-button {
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid var(--pill-border);
+  border-radius: 999px;
+  background: var(--pill-bg);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.84rem;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.detail-compare-button:hover,
+.detail-compare-button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.detail-compare-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 .range-toggle {
   display: flex;
   flex-wrap: wrap;
@@ -637,6 +661,68 @@ tbody tr.active {
   color: #96a5b8;
   font-size: 0.96rem;
   line-height: 1.55;
+}
+
+.comparison-empty-inline {
+  margin-top: 18px;
+  padding: 20px;
+  border: 1px solid rgba(151, 175, 204, 0.14);
+  border-radius: 16px;
+  background: rgba(17, 27, 42, 0.55);
+}
+
+.comparison-empty-inline h2 {
+  margin: 0 0 7px;
+  font-size: 1.1rem;
+}
+
+.comparison-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -8px 0 20px;
+}
+
+.comparison-selection-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  max-width: min(100%, 380px);
+  padding: 7px 8px 7px 12px;
+  border: 1px solid color-mix(in srgb, var(--series-color) 38%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--series-color) 9%, #0b1220);
+  color: #dce7f5;
+  font-size: 0.82rem;
+}
+
+.comparison-selection-chip > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.comparison-selection-chip button {
+  display: grid;
+  width: 23px;
+  height: 23px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--series-color) 20%, transparent);
+  color: #eef4ff;
+  cursor: pointer;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.comparison-selection-chip button:hover {
+  background: color-mix(in srgb, var(--series-color) 40%, transparent);
+}
+
+.instrument-comparison-ranges {
+  flex-wrap: wrap;
 }
 
 .comparison-ranges {
@@ -1053,6 +1139,10 @@ tbody tr.active {
     padding: 9px 7px;
   }
 
+  .instrument-comparison-ranges .comparison-range-button {
+    flex: 1 0 calc(25% - 5px);
+  }
+
   .comparison-legend {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
@@ -1136,6 +1226,33 @@ tbody tr.active {
     color: inherit;
     text-align: left;
     cursor: pointer;
+  }
+
+  .instrument-card-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 13px 10px;
+  }
+
+  .instrument-card-compare {
+    padding: 6px 10px;
+    border: 1px solid var(--pill-border);
+    border-radius: 999px;
+    background: var(--pill-bg);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.76rem;
+  }
+
+  .instrument-card-compare[aria-pressed="true"] {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .instrument-card-compare:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
   }
 
   .instrument-card-main:focus-visible,
