@@ -60,6 +60,7 @@ const elements = {
   chartStart: document.getElementById("chart-start"),
   chartEnd: document.getElementById("chart-end"),
   chart: document.getElementById("price-chart"),
+  currencyImpact: document.getElementById("currency-impact"),
   detailStats: document.getElementById("detail-stats"),
   rangeToggle: document.getElementById("range-toggle"),
   searchInput: document.getElementById("search-input"),
@@ -744,6 +745,8 @@ function renderDetail() {
     elements.chartChange.textContent = "--";
     elements.chartStart.textContent = "--";
     elements.chartEnd.textContent = "--";
+    elements.currencyImpact.hidden = true;
+    elements.currencyImpact.innerHTML = "";
     return;
   }
 
@@ -772,6 +775,7 @@ function renderDetail() {
   elements.chartChange.className = getChangeClass(rangeChange);
   elements.chartStart.textContent = rangedSeries[0]?.date || "--";
   elements.chartEnd.textContent = rangedSeries[rangedSeries.length - 1]?.date || "--";
+  renderCurrencyImpact(row, rangedSeries, rangeKey, rangeSlice.hasSufficientHistory);
 
   const stats = [
     makeMetricCard(row, "daily_pct", "1D"),
@@ -813,6 +817,54 @@ function renderDetail() {
       <strong class="${stat.className || ""}">${escapeHtml(stat.value)}</strong>
     </div>
   `).join("");
+}
+
+function renderCurrencyImpact(row, points, rangeKey, hasSufficientHistory) {
+  const isForeignStockOrEtf = ["stock", "etf"].includes(row.asset_type)
+    && String(row.currency || "").toUpperCase() !== "INR";
+  if (!isForeignStockOrEtf || !hasSufficientHistory || points.length < 2) {
+    elements.currencyImpact.hidden = true;
+    elements.currencyImpact.innerHTML = "";
+    return;
+  }
+
+  const first = points[0];
+  const last = points[points.length - 1];
+  const calculateReturn = (key) => {
+    const startValue = Number(first[key]);
+    const endValue = Number(last[key]);
+    if (first[key] == null || last[key] == null || !Number.isFinite(startValue)
+      || !Number.isFinite(endValue) || startValue === 0) {
+      return null;
+    }
+    return ((endValue / startValue) - 1) * 100;
+  };
+
+  const usdReturn = calculateReturn("close");
+  const inrReturn = calculateReturn("inr_close");
+  if (usdReturn == null || inrReturn == null) {
+    elements.currencyImpact.hidden = true;
+    elements.currencyImpact.innerHTML = "";
+    return;
+  }
+
+  const impact = inrReturn - usdReturn;
+  const impactLabel = impact > 0 ? `+${impact.toFixed(2)}` : impact.toFixed(2);
+  const period = rangeKey || "1Y";
+  elements.currencyImpact.innerHTML = `
+    <span class="currency-impact-heading">FX impact · ${escapeHtml(period)}</span>
+    <span class="currency-impact-returns">
+      USD <strong class="${getChangeClass(usdReturn)}">${escapeHtml(formatPercent(usdReturn, true))}</strong>
+      <span class="currency-impact-arrow" aria-hidden="true">→</span>
+      INR <strong class="${getChangeClass(inrReturn)}">${escapeHtml(formatPercent(inrReturn, true))}</strong>
+    </span>
+    <strong class="currency-impact-delta ${getChangeClass(impact)}" title="INR-adjusted return minus USD return">${impactLabel} pp</strong>
+  `;
+  elements.currencyImpact.setAttribute(
+    "aria-label",
+    `${period} returns: USD ${formatPercent(usdReturn)}, INR ${formatPercent(inrReturn)}, FX impact ${impactLabel} percentage points.`,
+  );
+  elements.currencyImpact.hidden = false;
 }
 
 function makeMetricCard(row, key, fallbackLabel) {
