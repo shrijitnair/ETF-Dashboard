@@ -417,7 +417,10 @@ function renderInstrumentComparison() {
       `).join("")}
     </div>
     ${comparison.series.length
-      ? renderComparisonSection({ title: "Selected instruments", comparison }, range, null)
+      ? `
+        ${renderComparisonSection({ title: "Selected instruments", comparison }, range, null)}
+        ${renderRiskConsistencySection(comparison.series, range)}
+      `
       : `
         <div class="comparison-empty comparison-empty-inline">
           <h2>No selected instruments have enough ${escapeHtml(range.label)} history</h2>
@@ -427,7 +430,7 @@ function renderInstrumentComparison() {
     ${comparison.unavailable.length ? `
       <p class="comparison-footnote">Not shown for this period because full history is unavailable: ${comparison.unavailable.map((row) => escapeHtml(getDisplayName(row))).join(", ")}.</p>
     ` : ""}
-    <p class="comparison-footnote">International instruments follow the currency selector. Indian instruments and mutual funds remain INR-based. Available dates vary by market holidays and NAV publication days.</p>
+    <p class="comparison-footnote">Risk metrics use the selected currency series and daily closing price or NAV. Positive rolling 1Y windows use all available history; windows overlap. Cash distributions from ETFs are not included in stored closing prices.</p>
   `;
 
   elements.instrumentComparisonPanel.querySelectorAll("[data-instrument-comparison-range]").forEach((button) => {
@@ -491,9 +494,14 @@ function getInstrumentComparisonData(range, rows) {
     }
 
     const lastPoint = periodPoints[periodPoints.length - 1] || basePoint;
+    const riskPoints = eligible.filter((point) => point.date >= basePoint.date);
+    const riskMetrics = calculatePeriodRiskMetrics(riskPoints);
+    const oneYearConsistency = calculateRollingOneYearConsistency(entry.points);
     return {
       ...entry,
       change: ((Number(lastPoint.value) / Number(basePoint.value)) - 1) * 100,
+      ...riskMetrics,
+      ...oneYearConsistency,
       points: [
         { date: anchorDate, value: 100 },
         ...pointsAfterAnchor.map((point) => ({
@@ -506,6 +514,93 @@ function getInstrumentComparisonData(range, rows) {
 
   const rowsWithoutHistory = rawSeries.filter((entry) => entry.points.length < 2).map((entry) => entry.row);
   return { series, unavailable: [...rowsWithoutHistory, ...unavailable], startDate: anchorDate, endDate };
+}
+
+function renderRiskConsistencySection(series, range) {
+  return `
+    <section class="risk-section" aria-label="Risk and consistency metrics">
+      <div class="risk-section-heading">
+        <h3>Risk &amp; consistency</h3>
+        <p>Volatility is daily-return standard deviation annualized by √252; short periods are noisy. Drawdown covers ${escapeHtml(range.label)}. Positive 1Y windows use all available history.</p>
+      </div>
+      <div class="risk-grid">
+        ${series.map((entry) => `
+          <article class="risk-card">
+            <h4><i style="--series-color:${entry.color}"></i>${escapeHtml(entry.label)}</h4>
+            <div class="risk-metrics">
+              <div class="risk-metric">
+                <span>Annualized volatility</span>
+                <strong>${escapeHtml(formatPercent(entry.annualizedVolatility))}</strong>
+                <small>${entry.returnObservations} daily returns · ${escapeHtml(range.key)}</small>
+              </div>
+              <div class="risk-metric">
+                <span>Max drawdown</span>
+                <strong class="${getChangeClass(entry.maxDrawdown)}">${escapeHtml(formatPercent(entry.maxDrawdown))}</strong>
+                <small>Peak to trough · ${escapeHtml(range.key)}</small>
+              </div>
+              <div class="risk-metric risk-metric-consistency">
+                <span>Positive rolling 1Y windows</span>
+                <strong>${entry.oneYearWindowCount ? `${entry.positiveOneYearPct.toFixed(1)}%` : "N/A"}</strong>
+                <small>${entry.oneYearWindowCount ? `${entry.positiveOneYearWindows} of ${entry.oneYearWindowCount} windows` : "Needs at least 1 year of history"}</small>
+              </div>
+            </div>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function calculatePeriodRiskMetrics(points) {
+  const dailyReturns = [];
+  let peak = Number(points[0]?.value) || 0;
+  let maxDrawdown = 0;
+
+  for (let index = 1; index < points.length; index += 1) {
+    const previousValue = Number(points[index - 1].value);
+    const currentValue = Number(points[index].value);
+    if (previousValue <= 0 || currentValue <= 0) continue;
+    dailyReturns.push((currentValue / previousValue) - 1);
+    peak = Math.max(peak, currentValue);
+    maxDrawdown = Math.min(maxDrawdown, ((currentValue / peak) - 1) * 100);
+  }
+
+  let annualizedVolatility = null;
+  if (dailyReturns.length > 1) {
+    const mean = dailyReturns.reduce((sum, value) => sum + value, 0) / dailyReturns.length;
+    const squaredDifferences = dailyReturns.reduce((sum, value) => sum + ((value - mean) ** 2), 0);
+    const dailyStandardDeviation = Math.sqrt(squaredDifferences / (dailyReturns.length - 1));
+    annualizedVolatility = dailyStandardDeviation * Math.sqrt(252) * 100;
+  }
+
+  return { annualizedVolatility, maxDrawdown, returnObservations: dailyReturns.length };
+}
+
+function calculateRollingOneYearConsistency(points) {
+  let positiveOneYearWindows = 0;
+  let oneYearWindowCount = 0;
+  let startIndex = 0;
+
+  for (let endIndex = 1; endIndex < points.length; endIndex += 1) {
+    const anchorDate = subtractCalendarOffsetUtc(parseIsoDateUtc(points[endIndex].date), { years: 1 })
+      .toISOString().slice(0, 10);
+    while (startIndex + 1 < endIndex && points[startIndex + 1].date <= anchorDate) {
+      startIndex += 1;
+    }
+    if (points[startIndex].date > anchorDate) continue;
+
+    const startValue = Number(points[startIndex].value);
+    const endValue = Number(points[endIndex].value);
+    if (startValue <= 0 || endValue <= 0) continue;
+    oneYearWindowCount += 1;
+    if ((endValue / startValue) - 1 > 0) positiveOneYearWindows += 1;
+  }
+
+  return {
+    positiveOneYearWindows,
+    oneYearWindowCount,
+    positiveOneYearPct: oneYearWindowCount ? (positiveOneYearWindows / oneYearWindowCount) * 100 : null,
+  };
 }
 
 function getComparisonPointValue(point) {
