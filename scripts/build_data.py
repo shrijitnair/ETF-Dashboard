@@ -811,6 +811,28 @@ def build_chart_points_with_inr(local_series: pd.Series, inr_series: Optional[pd
     return points
 
 
+def build_currency_history(fx_histories: Dict[str, pd.DataFrame]) -> Dict[str, Dict[str, Any]]:
+    currency_history: Dict[str, Dict[str, Any]] = {}
+    for currency, fx_ticker in SUPPORTED_INR_FX_TICKERS.items():
+        if not fx_ticker:
+            continue
+        close_series = fx_histories.get(fx_ticker, pd.DataFrame()).get("Close", pd.Series(dtype="float64")).dropna()
+        points = []
+        for index, value in close_series.items():
+            rate = safe_float(value)
+            if rate is None or rate <= 0:
+                continue
+            points.append({"date": index.strftime("%Y-%m-%d"), "rate": round(rate, 4)})
+        if points:
+            currency_history[currency] = {
+                "ticker": fx_ticker,
+                "base": currency,
+                "quote": "INR",
+                "points": points,
+            }
+    return currency_history
+
+
 def sort_rows(rows: Iterable[Dict[str, Any]], asset_type: str) -> List[Dict[str, Any]]:
     if asset_type == "etf":
         def key(row: Dict[str, Any]) -> Tuple[int, float, str]:
@@ -880,6 +902,7 @@ def build_dashboard_data(
             ]
             if fx_ticker
         }
+        | {fx_ticker for fx_ticker in SUPPORTED_INR_FX_TICKERS.values() if fx_ticker}
     )
     fx_histories = download_histories(required_fx_tickers)
     for fx_ticker in required_fx_tickers:
@@ -1031,6 +1054,7 @@ def build_dashboard_data(
     history_document = {
         "built_at": built_at,
         "series": history_payload,
+        "currencies": build_currency_history(fx_histories),
     }
     meta_payload = {
         "built_at": built_at,

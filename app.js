@@ -9,6 +9,7 @@ const RANGE_OPTIONS = [
 const DATA_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 const INDEX_COMPARISON_TAB_ID = "index-performance";
 const INSTRUMENT_COMPARISON_TAB_ID = "instrument-comparison";
+const CURRENCY_COMPARISON_TAB_ID = "currency-performance";
 const MAX_COMPARE_INSTRUMENTS = 6;
 const COMPARISON_COLORS = ["#f5b84b", "#48c8f0", "#a78bfa", "#52d39b", "#ff7f9f", "#fb923c"];
 const INDEX_COMPARISON_SERIES = [
@@ -28,6 +29,11 @@ const INDEX_COMPARISON_RANGES = [
   { key: "3Y", label: "3 years", years: 3 },
   { key: "5Y", label: "5 years", years: 5 },
   { key: "YTD", label: "Year to date", ytd: true },
+];
+const CURRENCY_COMPARISON_SERIES = [
+  { currency: "USD", label: "USD / INR", color: "#52d39b", unit: "$1" },
+  { currency: "EUR", label: "EUR / INR", color: "#48c8f0", unit: "€1" },
+  { currency: "GBP", label: "GBP / INR", color: "#f5b84b", unit: "£1" },
 ];
 const INSTRUMENT_COMPARISON_RANGES = [
   { key: "1W", label: "1 week", days: 7 },
@@ -54,6 +60,7 @@ const state = {
   chartRangeByTab: {},
   comparisonRange: "1Y",
   instrumentComparisonRange: "1Y",
+  currencyComparisonRange: "1Y",
   filterText: "",
   displayCurrency: "INR",
   theme: SAVED_THEME,
@@ -64,6 +71,7 @@ const elements = {
   tablePanel: document.getElementById("table-panel"),
   comparisonPanel: document.getElementById("comparison-panel"),
   instrumentComparisonPanel: document.getElementById("instrument-comparison-panel"),
+  currencyComparisonPanel: document.getElementById("currency-comparison-panel"),
   dashboardLayout: document.querySelector(".dashboard"),
   detailPanel: document.getElementById("detail-panel"),
   builtAt: document.getElementById("built-at"),
@@ -170,7 +178,7 @@ async function reloadDashboard(options = {}) {
     saveComparisonItems();
   }
 
-  const nextTabId = [INDEX_COMPARISON_TAB_ID, INSTRUMENT_COMPARISON_TAB_ID].includes(previousTabId)
+  const nextTabId = [INDEX_COMPARISON_TAB_ID, INSTRUMENT_COMPARISON_TAB_ID, CURRENCY_COMPARISON_TAB_ID].includes(previousTabId)
     || state.snapshot.tabs.some((tab) => tab.id === previousTabId)
     ? previousTabId
     : state.snapshot.tabs[0]?.id || null;
@@ -215,11 +223,14 @@ function render() {
   renderTabs();
   const isIndexComparisonTab = state.activeTabId === INDEX_COMPARISON_TAB_ID;
   const isInstrumentComparisonTab = state.activeTabId === INSTRUMENT_COMPARISON_TAB_ID;
-  const isComparisonTab = isIndexComparisonTab || isInstrumentComparisonTab;
+  const isCurrencyComparisonTab = state.activeTabId === CURRENCY_COMPARISON_TAB_ID;
+  const isComparisonTab = isIndexComparisonTab || isInstrumentComparisonTab || isCurrencyComparisonTab;
   elements.dashboardLayout.classList.toggle("comparison-mode", isComparisonTab);
+  elements.dashboardLayout.classList.toggle("currency-comparison-mode", isCurrencyComparisonTab);
   elements.tablePanel.hidden = isComparisonTab;
   elements.comparisonPanel.hidden = !isIndexComparisonTab;
   elements.instrumentComparisonPanel.hidden = !isInstrumentComparisonTab;
+  elements.currencyComparisonPanel.hidden = !isCurrencyComparisonTab;
   elements.detailPanel.hidden = isComparisonTab;
   if (isIndexComparisonTab) {
     renderIndexComparison();
@@ -227,6 +238,10 @@ function render() {
   }
   if (isInstrumentComparisonTab) {
     renderInstrumentComparison();
+    return;
+  }
+  if (isCurrencyComparisonTab) {
+    renderCurrencyComparison();
     return;
   }
   renderReturnBasisUi();
@@ -251,6 +266,7 @@ function renderTabs() {
     ...state.snapshot.tabs,
     { id: INSTRUMENT_COMPARISON_TAB_ID, label: `Compare${state.compareItemIds.length ? ` (${state.compareItemIds.length})` : ""}` },
     { id: INDEX_COMPARISON_TAB_ID, label: "Index Performance" },
+    { id: CURRENCY_COMPARISON_TAB_ID, label: "Currencies" },
   ];
   elements.tablist.innerHTML = tabs.map((tab) => {
     const isActive = tab.id === activeTabId;
@@ -370,6 +386,111 @@ function renderIndexComparison() {
       renderIndexComparison();
     });
   });
+}
+
+function renderCurrencyComparison() {
+  const range = INDEX_COMPARISON_RANGES.find((entry) => entry.key === state.currencyComparisonRange)
+    || INDEX_COMPARISON_RANGES[2];
+  const comparison = getCurrencyComparisonData(range);
+  elements.returnBasisNote.textContent = "Exchange rates shown as INR per 1 unit of foreign currency.";
+
+  if (!comparison.series.length) {
+    elements.currencyComparisonPanel.innerHTML = `
+      <div class="comparison-empty">
+        <span class="comparison-eyebrow">Currency comparison</span>
+        <h2>Exchange-rate data is unavailable</h2>
+        <p>Refresh the dashboard data and try again.</p>
+      </div>
+    `;
+    return;
+  }
+
+  elements.currencyComparisonPanel.innerHTML = `
+    <div class="comparison-heading">
+      <div>
+        <span class="comparison-eyebrow">Currency comparison · INR</span>
+        <h2>INR vs major currencies</h2>
+        <p>Each line starts at 100. A rising line means that currency strengthened against the rupee.</p>
+      </div>
+      <div class="comparison-ranges" role="group" aria-label="Currency comparison period">
+        ${INDEX_COMPARISON_RANGES.map((option) => `
+          <button
+            class="comparison-range-button ${option.key === range.key ? "active" : ""}"
+            type="button"
+            data-currency-comparison-range="${option.key}"
+            aria-pressed="${option.key === range.key}"
+          >${option.key}</button>
+        `).join("")}
+      </div>
+    </div>
+    ${renderComparisonSection({ title: "Exchange rates", comparison }, range, null)}
+    <p class="comparison-footnote">Daily Yahoo Finance exchange-rate closes (USDINR=X, EURINR=X, GBPINR=X). Rates are quoted as rupees per US dollar, euro, or British pound; data may be delayed.</p>
+  `;
+
+  elements.currencyComparisonPanel.querySelectorAll("[data-currency-comparison-range]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.currencyComparisonRange = button.dataset.currencyComparisonRange;
+      renderCurrencyComparison();
+    });
+  });
+}
+
+function getCurrencyComparisonData(range) {
+  const rawSeries = CURRENCY_COMPARISON_SERIES.map((definition) => {
+    const source = state.history.currencies?.[definition.currency];
+    const points = (source?.points || []).map((point) => ({
+      date: point.date,
+      value: Number(point.rate),
+    })).filter((point) => Number.isFinite(point.value) && point.value > 0)
+      .sort((left, right) => left.date.localeCompare(right.date));
+    return { ...definition, ticker: `${definition.currency}INR`, points };
+  }).filter((entry) => entry.points.length >= 2);
+
+  if (!rawSeries.length) {
+    return { series: [], startDate: "", endDate: "" };
+  }
+
+  const endDate = rawSeries.reduce((earliest, entry) => {
+    const lastDate = entry.points[entry.points.length - 1].date;
+    return lastDate < earliest ? lastDate : earliest;
+  }, rawSeries[0].points[rawSeries[0].points.length - 1].date);
+  const end = parseIsoDateUtc(endDate);
+  let anchor;
+  if (range.ytd) {
+    anchor = new Date(Date.UTC(end.getUTCFullYear(), 0, 1));
+  } else if (range.days) {
+    anchor = new Date(end.getTime() - range.days * 24 * 60 * 60 * 1000);
+  } else {
+    anchor = subtractCalendarOffsetUtc(end, range);
+  }
+  const anchorDate = anchor.toISOString().slice(0, 10);
+  const series = rawSeries.map((entry) => {
+    const eligible = entry.points.filter((point) => point.date <= endDate);
+    const baselineIndex = eligible.reduce((found, point, index) => {
+      const isBaseline = range.ytd ? point.date < anchorDate : point.date <= anchorDate;
+      return isBaseline ? index : found;
+    }, -1);
+    const firstAfterAnchor = eligible.findIndex((point) => point.date >= anchorDate);
+    const basePoint = baselineIndex >= 0
+      ? eligible[baselineIndex]
+      : eligible[Math.max(firstAfterAnchor, 0)];
+    if (!basePoint) return null;
+    const periodPoints = eligible.filter((point) => point.date >= anchorDate && point.date <= endDate);
+    const lastPoint = periodPoints[periodPoints.length - 1] || basePoint;
+    return {
+      ...entry,
+      change: ((lastPoint.value / basePoint.value) - 1) * 100,
+      rateLabel: `₹${formatExchangeRate(lastPoint.value)} per ${entry.unit}`,
+      points: [
+        { date: anchorDate, value: 100 },
+        ...periodPoints.filter((point) => point.date > anchorDate).map((point) => ({
+          date: point.date,
+          value: (point.value / basePoint.value) * 100,
+        })),
+      ],
+    };
+  }).filter(Boolean);
+  return { series, startDate: anchorDate, endDate };
 }
 
 function renderInstrumentComparison() {
@@ -692,6 +813,7 @@ function renderComparisonSection(section, range, fixedReturnBounds) {
           <div class="comparison-legend-item">
             <span class="comparison-legend-name"><i style="--series-color:${entry.color}"></i>${escapeHtml(entry.label)}</span>
             <strong class="${getChangeClass(entry.change)}">${escapeHtml(formatPercent(entry.change, true))}</strong>
+            ${entry.rateLabel ? `<small>${escapeHtml(entry.rateLabel)}</small>` : ""}
           </div>
         `).join("")}
       </div>
@@ -1547,6 +1669,13 @@ function formatPrice(value, currency) {
   } catch (error) {
     return `${(value || 0).toFixed(2)} ${currency || ""}`.trim();
   }
+}
+
+function formatExchangeRate(value) {
+  return new Intl.NumberFormat("en-IN", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  }).format(value);
 }
 
 function formatRowPrice(row) {

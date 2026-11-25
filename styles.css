@@ -624,6 +624,10 @@ tbody tr.active {
   grid-template-columns: minmax(150px, 180px);
 }
 
+.dashboard.currency-comparison-mode .currency-shell {
+  display: none;
+}
+
 .comparison-panel {
   padding: clamp(18px, 3vw, 36px);
   color: #eef4ff;
@@ -879,6 +883,10 @@ tbody tr.active {
   margin-bottom: 16px;
 }
 
+#currency-comparison-panel .comparison-legend {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .comparison-legend-item {
   min-width: 0;
   padding: 14px 15px;
@@ -911,6 +919,13 @@ tbody tr.active {
   display: block;
   margin: 10px 0 0 16px;
   font: 500 1.1rem "IBM Plex Mono", "Menlo", monospace;
+}
+
+.comparison-legend-item small {
+  display: block;
+  margin: 5px 0 0 16px;
+  color: #96a5b8;
+  font: 0.78rem "IBM Plex Mono", "Menlo", monospace;
 }
 
 .comparison-chart-card {
@@ -1278,6 +1293,10 @@ tbody tr.active {
   .comparison-legend {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
+  }
+
+  #currency-comparison-panel .comparison-legend {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .comparison-legend-item {
