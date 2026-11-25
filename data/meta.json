@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-25T13:38:48.747231Z",
+  "built_at": "2026-11-25T13:47:59.402040Z",
   "return_basis": "inr_adjusted",
   "return_basis_label": "INR-adjusted",
   "period_basis": "yahoo_style_calendar",
@@ -69,6 +69,11 @@
       "id": "small-cap",
       "label": "Small Cap",
       "asset_type": "mutual_fund"
+    },
+    {
+      "id": "sifs",
+      "label": "SIFs",
+      "asset_type": "mutual_fund"
     }
   ],
   "columns": [
@@ -108,6 +113,11 @@
       "type": "number"
     },
     {
+      "key": "six_month_pct",
+      "label": "6M INR",
+      "type": "number"
+    },
+    {
       "key": "ytd_pct",
       "label": "YTD INR",
       "type": "number"
@@ -116,6 +126,16 @@
       "key": "one_year_pct",
       "label": "1Y INR",
       "type": "number"
+    },
+    {
+      "key": "since_inception_pct",
+      "label": "Since Inception INR",
+      "type": "number"
+    },
+    {
+      "key": "data_date",
+      "label": "NAV Date",
+      "type": "string"
     },
     {
       "key": "three_year_pct",
