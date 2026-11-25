@@ -603,6 +603,40 @@ function calculateRollingOneYearConsistency(points) {
   };
 }
 
+function calculateDetailRiskMetrics(row, rangeKey) {
+  const sourcePoints = state.history.series[row.item_id]?.points || [];
+  const points = sourcePoints.map((point) => ({
+    date: point.date,
+    value: getComparisonPointValue(point),
+  })).filter((point) => point.value != null && Number.isFinite(Number(point.value)) && Number(point.value) > 0)
+    .sort((left, right) => left.date.localeCompare(right.date));
+  const consistency = calculateRollingOneYearConsistency(points);
+  const unavailable = {
+    annualizedVolatility: null,
+    maxDrawdown: null,
+    returnObservations: 0,
+    ...consistency,
+  };
+  if (points.length < 2) return unavailable;
+
+  const range = RANGE_OPTIONS.find((entry) => entry.key === rangeKey) || RANGE_OPTIONS[3];
+  const endDate = points[points.length - 1].date;
+  const end = parseIsoDateUtc(endDate);
+  const anchorDate = subtractCalendarOffsetUtc(end, range).toISOString().slice(0, 10);
+  const baselineIndex = points.reduce((found, point, index) => point.date <= anchorDate ? index : found, -1);
+  if (baselineIndex < 0) return unavailable;
+
+  const basePoint = points[baselineIndex];
+  const pointsAfterAnchor = points.filter((point) => point.date > anchorDate && point.date <= endDate);
+  if (!pointsAfterAnchor.length) return unavailable;
+
+  const riskPoints = points.filter((point) => point.date >= basePoint.date && point.date <= endDate);
+  return {
+    ...calculatePeriodRiskMetrics(riskPoints),
+    ...consistency,
+  };
+}
+
 function getComparisonPointValue(point) {
   if (state.displayCurrency === "INR") {
     return point.inr_close ?? point.close;
@@ -1088,12 +1122,13 @@ function renderDetail() {
     ? getDisplayName(row)
     : row.ticker;
   elements.detailSubtitle.textContent = row.asset_type === "mutual_fund"
-    ? `ISIN ${row.isin} • Scheme ${row.scheme_code} • ${row.exchange}`
+    ? `NAV as of ${row.data_date || "N/A"}`
     : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
   renderDetailCompareButton(row);
 
   const series = state.history.series[row.item_id]?.points || [];
   const rangeKey = state.chartRangeByTab[tab.id];
+  const riskMetrics = calculateDetailRiskMetrics(row, rangeKey);
   const rangeSlice = sliceSeriesByRange(series, rangeKey);
   const rangedSeries = rangeSlice.points;
   renderChart(rangedSeries);
@@ -1120,6 +1155,28 @@ function renderDetail() {
     makeMetricCard(row, "one_year_pct", "1Y"),
     makeMetricCard(row, "three_year_pct", "3Y CAGR"),
     makeMetricCard(row, "five_year_pct", "5Y CAGR"),
+    {
+      label: `Annualized Volatility · ${rangeKey}`,
+      value: formatPercent(riskMetrics.annualizedVolatility),
+      className: "",
+      subtext: `${riskMetrics.returnObservations} daily returns`,
+    },
+    {
+      label: `Max Drawdown · ${rangeKey}`,
+      value: formatPercent(riskMetrics.maxDrawdown),
+      className: getChangeClass(riskMetrics.maxDrawdown),
+      subtext: "Peak to trough",
+    },
+    {
+      label: "Positive Rolling 1Y Windows",
+      value: riskMetrics.oneYearWindowCount
+        ? `${riskMetrics.positiveOneYearPct.toFixed(1)}%`
+        : "N/A",
+      className: "",
+      subtext: riskMetrics.oneYearWindowCount
+        ? `${riskMetrics.positiveOneYearWindows} of ${riskMetrics.oneYearWindowCount} overlapping windows`
+        : "Needs at least 1 year of history",
+    },
     { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : row.asset_type === "mutual_fund" ? "Mutual Fund" : "Stock", className: "" },
   ];
 
@@ -1132,23 +1189,11 @@ function renderDetail() {
     stats.push({ label: "AUM", value: row.aum_display || "N/A", className: "" });
   }
 
-  if (row.asset_type === "index") {
-    stats.push({ label: "Data Source", value: row.data_source || "Yahoo Finance via yfinance", className: "" });
-    stats.push({ label: "Data Status", value: `${row.data_status || "Unknown"}${row.data_date ? ` • ${row.data_date}` : ""}`, className: "" });
-  }
-
-  if (row.asset_type === "mutual_fund") {
-    stats.push({ label: "ISIN", value: row.isin || "N/A", className: "" });
-    stats.push({ label: "Scheme Code", value: row.scheme_code || "N/A", className: "" });
-    stats.push({ label: "NAV Date", value: row.data_date || "N/A", className: "" });
-    stats.push({ label: "Data Source", value: row.data_source || "MFAPI / AMFI NAV", className: "" });
-    stats.push({ label: "Data Status", value: row.data_status || "Unknown", className: "" });
-  }
-
   elements.detailStats.innerHTML = stats.map((stat) => `
     <div class="stat-card">
       <span class="metric-label">${escapeHtml(stat.label)}</span>
       <strong class="${stat.className || ""}">${escapeHtml(stat.value)}</strong>
+      ${stat.subtext ? `<small>${escapeHtml(stat.subtext)}</small>` : ""}
     </div>
   `).join("");
 }

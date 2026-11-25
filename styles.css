@@ -1036,6 +1036,14 @@ tbody tr.active {
   font-size: 1rem;
 }
 
+.stat-card small {
+  display: block;
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
 .empty-state {
   padding: 44px 18px;
   text-align: center;
@@ -1530,6 +1538,10 @@ tbody tr.active {
 
   .stat-card .metric-label {
     font-size: 0.68rem;
+  }
+
+  .stat-card small {
+    font-size: 0.64rem;
   }
 }
 
