@@ -462,7 +462,8 @@ def parse_sif_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
     if not parsed:
         return pd.DataFrame()
     frame = pd.DataFrame(parsed, columns=["Date", "Close"]).set_index("Date")
-    return sanitize_history(frame)
+    cleaned = sanitize_history(frame)
+    return cleaned.loc[~cleaned.index.duplicated(keep="last")]
 
 
 def load_sif_nav_feed(
