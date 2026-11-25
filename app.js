@@ -1120,11 +1120,13 @@ function renderMobileCard(row, columns, tabId) {
     : new Set(["daily_pct", "five_day_pct", "one_month_pct", "ytd_pct", "one_year_pct"]);
   const summaryColumns = columns.filter((column) => summaryKeys.has(column.key));
   const detailColumns = columns.filter((column) => ![
-    "ticker", "name", "last_price", ...summaryKeys,
+    "ticker", "name", "amc_short", "last_price", ...summaryKeys,
   ].includes(column.key));
-  const instrumentMeta = row.asset_type === "mutual_fund" || row.asset_type === "stock"
-    ? ""
-    : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
+  const instrumentMeta = tabId === "sifs"
+    ? `AMC · ${row.amc_short || "N/A"}`
+    : row.asset_type === "mutual_fund" || row.asset_type === "stock"
+      ? ""
+      : `${row.exchange}${row.currency ? ` • ${row.currency}` : ""}`;
 
   return `
     <article class="instrument-card ${selected ? "selected" : ""}">
@@ -1212,6 +1214,8 @@ function renderCell(row, column) {
           ${row.asset_type === "mutual_fund" || row.asset_type === "stock" ? "" : `<div class="subdued">${escapeHtml(row.exchange)}${row.currency ? " • " + escapeHtml(row.currency) : ""}</div>`}
         </div>
       `;
+    case "amc_short":
+      return `<span>${escapeHtml(row.amc_short || "N/A")}</span>`;
     case "last_price":
       return `<strong>${formatRowPrice(row)}</strong>`;
     case "data_date":
@@ -1250,7 +1254,7 @@ function renderDetail() {
     ? getDisplayName(row)
     : row.ticker;
   elements.detailSubtitle.textContent = tab.id === "sifs"
-    ? `NAV as of ${row.data_date || "N/A"} · history since ${row.history_start_date || "N/A"} (${row.history_observations || 0} NAVs)`
+    ? `NAV as of ${row.data_date || "N/A"} · ${row.history_observations || 0} NAV observations`
     : row.asset_type === "mutual_fund"
       ? `NAV as of ${row.data_date || "N/A"}`
       : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
@@ -1474,6 +1478,7 @@ function getColumnsForTab(tab) {
   if (tab.id === "sifs") {
     return [
       { key: "name", label: "Fund", sortable: true },
+      { key: "amc_short", label: "AMC", sortable: true },
       { key: "last_price", label: "NAV", sortable: true },
       { key: "daily_pct", label: metricLabel("daily_pct", "1D"), sortable: true },
       { key: "five_day_pct", label: metricLabel("five_day_pct", "5D"), sortable: true },
@@ -1540,7 +1545,7 @@ function getSortedFilteredRows(tab, rows) {
     if (!state.filterText) {
       return true;
     }
-    const haystack = `${row.ticker} ${row.name}`.toLowerCase();
+    const haystack = `${row.ticker} ${row.name} ${row.amc_short || ""}`.toLowerCase();
     return haystack.includes(state.filterText);
   });
 

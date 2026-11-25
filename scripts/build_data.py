@@ -41,6 +41,7 @@ MF_NAV_CACHE_FILENAME = "mf_nav_cache.json"
 SIF_NAV_CACHE_FILENAME = "sif_nav_cache.json"
 SIF_LIST_URL = "https://n8n.finright.in/webhook/25793572-150c-4bd6-b548-8fe9741082fd"
 SIF_HISTORY_URL = "https://n8n.finright.in/webhook/0725ab76-4add-4993-949a-7cb56f1e733c"
+SIF_DETAILS_URL = "https://n8n.finright.in/webhook/b5a43a80-47a6-4946-86ac-b51d58c282a7"
 
 SUPPORTED_INR_FX_TICKERS = {
     "USD": "USDINR=X",
@@ -466,6 +467,48 @@ def parse_sif_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
     return cleaned.loc[~cleaned.index.duplicated(keep="last")]
 
 
+def normalize_sif_fund_name(value: Any) -> str:
+    name = re.sub(
+        r"\b(direct|regular|plan|growth|option|idcw|reinvestment|payout)\b", " ", str(value or ""), flags=re.IGNORECASE
+    )
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
+def short_sif_amc_name(amc_name: Any) -> str:
+    normalized = re.sub(r"[^a-z0-9]", "", str(amc_name or "").lower())
+    short_names = (
+        ("adityabirlasunlife", "ABSL"),
+        ("adityabirlacapital", "AdityaBirla"),
+        ("jioblackrock", "JioBlackRock"),
+        ("thewealthcompany", "Wealth"),
+        ("mahindramanulife", "Mahindra"),
+        ("iciciprudential", "ICICI"),
+        ("franklintempleton", "Franklin"),
+        ("360one", "360ONE"),
+        ("alphagrep", "AlphaGrep"),
+        ("edelweiss", "Edelweiss"),
+        ("sundaram", "Sundaram"),
+        ("bandhan", "Bandhan"),
+        ("invesco", "Invesco"),
+        ("quant", "Quant"),
+        ("magnum", "SBI"),
+        ("sbi", "SBI"),
+        ("tata", "Tata"),
+        ("iti", "ITI"),
+        ("union", "Union"),
+        ("mirae", "Mirae"),
+        ("hsbc", "HSBC"),
+        ("kotak", "Kotak"),
+        ("mahindra", "Mahindra"),
+        ("motilal", "Motilal"),
+        ("canara", "Canara"),
+    )
+    for prefix, short_name in short_names:
+        if normalized.startswith(prefix):
+            return short_name
+    return str(amc_name or "N/A").split()[0]
+
+
 def load_sif_nav_feed(
     cache_path: str,
     force_refresh: bool = False,
@@ -488,6 +531,10 @@ def load_sif_nav_feed(
         and isinstance(cached_schemes, list)
         and isinstance(cached_history, dict)
         and cached_schemes
+        and all(
+            isinstance(scheme, dict) and scheme.get("amc_short") not in (None, "", "N/A")
+            for scheme in cached_schemes
+        )
     ):
         return cached_schemes, cached_history, False, None
 
@@ -514,11 +561,36 @@ def load_sif_nav_feed(
         if not any(history_by_scheme.values()):
             raise ValueError("SIF feed returned no parseable NAV history.")
 
+        try:
+            fund_details = fetch_json_url(SIF_DETAILS_URL)
+            if not isinstance(fund_details, list):
+                raise ValueError("SIF metadata feed returned an unexpected response.")
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, ValueError, OSError):
+            fund_details = cache_document.get("fund_details", [])
+
+        amc_by_fund = {
+            normalize_sif_fund_name(detail.get("Fund Name")): str(detail.get("AMC") or "").strip()
+            for detail in fund_details
+            if isinstance(detail, dict) and detail.get("Fund Name") and detail.get("AMC")
+        }
+        amc_overrides = {
+            normalize_sif_fund_name("Summit Active Asset Allocator Long-Short Fund"): "Invesco Mutual Fund",
+            normalize_sif_fund_name("Select Equity Ex-Top 100 Long-Short Fund"): "Sundaram Mutual Fund",
+            normalize_sif_fund_name("MSIF Equity Long-Short Fund"): "Mahindra Manulife Mutual Fund",
+            normalize_sif_fund_name("Eminence Hybrid Long Short Fund"): "AlphaGrep Mutual Fund",
+        }
+        for scheme in schemes:
+            fund_key = normalize_sif_fund_name(scheme.get("Scheme Name"))
+            amc_name = amc_by_fund.get(fund_key) or amc_overrides.get(fund_key) or scheme.get("AMC")
+            scheme["AMC"] = amc_name or ""
+            scheme["amc_short"] = short_sif_amc_name(amc_name)
+
         cache_document = {
             "refresh_key": refresh_key,
             "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             "schemes": schemes,
             "history": history_by_scheme,
+            "fund_details": fund_details,
         }
         write_json_atomic(cache_path, cache_document)
         return schemes, history_by_scheme, False, None
@@ -931,9 +1003,9 @@ def build_sif_row(
 ) -> Tuple[Dict[str, Any], Dict[str, Any]]:
     scheme_code = str(scheme.get("Scheme Code") or "").strip()
     source_name = str(scheme.get("Scheme Name") or scheme_code).strip()
-    display_name = re.sub(
-        r"\s*-\s*Direct Plan(?:\s*-\s*Growth(?: Option)?)?\s*$", "", source_name, flags=re.IGNORECASE
-    ).strip()
+    display_name = re.sub(r"\s*-\s*Growth(?:\s+Option)?\s*$", "", source_name, flags=re.IGNORECASE)
+    display_name = re.sub(r"\s*-?\s*(?:Direct|Regular)\b.*$", "", display_name, flags=re.IGNORECASE)
+    display_name = re.sub(r"\s*-\s*Growth(?:\s+Option)?\s*$", "", display_name, flags=re.IGNORECASE).strip()
 
     nav_series = parse_sif_nav_history(nav_records).get("Close", pd.Series(dtype="float64"))
     try:
@@ -1024,6 +1096,7 @@ def build_sif_row(
         "scheme_code": scheme_code,
         "name": source_name,
         "display_name": display_name or source_name,
+        "amc_short": str(scheme.get("amc_short") or "N/A"),
         "asset_type": "mutual_fund",
         "exchange": "India",
         "currency": "INR",
@@ -1042,7 +1115,6 @@ def build_sif_row(
         "data_source": "AMFI NAV via TheFynprint feed",
         "data_status": "Stale" if nav_is_stale else "Available",
         "data_date": data_date_text,
-        "history_start_date": inr_close_series.index[0].strftime("%Y-%m-%d") if not inr_close_series.empty else None,
         "history_observations": int(len(inr_close_series)),
     }
     history = {
