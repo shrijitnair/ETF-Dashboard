@@ -1,6 +1,6 @@
 {
-  "refresh_key": "2026-11-25-am",
-  "fetched_at": "2026-11-25T14:39:01.782956Z",
+  "refresh_key": "2026-11-25-pm",
+  "fetched_at": "2026-11-25T22:45:39.085896Z",
   "schemes": [
     {
       "row_number": 2,
@@ -8,16 +8,16 @@
       "Scheme Name": "Altiva Hybrid Long-Short Fund - Direct Plan - Growth",
       "inception_date": "24-10-2025",
       "inception_nav": 10,
-      "current_nav": 11.1261,
-      "current_date": "23-11-2026",
-      "val_1m": 10.2359,
-      "val_3m": 10.0227,
-      "val_6m": 10.4641,
-      "return_ytd": 7.98,
-      "return_1m": 2.36,
-      "return_3m": 0.23,
-      "return_6m": 4.64,
-      "return_si": 11.26,
+      "current_nav": 11.1333,
+      "current_date": "25-11-2026",
+      "val_1m": 10.2425,
+      "val_3m": 9.9879,
+      "val_6m": 10.4336,
+      "return_ytd": 8.05,
+      "return_1m": 2.43,
+      "return_3m": -0.12,
+      "return_6m": 4.34,
+      "return_si": 11.33,
       "AMC": "Edelweiss Mutual Fund",
       "amc_short": "Edelweiss"
     },
@@ -27,16 +27,16 @@
       "Scheme Name": "Diviniti Equity Long Short Fund - Direct Plan Growth Option",
       "inception_date": "03-12-2025",
       "inception_nav": 1000,
-      "current_nav": 927.8468,
-      "current_date": "23-11-2026",
-      "val_1m": 10.7791,
-      "val_3m": 9.8051,
-      "val_6m": 10.0141,
-      "return_ytd": -7.66,
-      "return_1m": 7.79,
-      "return_3m": -1.95,
-      "return_6m": 0.14,
-      "return_si": -7.22,
+      "current_nav": 939.511,
+      "current_date": "25-11-2026",
+      "val_1m": 10.9147,
+      "val_3m": 9.8894,
+      "val_6m": 10.0796,
+      "return_ytd": -6.5,
+      "return_1m": 9.15,
+      "return_3m": -1.11,
+      "return_6m": 0.8,
+      "return_si": -6.05,
       "AMC": "ITI Mutual Funds",
       "amc_short": "ITI"
     },
@@ -46,16 +46,16 @@
       "Scheme Name": "Titanium Hybrid Long-Short Fund Direct Plan Growth",
       "inception_date": "17-12-2025",
       "inception_nav": 10,
-      "current_nav": 10.6892,
-      "current_date": "23-11-2026",
-      "val_1m": 10.7786,
-      "val_3m": 10.4308,
-      "val_6m": 10.6979,
-      "return_ytd": 6.21,
-      "return_1m": 7.79,
-      "return_3m": 4.31,
-      "return_6m": 6.98,
-      "return_si": 6.89,
+      "current_nav": 10.7401,
+      "current_date": "25-11-2026",
+      "val_1m": 10.8299,
+      "val_3m": 10.425,
+      "val_6m": 10.6844,
+      "return_ytd": 6.71,
+      "return_1m": 8.3,
+      "return_3m": 4.25,
+      "return_6m": 6.84,
+      "return_si": 7.4,
       "AMC": "Tata Asset Management",
       "amc_short": "Tata"
     },
@@ -65,16 +65,16 @@
       "Scheme Name": "Magnum Hybrid Long Short Fund - Direct  Plan - Growth",
       "inception_date": "29-10-2025",
       "inception_nav": 10,
-      "current_nav": 10.5759,
-      "current_date": "23-11-2026",
-      "val_1m": 10.3333,
-      "val_3m": 10.0176,
-      "val_6m": 10.2706,
-      "return_ytd": 3.3,
-      "return_1m": 3.33,
-      "return_3m": 0.18,
-      "return_6m": 2.71,
-      "return_si": 5.76,
+      "current_nav": 10.6056,
+      "current_date": "25-11-2026",
+      "val_1m": 10.3623,
+      "val_3m": 9.9607,
+      "val_6m": 10.2465,
+      "return_ytd": 3.59,
+      "return_1m": 3.62,
+      "return_3m": -0.39,
+      "return_6m": 2.46,
+      "return_si": 6.06,
       "AMC": "SBI Mutual Fund",
       "amc_short": "SBI"
     },
@@ -84,16 +84,16 @@
       "Scheme Name": "qsif Equity Ex-Top 100 Long-Short Fund - Growth Option - Direct Plan",
       "inception_date": "13-11-2025",
       "inception_nav": 10,
-      "current_nav": 11.5161,
-      "current_date": "23-11-2026",
-      "val_1m": 10.779,
-      "val_3m": 10.044,
-      "val_6m": 11.6551,
-      "return_ytd": 16.35,
-      "return_1m": 7.79,
-      "return_3m": 0.44,
-      "return_6m": 16.55,
-      "return_si": 15.16,
+      "current_nav": 11.5534,
+      "current_date": "25-11-2026",
+      "val_1m": 10.8139,
+      "val_3m": 10.0384,
+      "val_6m": 11.565,
+      "return_ytd": 16.73,
+      "return_1m": 8.14,
+      "return_3m": 0.38,
+      "return_6m": 15.65,
+      "return_si": 15.53,
       "AMC": "Quant Mutual Fund",
       "amc_short": "Quant"
     },
@@ -103,16 +103,16 @@
       "Scheme Name": "qsif Hybrid Long-Short Fund - Growth Option - Direct Plan",
       "inception_date": "20-10-2025",
       "inception_nav": 10,
-      "current_nav": 12.9323,
-      "current_date": "23-11-2026",
-      "val_1m": 10.3315,
-      "val_3m": 11.6711,
-      "val_6m": 12.3742,
-      "return_ytd": 29.12,
-      "return_1m": 3.31,
-      "return_3m": 16.71,
-      "return_6m": 23.74,
-      "return_si": 29.32,
+      "current_nav": 12.9947,
+      "current_date": "25-11-2026",
+      "val_1m": 10.3813,
+      "val_3m": 11.72,
+      "val_6m": 12.4193,
+      "return_ytd": 29.74,
+      "return_1m": 3.81,
+      "return_3m": 17.2,
+      "return_6m": 24.19,
+      "return_si": 29.95,
       "AMC": "Quant Mutual Fund",
       "amc_short": "Quant"
     },
@@ -122,16 +122,16 @@
       "Scheme Name": "qsif Equity Long Short Fund - Growth Option - Direct Plan",
       "inception_date": "08-10-2025",
       "inception_nav": 10,
-      "current_nav": 11.4203,
-      "current_date": "23-11-2026",
-      "val_1m": 10.8063,
-      "val_3m": 10.2721,
-      "val_6m": 11.1738,
-      "return_ytd": 12.98,
-      "return_1m": 8.06,
-      "return_3m": 2.72,
-      "return_6m": 11.74,
-      "return_si": 14.2,
+      "current_nav": 11.5157,
+      "current_date": "25-11-2026",
+      "val_1m": 10.8966,
+      "val_3m": 10.2447,
+      "val_6m": 11.1822,
+      "return_ytd": 13.92,
+      "return_1m": 8.97,
+      "return_3m": 2.45,
+      "return_6m": 11.82,
+      "return_si": 15.16,
       "AMC": "Quant Mutual Fund",
       "amc_short": "Quant"
     },
@@ -145,11 +145,11 @@
       "current_date": "23-09-2026",
       "val_1m": 10,
       "val_3m": 9.914,
-      "val_6m": 10.7442,
+      "val_6m": 10.6534,
       "return_ytd": "",
       "return_1m": "",
       "return_3m": -0.86,
-      "return_6m": 7.44,
+      "return_6m": 6.53,
       "return_si": 6.44,
       "AMC": "ICICI Prudential Mutual Fund",
       "amc_short": "ICICI"
@@ -164,11 +164,11 @@
       "current_date": "23-09-2026",
       "val_1m": 10,
       "val_3m": 10,
-      "val_6m": 10.4905,
+      "val_6m": 10.4382,
       "return_ytd": "",
       "return_1m": "",
       "return_3m": "",
-      "return_6m": 4.9,
+      "return_6m": 4.38,
       "return_si": 4.8,
       "AMC": "ICICI Prudential Mutual Fund",
       "amc_short": "ICICI"
@@ -179,16 +179,16 @@
       "Scheme Name": "Arudha Hybrid Long-Short Fund-Direct Plan-Growth",
       "inception_date": "04-02-2026",
       "inception_nav": 10,
-      "current_nav": 10.493,
-      "current_date": "23-11-2026",
-      "val_1m": 10.0546,
-      "val_3m": 10.103,
-      "val_6m": 10.3471,
+      "current_nav": 10.501,
+      "current_date": "25-11-2026",
+      "val_1m": 10.0623,
+      "val_3m": 10.1098,
+      "val_6m": 10.3448,
       "return_ytd": "",
-      "return_1m": 0.55,
-      "return_3m": 1.03,
-      "return_6m": 3.47,
-      "return_si": 4.93,
+      "return_1m": 0.62,
+      "return_3m": 1.1,
+      "return_6m": 3.45,
+      "return_si": 5.01,
       "AMC": "Bandhan Mutual Fund",
       "amc_short": "Bandhan"
     },
@@ -198,16 +198,16 @@
       "Scheme Name": "DynaSIF Equity Long - Short Fund - Direct Plan - Growth Option",
       "inception_date": "4-Mar-2026",
       "inception_nav": 10,
-      "current_nav": 10.6202,
-      "current_date": "23-11-2026",
-      "val_1m": 10.7118,
-      "val_3m": 9.8367,
-      "val_6m": 10.4186,
+      "current_nav": 10.7075,
+      "current_date": "25-11-2026",
+      "val_1m": 10.7998,
+      "val_3m": 9.8842,
+      "val_6m": 10.389,
       "return_ytd": "",
-      "return_1m": 7.12,
-      "return_3m": -1.63,
-      "return_6m": 4.19,
-      "return_si": 6.2,
+      "return_1m": 8,
+      "return_3m": -1.16,
+      "return_6m": 3.89,
+      "return_si": 7.07,
       "AMC": "360 ONE Mutual Fund",
       "amc_short": "360ONE"
     },
@@ -217,16 +217,16 @@
       "Scheme Name": "Arudha Equity Long-Short Fund-Direct Plan-Growth",
       "inception_date": "30-03-2026",
       "inception_nav": 10,
-      "current_nav": 10.676,
-      "current_date": "23-11-2026",
-      "val_1m": 10.6632,
-      "val_3m": 10.086,
-      "val_6m": 10.5411,
+      "current_nav": 10.703,
+      "current_date": "25-11-2026",
+      "val_1m": 10.6902,
+      "val_3m": 10.0639,
+      "val_6m": 10.4993,
       "return_ytd": "",
-      "return_1m": 6.63,
-      "return_3m": 0.86,
-      "return_6m": 5.41,
-      "return_si": 6.76,
+      "return_1m": 6.9,
+      "return_3m": 0.64,
+      "return_6m": 4.99,
+      "return_si": 7.03,
       "AMC": "Bandhan Mutual Fund",
       "amc_short": "Bandhan"
     },
@@ -239,12 +239,12 @@
       "current_nav": 10.4665,
       "current_date": "23-11-2026",
       "val_1m": 10.1428,
-      "val_3m": 9.9098,
-      "val_6m": 10.3187,
+      "val_3m": 9.8796,
+      "val_6m": 10.2918,
       "return_ytd": "",
       "return_1m": 1.43,
-      "return_3m": -0.9,
-      "return_6m": 3.19,
+      "return_3m": -1.2,
+      "return_6m": 2.92,
       "return_si": 4.66,
       "AMC": "360 ONE Asset",
       "amc_short": "360ONE"
@@ -255,16 +255,16 @@
       "Scheme Name": "Apex Hybrid Long-Short Fund-Direct Growth",
       "inception_date": "31-03-2026",
       "inception_nav": 10,
-      "current_nav": 11.0387,
-      "current_date": "23-11-2026",
-      "val_1m": 10.2729,
-      "val_3m": 10.3157,
-      "val_6m": 10.9186,
+      "current_nav": 11.0546,
+      "current_date": "25-11-2026",
+      "val_1m": 10.2877,
+      "val_3m": 10.3121,
+      "val_6m": 10.9343,
       "return_ytd": "",
-      "return_1m": 2.73,
-      "return_3m": 3.16,
-      "return_6m": 9.19,
-      "return_si": 10.39,
+      "return_1m": 2.88,
+      "return_3m": 3.12,
+      "return_6m": 9.34,
+      "return_si": 10.55,
       "AMC": "Aditya Birla Capital Asset Management",
       "amc_short": "AdityaBirla"
     },
@@ -277,12 +277,12 @@
       "current_nav": 12.8942,
       "current_date": "23-11-2026",
       "val_1m": 10.3114,
-      "val_3m": 11.1304,
-      "val_6m": 12.76,
+      "val_3m": 11.1474,
+      "val_6m": 12.5865,
       "return_ytd": "",
       "return_1m": 3.11,
-      "return_3m": 11.3,
-      "return_6m": 27.6,
+      "return_3m": 11.47,
+      "return_6m": 25.86,
       "return_si": 28.94,
       "AMC": "Quant Mutual Fund",
       "amc_short": "Quant"
@@ -293,16 +293,16 @@
       "Scheme Name": "WSIF Equity Long-Short Fund - Direct Growth",
       "inception_date": "11-05-2026",
       "inception_nav": 10,
-      "current_nav": 10.8924,
-      "current_date": "23-11-2026",
-      "val_1m": 11.1299,
-      "val_3m": 10.1916,
-      "val_6m": 10.9611,
+      "current_nav": 10.9397,
+      "current_date": "25-11-2026",
+      "val_1m": 11.1782,
+      "val_3m": 10.1771,
+      "val_6m": 10.913,
       "return_ytd": "",
-      "return_1m": 11.3,
-      "return_3m": 1.92,
-      "return_6m": 9.61,
-      "return_si": 8.92,
+      "return_1m": 11.78,
+      "return_3m": 1.77,
+      "return_6m": 9.13,
+      "return_si": 9.4,
       "AMC": "The Wealth Company Mutual Fund",
       "amc_short": "Wealth"
     },
@@ -312,16 +312,16 @@
       "Scheme Name": "qsif Sector Rotation Long-Short Fund - Growth Option - Direct Plan",
       "inception_date": "18-05-2026",
       "inception_nav": 10,
-      "current_nav": 10.5358,
-      "current_date": "23-11-2026",
-      "val_1m": 10.5374,
-      "val_3m": 10.3919,
-      "val_6m": 10.514,
+      "current_nav": 10.5498,
+      "current_date": "25-11-2026",
+      "val_1m": 10.5514,
+      "val_3m": 10.3109,
+      "val_6m": 10.5076,
       "return_ytd": "",
-      "return_1m": 5.37,
-      "return_3m": 3.92,
-      "return_6m": 5.14,
-      "return_si": 5.36,
+      "return_1m": 5.51,
+      "return_3m": 3.11,
+      "return_6m": 5.08,
+      "return_si": 5.5,
       "AMC": "Quant Mutual Fund",
       "amc_short": "Quant"
     },
@@ -331,16 +331,16 @@
       "Scheme Name": "Titanium Equity Long-Short Fund Direct Growth",
       "inception_date": "20-05-2026",
       "inception_nav": 10,
-      "current_nav": 10.8622,
-      "current_date": "23-11-2026",
-      "val_1m": 10.8687,
-      "val_3m": 10.2572,
-      "val_6m": 10.7998,
+      "current_nav": 10.9448,
+      "current_date": "25-11-2026",
+      "val_1m": 10.9514,
+      "val_3m": 10.2691,
+      "val_6m": 10.8282,
       "return_ytd": "",
-      "return_1m": 8.69,
-      "return_3m": 2.57,
-      "return_6m": 8,
-      "return_si": 8.62,
+      "return_1m": 9.51,
+      "return_3m": 2.69,
+      "return_6m": 8.28,
+      "return_si": 9.45,
       "AMC": "Tata Mutual Fund",
       "amc_short": "Tata"
     },
@@ -350,16 +350,16 @@
       "Scheme Name": "Arthaya Equity Long Short Fund - Direct Plan - Growth Option",
       "inception_date": "29-05-2026",
       "inception_nav": 10,
-      "current_nav": 10.6098,
-      "current_date": "23-11-2026",
-      "val_1m": 10.9096,
-      "val_3m": 10.5649,
+      "current_nav": 10.7447,
+      "current_date": "25-11-2026",
+      "val_1m": 11.0483,
+      "val_3m": 10.6418,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 9.1,
-      "return_3m": 5.65,
+      "return_1m": 10.48,
+      "return_3m": 6.42,
       "return_6m": "",
-      "return_si": 6.1,
+      "return_si": 7.45,
       "AMC": "Union Mutual Fund",
       "amc_short": "Union"
     },
@@ -369,16 +369,16 @@
       "Scheme Name": "Sapphire Equity Long-Short SIF - Direct - Growth",
       "inception_date": "29-04-2026",
       "inception_nav": 1000,
-      "current_nav": 1027.3906,
-      "current_date": "23-11-2026",
-      "val_1m": 10.938,
-      "val_3m": 10.1127,
-      "val_6m": 10.3529,
+      "current_nav": 1039.8125,
+      "current_date": "25-11-2026",
+      "val_1m": 11.0702,
+      "val_3m": 10.1747,
+      "val_6m": 10.352,
       "return_ytd": "",
-      "return_1m": 9.38,
-      "return_3m": 1.13,
-      "return_6m": 3.53,
-      "return_si": 2.74,
+      "return_1m": 10.7,
+      "return_3m": 1.75,
+      "return_6m": 3.52,
+      "return_si": 3.98,
       "AMC": "Franklin Templeton Mutual Fund",
       "amc_short": "Franklin"
     },
@@ -388,16 +388,16 @@
       "Scheme Name": "Platinum Hybrid Long-Short Fund - Direct Plan - Growth",
       "inception_date": "11-06-2026",
       "inception_nav": 10,
-      "current_nav": 10.324,
-      "current_date": "23-11-2026",
-      "val_1m": 10.2941,
-      "val_3m": 10.1176,
+      "current_nav": 10.364,
+      "current_date": "25-11-2026",
+      "val_1m": 10.334,
+      "val_3m": 10.1162,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 2.94,
-      "return_3m": 1.18,
+      "return_1m": 3.34,
+      "return_3m": 1.16,
       "return_6m": "",
-      "return_si": 3.24,
+      "return_si": 3.64,
       "AMC": "Mirae Asset Mutual Fund",
       "amc_short": "Mirae"
     },
@@ -407,16 +407,16 @@
       "Scheme Name": "WSIF Equity Ex-Top 100 Long-Short Fund - Direct Growth",
       "inception_date": "11-05-2026",
       "inception_nav": 10,
-      "current_nav": 10.8475,
-      "current_date": "23-11-2026",
-      "val_1m": 11.0478,
-      "val_3m": 10.0376,
-      "val_6m": 10.9247,
+      "current_nav": 10.8841,
+      "current_date": "25-11-2026",
+      "val_1m": 11.0851,
+      "val_3m": 9.9865,
+      "val_6m": 10.8789,
       "return_ytd": "",
-      "return_1m": 10.48,
-      "return_3m": 0.38,
-      "return_6m": 9.25,
-      "return_si": 8.48,
+      "return_1m": 10.85,
+      "return_3m": -0.13,
+      "return_6m": 8.79,
+      "return_si": 8.84,
       "AMC": "The Wealth Company Mutual Fund",
       "amc_short": "Wealth"
     },
@@ -464,16 +464,16 @@
       "Scheme Name": "Altiva Equity Ex- Top 100 Long - Short Fund - Direct Plan - Growth",
       "inception_date": "10-06-2026",
       "inception_nav": 10,
-      "current_nav": 10.7086,
-      "current_date": "23-11-2026",
-      "val_1m": 10.7324,
-      "val_3m": 9.4797,
+      "current_nav": 10.7206,
+      "current_date": "25-11-2026",
+      "val_1m": 10.7445,
+      "val_3m": 9.4824,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 7.32,
-      "return_3m": -5.2,
+      "return_1m": 7.44,
+      "return_3m": -5.18,
       "return_6m": "",
-      "return_si": 7.09,
+      "return_si": 7.21,
       "AMC": "Edelweiss Mutual Fund",
       "amc_short": "Edelweiss"
     },
@@ -483,16 +483,16 @@
       "Scheme Name": "Prism Hybrid Long-Short Fund - Direct Plan - Growth Option",
       "inception_date": "27-07-2026",
       "inception_nav": 10,
-      "current_nav": 10.3293,
-      "current_date": "23-11-2026",
-      "val_1m": 10.1315,
-      "val_3m": 10.1905,
+      "current_nav": 10.345,
+      "current_date": "25-11-2026",
+      "val_1m": 10.1469,
+      "val_3m": 10.1972,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 1.32,
-      "return_3m": 1.91,
+      "return_1m": 1.47,
+      "return_3m": 1.97,
       "return_6m": "",
-      "return_si": 3.29,
+      "return_si": 3.45,
       "AMC": "Jio BlackRock Asset Management Private Limited",
       "amc_short": "JioBlackRock"
     },
@@ -502,16 +502,16 @@
       "Scheme Name": "RedHex Hybrid Long-Short Fund - Direct - Growth",
       "inception_date": "25-06-2026",
       "inception_nav": 10,
-      "current_nav": 10.3314,
-      "current_date": "23-11-2026",
-      "val_1m": 10.1167,
-      "val_3m": 10.1437,
+      "current_nav": 10.3344,
+      "current_date": "25-11-2026",
+      "val_1m": 10.1197,
+      "val_3m": 10.1467,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 1.17,
-      "return_3m": 1.44,
+      "return_1m": 1.2,
+      "return_3m": 1.47,
       "return_6m": "",
-      "return_si": 3.31,
+      "return_si": 3.34,
       "AMC": "HSBC Mutual Fund",
       "amc_short": "HSBC"
     },
@@ -521,16 +521,16 @@
       "Scheme Name": "Summit Equity Long-Short Fund - Direct Plan - Growth",
       "inception_date": "24-07-2026",
       "inception_nav": 10,
-      "current_nav": 11.02,
-      "current_date": "23-11-2026",
-      "val_1m": 11.1651,
-      "val_3m": 10.4952,
+      "current_nav": 11.09,
+      "current_date": "25-11-2026",
+      "val_1m": 11.2361,
+      "val_3m": 10.4524,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 11.65,
-      "return_3m": 4.95,
+      "return_1m": 12.36,
+      "return_3m": 4.52,
       "return_6m": "",
-      "return_si": 10.2,
+      "return_si": 10.9,
       "AMC": "Invesco Mutual Fund",
       "amc_short": "Invesco"
     },
@@ -540,16 +540,16 @@
       "Scheme Name": "DynaSIF Equity Ex-Top 100 Long - Short Fund - Direct Plan - Growth Option",
       "inception_date": "29-06-2026",
       "inception_nav": 10,
-      "current_nav": 11.2152,
-      "current_date": "23-11-2026",
-      "val_1m": 10.6513,
-      "val_3m": 10.2594,
+      "current_nav": 11.2453,
+      "current_date": "25-11-2026",
+      "val_1m": 10.6799,
+      "val_3m": 10.0238,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 6.51,
-      "return_3m": 2.59,
+      "return_1m": 6.8,
+      "return_3m": 0.24,
       "return_6m": "",
-      "return_si": 12.15,
+      "return_si": 12.45,
       "AMC": "360 ONE Mutual Fund",
       "amc_short": "360ONE"
     },
@@ -559,16 +559,16 @@
       "Scheme Name": "INFINITY HYBRID LONG-SHORT FUND-DIRECT - GROWTH",
       "inception_date": "09-07-2026",
       "inception_nav": 10,
-      "current_nav": 10.608,
-      "current_date": "23-11-2026",
-      "val_1m": 10.3503,
-      "val_3m": 10.3261,
+      "current_nav": 10.621,
+      "current_date": "25-11-2026",
+      "val_1m": 10.363,
+      "val_3m": 10.2708,
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 3.5,
-      "return_3m": 3.26,
+      "return_1m": 3.63,
+      "return_3m": 2.71,
       "return_6m": "",
-      "return_si": 6.08,
+      "return_si": 6.21,
       "AMC": "Kotak Mutual Fund",
       "amc_short": "Kotak"
     },
@@ -578,16 +578,16 @@
       "Scheme Name": "Apex Equity Ex-Top 100 Long-short Fund",
       "inception_date": "24 Sep 2026",
       "inception_nav": 10,
-      "current_nav": 10.14,
-      "current_date": "23-11-2026",
-      "val_1m": 10.2218,
+      "current_nav": 10.13,
+      "current_date": "25-11-2026",
+      "val_1m": 10.2117,
       "val_3m": "",
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 2.22,
+      "return_1m": 2.12,
       "return_3m": "",
       "return_6m": "",
-      "return_si": 1.4,
+      "return_si": 1.3,
       "AMC": "Aditya Birla Sun Life AMC Limited",
       "amc_short": "ABSL"
     },
@@ -597,16 +597,16 @@
       "Scheme Name": "Magnum Equity Ex-Top 100 Long Short Fund",
       "inception_date": "24 Sep 2026",
       "inception_nav": 10,
-      "current_nav": 9.8606,
-      "current_date": "23-11-2026",
-      "val_1m": 10.6899,
+      "current_nav": 9.8292,
+      "current_date": "25-11-2026",
+      "val_1m": 10.6559,
       "val_3m": "",
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 6.9,
+      "return_1m": 6.56,
       "return_3m": "",
       "return_6m": "",
-      "return_si": -1.39,
+      "return_si": -1.71,
       "AMC": "SBI Funds Management Limited",
       "amc_short": "SBI"
     },
@@ -616,16 +616,16 @@
       "Scheme Name": "Apex Equity Long-Short Fund",
       "inception_date": "24 Sep 2026",
       "inception_nav": 10,
-      "current_nav": 10.61,
-      "current_date": "23-11-2026",
-      "val_1m": 10.9269,
+      "current_nav": 10.71,
+      "current_date": "25-11-2026",
+      "val_1m": 11.0299,
       "val_3m": "",
       "val_6m": "",
       "return_ytd": "",
-      "return_1m": 9.27,
+      "return_1m": 10.3,
       "return_3m": "",
       "return_6m": "",
-      "return_si": 6.1,
+      "return_si": 7.1,
       "AMC": "Aditya Birla Sun Life AMC Limited",
       "amc_short": "ABSL"
     },
@@ -654,8 +654,8 @@
       "Scheme Name": "Select Equity Ex-Top 100 Long-Short Fund",
       "inception_date": "11 Nov 2026",
       "inception_nav": 10,
-      "current_nav": 10.0668,
-      "current_date": "23-11-2026",
+      "current_nav": 10.1011,
+      "current_date": "25-11-2026",
       "val_1m": "",
       "val_3m": "",
       "val_6m": "",
@@ -663,7 +663,7 @@
       "return_1m": "",
       "return_3m": "",
       "return_6m": "",
-      "return_si": 0.67,
+      "return_si": 1.01,
       "AMC": "Sundaram Mutual Fund",
       "amc_short": "Sundaram"
     },
@@ -673,8 +673,8 @@
       "Scheme Name": "MSIF Equity Long-Short Fund",
       "inception_date": "26 Oct 2026",
       "inception_nav": 10,
-      "current_nav": 10.3854,
-      "current_date": "23-11-2026",
+      "current_nav": 10.468,
+      "current_date": "25-11-2026",
       "val_1m": "",
       "val_3m": "",
       "val_6m": "",
@@ -682,7 +682,7 @@
       "return_1m": "",
       "return_3m": "",
       "return_6m": "",
-      "return_si": 3.85,
+      "return_si": 4.68,
       "AMC": "Mahindra Manulife Mutual Fund",
       "amc_short": "Mahindra"
     },
@@ -692,8 +692,8 @@
       "Scheme Name": "Eminence Hybrid Long Short Fund",
       "inception_date": "09 Nov 2026",
       "inception_nav": 10,
-      "current_nav": 9.9991,
-      "current_date": "23-11-2026",
+      "current_nav": 9.9984,
+      "current_date": "25-11-2026",
       "val_1m": "",
       "val_3m": "",
       "val_6m": "",
@@ -701,7 +701,7 @@
       "return_1m": "",
       "return_3m": "",
       "return_6m": "",
-      "return_si": -0.01,
+      "return_si": -0.02,
       "AMC": "AlphaGrep Mutual Fund",
       "amc_short": "AlphaGrep"
     }
@@ -2119,6 +2119,10 @@
       {
         "date": "2026-11-23",
         "nav": 11.4203
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 11.5157
       }
     ],
     "SIF-107": [
@@ -2861,6 +2865,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.8475
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.8841
       }
     ],
     "SIF-108": [
@@ -3603,6 +3611,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.8924
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.9397
       }
     ],
     "SIF-112": [
@@ -4269,6 +4281,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.6098
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.7447
       }
     ],
     "SIF-116": [
@@ -4979,6 +4995,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.5358
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.5498
       }
     ],
     "SIF-120": [
@@ -5597,6 +5617,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.7086
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.7206
       }
     ],
     "SIF-125": [
@@ -6903,6 +6927,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.3314
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.3344
       }
     ],
     "SIF-134": [
@@ -7517,6 +7545,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.324
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.364
       }
     ],
     "SIF-139": [
@@ -7943,6 +7975,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.3293
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.345
       }
     ],
     "SIF-14": [
@@ -9317,6 +9353,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.5759
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.6056
       }
     ],
     "SIF-140": [
@@ -9855,6 +9895,10 @@
       {
         "date": "2026-11-23",
         "nav": 11.2152
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 11.2453
       }
     ],
     "SIF-145": [
@@ -10349,6 +10393,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.608
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.621
       }
     ],
     "SIF-149": [
@@ -10787,6 +10835,10 @@
       {
         "date": "2026-11-23",
         "nav": 11.02
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 11.09
       }
     ],
     "SIF-153": [
@@ -11033,6 +11085,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.61
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.71
       }
     ],
     "SIF-155": [
@@ -11279,6 +11335,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.14
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.13
       }
     ],
     "SIF-159": [
@@ -11525,6 +11585,10 @@
       {
         "date": "2026-11-23",
         "nav": 9.8606
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 9.8292
       }
     ],
     "SIF-172": [
@@ -11647,6 +11711,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.3854
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.468
       }
     ],
     "SIF-175": [
@@ -11729,6 +11797,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.0755
+      },
+      {
+        "date": "2026-11-23",
+        "nav": 10.0755
       }
     ],
     "SIF-181": [
@@ -11795,6 +11867,10 @@
       {
         "date": "2026-11-23",
         "nav": 9.9991
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 9.9984
       }
     ],
     "SIF-186": [
@@ -11853,6 +11929,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.0668
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.1011
       }
     ],
     "SIF-19": [
@@ -13119,6 +13199,10 @@
       {
         "date": "2026-11-23",
         "nav": 927.8468
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 939.511
       }
     ],
     "SIF-23": [
@@ -14441,6 +14525,10 @@
       {
         "date": "2026-11-23",
         "nav": 11.5161
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 11.5534
       }
     ],
     "SIF-32": [
@@ -15667,6 +15755,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.6892
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.7401
       }
     ],
     "SIF-33": [
@@ -18737,6 +18829,10 @@
       {
         "date": "2026-11-23",
         "nav": 12.9323
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 12.9947
       }
     ],
     "SIF-54": [
@@ -19839,6 +19935,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.493
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.501
       }
     ],
     "SIF-57": [
@@ -20865,6 +20965,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.6202
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.7075
       }
     ],
     "SIF-61": [
@@ -21775,6 +21879,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.676
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.703
       }
     ],
     "SIF-79": [
@@ -22681,6 +22789,10 @@
       {
         "date": "2026-11-23",
         "nav": 11.0387
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 11.0546
       }
     ],
     "SIF-88": [
@@ -23587,6 +23699,10 @@
       {
         "date": "2026-11-20",
         "nav": 10.4887
+      },
+      {
+        "date": "2026-11-23",
+        "nav": 10.4665
       },
       {
         "date": "2026-11-23",
@@ -24965,6 +25081,10 @@
       {
         "date": "2026-11-23",
         "nav": 11.1261
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 11.1333
       }
     ],
     "SIF-90": [
@@ -25775,6 +25895,10 @@
       {
         "date": "2026-11-23",
         "nav": 12.8942
+      },
+      {
+        "date": "2026-11-23",
+        "nav": 12.8942
       }
     ],
     "SIF-95": [
@@ -26565,6 +26689,10 @@
       {
         "date": "2026-11-23",
         "nav": 1027.3906
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 1039.8125
       }
     ],
     "SIF-99": [
@@ -27267,6 +27395,10 @@
       {
         "date": "2026-11-23",
         "nav": 10.8622
+      },
+      {
+        "date": "2026-11-25",
+        "nav": 10.9448
       }
     ]
   },
