@@ -295,11 +295,13 @@ function renderTabs() {
 function renderReturnBasisUi() {
   const returnBasisLabel = state.displayCurrency === "INR" ? "INR-adjusted" : "USD";
   const tab = getActiveTab();
-  const sourceNote = tab?.asset_type === "index"
-    ? " Yahoo Finance data may be delayed."
-    : tab?.asset_type === "mutual_fund"
-      ? " Mutual fund NAVs update once per business day."
-      : "";
+  const sourceNote = tab?.id === "sifs"
+    ? " AMFI NAVs via TheFynprint feed, refreshed twice daily around 11:30 AM and PM IST; dates vary by fund."
+    : tab?.asset_type === "index"
+      ? " Yahoo Finance data may be delayed."
+      : tab?.asset_type === "mutual_fund"
+        ? " Mutual fund NAVs update once per business day."
+        : "";
   elements.returnBasisNote.textContent = `Returns shown in ${returnBasisLabel} performance.${sourceNote}`;
   elements.chartChangeLabel.textContent = tab?.asset_type === "mutual_fund"
     ? "Range Change"
@@ -1113,7 +1115,9 @@ function renderMobileCard(row, columns, tabId) {
   const isInComparison = state.compareItemIds.includes(row.item_id);
   const comparisonAtLimit = !isInComparison && state.compareItemIds.length >= MAX_COMPARE_INSTRUMENTS;
   const hasHistory = (state.history.series[row.item_id]?.points || []).length > 1;
-  const summaryKeys = new Set(["daily_pct", "five_day_pct", "one_month_pct", "ytd_pct", "one_year_pct"]);
+  const summaryKeys = tabId === "sifs"
+    ? new Set(["one_month_pct", "three_month_pct", "six_month_pct", "ytd_pct"])
+    : new Set(["daily_pct", "five_day_pct", "one_month_pct", "ytd_pct", "one_year_pct"]);
   const summaryColumns = columns.filter((column) => summaryKeys.has(column.key));
   const detailColumns = columns.filter((column) => ![
     "ticker", "name", "last_price", ...summaryKeys,
@@ -1171,7 +1175,7 @@ function renderMobileCard(row, columns, tabId) {
               <strong>${renderCell(row, column)}</strong>
             </span>
           `).join("")}
-          ${row.asset_type === "mutual_fund" ? `
+          ${row.asset_type === "mutual_fund" && tabId !== "sifs" ? `
             <span class="mobile-detail-metric"><span>Exchange</span><strong>${escapeHtml(row.exchange || "N/A")}</strong></span>
             <span class="mobile-detail-metric"><span>Scheme code</span><strong>${escapeHtml(row.scheme_code || "N/A")}</strong></span>
             <span class="mobile-detail-metric"><span>NAV date</span><strong>${escapeHtml(row.data_date || "N/A")}</strong></span>
@@ -1210,6 +1214,8 @@ function renderCell(row, column) {
       `;
     case "last_price":
       return `<strong>${formatRowPrice(row)}</strong>`;
+    case "data_date":
+      return `<span>${escapeHtml(row.data_date || "N/A")}</span>`;
     case "aum":
       return row.aum ? `<span class="aum-pill">${escapeHtml(row.aum_display)}</span>` : `<span class="subdued">N/A</span>`;
     case "ter":
@@ -1243,9 +1249,11 @@ function renderDetail() {
   elements.detailTitle.textContent = row.asset_type === "stock" || row.asset_type === "mutual_fund"
     ? getDisplayName(row)
     : row.ticker;
-  elements.detailSubtitle.textContent = row.asset_type === "mutual_fund"
-    ? `NAV as of ${row.data_date || "N/A"}`
-    : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
+  elements.detailSubtitle.textContent = tab.id === "sifs"
+    ? `NAV as of ${row.data_date || "N/A"} · history since ${row.history_start_date || "N/A"} (${row.history_observations || 0} NAVs)`
+    : row.asset_type === "mutual_fund"
+      ? `NAV as of ${row.data_date || "N/A"}`
+      : `${row.name} • ${row.exchange}${row.currency ? " • " + row.currency : ""}`;
   renderDetailCompareButton(row);
 
   const series = state.history.series[row.item_id]?.points || [];
@@ -1268,15 +1276,29 @@ function renderDetail() {
   elements.chartEnd.textContent = rangedSeries[rangedSeries.length - 1]?.date || "--";
   renderCurrencyImpact(row, rangedSeries, rangeKey, rangeSlice.hasSufficientHistory);
 
+  const returnStats = tab.id === "sifs"
+    ? [
+        makeMetricCard(row, "daily_pct", "1D"),
+        makeMetricCard(row, "five_day_pct", "5D"),
+        makeMetricCard(row, "one_month_pct", "1M"),
+        makeMetricCard(row, "three_month_pct", "3M"),
+        makeMetricCard(row, "six_month_pct", "6M"),
+        makeMetricCard(row, "ytd_pct", "YTD"),
+        makeMetricCard(row, "one_year_pct", "1Y"),
+        makeMetricCard(row, "since_inception_pct", "Since Inception"),
+      ]
+    : [
+        makeMetricCard(row, "daily_pct", "1D"),
+        makeMetricCard(row, "five_day_pct", "5D"),
+        makeMetricCard(row, "one_month_pct", "1M"),
+        makeMetricCard(row, "three_month_pct", "3M"),
+        makeMetricCard(row, "ytd_pct", "YTD"),
+        makeMetricCard(row, "one_year_pct", "1Y"),
+        makeMetricCard(row, "three_year_pct", "3Y CAGR"),
+        makeMetricCard(row, "five_year_pct", "5Y CAGR"),
+      ];
   const stats = [
-    makeMetricCard(row, "daily_pct", "1D"),
-    makeMetricCard(row, "five_day_pct", "5D"),
-    makeMetricCard(row, "one_month_pct", "1M"),
-    makeMetricCard(row, "three_month_pct", "3M"),
-    makeMetricCard(row, "ytd_pct", "YTD"),
-    makeMetricCard(row, "one_year_pct", "1Y"),
-    makeMetricCard(row, "three_year_pct", "3Y CAGR"),
-    makeMetricCard(row, "five_year_pct", "5Y CAGR"),
+    ...returnStats,
     {
       label: `Annualized Volatility · ${rangeKey}`,
       value: formatPercent(riskMetrics.annualizedVolatility),
@@ -1299,7 +1321,7 @@ function renderDetail() {
         ? `${riskMetrics.positiveOneYearWindows} of ${riskMetrics.oneYearWindowCount} overlapping windows`
         : "Needs at least 1 year of history",
     },
-    { label: "Asset Type", value: row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : row.asset_type === "mutual_fund" ? "Mutual Fund" : "Stock", className: "" },
+    { label: "Asset Type", value: tab.id === "sifs" ? "SIF" : row.asset_type === "etf" ? "ETF" : row.asset_type === "index" ? "Index" : row.asset_type === "mutual_fund" ? "Mutual Fund" : "Stock", className: "" },
   ];
 
   if (row.asset_type === "index") {
@@ -1449,6 +1471,21 @@ function getColumnsForTab(tab) {
   const metricLabel = (key, fallback) => tab.asset_type === "mutual_fund"
     ? getMetaColumnLabel(key, fallback).replace(/\s+(INR|USD)$/, "")
     : getCurrencyLabel(key, fallback);
+  if (tab.id === "sifs") {
+    return [
+      { key: "name", label: "Fund", sortable: true },
+      { key: "last_price", label: "NAV", sortable: true },
+      { key: "daily_pct", label: metricLabel("daily_pct", "1D"), sortable: true },
+      { key: "five_day_pct", label: metricLabel("five_day_pct", "5D"), sortable: true },
+      { key: "one_month_pct", label: metricLabel("one_month_pct", "1M"), sortable: true },
+      { key: "three_month_pct", label: metricLabel("three_month_pct", "3M"), sortable: true },
+      { key: "six_month_pct", label: metricLabel("six_month_pct", "6M"), sortable: true },
+      { key: "ytd_pct", label: metricLabel("ytd_pct", "YTD"), sortable: true },
+      { key: "one_year_pct", label: metricLabel("one_year_pct", "1Y"), sortable: true },
+      { key: "since_inception_pct", label: metricLabel("since_inception_pct", "Since Inception"), sortable: true },
+      { key: "data_date", label: "NAV Date", sortable: true },
+    ];
+  }
   const columns = tab.asset_type === "mutual_fund"
     ? [
         { key: "name", label: "Scheme", sortable: true },
@@ -1479,6 +1516,9 @@ function getColumnsForTab(tab) {
 }
 
 function getDisplayName(row) {
+  if (row.display_name) {
+    return row.display_name;
+  }
   if (row.asset_type !== "mutual_fund") {
     return row.name || row.ticker;
   }

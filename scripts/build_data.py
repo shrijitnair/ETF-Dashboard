@@ -8,6 +8,7 @@ import copy
 import json
 import math
 import os
+import re
 import tempfile
 import time
 import urllib.error
@@ -37,6 +38,9 @@ HISTORY_FILENAME = "history.json"
 META_FILENAME = "meta.json"
 DASHBOARD_FILENAME = "dashboard.json"
 MF_NAV_CACHE_FILENAME = "mf_nav_cache.json"
+SIF_NAV_CACHE_FILENAME = "sif_nav_cache.json"
+SIF_LIST_URL = "https://n8n.finright.in/webhook/25793572-150c-4bd6-b548-8fe9741082fd"
+SIF_HISTORY_URL = "https://n8n.finright.in/webhook/0725ab76-4add-4993-949a-7cb56f1e733c"
 
 SUPPORTED_INR_FX_TICKERS = {
     "USD": "USDINR=X",
@@ -439,6 +443,92 @@ def parse_mf_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
     return sanitize_history(frame)
 
 
+def fetch_json_url(url: str, timeout: int = 45) -> Any:
+    request = urllib.request.Request(url, headers={"User-Agent": "ETF-Dashboard/1.0"})
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def parse_sif_nav_history(records: Sequence[Dict[str, Any]]) -> pd.DataFrame:
+    parsed: List[Tuple[pd.Timestamp, float]] = []
+    for record in records:
+        try:
+            nav_date = pd.to_datetime(record.get("date"), format="%Y-%m-%d")
+            nav_value = safe_float(record.get("nav"))
+        except (TypeError, ValueError):
+            continue
+        if nav_value is not None:
+            parsed.append((nav_date, nav_value))
+    if not parsed:
+        return pd.DataFrame()
+    frame = pd.DataFrame(parsed, columns=["Date", "Close"]).set_index("Date")
+    return sanitize_history(frame)
+
+
+def load_sif_nav_feed(
+    cache_path: str,
+    force_refresh: bool = False,
+) -> Tuple[List[Dict[str, Any]], Dict[str, List[Dict[str, Any]]], bool, Optional[str]]:
+    """Load the public SIF list and NAV history, falling back to the last saved feed."""
+    cache_document: Dict[str, Any] = {}
+    try:
+        loaded = load_json(cache_path)
+        if isinstance(loaded, dict):
+            cache_document = loaded
+    except (OSError, ValueError):
+        pass
+
+    refresh_key = mf_nav_refresh_key()
+    cached_schemes = cache_document.get("schemes")
+    cached_history = cache_document.get("history")
+    if (
+        not force_refresh
+        and cache_document.get("refresh_key") == refresh_key
+        and isinstance(cached_schemes, list)
+        and isinstance(cached_history, dict)
+        and cached_schemes
+    ):
+        return cached_schemes, cached_history, False, None
+
+    try:
+        schemes = fetch_json_url(SIF_LIST_URL)
+        if not isinstance(schemes, list) or not schemes:
+            raise ValueError("SIF feed returned no scheme list.")
+        schemes = [
+            scheme for scheme in schemes
+            if isinstance(scheme, dict) and str(scheme.get("Scheme Code") or "").strip()
+        ]
+        codes = sorted({str(scheme["Scheme Code"]).strip() for scheme in schemes})
+        query = urllib.parse.urlencode({"scheme_code": ",".join(codes)})
+        history_records = fetch_json_url("{}?{}".format(SIF_HISTORY_URL, query))
+        if not isinstance(history_records, list) or not history_records:
+            raise ValueError("SIF feed returned no NAV history.")
+        history_by_scheme: Dict[str, List[Dict[str, Any]]] = {code: [] for code in codes}
+        for record in history_records:
+            if not isinstance(record, dict):
+                continue
+            code = str(record.get("scheme_code") or "").strip()
+            if code in history_by_scheme and record.get("date") and safe_float(record.get("nav")) is not None:
+                history_by_scheme[code].append({"date": str(record["date"]), "nav": safe_float(record["nav"])})
+        if not any(history_by_scheme.values()):
+            raise ValueError("SIF feed returned no parseable NAV history.")
+
+        cache_document = {
+            "refresh_key": refresh_key,
+            "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "schemes": schemes,
+            "history": history_by_scheme,
+        }
+        write_json_atomic(cache_path, cache_document)
+        return schemes, history_by_scheme, False, None
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, ValueError, OSError) as exc:
+        cached_schemes = cache_document.get("schemes")
+        cached_history = cache_document.get("history")
+        if isinstance(cached_schemes, list) and isinstance(cached_history, dict) and cached_schemes:
+            return cached_schemes, cached_history, True, str(exc)
+        return [], {}, True, str(exc)
+
+
 def download_mutual_fund_histories(
     items: Sequence[WatchItem],
     cache_path: str,
@@ -833,6 +923,139 @@ def build_currency_history(fx_histories: Dict[str, pd.DataFrame]) -> Dict[str, D
     return currency_history
 
 
+def build_sif_row(
+    scheme: Dict[str, Any],
+    nav_records: Sequence[Dict[str, Any]],
+    fx_histories: Dict[str, pd.DataFrame],
+) -> Tuple[Dict[str, Any], Dict[str, Any]]:
+    scheme_code = str(scheme.get("Scheme Code") or "").strip()
+    source_name = str(scheme.get("Scheme Name") or scheme_code).strip()
+    display_name = re.sub(
+        r"\s*-\s*Direct Plan(?:\s*-\s*Growth(?: Option)?)?\s*$", "", source_name, flags=re.IGNORECASE
+    ).strip()
+
+    nav_series = parse_sif_nav_history(nav_records).get("Close", pd.Series(dtype="float64"))
+    try:
+        feed_date = pd.to_datetime(scheme.get("current_date"), format="%d-%m-%Y")
+    except (TypeError, ValueError):
+        feed_date = None
+    feed_nav = safe_float(scheme.get("current_nav"))
+    if feed_date is not None and feed_nav is not None:
+        if nav_series.empty or feed_date >= nav_series.index[-1]:
+            nav_series.loc[feed_date] = feed_nav
+            nav_series = nav_series.sort_index()
+
+    nav_series = nav_series.dropna().astype("float64")
+    usd_close_series = build_usd_close_series(nav_series, "INR", fx_histories)
+    inr_close_series = nav_series
+    current_nav = extract_latest_price(inr_close_series)
+    data_date = inr_close_series.index[-1] if not inr_close_series.empty else feed_date
+    if current_nav is None:
+        current_nav = feed_nav
+
+    def calculated_pair(months: int = 0, years: int = 0, window: Optional[int] = None) -> Tuple[Optional[float], Optional[float]]:
+        calc = calc_window_return if window is not None else calc_nav_calendar_return
+        if window is not None:
+            return calc(inr_close_series, window), calc(usd_close_series, window)
+        return (
+            calc(inr_close_series, months=months, years=years),
+            calc(usd_close_series, months=months, years=years),
+        )
+
+    metric_pairs = {
+        "daily_pct": calculated_pair(window=1),
+        "five_day_pct": calculated_pair(window=5),
+        "one_month_pct": calculated_pair(months=1),
+        "three_month_pct": calculated_pair(months=3),
+        "six_month_pct": calculated_pair(months=6),
+        "one_year_pct": calculated_pair(years=1),
+        "ytd_pct": (calc_ytd_return(inr_close_series), calc_ytd_return(usd_close_series)),
+    }
+
+    # The feed publishes these period returns too. Use them only when its
+    # history endpoint does not contain enough NAVs to calculate the period.
+    feed_fallbacks = {
+        "one_month_pct": "return_1m",
+        "three_month_pct": "return_3m",
+        "six_month_pct": "return_6m",
+        "ytd_pct": "return_ytd",
+    }
+    local_metrics: Dict[str, Optional[float]] = {}
+    usd_metrics: Dict[str, Optional[float]] = {}
+    for key, (local_value, usd_value) in metric_pairs.items():
+        fallback = safe_float(scheme.get(feed_fallbacks[key])) if key in feed_fallbacks else None
+        local_metrics[key] = local_value if local_value is not None else fallback
+        usd_metrics[key.replace("_pct", "_usd_pct")] = usd_value
+
+    try:
+        inception_date = pd.to_datetime(scheme.get("inception_date"), format="%d-%m-%Y")
+    except (TypeError, ValueError):
+        inception_date = inr_close_series.index[0] if not inr_close_series.empty else None
+    inception_nav = safe_float(scheme.get("inception_nav"))
+    since_inception = safe_float(scheme.get("return_si"))
+    if since_inception is None and current_nav not in (None, 0) and inception_nav not in (None, 0):
+        since_inception = ((current_nav / inception_nav) - 1.0) * 100.0
+    local_metrics["since_inception_pct"] = since_inception
+
+    since_inception_usd: Optional[float] = None
+    usd_inr = fx_histories.get("USDINR=X", pd.DataFrame()).get("Close", pd.Series(dtype="float64")).dropna()
+    if inception_date is not None and inception_nav not in (None, 0) and not usd_inr.empty:
+        rate_position = int(usd_inr.index.searchsorted(inception_date, side="right")) - 1
+        if rate_position >= 0:
+            inception_rate = safe_float(usd_inr.iloc[rate_position])
+            latest_usd_nav = extract_latest_price(usd_close_series)
+            if inception_rate not in (None, 0) and latest_usd_nav is not None:
+                since_inception_usd = ((latest_usd_nav / (inception_nav / inception_rate)) - 1.0) * 100.0
+    usd_metrics["since_inception_usd_pct"] = since_inception_usd
+
+    if data_date is not None:
+        local_today = datetime.now(ZoneInfo("Asia/Kolkata")).date()
+        nav_is_stale = (local_today - pd.Timestamp(data_date).date()).days > 7
+        data_date_text = pd.Timestamp(data_date).strftime("%Y-%m-%d")
+    else:
+        nav_is_stale = True
+        data_date_text = None
+
+    item_id = "sifs:{}".format(scheme_code)
+    row = {
+        "item_id": item_id,
+        "ticker": scheme_code,
+        "scheme_code": scheme_code,
+        "name": source_name,
+        "display_name": display_name or source_name,
+        "asset_type": "mutual_fund",
+        "exchange": "India",
+        "currency": "INR",
+        "last_price": extract_latest_price(usd_close_series),
+        "last_price_inr": current_nav,
+        **local_metrics,
+        **usd_metrics,
+        "three_year_pct": None,
+        "three_year_usd_pct": None,
+        "five_year_pct": None,
+        "five_year_usd_pct": None,
+        "aum": None,
+        "aum_display": "",
+        "ter": None,
+        "ter_display": "N/A",
+        "data_source": "AMFI NAV via TheFynprint feed",
+        "data_status": "Stale" if nav_is_stale else "Available",
+        "data_date": data_date_text,
+        "history_start_date": inr_close_series.index[0].strftime("%Y-%m-%d") if not inr_close_series.empty else None,
+        "history_observations": int(len(inr_close_series)),
+    }
+    history = {
+        "item_id": item_id,
+        "ticker": scheme_code,
+        "scheme_code": scheme_code,
+        "source_ticker": scheme_code,
+        "name": display_name or source_name,
+        "currency": "INR",
+        "points": build_chart_points_with_inr(usd_close_series, inr_close_series),
+    }
+    return row, history
+
+
 def sort_rows(rows: Iterable[Dict[str, Any]], asset_type: str) -> List[Dict[str, Any]]:
     if asset_type == "etf":
         def key(row: Dict[str, Any]) -> Tuple[int, float, str]:
@@ -864,6 +1087,20 @@ def build_dashboard_data(
 
     curated_tabs, custom_tabs, merged_tabs = load_watchlists(config_path, custom_config_path)
     del curated_tabs, custom_tabs
+    sif_schemes, sif_history, sif_used_cache, sif_feed_error = load_sif_nav_feed(
+        os.path.join(out_dir, SIF_NAV_CACHE_FILENAME), force_refresh=force_mf_refresh
+    )
+    if not any(tab["id"] == "sifs" for tab in merged_tabs):
+        merged_tabs.append(
+            {
+                "id": "sifs",
+                "label": "SIFs",
+                "asset_type": "mutual_fund",
+                "groups": [
+                    {"id": "sif-schemes", "label": "Specialised Investment Funds", "items": []}
+                ],
+            }
+        )
     items = build_watch_items(merged_tabs)
     built_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -891,6 +1128,17 @@ def build_dashboard_data(
 
     for scheme_code, error in mutual_fund_failures.items():
         failures.append({"source_ticker": scheme_code, "stage": "mfapi", "error": error})
+    if sif_feed_error:
+        failures.append(
+            {
+                "source_ticker": "SIF feed",
+                "stage": "sif",
+                "error": "{}{}".format(
+                    "Using cached SIF NAV data after feed error: " if sif_used_cache else "SIF feed error: ",
+                    sif_feed_error,
+                ),
+            }
+        )
 
     required_fx_tickers = sorted(
         {
@@ -914,6 +1162,13 @@ def build_dashboard_data(
                     "error": "No FX history returned.",
                 }
             )
+
+    rows_by_tab_group.setdefault("sifs", {}).setdefault("sif-schemes", [])
+    for scheme in sif_schemes:
+        scheme_code = str(scheme.get("Scheme Code") or "").strip()
+        row, history = build_sif_row(scheme, sif_history.get(scheme_code, []), fx_histories)
+        rows_by_tab_group["sifs"]["sif-schemes"].append(row)
+        history_payload[row["item_id"]] = history
 
     for item in items:
         rows_by_tab_group.setdefault(item.tab_id, {}).setdefault(item.group_id, [])
@@ -1091,8 +1346,11 @@ def build_dashboard_data(
             {"key": "five_day_pct", "label": "5D INR", "type": "number"},
             {"key": "one_month_pct", "label": "1M INR", "type": "number"},
             {"key": "three_month_pct", "label": "3M INR", "type": "number"},
+            {"key": "six_month_pct", "label": "6M INR", "type": "number"},
             {"key": "ytd_pct", "label": "YTD INR", "type": "number"},
             {"key": "one_year_pct", "label": "1Y INR", "type": "number"},
+            {"key": "since_inception_pct", "label": "Since Inception INR", "type": "number"},
+            {"key": "data_date", "label": "NAV Date", "type": "string"},
             {"key": "three_year_pct", "label": "3Y CAGR INR", "type": "number"},
             {"key": "five_year_pct", "label": "5Y CAGR INR", "type": "number"},
             {"key": "since_2024_09_26_pct", "label": "Since 26 Sep 2024 INR", "type": "number", "asset_types": ["index"]},
